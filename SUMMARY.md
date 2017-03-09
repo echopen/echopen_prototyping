@@ -1,3 +1,6 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Introduction](introduction.md)
+* [Backlog](backlog.md)
+
