@@ -1,6 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [Introduction](introduction.md)
+* [technical introduction](technical_introduction.md)
 * [Backlog](backlog.md)
-
