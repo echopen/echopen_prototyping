@@ -1,3 +1,8 @@
-# My Awesome Book
+# echOpen prototyping 
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This document is made to bring together all information about ongoing project at echOpen !!
+
+
+
+
+
