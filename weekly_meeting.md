@@ -3,8 +3,14 @@
 
 
 ## 2017.03.20 - HD - 19.00 (Paris time)
-
-
+*attending*
+### Medicotechnical
+#### Technical 
+* Past week evolution 
+* Issues and problem linked to the prototype development 
+### Collaborative and community
+#### Method 
+* New method and doc implementation => followup 
 
 ## 2017.03.13 - HD - 19.00 (Paris time)
 Jérôme D. / Benoit V. / Aurélie M. / Mehdi B. / Olivier F.
