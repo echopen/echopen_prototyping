@@ -50,4 +50,4 @@ Jérôme D. / Benoit V. / Aurélie M. / Mehdi B. / Olivier F.
 
 ### Public health
 
-## Economical
+### Economical

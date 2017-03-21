@@ -25,17 +25,22 @@
 
 # March 2017 - On going 
 ## Objectives
+* Objectives / specs détaillées (output du capTech)
 * Emerge the system from the aquarium 
 * Medical image quality 
 
-## Activities 
-### Electronic 
-* New PCB testing (TGC x2 / Cheaper pulser)
-* Main power supply module 
+## Challenges 
+* Liste des challenges découpés selon les teams + liens vers les pages "project" correspondantes
+* ex : Challenge "envelope detection" + définition des tâches liées pour chaque team + lien vers le project "envelope detection" de chaque team
 
-### Mechanic
+### Bring probe out of water !
+#### Mechanics
 * Explore probe head options to remove it from the water 
 
-# October 2016
-[Release 2.1.0](http://echopen.org/doc-website/CAT-configuration/CFG-sweeping_probe/content)
+### Perform envelope detection on device
+#### Electronics
+#### Signal processing
+#### Embedded systems
+
+
 
