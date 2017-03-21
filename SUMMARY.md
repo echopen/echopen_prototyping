@@ -1,6 +1,6 @@
 # Summary
 
-*	[Introduction](introduction/README.md)
+*	[Introduction](README.md)
 	* [Technical introduction](introduction/technical_introduction.md)
 	* [Acoustic basics](introduction/acoustic_basics.md)
 *	[How to contribute](howto/howto.md)
