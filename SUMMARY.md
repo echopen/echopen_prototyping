@@ -1,5 +1,10 @@
 # Summary
 
-*	[Introduction](README.md)
-	* [Technical introduction](technical_introduction.md)
-	* [Acoustic basis](acoustic_basics.md)*	[Product backlog](backlog.md)*	[How to contribute](howto.md)*	[In progress](inprogress.md)*	[Stable release Vx.y.z](stable.md)*	Follow-up	* [Weekly meetings](weekly_meeting.md)	* [Hardware](meetings_hardware.md)	* [Embedded systems](meetings_embsys.md)	* [Signal processing](meetings_sigproc.md)	* [Android app](meetings_app.md)*	References	* Hardware	* embSys	* sigProc	* App
+*	[Introduction](introduction/README.md)
+	* [Technical introduction](introduction/technical_introduction.md)
+	* [Acoustic basics](introduction/acoustic_basics.md)
+*	[How to contribute](howto/howto.md)
+	* [Workflow](howto/workflow.md)
+	* [Find your team](howto/teams.md)*	[Product backlog](backlog/backlog.md)*	[In progress](inprogress/inprogress.md)	* [Specifications](inprogress/specs.md)	* [Release planning](inprogress/release.md)
+	* [Challenges](inprogress/challenges.md)*	[Stable release Vx.y.z](stable/stable.md)
+	* [Specifications](stable/specs.md)	* [Documentation](stable/doc_pipeline.md)		- [Hardware](stable/doc_hardware.md)		- [Software](stable/doc_software.md)	* [Device characteristics](stable/characteristics.md)	* Production guide 		- [Reproducing the device](stable/guide_hardware.md)		- [Installing the Androïd app](stable/guide_software.md)*	Follow-up	* [Weekly meetings](followup/weekly_meeting.md)	* [Hardware](followup/meetings_hardware.md)	* [Embedded systems](followup/meetings_embsys.md)	* [Signal processing](followup/meetings_sigproc.md)	* [Android app](followup/meetings_app.md)*	References	* [Hardware](references/hardware/ref_hardware.md)	* [Embedded systems](references/embsys/ref_embsys.md)	* [Signal processing](references/sigproc/ref_sigproc.md)	* [Android app](references/app/ref_app.md)
