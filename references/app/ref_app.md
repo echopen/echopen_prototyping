@@ -20,7 +20,15 @@ The mobile application development is currently focus on:
 
 ## Architecture
 
+#### prototype architecture 
+
+
+
+#### healthcare compliant architecture
+
 ## Source Code
 
 The EchOpen mobile application source code is open source, distributed under BSD 3-clause license and available on [Github](https://github.com/echopen/PRJ-medtec_androidapp).
+
+
 
