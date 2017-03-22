@@ -6,8 +6,9 @@
 *attending*
 ### Medicotechnical
 #### Technical 
-* Past week evolution 
-* Issues and problem linked to the prototype development 
+* Characterize the prototype regarding the UM
+* Past week evolution
+* Issues and problems linked to the prototype development 
 ### Collaborative and community
 #### Method 
 * New method and doc implementation => followup 
