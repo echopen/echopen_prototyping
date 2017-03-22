@@ -8,11 +8,12 @@
 
 ## Development Strategy
 
-The mobile application development is currently focus on: 
+The mobile application development is currently focus on:
 
-* finalizing prototype on_** master branch **_to support new data format received from echOpen device
+* finalize prototype on** master branch **to support new data format received from echOpen device
 
 * migrate from prototype to healthcare compliant application on** **_**phaino branch**_
+
   * integrate new UI 
   * secure and plug one by one prototype backend module on the new healthcare compliant application 
   * improve unit test coverage 
