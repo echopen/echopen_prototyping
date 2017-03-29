@@ -1,25 +1,36 @@
 # 2017
 
+
+
+## 2017.03.29 - HD - 20.00 \(Paris time\)
+
+* @aurelie & @clement : point about the documentation
+* with @luc :  digression to deal with the mechanical ultramark probe - the idea is to use the material to put a ultrasound-transparent hull  
+* @loic challenge platform 
+  * -&gt; could not move forward the development 
+  * @loic is going to prepare a django app working guide hackpad
+
+  
+
 ## 2017.03.22 - HD - 20.00 \(Paris time\)
 
 ### Methodology
 
-* this is the first report direclty lettered  in the GitBook ;\)
+* this is the first report directly lettered  in the GitBook ;\)
 * the leaderboard contributors can find the tickets on the GitHub's agile [dashboard](https://github.com/echopen/PRJ-medtec_sigproc/projects/)
 
 ### Envelope detection challenge
 
 * discussion on metrics @luc @aurelie @clement
+
   * RMSE is not satisfactory as a metric, but it can be valid as a starter
   * @luc suggests the use of a sight
 
 * @loic: leaderboard is online. There are lot of remaining implementations to be done such as password recovery & such
 
-  * @todo: look for pythonists in the community, ongoing ping on GitHub by @aurelie 
+  * @todo: look for pythonists in the community, ongoing ping on GitHub by @aurelie
 
   * this is documented [here](https://github.com/echopen/PRJ-medtec_sigproc/projects/)
-
-
 
 ## 2017.03.15 - HD - 20.00 \(Paris time\)
 
@@ -59,9 +70,9 @@ working week of @aurelie to implement concretely the CapMeth guidelines
 
 ### envelope detection challenge
 
-new front of the site is available -&gt; css by @jerome\_risselin   
-docker 4 rabbitMQ & docker 4 django -&gt; bugs currently under investigation by @loic   
-@loic : development of functionality to see the source code of any challengers + debugging some password recovery   
+new front of the site is available -&gt; css by @jerome\_risselin  
+docker 4 rabbitMQ & docker 4 django -&gt; bugs currently under investigation by @loic  
+@loic : development of functionality to see the source code of any challengers + debugging some password recovery  
 proposition of @djalel : ranking challengers by time processing, currently  
 production scheduled  on monday !
 
@@ -315,8 +326,9 @@ remark the CR is unsualy short because the main typograph had to leave prematura
   * une interface web/python notebook : avec un "how to" pour package un algo python et qui permet de le soumettre. Le contributeur fait le choix de son environnement de dev et garde ainsi toutes ses routines
     nous processons le package, extrayons les métriques et updatons le leaderboard
 
-* Au total, on est prêt dans 2 ou 3 semaines. 
-* le bottle neck est la mise en route de l'acquisition dans l'acquarium, idéalement avec fantômes \(rdv à ce sujet dans 2 semaines avec medicalem pour livraison d'un fantôme carotidien\). 
+* Au total, on est prêt dans 2 ou 3 semaines.
+
+* le bottle neck est la mise en route de l'acquisition dans l'acquarium, idéalement avec fantômes \(rdv à ce sujet dans 2 semaines avec medicalem pour livraison d'un fantôme carotidien\).
 
 ## 2016.09.08 - HD - 20.00 \(Paris time\)
 
