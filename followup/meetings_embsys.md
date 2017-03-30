@@ -6,9 +6,30 @@ Everyone is welcomed.
 
 ## 2017.03.22 - HD - 20.00 (Paris time)
 
-Notes will be availabled next week.
+### Actual work
 
-They can be updated [here](https://mensuel.framapad.org/p/CR_embsys-2017-03-22).
+[\@polytech-vikenesh](https://echopen.slack.com/team/polytech-vikenesh) and [\@polytech-kevin](https://echopen.slack.com/team/polytech-kevin) work on numerical data acquisition on FPGA.
+
+[\@polytech-nivertan](https://echopen.slack.com/team/polytech-nivertan) and @polytech-unknown (sorry I did not well unsertand your name...) work on analogic and envelop detection.
+They try to get the negative part of the signal and to optimize analogic circuits which are on github (**where ?**).
+
+Polytech's students suggest a circuit which permits to lose less signal than a [diode bridge](https://en.wikipedia.org/wiki/Diode_bridge).
+
+[\@jerome](https://echopen.slack.com/team/jerome) works actually on a passive RLC which is poorly configurable, moreover the signal can not be boosted.
+Polytech's students  work on an active circuit which uses [operationnal amplifiers](https://en.wikipedia.org/wiki/Operational_amplifier).
+
+
+### Next work
+
+We need to investigate how the numeric packets will be send.
+
+
+### Impotant points
+
+**The bottleneck is not clear** it needs to be **profiled**.
+
+[\@luc](https://echopen.slack.com/team/luc) said that during the march 2016 demonstration at Hôtel-Dieu the acquisition was made at 8 frames per second but I often heard that the Red Pitaya only gives 2 frames per second. **It is not clear**.
+
 
 ## 2017.03.01 - HD - 20.00 (Paris time)
 
