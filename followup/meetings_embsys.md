@@ -18,7 +18,7 @@ They can be updated [here](https://mensuel.framapad.org/p/CR_embsys-2017-03-22).
 
 Focus on two topics :
 
-* Design a unique PCB + miniaturization. @eiffel notices that the Clarius uses 4 PCB : do we really need a unique PCB ? However, with several piled PCB, component shielding must be handled
+* Design a unique PCB + miniaturization. [\@eiffel](https://echopen.slack.com/team/eiffel) notices that the Clarius uses 4 PCB : do we really need a unique PCB ? However, with several piled PCB, component shielding must be handled
 * Improve acquisition/treatment in the RedPitaya : design an [intellectual property (IP)](https://en.wikipedia.org/wiki/Semiconductor_intellectual_property_core ) in [VHDL](https://en.wikipedia.org/wiki/VHDL ) for the acquisition, implement numerical envelope detection (double FFT) in VHDL (currently implemented in C)
 
 **Remark** : RedPitaya's ADC are clocked at 100MHz which is quite powerful
@@ -28,7 +28,7 @@ Next week's objectives : Focus on analog part --> study circuits, remove useless
 
 #### Lausanne antenna
 
-@massoud wants to benchmark an ADC to see if he can get a sampling frequency of 50 MHz from the latter.
+[\@massoud](https://echopen.slack.com/team/massoud) wants to benchmark an ADC to see if he can get a sampling frequency of 50 MHz from the latter.
 
 
 ### Frequencies of transducers
@@ -132,11 +132,11 @@ It is also necessary to keep in mind the fact of being certified medical device 
 
 ### Attendees
 
-[@rbo](https://echopen.slack.com/team/rbo)
-[@benchoufi](https://echopen.slack.com/team/benchoufi)
-[@eiffel](https://echopen.slack.com/team/eiffel)
-[@aurelie](https://echopen.slack.com/team/aurelie)
-[@omaciu](https://echopen.slack.com/team/omaciu)
+[\@rbo](https://echopen.slack.com/team/rbo)
+[\@benchoufi](https://echopen.slack.com/team/benchoufi)
+[\@eiffel](https://echopen.slack.com/team/eiffel)
+[\@aurelie](https://echopen.slack.com/team/aurelie)
+[\@omaciu](https://echopen.slack.com/team/omaciu)
 
 Benjamin, Mohammed, ??? sorry if I missed someone
 
@@ -149,7 +149,7 @@ Everyone gives a short presentation of him/herself and his/her interests in the 
 
 #### Current status of the embedded platform
 
-[@jcbillard](https://echopen.slack.com/team/jcbillard) being absent, this point is not discussed further.
+[\@jcbillard](https://echopen.slack.com/team/jcbillard) being absent, this point is not discussed further.
 
 
 #### Hardware/processing needs and wishes
@@ -161,7 +161,7 @@ Identified features and functionalities include:
 1. WiFi communication with the smartphone
 2. Commands/configuration from the smartphone (gain adjustment, frequency,...)
 
-To identify all needed and wished features a brainstorm document has been created by @rbo so that everyone can put his ideas:
+To identify all needed and wished features a brainstorm document has been created by [\@rbo](https://echopen.slack.com/team/rbo) so that everyone can put his ideas:
 https://annuel.framapad.org/p/embsysBrainstorm
 
 
@@ -172,34 +172,34 @@ An analysis should be done to know the better way to split the processing betwee
 
 #### Hardware proposals
 
-##### @jcbillard
+##### [\@jcbillard](https://echopen.slack.com/team/jcbillard)
 
 __Main CPU__:
-[Texas Instruments OMAP-L138] (http://www.ti.com/product/OMAP-L138)
+[Texas Instruments OMAP-L138](http://www.ti.com/product/OMAP-L138)
 
-* ARM9 + C674x DSP cores @450 MHz
+* ARM9 + C674x DSP cores at 450 MHz
 * uPP (Universal Parallel Port) useful for interfacing ADC
 * Available Linux support
 
 __ADC__:
-[Texas Instruments ADS6142] (http://www.ti.com/product/ADS6142)
+[Texas Instruments ADS6142](http://www.ti.com/product/ADS6142)
 
 
-##### @rbo
+##### [\@rbo](https://echopen.slack.com/team/rbo)
 
 __Main CPU__:
-[NXP i.MX7] (http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/i.mx-applications-processors/i.mx-7-processors:IMX7-SERIES)
-* ARM Cortex A7 single/dual core @ 1 GHz + ARM Cortex M4 @200 MHz:
+[NXP i.MX7](http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/i.mx-applications-processors/i.mx-7-processors:IMX7-SERIES)
+* ARM Cortex A7 single/dual core \@ 1 GHz + ARM Cortex M4 at 200 MHz:
 
 __ADC__:
 
 ### Action items
 
-How do we handle tasks/issues ? Github issues, [Markdown task lists] (https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments), bugtracker ?
+How do we handle tasks/issues ? Github issues, [Markdown task lists](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments), bugtracker ?
 
 Methodology to use on github repositories and way of handling tasks/issues to be discussed and harmonized at project level for all repositories/groups.
 
 
 ### Next meetup
 
-January 6 2017, 20:00 to discuss some hardware specific stuff with @jcbillard
+January 6 2017, 20:00 to discuss some hardware specific stuff with [\@jcbillard](https://echopen.slack.com/team/jcbillard)
