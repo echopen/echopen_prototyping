@@ -4,7 +4,7 @@
 
 Ultrasonic waves are high frequency acoustic waves \(more than 20 kHz\) which can propagate through the human body. The propagation depends on the mechanical properties of the traversed tissues. The ultrasound signal exists in the superposition of the waves reflected on interfaces between tissues with different impedance, and of the scattering of ultrasonic waves by small particles.
 
-To create an image the ultrasound scanner emits an ultrasound pulse and listen to the reflected echoes. As the human body is mainly composed of water, ultrasounds propagate at a speed close to 1460 $$ m.s^{-1}  $$. When ultrasound waves propagate through tissues, fat or organs, their propagation speed varies from 1450 to 1700 $$ m.s^{-1}  $$.
+To create an image the ultrasound scanner emits an ultrasound pulse and listen to the reflected echoes. As the human body is mainly composed of water, ultrasounds propagate at a speed close to 1460 $$ m.s^{-1}  $$. When ultrasound waves propagate through tissues, fat or organs, their propagation speed varies from 1450 to 1700 $$m.s^{-1}$$.
 
 | Medium | Propagation speed \($$ m.s^{-1} $$\) |
 | :--- | :--- |
