@@ -25,6 +25,10 @@ This team focuses on the prototype hardware, including analog electronics.
 * Team's project boards : [https://github.com/echopen/PRJ-medtec\_kit/projects](https://github.com/echopen/PRJ-medtec_kit/projects)
 * Subscribe to the team : [https://github.com/orgs/echopen/teams/hardware](https://github.com/orgs/echopen/teams/hardware)
 
+### Slack channel
+
+[Join us on Slack](http://slack.echopen.org/) and jump to : **\#prj\_medtec\_kit**
+
 ### Weekly meetings
 
 No meetings planned yet.
@@ -39,6 +43,10 @@ This team focuses on the prototype mechanics.
 * Team's project boards : [https://github.com/echopen/PRJ-medtec\_mechanics/projects](https://github.com/echopen/PRJ-medtec_mechanics/projects)
 * Subscribe to the team : [https://github.com/orgs/echopen/teams/mechanics](https://github.com/orgs/echopen/teams/mechanics)
 
+### Slack channel
+
+[Join us on Slack](http://slack.echopen.org/) and jump to : **\#prj\_medtec\_mechanics**
+
 ### Weekly meetings
 
 No meetings planned yet.
@@ -50,6 +58,10 @@ No meetings planned yet.
 * Team's repository : [https://github.com/echopen/PRJ-medtech\_embsys](https://github.com/echopen/PRJ-medtech_embsys)
 * Team's project boards : [https://github.com/echopen/PRJ-medtech\_embsys/projects](https://github.com/echopen/PRJ-medtech_embsys/projects)
 * Subscribe to the team : [https://github.com/orgs/echopen/teams/embsys](https://github.com/orgs/echopen/teams/embsys)
+
+### Slack channel
+
+[Join us on Slack](http://slack.echopen.org/) and jump to : **\#prj\_medtec\_embsys**
 
 ### Weekly meetings
 
@@ -64,6 +76,10 @@ Minutes of the meetings are [here](../followup/meetings_embsys.md).
 * Team's project boards : [https://github.com/echopen/PRJ-medtec\_sigproc/projects](https://github.com/echopen/PRJ-medtec_sigproc/projects)
 * Subscribe to the team : [https://github.com/orgs/echopen/teams/sigproc](https://github.com/orgs/echopen/teams/sigproc)
 
+### Slack channel
+
+[Join us on Slack](http://slack.echopen.org/) and jump to : **\#prj\_medtec\_sigproc**
+
 ### Weekly meetings
 
 Weekly meetings take place at Hôtel Dieu every Wednesday at 7:00pm.  
@@ -76,6 +92,10 @@ Minutes of the meetings are [here](../followup/meetings_sigproc.md).
 * Team's repository : [https://github.com/echopen/PRJ-medtec\_androidapp](https://github.com/echopen/PRJ-medtec_androidapp)
 * Team's project boards : [https://github.com/echopen/PRJ-medtec\_androidapp/projects](https://github.com/echopen/PRJ-medtec_androidapp/projects)
 * Subscribe to the team : [https://github.com/orgs/echopen/teams/androidapp](https://github.com/orgs/echopen/teams/androidapp)
+
+### Slack channel
+
+[Join us on Slack](http://slack.echopen.org/) and jump to : **\#prj\_medtec\_androidapp**
 
 ### Weekly meetings
 
