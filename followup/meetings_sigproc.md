@@ -1,5 +1,16 @@
 # 2017
 
+## 2017.04.12
+
+* prototyping gitbook / documentating v3.0.0 release
+  * @alister has volunteered to rewrite the introduction
+  * "how to contribute" section is online
+  * @luc : production guide is ongoing
+  * @luc @soobash volunteered to make some bibliography about image quality assessment
+* leaderboard
+  * @loic is working on password retrieval 
+  * @loic still needs help to finalize the scoring, any volunteer is welcome
+
 ## 2017.04.03
 
 * focusing on documentation
