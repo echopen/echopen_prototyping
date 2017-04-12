@@ -1,19 +1,18 @@
 # Download repo github : prj\_medtec-kit
 
-AJOUTER UN SCHÉMA D’ATTRIBUTION DES PISTES
+@todo - AJOUTER UN SCHÉMA D’ATTRIBUTION DES PISTES
 
 ## **Mother board**
 
-Ref : RS 528-0661
+Ref : RS 528-0661 
+@todo where does this ref come from?
 
-39 vertical tracks
+The original stripboard presents 39 vertical tracks
 
 ![](images/1_Mother_board/IMG_20170315_102911.jpg){width="5.763888888888889in"
 height="7.685416666666667in"}
 
-we need 19 tracks cut on the track of the middle
-
-couper avec une dremel/massicot puis ébavurer
+We need 19 tracks cut on the track of the middle of the board so that 19 tracks can be preserved, composing the base of the motherboard. One can use a dremel and then smooth the cut. 
 
 ![](images/1_Mother_board/IMG_20170315_103225.jpg){width="5.763888888888889in"
 height="7.685416666666667in"}
@@ -24,17 +23,18 @@ height="7.685416666666667in"}
 ![](images/1_Mother_board/IMG_20170315_103333.jpg){width="5.763888888888889in"
 height="4.322916666666667in"}
 
-*Sockets :*
+### *Sockets *
+
+We use 0.1" sockets to connect the daughter boards to the motherboard
 
 ![](images/1_Mother_board/IMG_20170315_104039.jpg){width="5.763888888888889in"
 height="4.322916666666667in"}
 
-to plug daughter boards on mother board
+### Preparation
 
-9 sockets of size 1x19
+For this, we'll be needing 9 sockets of size 1x19
 
 * first socket on one border (1) for power supply
-
 * second socket on (6)
 
 ![](images/1_Mother_board/IMG_20170315_104927.jpg){width="5.763888888888889in"
@@ -42,36 +42,44 @@ height="4.322916666666667in"}
 
 ## **Power supply**
 
-BOM :
-<https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-supply/DB-supply_v1/src/DB-supply_v1.csv>
+### BOM 
 
-PCB : DB\_Supply\_v1 (custom echOpen)
+[To download the BOM, refer here](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-supply/DB-supply_v1/src/DB-supply_v1.csv).
 
-Locations of each component are indicated on the PCB
+* PCB : DB\_Supply\_v1 (custom echOpen)
+@todo: what does it mean?
+
+Locations of each component are indicated on the PCB.
 
 ![](images/2_power_supply/IMG_0661.JPG){width="5.763888888888889in"
 height="4.322916666666667in"}
 
-Capacitors : they are polarized white side corresponds to lowest
+#### Capacitors 
+
+they are polarized white side corresponds to lowest
 potential and must be plugged on white part of the mark on the PCB
 
 ![](images/2_power_supply/IMG_0663.JPG){width="5.763888888888889in"
 height="7.685416666666667in"}
 
-Integrated circuits : the dot on the component must be plugged where
-there is a « line break » (see below for direction)
+#### Integrated circuits 
+
+The dot on the component must be plugged where there is a « line break » (see below for direction)
 
 ![](images/2_power_supply/IMG_0665.JPG){width="5.763888888888889in"
 height="7.685416666666667in"}
 
-Voltage regulator : must be plugged according to the mark on the PCB,
+#### Voltage regulator 
+They must be plugged according to the mark on the PCB,
 i.e. additionnal rectangle corresponds to the part of the voltage
-regulator that has an « excroissance »
+regulator that has sort of a « growth »
 
 ![](images/2_power_supply/IMG_0666.JPG){width="5.763888888888889in"
 height="7.685416666666667in"}
 
-LED : see scheme below to identify the cathode
+#### LED
+
+See scheme below to identify the cathode
 
 ![](images/2_power_supply/LED.png){width="5.763888888888889in"
 height="4.240972222222222in"}
@@ -79,16 +87,19 @@ height="4.240972222222222in"}
 On the PCB, there is an additionnal line where the cathode must be
 plugged
 
-Transistor : faire correspondre la languette avec l’empreinte
+#### Transistor 
+
+Match the small strip with the footprint 
 
 ![](images/2_power_supply/){width="5.763888888888889in"
 height="7.685416666666667in"}
 
-*Diode*
+#### Diods
 
 ![](images/2_power_supply/){width="5.75in"
-height="7.708333333333333in"}Faire attention au sens. Un trait marque le
-bon coté, on retrouve ce trait sur l’emprunte du PCB
+height="7.708333333333333in"}
+
+Beware in terms of direction. A line marks the correct side, which is also marked on the PCB footprint. 
 
 *REsistors : Tableau code couleur ?*
 
@@ -101,7 +112,7 @@ composant retenu par l’étain résiduel.
 
 Tous les composants sont désormais en place !
 
-*TEST DE LA CARTE*
+### Testing the board
 
 La carte que l’on vient de construire est une carte d’alimentation qui
 fournie plusieurs tensions continues stabilisées. Il convient de la
@@ -113,11 +124,16 @@ d’intégrer une protection contre un éventuel court circuit.
 choisit le mode générateur de tension idéal (C.V) et une tension de 18V
 (qui correspond aux deux piles de 9V qui alimenteront le circuit) et on
 limite le courant à 800mA. ![](images/2_power_supply/){width="5.75in"
-height="7.708333333333333in"}On branche cette alimentation dans les pins
-1 et 12 (GND et 18V).
+height="7.708333333333333in"}
+
+This power supply can be plugged to pins 1 and 12 (respectively GND and 18V) 
+
 ![](images/2_power_supply/){width="5.763888888888889in"
-height="7.680555555555555in"}Lorsque l’on allume l’alimentation un
-courant de 45mA doit s’établir.
+height="7.680555555555555in"}
+
+When powering on the supply, the power supply should indicate a current use of 45mA. 
+
+
 ![](images/2_power_supply/){width="5.763888888888889in"
 height="4.305555555555555in"}Ensuite on mesure les tensions entre la
 terre (pin 1 i.e. GND) et les des pins 2, 6, 8, 18 et 19. Pour cela un
@@ -130,7 +146,7 @@ et que les soudures ont bien été réalisées.
 height="7.708333333333333in"}![](images/2_power_supply/){width="5.75in"
 height="7.708333333333333in"}
 
-Une fois la carte validée, on peut couper toutes les pattes.
+Once the board validated, one can trim the remaining legs. 
 
 ## **High voltage**
 
