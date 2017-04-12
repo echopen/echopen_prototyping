@@ -1,57 +1,68 @@
-# Prototyping
+# Find your team
+## Prototyping
 Generic team gathering all members who contribute to developement of the prototype. Subscribing to this team allows to edit this gitbook.
 
-## GitHub
+**GitHub**
+
 - Team's repository : <https://github.com/echopen/echopen_prototyping>
 - Team's project boards : <https://github.com/echopen/echopen_prototyping/projects>
 - Subscribe to the team : <https://github.com/orgs/echopen/teams/prototyping>
 
-## Weekly meetings
+**Weekly meetings**
+
 Weekly prototyping follow-ups take place at Hôtel Dieu every Monday at 7:00pm.
 Minutes of the meetings are [here](../followup/weekly_meeting.md).
 
 
-# Hardware
+## Hardware
 This team focuses on the prototype hardware, including analog electronics and mechanics. 
 
-## GitHub
+**GitHub**
+
 - Team's repository : <https://github.com/echopen/PRJ-medtec_kit>
 - Team's project boards : <https://github.com/echopen/PRJ-medtec_kit/projects>
 - Subscribe to the team : <https://github.com/orgs/echopen/teams/hardware>
 
-## Weekly meetings
+**Weekly meetings**
+
 No meetings planned yet.
 
-# Embedded Systems
+## Embedded Systems
 
-## GitHub
+**GitHub**
+
 - Team's repository : <https://github.com/echopen/PRJ-medtech_embsys>
 - Team's project boards : <https://github.com/echopen/PRJ-medtech_embsys/projects>
 - Subscribe to the team : <https://github.com/orgs/echopen/teams/embsys>
 
-## Weekly meetings
+**Weekly meetings**
+
 Weekly meetings take place at Hôtel Dieu every Wednesday at 8:00pm. It's possible to attend remotely with [jitsi](https://meet.jit.si/echopenEmbedded).
 Minutes of the meetings are [here](../followup/meetings_embsys.md).
 
-# Signal processing
+## Signal processing
 
-## GitHub
+**GitHub**
+
 - Team's repository : <https://github.com/echopen/PRJ-medtec_sigproc>
 - Team's project boards : <https://github.com/echopen/PRJ-medtec_sigproc/projects>
 - Subscribe to the team : <https://github.com/orgs/echopen/teams/sigproc>
 
-## Weekly meetings
+**Weekly meetings**
+
 Weekly meetings take place at Hôtel Dieu every Wednesday at 7:00pm. 
 Minutes of the meetings are [here](../followup/meetings_sigproc.md).
 
 
-# Mobile app
+## Mobile app
 
-## GitHub
+**GitHub**
+
 - Team's repository : <https://github.com/echopen/PRJ-medtec_androidapp>
 - Team's project boards : <https://github.com/echopen/PRJ-medtec_androidapp/projects>
 - Subscribe to the team : <https://github.com/orgs/echopen/teams/androidapp>
 
-## Weekly meetings
+**Weekly meetings**
+
 Weekly meetings take place at Hôtel Dieu every Wednesday at 7:00pm. 
 Minutes of the meetings are [here](../followup/meetings_app.md).
