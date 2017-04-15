@@ -21,6 +21,7 @@
     * [Specifications](stable/requirements/specifications.md)
       * [Mobile App](stable/requirements/specifications/mobile-app.md)
     * [UX design](stable/requirements/UX_design.md)
+      * [Mobile App](stable/requirements/UX_design/mobile-app.md)
   * [Documentation](stable/doc_pipeline.md)
     * [Hardware](stable/doc_hardware.md)
     * [Software](stable/doc_software.md)
