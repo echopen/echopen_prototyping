@@ -44,11 +44,11 @@
 
 2.2.1 user can adjust image contrast in order to get a better look to details inside organs.
 
-\* This helps the operator to detect anomalies, often revealed by contrast breaks
+* This helps the operator to detect anomalies, often revealed by contrast breaks
 
-\* Contrast can be adjusted by selecting a customized intensity-to-pixels linear or exponential look-up table.
+* Contrast can be adjusted by selecting a customized intensity-to-pixels linear or exponential look-up table.
 
-\* The image intensity can also be amplified uniformally through a gain filter
+* The image intensity can also be amplified uniformally through a gain filter
 
 3. Communication with echOpen hardware Device
 
