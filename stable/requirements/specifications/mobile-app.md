@@ -50,7 +50,7 @@
 
 * The image intensity can also be amplified uniformally through a gain filter
 
-3. Communication with echOpen hardware Device
+3.Communication with echOpen hardware Device
 
 image data are received as pixels streams in TCP, or local \(from an asset file\), format
 
