@@ -1,26 +1,26 @@
 # Use cases Android App
 
-\#\# Welcoming
+# Welcoming
 
-\#\#\# SplashScreen
+### SplashScreen
 
-\#\# echO Exam
+## echO Exam
 
-\#\#\# user accesses a full screen displaying the image caught by the ultrasound probe
+* user accesses a full screen displaying the image caught by the ultrasound probe
 
-\#\#\# user can manipulate image
+### user can manipulate image
 
-\#\#\#\# user can adjust image contrast in order to get a better look to details inside organs. This helps the operator to detect anomalies, often revealed by contrast breaks
+* user can adjust image contrast in order to get a better look to details inside organs. This helps the operator to detect anomalies, often revealed by contrast breaks
 
 # Functional Specs Android App
 
-\#\# Welcoming
+## Welcoming
 
-\#\#\# SplashScreen
+### SplashScreen
 
-\#\# echO Exam
+## echO Exam
 
-\#\#\# user accesses a screen displaying the image caught by the ultrasound probe
+### user accesses a screen displaying the image caught by the ultrasound probe
 
 * the image is a full screen image
 
@@ -34,15 +34,15 @@
 
 * a detection envelope algorithm corresponding to Hilbert transform implementation
 
-\#\#\# user can manipulate image
+### user can manipulate image
 
-\#\#\#\# user can adjust image contrast in order to get a better look to details inside organs. This helps the operator to detect anomalies, often revealed by contrast breaks
+* user can adjust image contrast in order to get a better look to details inside organs. This helps the operator to detect anomalies, often revealed by contrast breaks
 
-Contrast can be adjusted by selecting a customized intensity-to-pixels linear or exponential look-up table.
+* Contrast can be adjusted by selecting a customized intensity-to-pixels linear or exponential look-up table.
 
-The image intensity can also be amplified uniformally through a gain filter
+* The image intensity can also be amplified uniformally through a gain filter
 
-\#\# Communication with echOpen hardware Device
+## Communication with echOpen hardware Device
 
 image data are received as pixels streams in TCP, or local \(from an asset file\), format
 
