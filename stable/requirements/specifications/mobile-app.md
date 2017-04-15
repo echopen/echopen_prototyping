@@ -18,7 +18,7 @@
 
 1. 1 SplashScreen
 
-1. echO Exam 
+2. echO Exam
 
 2.1 user accesses a screen displaying the image caught by the ultrasound probe
 
@@ -61,7 +61,7 @@ image data are received as pixels streams in TCP, or local \(from an asset file\
 
 \* the first image thrown by the hardware carries as its first bytes the header information 
 
-\* the first 2 bytes of the packet corresponds to the number of lines 
+\* the first 2 bytes of the packet corresponds to the number of lines
 ```
 
 * the local mode,
