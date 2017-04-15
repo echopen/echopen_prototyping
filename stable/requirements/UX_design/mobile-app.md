@@ -1,10 +1,15 @@
 # add current Mobile app UI
 
-You'll find here the current UI. It is for the moment dead simple. Indeed, for this version, we choose to fix only a one screen app, figuring the main functionalities : 
+You'll find here the current UI. It is for the moment dead simple. Indeed, for this version, we choose to fix only a one screen app, figuring the main functionalities :
 
+
+
+
+
+* a splashscreen ;\)
 * displaying the image
 * set a communication pipeline, enabling the choice between
-  *   a local mode 
+  * a local mode 
     * displaying a local file 
   * a TCP mode 
     * getting the image sent through TCP protocol. NB : the data are sent via WIFI
@@ -17,5 +22,7 @@ You'll find here the current UI. It is for the moment dead simple. Indeed, for t
 
 
 
+![](/assets/Screenshot_2017-04-15-16-56-57.png)
 
+![](/assets/Screenshot_2017-04-15-16-56-10.png)![](/assets/Screenshot_2017-04-15-16-43-41.png)
 
