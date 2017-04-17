@@ -14,6 +14,31 @@
 ## Review Paper on Quantitative Image Quality Assessment - Medical Ultrasound Images
 
 * 2012
+* http://www.ijert.org/view-pdf/187/review-paper-on-quantitative-image-quality-assessment--medical-ultrasound-images
+
+### Key learnings
+
+* _Subjective Image Quality Assessment_ vs _Objective Image Quality Assessment_
+* Objective Image Quality Assessment:developing quantitative measures that can automatically predict the perceived image quality.
+
+* Between two images: Mean Squared Error
+* Single image: Peak Signal to Noise Ratio
+
+Different types of distortions impacting quality:
+
+* Blurred
+* Salt-pepper impulsive contaminated image
+* Gaussian Noise contaminated Image
+* Speckle Noise contaminated Image
+
+Z. Wang proposed a new philosophy assuming that the
+human visual system (HVS) is highly adapted to extract
+structural information from the visual scene[5]. The new
+concept is very different from the previous error sensitivity
+philosophy,[5]which considers image degradations as
+perceived changes in structural information instead of
+perceived errors.
+
 
 ## Image Quality Assessment: A Case Study on Ultrasound Images of Supraspinatus Tendon
 
