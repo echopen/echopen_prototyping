@@ -39,6 +39,18 @@ philosophy,[5]which considers image degradations as
 perceived changes in structural information instead of
 perceived errors.
 
+## Automated performance assessment of ultrasound systems using a dynamic phantom
+
+* Excellent paper
+* Examination of the resolution of two 0.3 mm diameter nylon targets.
+    * Doing it 
+
+* DOI: 10.1177/1742271X14549591
+
+## Real-time B-mode ultrasound quality control test proceduresa... Report of AAPM Ultrasound Task Group No. 1
+
+* Date de 1998
+* Image uniformity
 
 ## Image Quality Assessment: A Case Study on Ultrasound Images of Supraspinatus Tendon
 
