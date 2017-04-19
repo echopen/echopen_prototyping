@@ -1,8 +1,18 @@
 # 2017
 
+## 2017.04.19
+
+* prototyping gitbook / documenting v3.0.0 release
+  * @luc has pushed a version of the production guide, there are still some bugs with image displaying + mechanical part needs to be completed --&gt; @aurelie & @luc work on it
+  * documenting of the hardware is ongoing. @embSys team could help for the characterization of the device 
+* leaderboard
+  * front is ok
+  * @hackolite is working on password retrieval
+  * @hackolite needs help/time to implement the scoring on multiple images
+
 ## 2017.04.12
 
-* prototyping gitbook / documentating v3.0.0 release
+* prototyping gitbook / documenting v3.0.0 release
   * @alister has volunteered to rewrite the introduction
   * "how to contribute" section is online
   * @luc : production guide is ongoing
