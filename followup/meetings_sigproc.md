@@ -1,6 +1,42 @@
 # 2017
 
+## 2017.04.19
 
+* prototyping gitbook / documenting v3.0.0 release
+  * @luc has pushed a version of the production guide, there are still some bugs with image displaying + mechanical part needs to be completed --&gt; @aurelie & @luc work on it
+  * documenting of the hardware is ongoing. @embSys team could help for the characterization of the device 
+* leaderboard
+  * front is ok
+  * @hackolite is working on password retrieval
+  * @hackolite needs help/time to implement the scoring on multiple images
+
+## 2017.04.12
+
+* prototyping gitbook / documenting v3.0.0 release
+  * @alister has volunteered to rewrite the introduction
+  * "how to contribute" section is online
+  * @luc : production guide is ongoing
+  * @luc @soobash volunteered to make some bibliography about image quality assessment
+* leaderboard
+  * @loic is working on password retrieval 
+  * @loic still needs help to finalize the scoring, any volunteer is welcome
+
+## 2017.04.03
+
+* focusing on documentation
+* prototyping gitbook
+  * v3.0.0 app
+    * rendering pipeline passing through envelope detection with 16-bit encoding is now functional.
+    * Next step : test it with the device
+    * documentation is ongoing. Might be finished by the end of the week
+  * v3.0.0 hardware
+    * documentation is running late --&gt; hardware improvements must be stopped for now, documenting v3.0.0 release is top priority
+    * @eiffel will "beta-test" the part of the documentation describing the redpitaya
+    * production guide : @luc will manage it
+  * how to contribute section --&gt;@aurelie will handle it by the end of the week
+* report of activity 
+  * @luc shared a draft
+  * @benchoufi @aurelie will complete it
 
 ## 2017.03.29 - HD - 20.00 \(Paris time\)
 
@@ -9,8 +45,6 @@
 * [\@hackolite](https://echopen.slack.com/team/hackolite) challenge platform
   * -&gt; could not move forward the development
   * [\@hackolite](https://echopen.slack.com/team/hackolite) is going to prepare a django app working guide hackpad
-
-
 
 ## 2017.03.22 - HD - 20.00 \(Paris time\)
 
@@ -70,10 +104,10 @@ working week of [\@aurelie](https://echopen.slack.com/team/aurelie) to implement
 
 ### envelope detection challenge
 
-new front of the site is available -&gt; css by [\@jayjay](https://echopen.slack.com/team/jayjay)
-docker 4 rabbitMQ & docker 4 django -&gt; bugs currently under investigation by [\@hackolite](https://echopen.slack.com/team/hackolite)
-[\@hackolite](https://echopen.slack.com/team/hackolite) : development of functionality to see the source code of any challengers + debugging some password recovery
-proposition of [\@djabbz](https://echopen.slack.com/team/djabbz) : ranking challengers by time processing, currently
+new front of the site is available -&gt; css by [\@jayjay](https://echopen.slack.com/team/jayjay)  
+docker 4 rabbitMQ & docker 4 django -&gt; bugs currently under investigation by [\@hackolite](https://echopen.slack.com/team/hackolite)  
+[\@hackolite](https://echopen.slack.com/team/hackolite) : development of functionality to see the source code of any challengers + debugging some password recovery  
+proposition of [\@djabbz](https://echopen.slack.com/team/djabbz) : ranking challengers by time processing, currently  
 production scheduled  on monday !
 
 ## 2017.03.02 - HD - 20.00 \(Paris time\)
@@ -336,3 +370,6 @@ remark the CR is unsualy short because the main typograph had to leave prematura
 * hackolite commence à updater la boucle de soumission en ajoutant le calcul des précédentes métriques dans son workflow
 * soobash finit les scripts relatifs aux calculs de 6 métriques complémentaires
 * benschan fait une review de "Despeckle filtering for ultrasound imaging and video, Vol. I: Algorithms and software" , notamment pour explorer les techniques statistiques à l'usage en débruitage
+
+
+
