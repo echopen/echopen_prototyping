@@ -3,23 +3,23 @@
 ## 2017.04.19
 
 * prototyping gitbook / documenting v3.0.0 release
-  * @luc has pushed a version of the production guide, there are still some bugs with image displaying + mechanical part needs to be completed --&gt; @aurelie & @luc work on it
-  * documenting of the hardware is ongoing. @embSys team could help for the characterization of the device 
+  * [\@luc](https://echopen.slack.com/team/luc) has pushed a version of the production guide, there are still some bugs with image displaying + mechanical part needs to be completed --&gt; [\@aurelie](https://echopen.slack.com/team/aurelie) & [\@luc](https://echopen.slack.com/team/luc) work on it
+  * documenting of the hardware is ongoing. [\@embSys](https://echopen.slack.com/team/embSys) team could help for the characterization of the device
 * leaderboard
   * front is ok
-  * @hackolite is working on password retrieval
-  * @hackolite needs help/time to implement the scoring on multiple images
+  * [\@hackolite](https://echopen.slack.com/team/hackolite) is working on password retrieval
+  * [\@hackolite](https://echopen.slack.com/team/hackolite) needs help/time to implement the scoring on multiple images
 
 ## 2017.04.12
 
 * prototyping gitbook / documenting v3.0.0 release
-  * @alister has volunteered to rewrite the introduction
+  * [\@alister](https://echopen.slack.com/team/alister) has volunteered to rewrite the introduction
   * "how to contribute" section is online
-  * @luc : production guide is ongoing
-  * @luc @soobash volunteered to make some bibliography about image quality assessment
+  * [\@luc](https://echopen.slack.com/team/luc) : production guide is ongoing
+  * [\@luc](https://echopen.slack.com/team/luc) [\@soobash](https://echopen.slack.com/team/soobash) volunteered to make some bibliography about image quality assessment
 * leaderboard
-  * @loic is working on password retrieval 
-  * @loic still needs help to finalize the scoring, any volunteer is welcome
+  * [\@loic](https://echopen.slack.com/team/loic) is working on password retrieval
+  * [\@loic](https://echopen.slack.com/team/loic) still needs help to finalize the scoring, any volunteer is welcome
 
 ## 2017.04.03
 
@@ -31,12 +31,12 @@
     * documentation is ongoing. Might be finished by the end of the week
   * v3.0.0 hardware
     * documentation is running late --&gt; hardware improvements must be stopped for now, documenting v3.0.0 release is top priority
-    * @eiffel will "beta-test" the part of the documentation describing the redpitaya
-    * production guide : @luc will manage it
-  * how to contribute section --&gt;@aurelie will handle it by the end of the week
-* report of activity 
-  * @luc shared a draft
-  * @benchoufi @aurelie will complete it
+    * [\@eiffel](https://echopen.slack.com/team/eiffel) will "beta-test" the part of the documentation describing the redpitaya
+    * production guide : [\@luc](https://echopen.slack.com/team/luc) will manage it
+  * how to contribute section --&gt;[\@aurelie](https://echopen.slack.com/team/aurelie) will handle it by the end of the week
+* report of activity
+  * [\@luc](https://echopen.slack.com/team/luc) shared a draft
+  * [\@benchoufi](https://echopen.slack.com/team/benchoufi) [\@aurelie](https://echopen.slack.com/team/aurelie) will complete it
 
 ## 2017.03.29 - HD - 20.00 \(Paris time\)
 
@@ -104,10 +104,10 @@ working week of [\@aurelie](https://echopen.slack.com/team/aurelie) to implement
 
 ### envelope detection challenge
 
-new front of the site is available -&gt; css by [\@jayjay](https://echopen.slack.com/team/jayjay)  
-docker 4 rabbitMQ & docker 4 django -&gt; bugs currently under investigation by [\@hackolite](https://echopen.slack.com/team/hackolite)  
-[\@hackolite](https://echopen.slack.com/team/hackolite) : development of functionality to see the source code of any challengers + debugging some password recovery  
-proposition of [\@djabbz](https://echopen.slack.com/team/djabbz) : ranking challengers by time processing, currently  
+new front of the site is available -&gt; css by [\@jayjay](https://echopen.slack.com/team/jayjay)
+docker 4 rabbitMQ & docker 4 django -&gt; bugs currently under investigation by [\@hackolite](https://echopen.slack.com/team/hackolite)
+[\@hackolite](https://echopen.slack.com/team/hackolite) : development of functionality to see the source code of any challengers + debugging some password recovery
+proposition of [\@djabbz](https://echopen.slack.com/team/djabbz) : ranking challengers by time processing, currently
 production scheduled  on monday !
 
 ## 2017.03.02 - HD - 20.00 \(Paris time\)
