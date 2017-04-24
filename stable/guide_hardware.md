@@ -39,13 +39,16 @@ For this, we'll be needing 9 sockets of size 1x19
 
 ![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/1_Mother_board/IMG_20170315_104927.jpg)
 
-## **Power supply**
+## Power supply
+
+See the medkit folder [here](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-supply/DB-supply_v1).
 
 ### BOM 
 
 [To download the BOM, refer here](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-supply/DB-supply_v1/src/DB-supply_v1.csv).
 
-* PCB : DB\_Supply\_v1 (custom echOpen)
+* PCB : [DB\_Supply\_v1](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-supply/DB-supply_v1) (custom echOpen)
+
 @todo: what does it mean?
 
 Locations of each component are indicated on the PCB.
@@ -65,6 +68,7 @@ The dot on the component must be plugged where there is a « line break » (se
 ![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_0665.JPG)
 
 #### Voltage regulator 
+
 They must be plugged according to the mark on the PCB,
 i.e. additionnal rectangle corresponds to the part of the voltage
 regulator that has sort of a « growth »
@@ -138,7 +142,8 @@ Once the board validated, one can trim the remaining legs.
 
 #### BOM 
 
-<https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-high_voltage/DB-high_voltage_v1/src/DB-high_voltage_v1.csv>
+* [See the BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-high_voltage/DB-high_voltage_v1/src/DB-high_voltage_v1.csv)
+* [See full repo reference](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-high_voltage)
 
 #### PCB 
 
@@ -170,8 +175,7 @@ We should get -90V on the output.
 
 ### BOM
 
-See BOM:
-<https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-pulser/DB-pulser_v2/src/DB-pulser_v2.csv>
+See [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-pulser/DB-pulser_v2/src/DB-pulser_v2.csv) or the [full repo for documentation](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-pulser)
 
 
 ### Assembly 
@@ -340,13 +344,11 @@ Note, switchs position of the TGC:
 
 ### Resources
 
-* codes: <https://github.com/echopen/PRJ-medtec_kit/tree/master/installation/>
+* [Documentation is on the __PRJ-medtec_kit__ repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/installation/)
 
 ## Mechanics
 
-@todo to fill in
-
-### 
+### Setup
 
 To complete the kit, one have to 3D print some pieces locate on PRJ-medtec_kit/mecanic/modules. At least we need MDL-motor_support, MDL-rod_fixation and MDL-transducer_support, with these modules we have the stricilly minimum device to make measurement in an acquarium. Use the .stl files present in the different folders for 3d printing them. Note that for the moment MDL-transducer_support will have to be adapted for your own transducer because we have not « serial » transducers to ship with our kit yet. One can do that by using freecad (open the .igs file) modify and then export in .stl file (mesh formats files).
 
