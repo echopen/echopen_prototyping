@@ -1,6 +1,11 @@
 # Download repo github : prj\_medtec-kit
 
-@todo - AJOUTER UN SCHÉMA D’ATTRIBUTION DES PISTES
+
+A [list of supplies by supplier has been prepared](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/miscellaneous/general_BOM).
+
+For the BOM, note that the Farnell BOM is only for a laboratory power supply if needed. Moreover, the hackspark BOM is for "basic" fournitures (for soldering), and for sockets (needed for the kit), therefore it is mainly for showing what can be bought in the closest electronic store.
+
+![@todo - AJOUTER UN SCHÉMA D’ATTRIBUTION DES PISTES]()
 
 ## **Mother board**
 
@@ -34,13 +39,16 @@ For this, we'll be needing 9 sockets of size 1x19
 
 ![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/1_Mother_board/IMG_20170315_104927.jpg)
 
-## **Power supply**
+## Power supply
+
+See the medkit folder [here](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-supply/DB-supply_v1).
 
 ### BOM 
 
 [To download the BOM, refer here](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-supply/DB-supply_v1/src/DB-supply_v1.csv).
 
-* PCB : DB\_Supply\_v1 (custom echOpen)
+* PCB : [DB\_Supply\_v1](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-supply/DB-supply_v1) (custom echOpen)
+
 @todo: what does it mean?
 
 Locations of each component are indicated on the PCB.
@@ -60,6 +68,7 @@ The dot on the component must be plugged where there is a « line break » (se
 ![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_0665.JPG)
 
 #### Voltage regulator 
+
 They must be plugged according to the mark on the PCB,
 i.e. additionnal rectangle corresponds to the part of the voltage
 regulator that has sort of a « growth »
@@ -133,7 +142,8 @@ Once the board validated, one can trim the remaining legs.
 
 #### BOM 
 
-<https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-high_voltage/DB-high_voltage_v1/src/DB-high_voltage_v1.csv>
+* [See the BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-high_voltage/DB-high_voltage_v1/src/DB-high_voltage_v1.csv)
+* [See full repo reference](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-high_voltage)
 
 #### PCB 
 
@@ -165,8 +175,7 @@ We should get -90V on the output.
 
 ### BOM
 
-See BOM:
-<https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-pulser/DB-pulser_v2/src/DB-pulser_v2.csv>
+See [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-pulser/DB-pulser_v2/src/DB-pulser_v2.csv) or the [full repo for documentation](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-pulser)
 
 
 ### Assembly 
@@ -276,6 +285,16 @@ An echo can be seen on both channels:
 * Connect the TGC OUT of the T/R switch on TGC VOUT
 * Connect 5V and GND of the TGC on the tracks 2 and 1 of the motherboard
 
+### Connections
+
+Note, switchs position of the TGC:
+
+* switch LNA EN on EN
+* switch VGA EN on EN
+* switch GN SLOPE on UP
+* switch GN HI LO on LO
+
+
 ### Tests
 
 * Examine T/R switch test point W1 on channel 1
@@ -325,8 +344,74 @@ An echo can be seen on both channels:
 
 ### Resources
 
-* codes: <https://github.com/echopen/PRJ-medtec_kit/tree/master/installation/>
+* [Documentation is on the __PRJ-medtec_kit__ repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/installation/)
 
 ## Mechanics
 
-@todo to fill in
+### Setup
+
+To complete the kit, one have to 3D print some pieces locate on PRJ-medtec_kit/mecanic/modules. At least we need MDL-motor_support, MDL-rod_fixation and MDL-transducer_support, with these modules we have the stricilly minimum device to make measurement in an acquarium. Use the .stl files present in the different folders for 3d printing them. Note that for the moment MDL-transducer_support will have to be adapted for your own transducer because we have not « serial » transducers to ship with our kit yet. One can do that by using freecad (open the .igs file) modify and then export in .stl file (mesh formats files).
+
+First print MDL-motor_support, at the end it will look to something like that:
+
+![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/7_Mechanic/support_RAW.JPG)
+
+![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/7_Mechanic/support_RAW2.JPG)
+
+
+Take off the plastique support, there is still plastic in the hole where we will put the motor :
+
+![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/7_Mechanic/support_RAW3_2.JPG)
+
+Take it off too with pliers for example, and it’s finished:
+
+
+![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/7_Mechanic/support_evide.JPG)
+
+Now fix the motor to this support with 2 or 4 screw 3 mm diameter, 6mm long.
+
+Now print MDL-rod-fixation, the two holes on each side of this part of the cylinder. The bigger one is for the motor axe. Fix this axis with a 3mm diameter 10 mm long screw. This screw must be 10 mm minimum cause it must stick out so it will hit the motor_support when initialising (searching it's 0). The second one is used to fix the rod, prefer using wood screw 3 mm diameter.
+
+![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/7_Mechanic/montage1.JPG)
+
+
+The rod is a metal rod 4 mm diameter, prefer stainless steel, because it will be immersed in water, We use 100 mm long rod, but only limitation on the length is that the transducer must be immersed and the electrical connection of the transducer must not.
+
+Then print the tranducer support and fix it to the rod.
+
+
+![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/7_Mechanic/finish.JPG)
+
+
+@todo: Comment from jerome2echopen to insert (dont know where) "Update of scheme for motor_control_v3:"
+
+
+
+### Arduino code for test
+
+Arduino test code for assembly:
+
+Remarks: 
+* If the duration of the pulse is too long (>125 ns) delete line 6 (NOP;), this can happened with "bad" arduino copy.
+
+```
+#define NOP asm volatile ("nop\n\t");
+
+void pulse()
+{
+PORTD=B01010000;
+NOP;
+PORTD=B00000000;
+}
+
+void setup() {
+// put your setup code here, to run once:
+DDRD = B01010000;
+}
+
+void loop() {
+// put your main code here, to run repeatedly:
+pulse();
+delayMicroseconds(500);
+}
+```
