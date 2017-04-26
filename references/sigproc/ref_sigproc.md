@@ -1,10 +1,18 @@
 # Signal/image processing
+
 ## Envelope detection
-## Denoising 
+
+## Denoising
 
 # Image processing
 
 # Image quality assessment
+
 ## Norms
+
 ## Metrics
+
 ## Phantoms
+
+
+

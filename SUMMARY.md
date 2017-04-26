@@ -40,5 +40,8 @@
   * [Hardware](references/hardware/ref_hardware.md)
   * [Embedded systems](references/embsys/ref_embsys.md)
   * [Signal processing](references/sigproc/ref_sigproc.md)
+    * [Image quality assessment](/references/sigproc/IMGQ_metrics.md)
   * [Android app](references/app/ref_app.md)
+
+
 
