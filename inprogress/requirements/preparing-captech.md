@@ -24,6 +24,7 @@ This section is meant to gather ideas about the objectives for the next iteratio
 ## App - software
 
 * **Store images with their metadata**
+  * to be completed
 
 
 
