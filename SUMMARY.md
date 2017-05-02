@@ -11,6 +11,7 @@
   * [Functional specifications](backlog/specs.md)
 * [Challenges](challenges/challenges.md)
 * [In progress](inprogress/inprogress.md)
+  * [Preparing CapTech](inprogress/requirements/preparing-captech.md)
   * [Requirements](inprogress/requirements/requirements.md)
     * [Specifications](inprogress/requirements/specifications.md)
     * [UX design](inprogress/requirements/UX_design.md)
@@ -40,5 +41,6 @@
   * [Hardware](references/hardware/ref_hardware.md)
   * [Embedded systems](references/embsys/ref_embsys.md)
   * [Signal processing](references/sigproc/ref_sigproc.md)
+    * [Image quality assessment](/references/sigproc/IMGQ_metrics.md)
   * [Android app](references/app/ref_app.md)
 
