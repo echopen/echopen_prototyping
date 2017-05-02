@@ -4,6 +4,19 @@ Embsys meetings usually take place each wednesday at 20 o'clock on [jitsi](https
 
 Everyone is welcomed.
 
+## 2017.04.16 - HD - 20.00 (Paris time)
+
+### Polytech
+
+The acquisition block is finished (congratulations :) ).
+
+The Polytech team wants to design storage blocks (for example a RAM IP) but their teacher advices them to design a Direct Memory Access (DMA) IP.
+
+With the DMA capability, the FPGA can write data directly in the main memory used by the processor. [\@eiffel](https://echopen.slack.com/team/eiffel) thinks that it is a really good idea but he also thinks that the performances can maybe be limited by the bus used to access the main memory.
+
+The bandwith of this solution should be about 100 Mbps.
+
+
 ## 2017.04.19 - HD - 20.00 (Paris time)
 
 ### Current work

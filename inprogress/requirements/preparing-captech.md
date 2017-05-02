@@ -24,7 +24,7 @@ This section is meant to gather ideas about the objectives for the next iteratio
 ## App - software
 
 * **Store images with their metadata**
-  * to be completed
-
-
-
+	* [DICOM](https://en.wikipedia.org/wiki/DICOM) is standard used to borrow metadata of medical pictures. We can see this format like an XML file which will accompany our medical picture.
+	DICOM is compatible with ultrasound pictures.
+	We can use it to store, for example,  the patient's name or the software's version used to get the pictures.
+	[\@eiffel](https://echopen.slack.com/team/eiffel) thinks that it could be a good idea to read the standard to get more information about this format.
