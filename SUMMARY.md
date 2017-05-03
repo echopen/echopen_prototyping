@@ -30,7 +30,7 @@
   * Production guide 
     * [Reproducing the device](stable/guide_hardware.md)
     * [Installing the Android app](stable/guide_software.md)
-* Follow-up
+* [Follow-up](follow-up.md)
   * [Weekly meetings](followup/weekly_meeting.md)
   * [Hardware](followup/meetings_hardware.md)
   * [Embedded systems](followup/meetings_embsys.md)
