@@ -4,6 +4,31 @@ Embsys meetings usually take place each wednesday at 20 o'clock on [jitsi](https
 
 Everyone is welcomed.
 
+## 2017.05.03 - HD - 20.00 \(Paris time\)
+
+### Polytech
+
+#### DMA
+
+Without DMA, all memory transfers linked to a device have to be handled by the CPU (with load an store instructions). A device which has a DMA capability can move data by itself.
+
+Polytech team gets a DMA IP developed by Vivado but due to some incompabilities it does not work on the RedPitaya. They are trying to adapt the IP for the RedPitaya's FPGA.
+
+#### Analog
+
+Band-pass filter was replaced by an active filter.
+
+The simple envelop detector was replaced by a better one which works on the optimal part of the signal.
+
+#### PCB
+
+All KiCAD files are gathered in a big unique file which will be used to get the unique PCB.
+
+#### PIC32
+
+A member of Polytech team is working on the PIC32 microcontroller.
+
+
 ## 2017.04.26 - HD - 20.00 \(Paris time\)
 
 ### Polytech
@@ -33,7 +58,7 @@ We can divide the architecture in two imprecise parts:
 
 We need to define the inputs and the outputs of our system.
 
-To treat the analog part we have to find an ADC and the circuit which comes with.  
+To treat the analog part we have to find an ADC and the circuit which comes with.
 The bitwidth of the ADC must be determined.
 
 However [\@lecoued](https://echopen.slack.com/team/lecoued) precised that the application currently deals with 14 bits signals.
@@ -51,12 +76,12 @@ For the wifi there are two possibilites :
 
 [\@polytech-vikenesh](https://echopen.slack.com/team/polytech-vikenesh) and [\@polytech-kevin](https://echopen.slack.com/team/polytech-kevin) work on numerical data acquisition on FPGA.
 
-[\@polytech-nivertan](https://echopen.slack.com/team/polytech-nivertan) and @polytech-unknown \(sorry I did not well unsertand your name...\) work on analogic and envelop detection.  
+[\@polytech-nivertan](https://echopen.slack.com/team/polytech-nivertan) and @polytech-unknown \(sorry I did not well unsertand your name...\) work on analogic and envelop detection.
 They try to get the negative part of the signal and to optimize analogic circuits which are on github \(**where ?**\).
 
 Polytech's students suggest a circuit which permits to lose less signal than a [diode bridge](https://en.wikipedia.org/wiki/Diode_bridge).
 
-[\@jerome](https://echopen.slack.com/team/jerome) works actually on a passive RLC which is poorly configurable, moreover the signal can not be boosted.  
+[\@jerome](https://echopen.slack.com/team/jerome) works actually on a passive RLC which is poorly configurable, moreover the signal can not be boosted.
 Polytech's students  work on an active circuit which uses [operationnal amplifiers](https://en.wikipedia.org/wiki/Operational_amplifier).
 
 ### Next work
@@ -100,7 +125,7 @@ The frequencies of the 3 transducers will be:
 
 ### Aim of the echopen device
 
-The ideal goal would be to get 15 medical quality images per second that can detect 1 mm defects while remaining low-cost.  
+The ideal goal would be to get 15 medical quality images per second that can detect 1 mm defects while remaining low-cost.
 If compromises have to be made it is necessary to maximize the quality of the image leaving to lose **a little** on the low-cost side.
 
 All calculations \(signal processing\) must be done on the device. It is necessary to minimize the execution on the phone.
@@ -172,7 +197,7 @@ Romain proposes a double approach:
 * Non-low-cost digital approach combining an embedded system and an FPGA
 * It is necessary to keep in mind the mechanical constraints \(dimensions\) of the box and the thermal questions related to the miniaturization
 
-**The mechanics** fixes a large part of the constraints, it is necessary to design something industrializable.  
+**The mechanics** fixes a large part of the constraints, it is necessary to design something industrializable.
 It is also necessary to keep in mind the fact of being certified medical device \(for example with the extensions of video file\).
 
 ## 2017.01.04 - HD - 20.00 \(Paris time\)
@@ -187,10 +212,10 @@ It is also necessary to keep in mind the fact of being certified medical device 
 
 ### Attendees
 
-[\@rbo](https://echopen.slack.com/team/rbo)  
-[\@benchoufi](https://echopen.slack.com/team/benchoufi)  
-[\@eiffel](https://echopen.slack.com/team/eiffel)  
-[\@aurelie](https://echopen.slack.com/team/aurelie)  
+[\@rbo](https://echopen.slack.com/team/rbo)
+[\@benchoufi](https://echopen.slack.com/team/benchoufi)
+[\@eiffel](https://echopen.slack.com/team/eiffel)
+[\@aurelie](https://echopen.slack.com/team/aurelie)
 [\@omaciu](https://echopen.slack.com/team/omaciu)
 
 Benjamin, Mohammed, ??? sorry if I missed someone
@@ -207,38 +232,38 @@ Everyone gives a short presentation of him/herself and his/her interests in the 
 
 #### Hardware/processing needs and wishes
 
-Before going to deep in the specifications of the system a list of needed and wished features must be established.  
-Besides the raw acquisition from ADCs and scan conversion, the embedded system will have to support additional features.  
+Before going to deep in the specifications of the system a list of needed and wished features must be established.
+Besides the raw acquisition from ADCs and scan conversion, the embedded system will have to support additional features.
 Identified features and functionalities include:
 
 1. WiFi communication with the smartphone
 2. Commands/configuration from the smartphone \(gain adjustment, frequency,...\)
 
-To identify all needed and wished features a brainstorm document has been created by [\@rbo](https://echopen.slack.com/team/rbo) so that everyone can put his ideas:  
+To identify all needed and wished features a brainstorm document has been created by [\@rbo](https://echopen.slack.com/team/rbo) so that everyone can put his ideas:
 [https://annuel.framapad.org/p/embsysBrainstorm](https://annuel.framapad.org/p/embsysBrainstorm)
 
 #### Processing split \(Hardware/Embedded Software/Smartphone\)
 
-Today signal processing and scan conversion are performed on the embedded system \(RedPitaya\) and images are sent to the smartphone.  
+Today signal processing and scan conversion are performed on the embedded system \(RedPitaya\) and images are sent to the smartphone.
 An analysis should be done to know the better way to split the processing between the embedded system and the smartphone. Should the embedded system perform the signal processing and scan conversion or should raw signals be sent to the smartphone and the processing done on the smartphone ?
 
 #### Hardware proposals
 
 ##### [\@jcbillard](https://echopen.slack.com/team/jcbillard)
 
-**Main CPU**:  
+**Main CPU**:
 [Texas Instruments OMAP-L138](http://www.ti.com/product/OMAP-L138)
 
 * ARM9 + C674x DSP cores at 450 MHz
 * uPP \(Universal Parallel Port\) useful for interfacing ADC
 * Available Linux support
 
-**ADC**:  
+**ADC**:
 [Texas Instruments ADS6142](http://www.ti.com/product/ADS6142)
 
 ##### [\@rbo](https://echopen.slack.com/team/rbo)
 
-**Main CPU**:  
+**Main CPU**:
 [NXP i.MX7](http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/i.mx-applications-processors/i.mx-7-processors:IMX7-SERIES)
 
 * ARM Cortex A7 single/dual core \@ 1 GHz + ARM Cortex M4 at 200 MHz:
