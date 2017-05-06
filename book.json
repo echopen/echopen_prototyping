@@ -2,7 +2,7 @@
 	"plugins": ["katex", "bibtex-indexed-cite"],
 	"pluginsConfig": {
 		"bibtex-indexed-cite": {
-			"path": "literature.bib"
+			"path": "/"
 		}
 	}
 }
