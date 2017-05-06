@@ -2,7 +2,7 @@
 	"plugins": ["katex", "bibtex-indexed-cite"],
 	"pluginsConfig": {
 		"bibtex": {
-			"bibliography": "literature.bib"
+			"bibtex-indexed-cite": "literature.bib"
 		}
 	}
 }
