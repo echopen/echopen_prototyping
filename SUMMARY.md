@@ -44,4 +44,4 @@
     * [Image quality assessment](/references/sigproc/IMGQ_metrics.md)
     * [Image quality biblio](/references/sigproc/IMGQ_biblio.md)
   * [Android app](references/app/ref_app.md)
-* [Table of references](table_of_references.md)
+* [Table of references](References.md)
