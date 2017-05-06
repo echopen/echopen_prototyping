@@ -1,6 +1,6 @@
 ### Ultrasound Image Quality Assessment: A framework for evaluation of clinical image quality
 
-{{ "sigproc:hemmsen_ultrasound_2010" | cite }}
+<!-- {{ "sigproc:hemmsen_ultrasound_2010" | cite }} -->
 
 * http://orbit.dtu.dk/files/4656580/Hemmsen_2010_SPIE%5B2%5D.pdf
 * 2010
@@ -8,7 +8,7 @@
 
 ### Evaluation of image quality of ultrasound scanners in medical diagnostics.
 
-{{ "sigproc:alasaarela_evaluation_1990" | cite }}
+<!-- {{ "sigproc:alasaarela_evaluation_1990" | cite }} -->
 
 * _The evaluation of the properties of ultrasound diagnostic scanners has not yet been standardized. Because the image itself is the basis of diagnostic decisions, it should also be the basis of evaluation of the capabilities of scanners. This study is aimed to help the standardization work by suggesting a procedure for testing the image quality of the scanners._
 * https://www.ncbi.nlm.nih.gov/pubmed/2404131
@@ -21,7 +21,7 @@
 
 ### Review Paper on Quantitative Image Quality Assessment - Medical Ultrasound Images
 
-{{ "sigproc:rangaraju_review_2012" | cite }}
+<!-- {{ "sigproc:rangaraju_review_2012" | cite }} -->
 
 * 2012
 * http://www.ijert.org/view-pdf/187/review-paper-on-quantitative-image-quality-assessment--medical-ultrasound-images
@@ -51,7 +51,7 @@ perceived errors.
 
 ### Automated performance assessment of ultrasound systems using a dynamic phantom
 
-{{ "sigproc:joy_automated_2014" | cite }}
+<!-- {{ "sigproc:joy_automated_2014" | cite }} -->
 
 * Excellent paper
 * Examination of the resolution of two 0.3 mm diameter nylon targets.
@@ -66,22 +66,22 @@ perceived errors.
 
 ### Image Quality Assessment: A Case Study on Ultrasound Images of Supraspinatus Tendon
 
-{{ "sigproc:gupta_image_2016" | cite }}
+<!-- {{ "sigproc:gupta_image_2016" | cite }} -->
 
 * http://link.springer.com/chapter/10.1007%2F978-3-319-33793-7_12
 
 ### Assessment of Diverse Quality Metrics for Medical Images Including Mammography
 
-{{ "sigproc:venkatnarayanarao_assessment_2013" | cite}}
+<!-- {{ "sigproc:venkatnarayanarao_assessment_2013" | cite}} -->
 
 * http://adsabs.harvard.edu/abs/2013IJCA...83d..42V
 
 # Assessment of Image Quality vs. Computation Cost for Different Parameterizations of Ultrasound Imaging Pipelines
 
-{{ "sigproc:ibrahim_assessment_2015" | cite }}
+<!-- <!-- {{ "sigproc:ibrahim_assessment_2015" | cite }} --> -->
 
 * EPFL
 * https://pdfs.semanticscholar.org/f507/00c9019a71889eecfc3b8b76a69a8722be45.pdf
 * Superb examples of enveloppe detection through the Hilbert transform and with IQ demodulation.
 
-{% references %} {% endreferences %}
+<!-- {% references %} {% endreferences %} -->
