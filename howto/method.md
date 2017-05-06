@@ -12,13 +12,13 @@ Different teams gather contributors according to their skills and fields of expe
 
 Each team has its own repo on the [echOpen GitHub](https://github.com/echopen), as well as a dedicated channel on the [echOpen Slack](http://slack.echopen.org/). Most of the teams have weekly meetings, physically hosted at Hôtel Dieu, but it's also possible to attend remotely. The minutes of meetings are available in the Follow-up section of this gitbook. Each team designates at least one team maintainer, who is in charge of the GitHub repo. The team maintainer is not necessarily permanent, the designation may change in time.
 
-A weekly follow-up takes place at Hôtel Dieu every Monday at 7:00pm. This meeting allows a transverse management of the project. At least one member of each team may attend.  The team representative is not necessarily the team maintainer.
+A weekly follow-up takes place at Hôtel Dieu every Monday at 7:00pm. This meeting allows a transverse management of the project. At least one member of each team may attend. The team representative is not necessarily the team maintainer.
 
 To know more about existing teams and how to reach them, jump to [Find your team](teams.md).
 
 ## Iteration workflow
 
-Each iteration runs for several months and is segmented as follows :
+Each iteration runs for several months and is segmented as follows:
 
 * A CapTech is organized. It's a one-day meeting gathering medicotechnical contributors as well as external advisors who are experts in relevant fields \(electronics, mechanics...\). Given the achievements of the latest release, the next requirements to address are determined. These ones are translated in terms of technical specifications and UX design. 
 * An iteration planning is derived from the decisions taken during the CapTech. Precise tasks to be fulfilled within the iteration are determined and assigned to each corresponding team. 
@@ -57,10 +57,14 @@ To become a contributor, start by creating your own [GitHub account](https://git
 
 * Explore our [team list](https://github.com/orgs/echopen/teams) and subscribe to the one\(s\) that you would like to integrate
 * Fork the team's repo
+  To know more about forking on GitHub, jump to the [help page](https://help.github.com/articles/fork-a-repo/).
+
 * Explore the team's project boards. Needs for contribution correspond to cards that are in the "To Do" or "Top Priority" lists.
 * To contribute to some tasks, assign yourself the corresponding issue and move the card to "In Progress". Assignement to tasks is not exclusive. If you're interested in helping on some task already assigned to a contributor, just assign yourself the task as well and write a comment on the corresponding issue to get in touch with your co-workers. **For the sake of project management, please only assign yourself tasks that you will actually work on!**
 * Once the task is complete, check that your contribution fulfills the "closing criteria" that are detailed in the corresponding issue.
 * Make a pull request referencing the issue 
+  To know more about pull requests on GitHub, jump to the [help page](https://help.github.com/articles/about-pull-requests/).
+
 * Move the card to "Done". You're done !
 
 

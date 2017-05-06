@@ -1,5 +1,15 @@
 # 2017
 
+## 2017.05.03
+
+* Envelope detection challenge
+	* [\@alister](https://echopen.slack.com/team/alister) points that the relevance of simulated raw data is very limited. He proposes to retrieve some real raw data and take the corresponding image of a commercial device. Problem is that the image will then be the result of different treatments \(filtering, scan conversion,...\) and not only the envelope detection.
+	* To account for the noise in the leaderboard evaluation, [\@luc](https://echopen.slack.com/team/luc) proposes to create several different versions of the raw signal by adding some noise to the one simulated from the ground truth image. [\@luc](https://echopen.slack.com/team/luc) will create those images.
+	* [\@hackolite](https://echopen.slack.com/team/hackolite) points the importance of having an ultrasound image database --&gt; [\@luc](https://echopen.slack.com/team/luc) knows someone who handles DICOM databases
+	* Challenge V2 : need to have a pool of echOpen images + metrics for quality assessment \(cf. bibliography done by [\@luc](https://echopen.slack.com/team/luc)\)
+
+##
+
 ## 2017.04.19
 
 * prototyping gitbook / documenting v3.0.0 release
