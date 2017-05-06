@@ -73,7 +73,7 @@ They must be plugged according to the mark on the PCB,
 i.e. additionnal rectangle corresponds to the part of the voltage
 regulator that has sort of a « growth »
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_0666.JPG)
+![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_20170315_113424.jpg)
 
 #### LED
 
@@ -88,28 +88,27 @@ plugged
 
 Match the small strip with the footprint 
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/)
+![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_20170315_111947.jpg)
 
 #### Diods
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/)
+![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_0661.JPG)
 
 Beware in terms of direction. A line marks the correct side, which is also marked on the PCB footprint. 
 
-@todo: *REsistors : Tableau code couleur ?*
+@todo: *Resistors : Tableau code couleur ?*
 
 In case of mistake, use the solder wick to remove the solder. Put the wich on the connection, then apply the soldering iron over it. Push a bit on the pins to remove the component maintained in place by remaining solder. 
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/)
 
 All components are now in place! 
 
 ### Testing the board
 
-The board we've just made is a power-supply board that has several stabilizd voltages. It can be tested by powering it properly and checking that output voltages are correct.
+The board we've just made is a power-supply board that has several stabilized voltages. It can be tested by powering it properly and checking that output voltages are correct.
 So as to power it, one will use a lab power supply, offering a good protection against shorts.
  
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/)
+![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_0669.JPG)
 
 We choose the ideal tension model (C.V) and a 18V tension (which correspond to two 9V batteries that will power the circuit) and the current capped to 800mA.
 
@@ -123,16 +122,18 @@ This power supply can be plugged to pins 1 and 12 (respectively GND and 18V)
 
 When powering on the supply, the power supply should indicate a current use of 45mA. 
 
+@todo haven't found a picture
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/)
 
-We then measyre tensions between GND (pin 1) and pins 2, 6, 8, 18, 19. To do this, a voltmeter is enough (or an oscilloscope). The respective tensions shoudld be 5V, 12V, -12, -5V and 3.3V.
+![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_0668.JPG)
+
+We then measure tensions between GND (pin 1) and pins 2, 6, 8, 18, 19. To do this, a voltmeter is enough (or an oscilloscope). The respective tensions shoudld be 5V, 12V, -12, -5V and 3.3V.
 
 If one of these tensions is missing, one has to check that all component is rightly positionned and that soldering is well done. 
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/)
+![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_20170315_111632.jpg)
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/)
+![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_20170315_111947.jpg)
 
 Once the board validated, one can trim the remaining legs. 
 
