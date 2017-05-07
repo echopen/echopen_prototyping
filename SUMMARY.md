@@ -30,6 +30,8 @@
   * Production guide
     * [Reproducing the device](stable/guide_hardware.md)
     * [Installing the Android app](stable/guide_software.md)
+  * [Hacking guide](stable/requirements/hacking-guide.md)
+    * Introduction
 * [Follow-up](follow-up.md)
   * [Weekly meetings](followup/weekly_meeting.md)
   * [Hardware](followup/meetings_hardware.md)
@@ -45,3 +47,4 @@
     * [Image quality biblio](/references/sigproc/IMGQ_biblio.md)
   * [Android app](references/app/ref_app.md)
 * [Table of references](References.md)
+
