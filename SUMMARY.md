@@ -40,6 +40,13 @@
       * [mockUp - UX](stable/requirements/hacking-guide/challenges/mockup-ux.md)
         * [MockUps V0](stable/requirements/hacking-guide/challenges/mockup-ux/mockups-v0.md)
         * [MockUps V1](stable/requirements/hacking-guide/challenges/mockup-ux/mockups-v1.md)
+      * [GPU & real time processing](stable/requirements/hacking-guide/challenges/gpu-and-real-time-processing.md)
+      * [scan conversion](stable/requirements/hacking-guide/challenges/scan-conversion.md)
+      * [signal detection](stable/requirements/hacking-guide/challenges/signal-detection.md)
+      * [data format](stable/requirements/hacking-guide/challenges/data-format.md)
+    * Back-end
+      * [algorithms](stable/requirements/hacking-guide/algorithms.md)
+        * [scan conversion](stable/requirements/hacking-guide/algorithms/scan-conversion.md)
 * [Follow-up](follow-up.md)
   * [Weekly meetings](followup/weekly_meeting.md)
   * [Hardware](followup/meetings_hardware.md)
