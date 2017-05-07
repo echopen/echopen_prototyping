@@ -44,9 +44,11 @@
       * [scan conversion](stable/requirements/hacking-guide/challenges/scan-conversion.md)
       * [signal detection](stable/requirements/hacking-guide/challenges/signal-detection.md)
       * [data format](stable/requirements/hacking-guide/challenges/data-format.md)
-    * Back-end
+    * [Back-end](stable/requirements/hacking-guide/back-end.md)
       * [algorithms](stable/requirements/hacking-guide/algorithms.md)
         * [scan conversion](stable/requirements/hacking-guide/algorithms/scan-conversion.md)
+        * [post processing](stable/requirements/hacking-guide/algorithms/post-processing.md)
+      * constants
 * [Follow-up](follow-up.md)
   * [Weekly meetings](followup/weekly_meeting.md)
   * [Hardware](followup/meetings_hardware.md)
