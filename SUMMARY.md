@@ -31,7 +31,9 @@
     * [Reproducing the device](stable/guide_hardware.md)
     * [Installing the Android app](stable/guide_software.md)
   * [Hacking guide](stable/requirements/hacking-guide.md)
-    * Introduction
+    * [Installation](stable/requirements/hacking-guide/introduction.md)
+    * [Running the app](stable/requirements/hacking-guide/running-the-app.md)
+    * [echOpen's Virtual Machine](stable/requirements/hacking-guide/echopens-virtual-machine.md)
 * [Follow-up](follow-up.md)
   * [Weekly meetings](followup/weekly_meeting.md)
   * [Hardware](followup/meetings_hardware.md)
