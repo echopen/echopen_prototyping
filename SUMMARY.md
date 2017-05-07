@@ -49,6 +49,7 @@
         * [scan conversion](stable/requirements/hacking-guide/algorithms/scan-conversion.md)
         * [post processing](stable/requirements/hacking-guide/algorithms/post-processing.md)
       * constants
+      * [configuring your own dataset](stable/requirements/hacking-guide/configuring-your-own-dataset.md)
 * [Follow-up](follow-up.md)
   * [Weekly meetings](followup/weekly_meeting.md)
   * [Hardware](followup/meetings_hardware.md)
