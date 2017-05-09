@@ -138,8 +138,13 @@ perceived errors.
 
 * http://adsabs.harvard.edu/abs/2013IJCA...83d..42V
 
-# Assessment of Image Quality vs. Computation Cost for Different Parameterizations of Ultrasound Imaging Pipelines {{ "sigproc:ibrahim_assessment_2015" | cite }}
+### Assessment of Image Quality vs. Computation Cost for Different Parameterizations of Ultrasound Imaging Pipelines {{ "sigproc:ibrahim_assessment_2015" | cite }}
 
 * EPFL
 * https://pdfs.semanticscholar.org/f507/00c9019a71889eecfc3b8b76a69a8722be45.pdf
 * Superb examples of enveloppe detection through the Hilbert transform and with IQ demodulation.
+
+## References
+
+{% references %} {% endreferences %}
+
