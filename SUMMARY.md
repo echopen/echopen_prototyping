@@ -63,6 +63,7 @@
   * [Embedded systems](references/embsys/ref_embsys.md)
   * [Signal processing](references/sigproc/ref_sigproc.md)
     * [Image quality assessment](references/sigproc/IMGQ_metrics.md)
+    * [Denoising](references/sigproc/Denoising.md)
   * [Android app](references/app/ref_app.md)
 * [Table of references](References.md)
 
