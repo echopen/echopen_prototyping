@@ -11,6 +11,22 @@ This section is meant to gather ideas about the objectives for the next iteratio
 
 ## Embedded systems
 
+Challenge an envelope detection algorithm (or many) on different architectures :
+
+* Singlecore CPU (used as reference),
+* Multicore CPU,
+* [SIMD](https://en.wikipedia.org/wiki/SIMD) CPU,
+* Multicore SIMD CPU,
+* GPU,
+* FPGA
+* DSP
+
+Since it is not possible to simulate precisely the performances of the different architectures we will have to test them.
+The objective of this is to summarize performances of the different architectures and taking their prices into account. A good result will be to obtain an Optimum of Pareto between the price (which has to be as low as possible) and the performances (which have to be as high as possible).
+
+One prerequisite of this is to have a **good knowledge** of **at least one** envelope detection algorithm.
+
+
 ## Signal processing
 
 * **Find the best choice for envelope extraction**
