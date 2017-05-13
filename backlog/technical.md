@@ -18,11 +18,19 @@
 | C | 5 | 10-75 | 100 |
 
 ## Mechanics
-** TO BE COMPLETED **	
 
 To address several medical use cases, 3 transducers with different frequencies (respectively 3.5, 5 and 7.5 mHz) are expected to be incorporated in the probe. Image acquisition will be performed with one transducer at a time.
 
+A number of the echOpen probe's functionalities must be implemented by mechanical devices.
 
+### Sweeping
 
+### Tri-frequency probe
 
+### Housing
 
+### Grip and ergonomics
+
+### Connections with the outside
+
+### Energetic autonomy
