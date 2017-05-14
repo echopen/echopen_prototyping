@@ -17,13 +17,13 @@
 | B | 5 | 30-105 | 150 |
 | C | 5 | 10-75 | 100 |
 
-## Mechanics
+## *PBL-mec* : Mechanics
 
 To address several medical use cases, 3 transducers with different frequencies (respectively 3.5, 5 and 7.5 mHz) are expected to be incorporated in the probe. Image acquisition will be performed with one transducer at a time.
 
 A number of the echOpen probe's functionalities must be implemented by mechanical devices.
 
-### *PBL-mec_scn* : scanning Mechanism
+### *PBL-mec_scn* : scanning echanism
 
 Design a mechanical device to scan a 60 ° sector with an ultrasonic beam 15 times per second.
 
