@@ -26,7 +26,7 @@ A number of the echOpen probe's functionalities must be implemented by mechanica
 | **PBL-mec_scn**             | scanning mechanism                      |  ?   |   ?    |
 | **PBL-mec_scn_mov**         | Oscillating or continuous rotary motion |  ?   |   ?    |
 | **PBL-mec_scn_mov_mot**     | Motorization                            |  ?   |   ?    |
-| **PBL-mec_scn_mov_mot_drv** | Motor control electronics               |  ?   |   ?    |
+| **PBL-mec_scn_mov_mot_drv** | Motor electronic driver                 |  ?   |   ?    |
 | **PBL-mec_scn_mov_mot_enc** | Position sensors                        |  ?   |   ?    |
 | **PBL-mec_scn_mov_cnx**     | Transducer / electronic card connection |  ?   |   ?    |
 | **PBL-mec_scn_mov_brk**     | Transducer support                      |  ?   |   ?    |
@@ -63,7 +63,7 @@ Choose the type of movement of the ultra-sound beam and design the mechanism by 
 
 Choose or design a type of motorization to obtain the chosen movement.
 
-###### *PBL-mec_scn_mov_mot_drv* : Motor control electronics
+###### *PBL-mec_scn_mov_mot_drv* : Motor electronic driver
 
 Design or choose a electronic driver for the selected motor.
 
