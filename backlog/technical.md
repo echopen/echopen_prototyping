@@ -1,27 +1,55 @@
 ## Technical specifications
 
-
-| Item | Target | Achieved | Completion status |
-| :--- | :--- | :--- | :--- |
-| Spatial resolution (mm) | longitudinal : 1mm <br> lateral : 1mm | to be quantified | - |
-| Number of transducers | 3 | 1 (transducer A) | 33% |
-| Angular sector (°) | 60 | 60 | 100% |
-| Number of lines | 128 | 64 | 50% |
-| Framerate (fps) | 10-20 | 2 | 10-20% |
-| Cost (€) | 500 | 1200 | 40% |
+| Item                    | Target                                | Achieved         | Completion status |
+| :---                    | :---                                  | :---             | :---              |
+| Spatial resolution (mm) | longitudinal : 1mm <br> lateral : 1mm | to be quantified | -                 |
+| Number of transducers   | 3                                     | 1 (transducer A) | 33%               |
+| Angular sector (°)      | 60                                    | 60               | 100%              |
+| Number of lines         | 128                                   | 64               | 50%               |
+| Framerate (fps)         | 10-20                                 | 2                | 10-20%            |
+| Cost (€)                | 500                                   | 1200             | 40%               |
 
 ## Transducer characteristics
+
 | Transducer | Frequency (MHz) | Focal distance (mm) | Maximal depth (mm) |
-| :--- | :--- | :--- | :--- |
-| A | 3.5 | 50-150 | 200 |
-| B | 5 | 30-105 | 150 |
-| C | 5 | 10-75 | 100 |
+| :---       | :---            | :---                | :---               |
+| A          | 3.5             | 50-150              | 200                |
+| B          | 5               | 30-105              | 150                |
+| C          | 5               | 10-75               | 100                |
 
 ## *PBL-mec* : Mechanics
 
-To address several medical use cases, 3 transducers with different frequencies (respectively 3.5, 5 and 7.5 mHz) are expected to be incorporated in the probe. Image acquisition will be performed with one transducer at a time.
-
 A number of the echOpen probe's functionalities must be implemented by mechanical devices.
+
+| Id                        | Name                                    | Prio | Status |
+|---------------------------|-----------------------------------------|:----:|:------:|
+| *PBL-mec_scn*             | scanning mechanism                      |  ?   |   ?    |
+| *PBL-mec_scn_mov*         | Oscillating or continuous rotary motion |  ?   |   ?    |
+| *PBL-mec_scn_mov_mot*     | Motorization                            |  ?   |   ?    |
+| *PBL-mec_scn_mov_mot_drv* | Motor control electronics               |  ?   |   ?    |
+| *PBL-mec_scn_mov_mot_enc* | Position sensors                        |  ?   |   ?    |
+| *PBL-mec_scn_mov_cnx*     | Transducer / electronic card connection |  ?   |   ?    |
+| *PBL-mec_scn_mov_brk*     | Transducer support                      |  ?   |   ?    |
+| *PBL-mec_scn_tri*         | tri-frequency                           |  ?   |   ?    |
+| *PBL-mec_us*              | Acoustic continuity                     |  ?   |   ?    |
+| *PBL-mec_us_oil*          | Oil                                     |  ?   |   ?    |
+| *PBL-mec_us_oil_sel*      | Selecting oil                           |  ?   |   ?    |
+| *PBL-mec_us_oil_seal*     | Sealing                                 |  ?   |   ?    |
+| *PBL-mec_us_oil_fil*      | Filling                                 |  ?   |   ?    |
+| *PBL-mec_us_case*         | Case                                    |  ?   |   ?    |
+| *PBL-mec_us_case_mat*     | Material                                |  ?   |   ?    |
+| *PBL-mec_us_case_shp*     | Shape                                   |  ?   |   ?    |
+| *PBL-mec_us_gel*          | Gel                                     |  ?   |   ?    |
+| *PBL-mec_nrg*             | Energy                                  |  ?   |   ?    |
+| *PBL-mec_nrg_bat*         | Battery type                            |  ?   |   ?    |
+| *PBL-mec_nrg_load*        | Loading                                 |  ?   |   ?    |
+| *PBL-mec_nrg_therm*       | Thermal Management                      |  ?   |   ?    |
+| *PBL-mec_case*            | Casing, ergonomics                      |  ?   |   ?    |
+| *PBL-mec_case_ergo*       | Ergonomics, grip                        |  ?   |   ?    |
+| *PBL-mec_case_mat*        | Material                                |  ?   |   ?    |
+| *PBL-mec_case_dock*       | Loading Dock                            |  ?   |   ?    |
+| *PBL-mec_case_body*       | Case                                    |  ?   |   ?    |
+| *PBL-mec_case_body_asm*   | Assembly Method                         |  ?   |   ?    |
 
 ### *PBL-mec_scn* : scanning mechanism
 
@@ -51,9 +79,11 @@ Design an electrical connection for carrying the signal between the mobile trans
 
 Design a bracket suitable for receiving the transducer capsule without interfering with ultrasonic emission or impeding maintenance.
 
-#### *PBL-mec_scn_tri* : Choose between interchangeable and tri-frequency mono frequency
+#### *PBL-mec_scn_tri* : tri-frequency
 
-Design the device to move three different resonant transducers at frequencies of 3.5, 5 and 7 MHz.
+To address several medical use cases, 3 transducers with different frequencies (respectively 3.5, 5 and 7.5 mHz) are expected to be incorporated in the probe. Image acquisition will be performed with one transducer at a time.
+Choose between interchangeable and tri-frequency probe.
+Design the device to move three different transducers resonating at 3.5, 5 and 7 MHz.
 
 ### *PBL-mec_us* : Acoustic continuity
 
@@ -63,7 +93,7 @@ Ensure the continuity of acoustic impedance between the transducer surface and t
 
 Design a system to immerse the sensor in an acoustically compatible liquid bath.
 
-##### *PBL-mec_us_oil_sel* : Select a compatible oil
+##### *PBL-mec_us_oil_sel* : Selecting oil
 
 Select a liquid (a priori an oil) that meets the following criteria:
 * Low-cost
