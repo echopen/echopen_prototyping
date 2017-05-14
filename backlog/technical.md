@@ -23,7 +23,7 @@ To address several medical use cases, 3 transducers with different frequencies (
 
 A number of the echOpen probe's functionalities must be implemented by mechanical devices.
 
-### *PBL-mec_scn* : scanning echanism
+### *PBL-mec_scn* : scanning mechanism
 
 Design a mechanical device to scan a 60 ° sector with an ultrasonic beam 15 times per second.
 
