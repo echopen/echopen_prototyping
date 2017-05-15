@@ -1,5 +1,9 @@
 # Product back-log
 
+>The product backlog comprises an ordered list of requirements that a scrum team maintains for a product. It consists of features, bug fixes, non-functional requirements, etc.—whatever must be done to successfully deliver a viable product. The product owner orders the product backlog items (PBIs) based on considerations such as risk, business value, dependencies, and date needed.
+
+>Items added to a backlog are commonly written in story format. The product backlog is what will be delivered, ordered into the sequence in which it should be delivered. It is visible to everyone but may only be changed with the consent of the product owner, who is ultimately responsible for ordering product backlog items for the development team to choose. [Wikipedia-Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)#Product_backlog)
+
 Here is a synthesis of the technical constrains to be addressed by the device. These ones are deduced from the CapMed that took place on June 18th, 2016.
 
 
