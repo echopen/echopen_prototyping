@@ -1,14 +1,22 @@
 # 2017
 
+## 2017.05.10
+
+* Envelope extraction
+  * leaderboard : @clement is working on the scoring for multiple images --&gt; still a couple of weeks needed to finish
+  * @luc has included in the notebook some piece of code to generate realistic noise on images --&gt; he will create some noised version of the images
+* Documentation
+  * it's critical now that the hardware documentation is done !!
+
 ## 2017.05.03
 
 * Envelope detection challenge
-	* [\@alister](https://echopen.slack.com/team/alister) points that the relevance of simulated raw data is very limited. He proposes to retrieve some real raw data and take the corresponding image of a commercial device. Problem is that the image will then be the result of different treatments \(filtering, scan conversion,...\) and not only the envelope detection.
-	* To account for the noise in the leaderboard evaluation, [\@luc](https://echopen.slack.com/team/luc) proposes to create several different versions of the raw signal by adding some noise to the one simulated from the ground truth image. [\@luc](https://echopen.slack.com/team/luc) will create those images.
-	* [\@hackolite](https://echopen.slack.com/team/hackolite) points the importance of having an ultrasound image database --&gt; [\@luc](https://echopen.slack.com/team/luc) knows someone who handles DICOM databases
-	* Challenge V2 : need to have a pool of echOpen images + metrics for quality assessment \(cf. bibliography done by [\@luc](https://echopen.slack.com/team/luc)\)
+  * [\@alister](https://echopen.slack.com/team/alister) points that the relevance of simulated raw data is very limited. He proposes to retrieve some real raw data and take the corresponding image of a commercial device. Problem is that the image will then be the result of different treatments \(filtering, scan conversion,...\) and not only the envelope detection.
+  * To account for the noise in the leaderboard evaluation, [\@luc](https://echopen.slack.com/team/luc) proposes to create several different versions of the raw signal by adding some noise to the one simulated from the ground truth image. [\@luc](https://echopen.slack.com/team/luc) will create those images.
+  * [\@hackolite](https://echopen.slack.com/team/hackolite) points the importance of having an ultrasound image database --&gt; [\@luc](https://echopen.slack.com/team/luc) knows someone who handles DICOM databases
+  * Challenge V2 : need to have a pool of echOpen images + metrics for quality assessment \(cf. bibliography done by [\@luc](https://echopen.slack.com/team/luc)\)
 
-##
+
 
 ## 2017.04.19
 
@@ -114,10 +122,10 @@ working week of [\@aurelie](https://echopen.slack.com/team/aurelie) to implement
 
 ### envelope detection challenge
 
-new front of the site is available -&gt; css by [\@jayjay](https://echopen.slack.com/team/jayjay)
-docker 4 rabbitMQ & docker 4 django -&gt; bugs currently under investigation by [\@hackolite](https://echopen.slack.com/team/hackolite)
-[\@hackolite](https://echopen.slack.com/team/hackolite) : development of functionality to see the source code of any challengers + debugging some password recovery
-proposition of [\@djabbz](https://echopen.slack.com/team/djabbz) : ranking challengers by time processing, currently
+new front of the site is available -&gt; css by [\@jayjay](https://echopen.slack.com/team/jayjay)  
+docker 4 rabbitMQ & docker 4 django -&gt; bugs currently under investigation by [\@hackolite](https://echopen.slack.com/team/hackolite)  
+[\@hackolite](https://echopen.slack.com/team/hackolite) : development of functionality to see the source code of any challengers + debugging some password recovery  
+proposition of [\@djabbz](https://echopen.slack.com/team/djabbz) : ranking challengers by time processing, currently  
 production scheduled  on monday !
 
 ## 2017.03.02 - HD - 20.00 \(Paris time\)

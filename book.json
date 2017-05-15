@@ -1,5 +1,5 @@
 {
-	"plugins": ["katex", "bibtex-indexed-cite"],
+	"plugins": ["katex", "bibtex-indexed-cite", "toggle-chapters"],
 	"pluginsConfig": {
 		"bibtex-indexed-cite": {
 			"path": "/content/"
