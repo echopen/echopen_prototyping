@@ -59,6 +59,30 @@ One prerequisite of this is to have a **good knowledge** of **at least one** env
 
 ## App - software
 
+* **Iterate on mobile application usability**
+    * starting from Mockups done with *Hetic Internet school* last year, prepare detailed user workflows that will be challenged by designers, doctors, ultrasound users and engineers during the next session
+    * document the usability iteration
+    * complete work started by Maroccan team on User Interface *phaino branch* and include new usability inputs
+
+* **Re-architecture mobile application**
+    * break dependencies and user functionnality code bindings in order to ease unit/integrated tests and ensure medical code compliance
+    * implement MVP architecture design - see [Android Architecture Blueprint](https://github.com/googlesamples/android-architecture)
+
+* **Continuous integration** 
+    *  set-up or update unit/integrated tests frameworks (*JUnit*, *Monkey runner*, ...)
+    *  increase overall test coverage for each application components
+    *  set-up a continuous integration pipeline
+        * set-up an automated test framework or use existing *Travis* one
+        * implement hook mechanism for each new integration to ensure every automatic tests passed and to check that the commit has been properly reviewed
+        * (optionnal) add static code analysis tool before integration (ie *Sonar Qube*)
+
+* **Iterate on Formal Documentation**
+    * find standard document template for every listed below documents following norm iso...
+    * ramp up on Product Development Lifecycle tool 
+    * Write *version-0* specifications (SRS)
+    * write *version-0* verification plan (VP) 
+    * wirte *version-0* software architecture design (SAD)
+
 * **Store images with their metadata**
     * [DICOM](https://en.wikipedia.org/wiki/DICOM) is standard used to borrow metadata of medical pictures. We can see this format like an XML file which will accompany our medical picture.
     * DICOM is compatible with ultrasound pictures.
