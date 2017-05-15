@@ -28,6 +28,7 @@ A number of the echOpen probe's functionalities must be implemented by mechanica
 | **PBL-mec_scn_mov_mot**     | Motorization                            |  ?   |   ?    |
 | **PBL-mec_scn_mov_mot_drv** | Motor electronic driver                 |  ?   |   ?    |
 | **PBL-mec_scn_mov_mot_enc** | Position sensors                        |  ?   |   ?    |
+| **PBL-mec_scn_mov_mot_firm**| Controller firmware                     |  ?   |   ?    |
 | **PBL-mec_scn_mov_cnx**     | Transducer / electronic card connection |  ?   |   ?    |
 | **PBL-mec_scn_mov_brk**     | Transducer support                      |  ?   |   ?    |
 | **PBL-mec_scn_tri**         | tri-frequency                           |  ?   |   ?    |
@@ -70,6 +71,10 @@ Design or choose a electronic driver for the selected motor.
 ###### *PBL-mec_scn_mov_mot_enc* : Position sensors
 
 Design a means of knowing the position of the transducer during its movement.
+
+###### *PBL-mec_scn_mov_mot_firm* : Controller firmware
+
+Design a firmware capable of controlling the motion of the transducer using the position encoder(s) and the selected motor.
 
 ##### *PBL-mec_scn_mov_cnx* : Transducer / electronic card connection
 
