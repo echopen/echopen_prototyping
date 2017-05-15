@@ -28,7 +28,7 @@
     * [Hardware](stable/doc_hardware.md)
     * [Software](stable/doc_software.md)
   * [Device characteristics](stable/characteristics.md)
-  * Production guide
+  * [Production guide](stable/production_guide.md)
     * [Reproducing the device](stable/guide_hardware.md)
     * [Installing the Android app](stable/guide_software.md)
   * [Hacking guide](stable/requirements/hacking-guide.md)
@@ -60,6 +60,8 @@
 * [References](references/references.md)
   * [Medical certification](references/certification/ref_certification.md)
   * [Hardware](references/hardware/ref_hardware.md)
+  * [Mechanics](references/mechanics/ref_meca.md)
+  	* [Mechanical issues](references/mechanics/mechanical_issues.md)
   * [Embedded systems](references/embsys/ref_embsys.md)
   * [Signal processing](references/sigproc/ref_sigproc.md)
     * [Image quality assessment](references/sigproc/IMGQ_metrics.md)
