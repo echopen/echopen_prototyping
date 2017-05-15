@@ -43,6 +43,8 @@ This section is meant to gather ideas about the objectives for the next iteratio
 Since it is not possible to simulate precisely the performances of the different architectures we will have to test them.
 The objective of this is to summarize performances of the different architectures and taking their prices into account. A good result will be to obtain an Optimum of Pareto between the price (which has to be as low as possible) and the performances (which have to be as high as possible).
 
+The energy consumption is also an interesting thing to take into account. We can imagine having a fixed capacity battery and measure the number of image which are computed for the different solutions.
+
 One prerequisite of this is to have a **good knowledge** of **at least one** envelope detection algorithm.
 
 
@@ -55,7 +57,7 @@ One prerequisite of this is to have a **good knowledge** of **at least one** env
     * challenge v2 : implement solutions picked from v1 on the device and evaluate image quality, computation time and achievable framerate, ...
   * Decide for good between analog and digital implementations based on image quality and cost constrains
   * Implement the chosen solution on the device
-  * Using 
+  * Using
 
 ## App - software
 
@@ -88,4 +90,4 @@ One prerequisite of this is to have a **good knowledge** of **at least one** env
     * DICOM is compatible with ultrasound pictures.
     * We can use it to store, for example,  the patient's name or the software's version used to get the pictures.
     * [\@eiffel](https://echopen.slack.com/team/eiffel) thinks that it could be a good idea to read the standard to get more information about this format.
-* Need to list what information need to be stored within this metadata 
+* Need to list what information need to be stored within this metadata
