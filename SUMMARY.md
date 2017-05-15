@@ -57,7 +57,7 @@
   * [Embedded systems](followup/meetings_embsys.md)
   * [Signal processing](followup/meetings_sigproc.md)
   * [Android app](followup/meetings_app.md)
-* References
+* [References](references/references.md)
   * [Medical certification](references/certification/ref_certification.md)
   * [Hardware](references/hardware/ref_hardware.md)
   * [Embedded systems](references/embsys/ref_embsys.md)
