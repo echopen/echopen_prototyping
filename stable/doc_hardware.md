@@ -79,7 +79,12 @@ Acquisition is made with a RedPitaya which caracteristics are:
 * Voltage range: +/- 1 V or +/- 20 V
 * Buffer maximum size: 16384 points
 
-Considering that the acoustic waves makes back and forth between the transducer and the medium, depth of measurement is given by d=v*t/2. So maximum depth at 125 Msps is **97 mm** and at 125/8 Msps it is **775 mm**.
+Considering that the acoustic waves makes back and forth between the transducer and the medium, depth of measurement is given by d=v*t/2. So maximum depth of measurement at 125 Msps is **97 mm** and at 125/8 Msps it is **775 mm**. 
+
+The RedPitaya trigger (beggining of measured buffer) can be placed anywhere in a fictitious first buffer (anywhere in the first 16384 points after the trigger event), and the save buffer since RedPitaya trigger is 16384 points long at maximum. This means that the beggining of measurement R0 must be smaller than maximum depth of measurement and end of measurement Rf can be made between R0 and R0 plus maximum depth of measurement:
+
+* at 125 Msps: R0 < 97 mm, R0 < Rf < R0 + 97 mm
+* at 125/8 Msps: R0 < 775 mm, R0 < Rf < R0 + 775 mm
 
 ### Working process
 
@@ -90,13 +95,13 @@ The RedPitaya move the transducer to the desired acquisition line. It send a tri
 Defaut settings are:
 
 * RedPitaya intput range: +/- 20 V (because TGC output range is +/- 2.5 V)
-* RedPitaya sampling rate: 125/8 Msps (because depth of measurement is to short at 125 Msps)
+* RedPitaya sampling rate: 125/8 Msps
 * TGC: LO gain mode (less amplification but too much noise on HI gain mode)
 * TGC amplication command: between 0.3 and 1 V (so amplification is between 10 and 43.5 dB)
 * Depth of measurement: between 80 and 160 mm
 * Pulser command duration: 125 ns
 
-A sampling rate of 125 Msps would be preferable but depth is too short and the transmission of data become quite longer (because there is 8 more data to sent).
+A sampling rate of 125 Msps would be preferable but depth is a bit short and the transmission of data become quite longer (because there is 8 more times data to sent). And moreover, the data processing in the terminal will be very long.
 
 Even if TGC output is theoretically in range +/- 2.5 V, generally it is between +/- 1V. For safety we must keep an input range of the RedPitaya in +/- 20 V. These means that instead of having 16384 points of precision, we just have around 800 points of precision.
 
