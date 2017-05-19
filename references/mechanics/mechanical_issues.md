@@ -41,13 +41,13 @@ This is the primary function of the mechanical device: to scan a sector of 60 °
 
 Two main approaches have been tested or considered:
 
--   **Oscillating motion **: by transforming the rotary motion of a motor into ± 30° oscillations , with a stepper motor in an alternative motion or with a resonant magnetic (or piezo) system.
+-   **Oscillating motion** : by transforming the rotary motion of a motor into ± 30° oscillations , with a stepper motor in an alternative motion or with a resonant magnetic (or piezo) system.
 
-    -   **Problem **: irregular motor torque, vibrations at 7 Hz (possibly balanced).
+    -   **Problem** : irregular motor torque, vibrations at 7 Hz (possibly balanced).
 
 -   **Continuous rotary motion** : the transducer is placed on a rotary drum driven by a motor.
 
-    -   **Problem **: the electrical connection (pulse Tx and signal Rx) with the rotating transducer is complex. Limited to 5 fps maxi, except tip as the interlacing..
+    -   **Problem** : the electrical connection (pulse Tx and signal Rx) with the rotating transducer is complex. Limited to 5 fps maxi, except tip as the interlacing..
 
 -   **Idea** : a rotating flat surface could play the role of an acoustic mirror.
 
@@ -55,11 +55,11 @@ Whatever the approach, the system requires accurate knowledge of the angular pos
 
 -   **A fine control of the rotation speed** of the motor, associated with an absolute reference top per rotation, the firings being triggered at fixed date.
 
-    -   **Problem **: <span id="anchor"></span>Difficult control in the case of an oscillating mechanism due to variations in torque (two accelerations / decelerations per revolution).
+    -   **Problem** : Difficult control in the case of an oscillating mechanism due to variations in torque (two accelerations / decelerations per revolution).
 
 -   **A stepper motor** (so an open-loop control) whose position is known at all times as long as the engine torque is sufficient. A top-by-turn at initialization allows to fix the absolute reference position. The motor can be used in direct drive or with gearbox.
 
-    -   **Problem **: <span id="anchor-1"></span>Engine more expensive and noisier than a DC motor.
+    -   **Problem** : Engine more expensive and noisier than a DC motor.
 
 **Idea** : A resonant system (electro-mechanical or piezoelectric) whose position would then follow a sinusoid phase-shifted by a constant value with respect to the excitation signal. A brushless torque motor could also be used.
 
@@ -67,7 +67,7 @@ In all these cases, encoder systems (absolute and incremental) are necessary to 
 
 **Note** : in order to facilitate certain medical examinations, in particular between two close ribs, it is preferable to approach as far as possible the axis of rotation of the transducer of the end of the probe tip in contact with the body.
 
-<img src="b.png" width="163" height="123" />
+<img src="b.png" width="320" height="240" />
 
 ### Tri-frequency probe
 
@@ -75,7 +75,7 @@ The medical need requires us to work at 3 different frequencies (3.5 MHz, 5 MHz 
 
 Ideally we have to move in the probe 3 transducers of different characteristics that will be selected electronically from the smartphone. They can be placed at 120 ° on a rotating drum.
 
-**Problem **: Moving masses and larger dimensions. A system to select wich transducer will be active at one time.
+**Problem** : Moving masses and larger dimensions. A system to select wich transducer will be active at one time.
 
 **Idea** : Removable low-cost transducer to be manually changed.
 
@@ -89,11 +89,11 @@ In order that the transmission of the ultrasound is not disturbed by the changes
 -   **A gel** is used between the body and the tip of the probe: find simple and economical recipes to make this gel.
 -   **The material of the probe** : polyurethane seems to be a candidate to consider.
 
-    -   **Problem **: If the rest of the probe is in another material the junction probe / tip is to be sealed (glued or removable).
+    -   **Problem** : If the rest of the probe is in another material the junction probe / tip is to be sealed (glued or removable).
 
 -   **The transducer must be immersed in liquid medium**. This ensures good acoustic coupling between transducer and external environment. Flax or sunflower oils are potential candidates. Several options are possible to isolate the oil immersed area from the inside of the probe: flexible membrane pinched between the base of the transducer and the probe tip, lip seal on the motor shaft (very energy-intensive) or Transducer and engine bathing in oil (the engine must be functional in oil) ...
 
-    -   **Problem **: A filling system must be provided to eliminate any air bubbles. The liquid must have no toxicity for the users, be insulating, non-corrosive for submerged parts (otherwise it would have put water ...), minimum viscosity and easy to supply.
+    -   **Problem** : A filling system must be provided to eliminate any air bubbles. The liquid must have no toxicity for the users, be insulating, non-corrosive for submerged parts (otherwise it would have put water ...), minimum viscosity and easy to supply.
 
 Shape and ergonomics
 --------------------
@@ -109,9 +109,9 @@ We want to minimize the connections with the outside. Some interactions to be ex
 
 -   **On/Off** with possibly a very low power standby
 -   **User interface** using LEDs and capacitive buttons through the shell. It is also possible to detect movement or tapping.
--   **Probe/smartphone communication**: the connection between the two elements must ensure maximum reliability and robustness. Possibilities: wifi, bluetooth, wired, ...
+-   **Probe/smartphone communication** : the connection between the two elements must ensure maximum reliability and robustness. Possibilities: wifi, bluetooth, wired, ...
 -   **Charging the battery** by induction or by μUSB connector and a watertight plug. A charging dock would be interesting.
--   **Wi-Fi pairing**: without contact with NFC for example.
+-   **Wi-Fi pairing** : without contact with NFC for example.
 
 Energy, autonomy
 ---------------
@@ -120,15 +120,15 @@ Ideally, the probe should be autonomous in terms of energy and ensure an operati
 
 -   **The probe has a rechargeable battery**.
 
-    -   **Problem **: Battery capacity, lifetime and danger are to be considered (Li-ion, LiPo or LiFePO4)
+    -   **Problem** : Battery capacity, lifetime and danger are to be considered (Li-ion, LiPo or LiFePO4)
 
 -   **The power supply box is separated** and connected by a 1m cable to the probe.
 
-    -   **Problem **: Less practical to handle but to consider in case of technical impossibility to place the batteries in the probe. Also offer the possibility of having several batteries. The connection between the cable and the probe will be permanent and watertight.
+    -   **Problem** : Less practical to handle but to consider in case of technical impossibility to place the batteries in the probe. Also offer the possibility of having several batteries. The connection between the cable and the probe will be permanent and watertight.
 
 -   **The probe is connected to the smartphone** and takes its energy.
 
-    -   **Problem **: It seems that any physical connection of the probe to an external device during the examination also obliges us to extend the medical certification to this device. Unthinkable for personal smartphone.
+    -   **Problem** : It seems that any physical connection of the probe to an external device during the examination also obliges us to extend the medical certification to this device. Unthinkable for personal smartphone.
 
 **Note** : Particular attention will be paid to possible thermal problems during use as well as when recharging the battery.
 
