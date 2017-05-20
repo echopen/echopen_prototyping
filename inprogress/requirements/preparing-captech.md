@@ -15,26 +15,17 @@ This section is meant to gather ideas about the objectives for the next iteratio
 
 ## Mechanics
 
-* **Bring the probe out of water ! **To start doing a few tests on the human body outside the aquarium we will make a simplistic probe. It will be composed of:
+* **Bring the probe out of water !** To start doing a few tests on the human body outside the aquarium we will make a simplistic probe. It will be composed of:
   * stepper motor
   * 3.5MHz transducer mounted on a rotating drum and tilted by 30 °
   * sealed shell made of a material transparent to ultrasound
   * sealed grommet to pass the 4 wires of the motor and the shielded wire of the transducer
   * controller to control the stepping motor
 
-\* A step-by-step motor
-
-\* A 3.5MHz transducer mounted on a rotating drum and tilted by 30 °
-
-\* A sealed shell made of a material transparent to ultrasound
-
-\* A sealed grommet to pass the 4 wires of the motor and the shielded wire of the transducer
-
-\* A controller to control the stepping motor
-
-* 
-* * 
-* * to be completed
+* To calibrate the focus zone of the transducers and the image geometrical deformation after scan conversion, design a calibration system to be used in the aquarium:
+  * A **2 or 3 axis table** capable of moving a target in the aquarium
+  * A system for monitoring and controlling the axis
+  * A chain to acquire measures and report results
 
 ## Embedded systems
 
