@@ -22,6 +22,23 @@
 * lateral resolution is unknowed yet
 * 1 frequency (3.5 MHz)
 
+## Miscellaneous
+
+The output of the high voltage circuit is around -97 V
+
+![](./doc_hardware/signalt.png "Temporal pulse of the transducer") 
+
+![](./doc_hardware/signalf.png "Frequential pulse of the transducer")
+
+
+Transducer characteristics:
+
+* Pulse duration at -6 dB: 382 ns (precision of 0.56 mm)
+* Acoustic pass-band: 2.13 MHz, from 2.21 to 4.33 MHz
+* Focal depth: 120 mm
+* Excitation time: around half the period = 142 ns
+* Excitation voltage: < -150 V
+
 ## Informations
 
 In our device number of lines, sector angle, beggining of measurement, end of measurement and amplification factor are variables.
