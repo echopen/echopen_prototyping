@@ -21,7 +21,7 @@
     * [UX design](inprogress/requirements/UX_design.md)
   * [Iteration planning](inprogress/planning.md)
   * [Progress report](inprogress/report.md)
-* [Stable release Vx.y.z](stable/stable.md)
+* [Stable release V3.0.0](stable/stable.md)
   * [Requirements](stable/requirements/requirements.md)
     * [Specifications](stable/requirements/specifications.md)
       * [Mobile App](stable/requirements/specifications/mobile-app.md)
