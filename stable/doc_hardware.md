@@ -30,14 +30,14 @@ Docmentation of the different parts of the device can be found on github:
 * T/R switch: [MDL-tr_switch](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/modules/hardware/MDL-tr_switch/MDL-tr_switch_v1/readme.md)
 * TGC: [MDL-tgc_v1](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/modules/hardware/MDL-tgc/MDL-tgc_v1/readme.md)
 * Filter: [MDL-filter_v1](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/modules/hardware/MDL-filter/MDL-filter_v1/readme.md)
-* Envelope detection: [MDL-envelope_detector_v1](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/modules/hardware/MDL-envelope_detector/MDL-envelope_detector_v1/readme.md)
+<!---* Envelope detection: [MDL-envelope_detector_v1](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/modules/hardware/MDL-envelope_detector/MDL-envelope_detector_v1/readme.md)--->
 
 
 ## Device informations
 
 ### Acoustic
 
-We use a commercial transducer from imasonic with a central frequency of 3.27 MHz. For more information about the transducer see [MDL-transducer_v4](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/modules/hardware/MDL-transducer/MDL-transducer_v4).
+We use a commercial transducer from imasonic with a central frequency of 3.27 MHz.l
 
 Excitation:
 
@@ -108,15 +108,15 @@ When the program is executed on the RedPitaya, it launch a server, search the or
 * send a trigger to the arduino for exciting the transducer
 * wait for the trigger of the arduino that give the 0 mm of measurement
 * save a buffer of the RAW data in a float buffer from R0 to Rf
-* convert RAW data in int16_t format
+* convert RAW data into int16_t format
 * sent the buffer *via* TCP
 * when the buffer is fully sent go to the second line and redo the process.
 
-At the same time that it acquire the data, a ramp is command is sent to the TGC.
+At the same time that it acquire the data, a ramp command is sent to the TGC.
 
 Due to TCP protocol, there is no lost of packet. Moreover untill the terminal has not totally receive the buffer, the RedPitaya is waiting it insure that data received by the terminal correspond to the good line. We can observe that when there is no terminal connected to the RedPitaya the scanning of an image is faster than when there is one.
 
-In parallel of the main code, it watch for a connection of a terminal. At connection of a client, it send 6 characters to him that define the image settings: R0, Rf, decimation (sampling rate is 125/decimation), number of lines, angle of the sector and an other variable that is not used here. With R0, Rf and decimation the terminal can determine the number of points per line. With the number of lines and the sector angle it can make the scanconversion.
+In parallel of the main code, it watch for a connection from a terminal. At connection of a client, it send 6 characters to him that define the image settings: R0, Rf, decimation (sampling rate is 125/decimation), number of lines, angle of the sector and an other variable that is not used here. With R0, Rf and decimation the terminal can determine the number of points per line. With the number of lines and the sector angle it can make the scanconversion.
 
 Multiple connections are supported by the program, so an image can be displaied at the same time on multiple terminals.
 
