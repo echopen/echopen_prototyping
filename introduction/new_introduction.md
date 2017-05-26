@@ -52,7 +52,7 @@ m((medium))
 a[variable gain amplifier]
 d[digitalization]
 e[envelope detection]
-c[scan convertion]
+c[scan conversion]
 l[display]
 
 subgraph device
