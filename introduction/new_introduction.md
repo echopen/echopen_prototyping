@@ -42,7 +42,7 @@ To summarize the process of acquisition we first must get the transducer into po
 
 Here a simplified flowchart of the full device. Click any part to learn more about it !
 
-```mermaid
+{% mermaid %}
 graph TD;
 
 p[pulser]
@@ -71,7 +71,7 @@ end
 e-.wifi.->c
 t-.ultrasound <br/> propagation.->m
 
-```
+{% endmermaid %}
 
 ## Scan conversion
 
