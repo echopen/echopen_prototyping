@@ -62,7 +62,7 @@ This transformation can be achieved by two FFT. It consists at suppressing the n
 
 Those two representations seem really close, can we derive one from the other ? Indeed it is possible. If we start from the analytic signal and by providing the central frequency we can derive a $$IQ$$ representation by :
 $$
-IQ(t) = \hat{s}(t) e^{{-j\omega t}}
+IQ(t) = \hat{s}(t) e^{-j\omega t}
 $$
 Hence both processing can be used to produce any of the two representations thank to this formula. Here we can easily see that $IQ$ representation depends on the $\omega$ chosen where $\hat{s}$ doesn't. Let's play with that : using the former formula we compute different $IQ$ representation with different $\omega$.
 
