@@ -14,7 +14,10 @@ We will talk about both processes and representations in this paper, don't mix $
 
 This representation comes from telecommunication were signals of interest are modulated by a sinusoid of known frequency. In the case of ultrasound, the signal is not as frequency centered but the technique still works. By assuming the central frequency $\omega$ we can decompose the instantaneous phase as following :
 $$
-\phi(t) = \omega t + \theta(t)\\ s(t) = a(t) cos(\omega t  + \theta (t) )
+\phi(t) = \omega t + \theta(t)
+$$
+$$
+s(t) = a(t) cos(\omega t  + \theta (t) )
 $$
 Here $\theta(t)$ is the phase and slowly variates in relation to $\omega t$. Thanks to some trigonometric formula this can be rewritten as :
 $$
@@ -42,7 +45,13 @@ Here a [link](https://www.ieee.li/pdf/essay/quadrature_signals.pdf) on how to co
 
 I won't define the Hilbert transform. I will only use one of its proprieties : it acts as an 90° phase shifter :
 $$
-cos(t) \xmapsto {\mathcal{H}} sin(t) \\ s(t) = a(t) cos(\phi (t) ) \\ \mathcal{H}(s)(t) =  a(t) sin(\phi (t) )
+\mathcal{H}(cos) = sin 
+$$
+$$
+s(t) = a(t) cos(\phi (t) ) 
+$$
+$$
+\mathcal{H}(s)(t) =  a(t) sin(\phi (t) )
 $$
 The analytical signal is simply an extension of the signal in the complex domain :
 $$
