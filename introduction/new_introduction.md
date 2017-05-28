@@ -22,4 +22,22 @@ We could keep talking for hours on ultrasound imaging as this technology have be
 
 Our solution to tackle the imaging processed is based on the first generations of scanners because of their simplicity. Those latter were based on a unique rotating transducer. To gain versatility probes were usually embedding several transducers as a unique transducer design couldn't fit all imaging purposes.
 
-To summarize the process of acquisition we first must get the transducer into position thanks to a motor then excite this latter with a circuit called a pulser. Once this is done, the transducer is switched in a listening mode. The signal is amplified by a variable gain amplifier (VGA) as signal coming from deeper reflection need to be further amplified because of the attenuation of ultrasound by human tissues. The signal is then digitalized and some processing is achieved to extract the envelope of the signal as it is the relevant information we want to display. Some denoising can be applied at this step. The collected lines are then send to the smartphone via wifi where the scan conversion is achieved. This last step consist at rendering a conical image from the different lines. Here the flowchart of the full device. To learn more on any part, click on it !             
+To summarize the process of acquisition we first must get the transducer into position thanks to a motor then excite this latter with a circuit called a pulser. Once this is done, the transducer is switched in a listening mode. The signal is amplified by a variable gain amplifier (VGA) as signal coming from deeper reflection need to be further amplified because of the attenuation of ultrasound by human tissues. The signal is then digitalized and some processing is achieved to extract the envelope of the signal as it is the relevant information we want to display. Some denoising can be applied at this step. The collected lines are then send to the smartphone via wifi where the scan conversion is achieved. This last step consist at rendering a conical image from the different lines. Here the flowchart of the full device. To learn more on any part, click on it ! 
+
+## Scan conversion
+
+The Scan Conversion allows one to recreate a clinical image from a set of data sent by a probe. The received image depends on the geometry of the probe. This process intends to recreate the 'real' image.
+
+An ultrasound beamformer generates coherently summed image data in polar format while the standard TV raster display is rectangular. Hence, polar to Cartesian scan conversion is necessary before display. A combined design scheme for polar to Cartesian scan conversion using nearest neighbor and linear interpolations has been implemented which optimizes both image quality and hardware requirement.  
+The scan converter takes polar data as input and produces corresponding rectangular data which is used for image formation. The radial distance becomes somewhat larger as one moves deeper into the body and this produces serious artifacts in the image called Moiré artifacts. Hence interpolation becomes necessary. The nearest neighbor interpolation is a simple method although it makes the image blocky. On the other hand, linear interpolation needs a few computations but is free from these artifacts in the far field.
+
+![ alt tag](http://wiki.echopen.org/images/c/c6/Image02.jpg)
+
+Indeed, the probe stores a series of sampled scan-lines, whatever the geometry of the scanned area.
+
+Which can be represented with clinical images such as :
+
+![alt tag](http://wiki.echopen.org/images/7/7d/Image04.png)  
+![alt tag](http://wiki.echopen.org/images/b/b8/Image03.png)
+
+These two images are before/after scan conversion of an image of a liver            

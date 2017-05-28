@@ -22,5 +22,5 @@ To drive your code, here's the MOCKUP that we have set with medical doctors, eng
 
   #### SUDOERS {#sudoers}
 
-[@nowami](https://github.com/benchoufi)nowami@echopen.org
+[@nowami](https://github.com/benchoufi) nowami@echopen.org
 
