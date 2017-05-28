@@ -42,7 +42,7 @@ Here a [link](https://www.ieee.li/pdf/essay/quadrature_signals.pdf) on how to co
 
 I won't define the Hilbert transform. I will only use one of its proprieties : it acts as an 90° phase shifter :
 $$
-cos(t) \xmapsto {\mathcal{H}} sin(t) 
+\mathcal{H}(cos) = sin 
 $$
 $$
 s(t) = a(t) cos(\phi (t) ) 
