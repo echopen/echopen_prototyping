@@ -2,9 +2,9 @@
 
 When dealing with medical signals the relevant representation we want to assess is a decomposition in two terms :
 $$
-s(t) = \underbrace{a(t)}_{envelope}cos(\underbrace{\phi(t)}_{instantaneous\space phase})
+s(t) = a(t)cos(\phi(t))
 $$
-The envelope $a(t)​$ carries the energy of the signal and slowly variates in relation to a carrier term which quickly oscillate according to the instantaneous phase $\phi(t)​$. Where the envelope is used to perform B-Mode imaging, the instantaneous phase is used for Doppler imaging. 
+The envelope $a(t)$ carries the energy of the signal and slowly variates in relation to a carrier term which quickly oscillate according to the instantaneous phase $\phi(t)$. Where the envelope is used to perform B-Mode imaging, the instantaneous phase is used for Doppler imaging. 
 
 The two main approaches to assess this representation are : $IQ$ (quadrature) demodulation which outputs an $IQ$ representation of the signal, and, Hilbert transform that give the analytic signal which is another complex representation. Those two are closely related and come from two words. The $IQ$ one come from the analog domain as it can be obtain with some mixers and low pass filters. The analytic signal comes from a more mathematical approach and is difficult to produce in the analog domain. 
 
@@ -18,7 +18,7 @@ $$
 $$
 Here $\theta(t)$ is the phase and slowly variates in relation to $\omega t$. Thanks to some trigonometric formula this can be rewritten as :
 $$
-s(t) = \underbrace{\overbrace{a(t)cos(\theta(t))}^{I(t)}cos(\omega t)}_{in-phase} -\underbrace{\overbrace{a(t)sin(\theta(t))}^{Q(t)}sin(\omega t)}_{quadrature}
+s(t) = a(t)cos(\theta(t))cos(\omega t) -a(t)sin(\theta(t))sin(\omega t)
 $$
 This decomposition split the signal in two terms. One term in $cos(\omega t)$ which is called in-phase component as originally we wrote the signal with the $cos$ function. Another term in $-sin(\omega t)$ which is the quadrature component since $-sin$ is the quadrature of $cos$. We then define $I(t) = a(t)cos(\theta(t))$ and $Q(t) = a(t)sin(\theta(t))$ allowing us to rewrite the former expression as : 
 $$
@@ -62,7 +62,7 @@ This transformation can be achieved by two FFT. It consists at suppressing the n
 
 Those two representations seem really close, can we derive one from the other ? Indeed it is possible. If we start from the analytic signal and by providing the central frequency we can derive a $$IQ$$ representation by :
 $$
-IQ(t) = \hat{s}(t) e^{{-j\omega t}}
+IQ(t) = \hat{s}(t) e^{-j\omega t}
 $$
 Hence both processing can be used to produce any of the two representations thank to this formula. Here we can easily see that $IQ$ representation depends on the $\omega$ chosen where $\hat{s}$ doesn't. Let's play with that : using the former formula we compute different $IQ$ representation with different $\omega$.
 
