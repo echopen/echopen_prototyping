@@ -1,4 +1,4 @@
-# IQ Demodulation and Hilbert Transform  
+# $IQ$ Demodulation and Hilbert Transform  
 
 When dealing with medical signals the relevant representation we want to assess is a decomposition in two terms :
 $$
@@ -12,7 +12,7 @@ We will talk about both processes and representations in this paper, don't mix $
 
 ## $IQ $ Representation 
 
-This representation comes from telecommunication were signals of interest are modulated by a sinusoid of known frequency. In the case of ultrasound, the signal is not as frequency centered but the technique still works. By assuming the central frequency $$\omega$$ we can decompose the instantaneous phase as following :
+This representation comes from telecommunication were signals of interest are modulated by a sinusoid of known frequency. In the case of ultrasound, the signal is not as frequency centered but the technique still works. By assuming the central frequency $\omega$ we can decompose the instantaneous phase as following :
 $$
 \phi(t) = \omega t + \theta(t)\\ s(t) = a(t) cos(\omega t  + \theta (t) )
 $$
@@ -44,7 +44,6 @@ I won't define the Hilbert transform. I will only use one of its proprieties : i
 $$
 cos(t) \xmapsto {\mathcal{H}} sin(t) \\ s(t) = a(t) cos(\phi (t) ) \\ \mathcal{H}(s)(t) =  a(t) sin(\phi (t) )
 $$
-
 The analytical signal is simply an extension of the signal in the complex domain :
 $$
 \hat{s} = s + j\mathcal{H}(s) = a(t) e^{j\phi(t)}
