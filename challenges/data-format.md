@@ -40,23 +40,22 @@ Some images in this format can be found [here](https://github.com/kelu124/murgen
 
 ##### Commentaires
 
-Au niveau des formats de fichiers, la situation en imagerie médicale numérique est extrêmement simple : tout doit être encodé au format DICOM :\) Cela permet une prise en charge unifiée et pérenne par tous les PACS \(des mini-PACS Orthanc/dcm4chee, aux PACS "enterprise" du type Agfa/Télémis/...\), ainsi que par tous les logiciels destinés à l'imagerie \(du style Ginkgo CADx/medInria/OsiriX/Syngo.via/...\). Le format DICOM assurera une durabilité de facto de l'information d'echOpen : l'existence de logiciels libres comme Orthanc permettra de faire des passerelles en écosystèmes propriétaires.
+At the level of file formats, the situation in digital medical imaging is extremely simple: everything must be encoded in DICOM format :\) This allows a unified and perennial support by all PACS \(mini-PACS Orthanc / dcm4chee, "enterprise" PACS Agfa / Telemis / ...\), as well as all software for imaging \(Ginkgo CADx / medInria / OsiriX / Syngo.via / ...\). The DICOM format will ensure de facto sustainability of echOpen information: the existence of free softwares such as Orthanc will make it possible to make gateways in proprietary ecosystems.
 
-Le revers de la médaille est évidemment sa complexité et une grosse courbe d'apprentissage. Il n'en demeure pas moins que c'est le seul et unique standard de l'imagerie au sein des hôpitaux : echOpen devra de facto y passer pour être utile dans le cadre de la routine clinique. Il existe un document introductif au DICOM à l'adresse suivante, il pourrait vous être utile :
+The other side of the coin is obviously its complexity and a large learning curve. Nevertheless, it is the only standard of imaging within hospitals: echOpen will have to de facto be considered useful in the context of clinical routine. There is an introductory document to DICOM at the following address, which may be helpful:
 
 * [https://orthanc.chu.ulg.ac.be/book/dicom-guide.html](https://orthanc.chu.ulg.ac.be/book/dicom-guide.html)
 
-Dans le cas des images d'échographie \(ultrasons\), voici un pointeur vers la partie de la spécification DICOM qu'il s'agirait d'implémenter :
+In the case of ultrasound images, here is a pointer to the part of the DICOM specification that would have to be implemented:
 
-* S'il s'agit d'images fixes \(screenshots\) : [http://dicom.nema.org/medical/dicom/current/output/html/part03.html\#sect\_A.6](http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_A.6)
-* S'il s'agit de vidéos US \(cine\) : [http://dicom.nema.org/medical/dicom/current/output/html/part03.html\#sect\_A.7](http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_A.7)
+* If it is fix images \(screenshots\) : [http://dicom.nema.org/medical/dicom/current/output/html/part03.html\#sect\_A.6](http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_A.6)
+* If it is US \(cine\) videos:  : [http://dicom.nema.org/medical/dicom/current/output/html/part03.html\#sect\_A.7](http://dicom.nema.org/medical/dicom/current/output/html/part03.html#sect_A.7)
 
-La spécification liste un ensemble de modules \(càd. un ensemble de tags DICOM\) qui sont soit obligatoires \("M"\), soit optionnels \("U"\), soit conditionnels \("C"\). Un module donne une liste hiérarchique de tags \(le préfixe "&gt;" indique un nœud-enfant de cette hiérarchie de tags\), dont chaque tag peut être obligatoire et non vide \(type 1\), obligatoire et possiblement vides \(type 2\), et optionnels \(type 3\). La présence de chacun de ces tags peut éventuellement être liée à une condition \(type 1C et 2C\).
+The specification lists a set of modules \(ie, a set of DICOM tags\) that are either mandatory \("M"\), optional \("U"\), or conditional \("C"\). A module gives a hierarchical list of tags \(the prefix "&gt;" indicates a child node of this tag hierarchy\), each tag may be mandatory and not empty \(type 1\), mandatory and possibly empty \(type 2\), and Optional \(type 3\). The presence of each of these tags may possibly be linked to a condition \(type 1C and 2C\).
 
-L' objectif serait de créer un "DICOM-izer" qui prendrait en input une image d'echOpen et générerait en output un ensemble de fichiers DICOM. Évidemment, dans un premier temps, il s'agit de faire le minimum, càd. d'ajouter les champs 1/1C/2/2C des modules M/C. L'outil "dciodvfy"  permet de vérifier automatiquement si un fichier DICOM comporte tous les tags DICOM requis \(c'est le must pour créer un DICOM-izer\) :  
-[http://www.dclunie.com/dicom3tools/dciodvfy.html](http://www.dclunie.com/dicom3tools/dciodvfy.html)
+The goal would be to create a "DICOM-izer" which would take as input an echOpen image and output a set of DICOM files. Obviously, at first, it is a matter of doing the minimum, ie. To add the 1 / 1C / 2 / 2C fields of the M / C modules. The "dciodvfy" tool is used to automatically check if a DICOM file contains all the required DICOM tags \(this is a must to create a DICOM-izer\): http://www.dclodie.com/dicom3tools/dciodvfy.html
 
-L'API REST d'Orthanc permet de créer des fichiers DICOM directement à partir de fichiers JSON. Il y a quelques exemples dans les tests d'intégration d'Orthanc \(c'est l'URI "/tools/create-dicom"\) :  
+Orthanc's REST API allows you to create DICOM files directly from JSON files. There are some examples in the Orthanc integration tests \(this is the URI "/ tools / create-dicom"\):  
 [https://bitbucket.org/sjodogne/orthanc-tests/src/962274ebd797a2b6aca2b44d06596ff52be50c52/Tests/Tests.py?at\#\#default&fileviewer\#\#file-view-default\#Tests.py-1279](https://bitbucket.org/sjodogne/orthanc-tests/src/962274ebd797a2b6aca2b44d06596ff52be50c52/Tests/Tests.py?at##default&fileviewer##file-view-default#Tests.py-1279)
 
 ##### TODO
