@@ -19,10 +19,5 @@ Today several kits are already installed at:
 
 And members of the community are working on it to make it happen !! Follow the signal...
 
-**Todo in the gitbook prototype:**
-
-* Adding technical introductions and accoustics basics in annex. 
-* Remove medical insight in the accoustic basics
-
 _Illustrations for echOpen _[_CC BY NC ND_](https://creativecommons.org/licenses/by-nc-nd/3.0/)_: Drawings by Barbara Govin / Storyboard by Ermete Mariani_
 
