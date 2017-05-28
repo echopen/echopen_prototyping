@@ -30,7 +30,7 @@ IQ(t) = I + jQ(t) = a(t)e^{j\theta(t)}
 $$
 The norm of this latter gives $a(t)$ and the argument gives $\theta(t) $. Note that we don't need to provide the exact central frequency to perform an exact envelope and phase detection but the representation (aka the value of $I$, $Q$ but also $\theta$) won't be the same. 
 
-![IQ](IQ.png)
+![IQ](./src/output_1_0.png)
 
 We chose the example signal as following : $a(t)$ is a hanning window, $\omega$ is set so that the central period is one and $\theta$ is a sinusoid that makes one full oscillation : it worth $\pi /2$ at $t = 2$, $0$ at $t=4$ and $-\pi/2$ at $t=6$.   We can see that $I$ and $Q$ behaves as some kind of signed envelope for the in-phase and quadrature component. The envelope is perfectly assessed. 
 
@@ -51,7 +51,7 @@ $$
 $$
 The norm of the analytic signal is $a$(t) and the argument is $\phi(t)$. Note that this time this representation doesn't imply to provide a central frequency.
 
-![hibert](hilbert.png)
+![hibert](./src/output_1_1.png)
 
 The 90° phase shifter propriety of the Hilbert transform is easy to see here. Again the envelope is perfectly assessed
 
@@ -67,7 +67,7 @@ IQ(t) = \hat{s}(t) e^{{-j\omega t}}
 $$
 Hence both processing can be used to produce any of the two representations thank to this formula. Here we can easily see that $IQ$ representation depends on the $\omega$ chosen where $\hat{s}$ doesn't. Let's play with that : using the former formula we compute different $IQ$ representation with different $\omega$.
 
-![omega](omega.png)
+![omega](./src/output_1_2.png)
 
 Choosing the original $\omega$ provide the same result as before. Choosing omega 50% bigger or smaller change the representation but in any case the envelope is the same (black solid line). In theory choosing any $\omega$ works but in practice, computing $I$ and $Q$ by mixing the signal with a sinusoid and performing low pass filtering constrains the choice of this latter.  Note that if we chose $\omega=0$ we come back to the analytic signal. Choosing the right $\omega$ assure that $I$ and $Q$ spectrum will by has low in frequency as possible has we can see in this example : the green lines variates more slowly than the red and blue lines an thus is a more relevant representation. 
 
@@ -90,6 +90,8 @@ Those two representations are really close. There is some confusion about what i
 To better understand frequency mixing and quadrature demodulation, I recommend reading this paper:
 
 [*Quadrature Signals: Complex, But Not Complicated*](http://www.ieee.li/pdf/essay/quadrature_signals.pdf)  by Richard Lyons 
+
+Code used to generate the plots can be found [here](./src/IQ_Hilbert.md).
 
 
 
