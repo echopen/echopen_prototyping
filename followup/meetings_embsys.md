@@ -4,6 +4,28 @@ Embsys meetings usually take place each wednesday at 20 o'clock on [jitsi](https
 
 Everyone is welcomed.
 
+
+## 2017.05.10 - HD - 20.00 \(Paris time\)
+
+### Polytech
+
+#### Analog
+
+All PCB files are now together to form a unique PCB file.
+
+The routing and the choice of the CMOS components need to be done.
+
+#### DMA
+
+When the ADC is connected to the DMA IP the software indicates that there is a problem between the two clocks of the components. But the two components are clocked at 125 MHz.
+
+This problem will be investigated.
+
+#### PIC32
+
+The work on PIC32 is abandoned, all tries were unsuccessful.
+
+
 ## 2017.05.03 - HD - 20.00 \(Paris time\)
 
 ### Polytech

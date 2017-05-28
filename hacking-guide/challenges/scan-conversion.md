@@ -47,7 +47,7 @@ We will retain the most effective method.
 
 * You can find stuff, code and ideas [here](https://echopen.gitbooks.io/android-app/content/scan_conversion.html)
 * librairies : OpenCV, specific to android lib OpenGL ES, basé sur  OpenGL ou autre
-* de nombreuses techniques d’interpolations existent : nearest neighboor, interpolation linéaire ou bilinéaire, méthodes assistée par Open GL ... 
+* bunch of other technics of interpolation exist : nearest neighboor, linear or bilinear interpolation, Open GL oriented method ... 
 * clonables/forkables sourcesare hosted on [Github](https://github.com/echopen/PRJ-medtec_androidapp)
 * Simulated data are available [here](https://github.com/echopen/PRJ-medtec_androidapp/tree/master/phantom)
 
@@ -60,6 +60,7 @@ Pull-requests submissions to [REPO](https://github.com/echopen/PRJ-medtec_androi
 For now, several implementations have been tested
 
 * On the master branch
+
   * The most effective is obtained through an RenderScript implementation. RenderScript do not allow to control the allocation to the GPU on the CPU processing power. But, on a smartphone \(Android 7.0. run in Galaxy Note 4\), the performance are satisfactory : 90-100fps
 
 * On the [master branch](https://github.com/echopen/android-app/tree/master/app/src/main/java/com/echopen/asso/echopen)
@@ -72,7 +73,7 @@ For now, several implementations have been tested
 
 ## SUDOERS
 
-[@clecoued](https://github.com/clecoued) clement@echopen.org 
+[@clecoued](https://github.com/clecoued) clement@echopen.org
 
 [@nowami](https://github.com/benchoufi) nowami@echopen.org
 
