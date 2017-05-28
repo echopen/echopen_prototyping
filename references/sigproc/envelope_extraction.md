@@ -10,7 +10,7 @@ The two main approaches to assess this representation are : $IQ$ (quadrature) de
 
 We will talk about both processes and representations in this paper, don't mix $IQ$ demodulation with $IQ$ representation. The first leads to the second. Accordingly Hilbert Transform is the process that permits to form the analytical signal. But we will also see that we can use the Hilbert Transform to assess the IQ representation and the IQ demodulation to assess the analytic signal.
 
-## $IQ $ Representation 
+## $IQ$ Representation 
 
 This representation comes from telecommunication were signals of interest are modulated by a sinusoid of known frequency. In the case of ultrasound, the signal is not as frequency centered but the technique still works. By assuming the central frequency $\omega$ we can decompose the instantaneous phase as following :
 $$
