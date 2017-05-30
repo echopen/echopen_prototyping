@@ -3,34 +3,33 @@
 ## Data processing pipeline
 
 {% mermaid %}
-
 graph TD;
 
-t\[transducer\]
+t[transducer]
 
-m\(\(medium\)\)
+m((medium))
 
-a\[variable gain amplifier\]
+a[variable gain amplifier]
 
-f\[bandpass filter\]
+f[bandpass filter]
 
-d\[digitalization\]
+d[digitalization]
 
-e\[envelope detection\]
+e[envelope detection]
 
-c\[scan conversion\]
+c[scan conversion]
 
-l\[display\]
+l[display]
 
 
 
 subgraph device
 
-t--&gt;a
+t-->a
 
-a--&gt;f
+a-->f
 
-f--&gt;d
+f-->d
 
 end
 
@@ -38,17 +37,17 @@ end
 
 subgraph smartphone 
 
-e--&gt;c
+e-->c
 
-c--&gt;l
+c-->l
 
 end
 
 
 
-d-.wifi.-&gt;e
+d-.wifi.->e
 
-m-.ultrasound &lt;br/&gt; propagation.-&gt;t
+m-.ultrasound <br/>; propagation.->t
 
 
 
