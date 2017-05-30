@@ -2,7 +2,7 @@
 
 ## Data processing pipeline
 
-{% mermaid %}
+```mermaid
 graph TD;
 
 t[transducer]
@@ -29,8 +29,7 @@ end
 
 d-.wifi.->e
 m-.ultrasound <br/>; propagation.->t
-
-{% endmermaid %}
+```
 
 
 

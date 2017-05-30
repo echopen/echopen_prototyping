@@ -1,5 +1,5 @@
 {
-	"plugins": ["katex", "bibtex-indexed-cite", "toggle-chapters", "mermaid"],
+	"plugins": ["katex", "bibtex-indexed-cite", "toggle-chapters", "mermaid-gb3"],
 	"pluginsConfig": {
 		"bibtex-indexed-cite": {
 			"path": "/content/"
