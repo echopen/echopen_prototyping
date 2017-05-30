@@ -1,5 +1,7 @@
 # Technical introduction
 
+_This section is meant to be replaced by the new version of the technical introduction_
+
 ## Principle
 
 Ultrasonic waves are high frequency acoustic waves \(more than 20 kHz\) which can propagate through the human body. The propagation depends on the mechanical properties of the traversed tissues. The ultrasound signal exists in the superposition of the waves reflected on interfaces between tissues with different impedance, and of the scattering of ultrasonic waves by small particles.
@@ -84,11 +86,14 @@ Diagnosis :
 
 ### Introduction
 
-Among various modalities of medical imaging, ultrasound is characterized by the non-ionizing nature of the acoustic waves (unlike X-ray or isotopic imaging).
-The absence of ionising radiations, potentially harmful for patients and staffs, conducts to less legal regulation of ultrasound devices use. Moreover the imaging properties of ultrasound imaging and the different safety context leads to promote this modality in various medical situations. (In France, imaging modality recommendations are summarized [here](http://gbu.radiologie.fr/).)
+Among various modalities of medical imaging, ultrasound is characterized by the non-ionizing nature of the acoustic waves \(unlike X-ray or isotopic imaging\).  
+The absence of ionising radiations, potentially harmful for patients and staffs, conducts to less legal regulation of ultrasound devices use. Moreover the imaging properties of ultrasound imaging and the different safety context leads to promote this modality in various medical situations. \(In France, imaging modality recommendations are summarized [here](http://gbu.radiologie.fr/).\)
 
 While percepted as one of the safest medical imaging modalities, the effects of transfered energy to the medium and the safety limits of ultrasounds uses are legitimate questions.
 
 ### Physical and biological effects of ultrasounds exposure
 
 ### Metrics
+
+
+

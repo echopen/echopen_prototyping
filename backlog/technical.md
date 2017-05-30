@@ -5,7 +5,7 @@
 | Spatial resolution (mm) | longitudinal : 1mm <br> lateral : 1mm | to be quantified | -                 |
 | Number of transducers   | 3                                     | 1 (transducer A) | 33%               |
 | Angular sector (°)      | 60                                    | 60               | 100%              |
-| Number of lines         | 128                                   | 64               | 50%               |
+| Number of lines         | 128                                   | 64-128               | 100%               |
 | Framerate (fps)         | 10-20                                 | 2                | 10-20%            |
 | Cost (€)                | 500                                   | 1200             | 40%               |
 

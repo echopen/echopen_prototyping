@@ -1,4 +1,5 @@
 # Introduction
+_This section is in construction_
 
 ## How medical ultrasound works ?
 
