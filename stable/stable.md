@@ -1,3 +1,5 @@
+# Stable release V3.0.0
+
 This section gathers information about our latest release \(V3.0.0 - Aquarium Kit\). Here's a brief description of the subsections:
 
 [Requirements](/stable/requirements/requirements.md) : reminder of the objectives that were fixed for the V3.0.0 iteration
