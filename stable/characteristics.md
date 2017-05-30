@@ -33,23 +33,13 @@ Following the informations given in [MDL-transducer_v4](https://github.com/echop
 * Focal depth: 120 mm
 * Excitation: -97 V, 125 ns
 
-### Signal
+### Focal zone
 
-Measurement to be redone:
+In this section, we present informations about the focal zone of the transducer. The focal zone is defined by the amplitude versus depth and the width versus depth. Informations about the amplitude can be used to refined amplitude (*e.g.* gray level) of the image. Information about width can be used to refined lateral precision when reconstructing image.
 
-* SNR (empty line for defaut noise, and a line with a plate)
-* focal zone
+To determine the amplitude of the signal allong depth (at the center of the focal zone) we have made images of a plate placed parallely to the transducer at different depths. The defaut settings have been modified such that amplification is the same all along depth (amplificaiton command of 0.4 V during all measurement depth). Amplification must be chosen such as the TGC won't be saturated during measurements. Results are present on following image, apart from measurement errors, it looks like a gaussian shape.
 
-Focal zone is determined with the echoes from a small wire perpendicular to the transducer face.
-
-We can make a section for focal zone: 
-
-* amplitude versus depth 
-* width versus depth (a lot of experiment)
-
-** amplitude ok "quick", width I think to much work to be done in time**
-
-Do we make an explanation about how to determine the envelope?
+![](./characteristics/focal_depth.png)
 
 ## Defaut Settings
 
@@ -68,6 +58,30 @@ A sampling rate of 125 Msps would be preferable but depth is a bit short and the
 
 Even if TGC output is theoretically in range +/- 2.5 V, generally it is between +/- 1V. For safety we must keep an input range of the RedPitaya in +/- 20 V. These means that instead of having 16384 points of precision, we just have around 800 points of precision.
 
+### Signal
+
+In this section, we present the raw signal and SNR of our device with the default settings.
+
+Here we prensent some examples of the raw data we obtain with our device with the defaut settings. First, with a measurement on free space (no obstacle on the medium we scan) we can see the defaut noise of our device:
+
+![](./characteristics/void.png)
+
+we can see that we have fee noise with our device. The noise is a little bit amplified at the end of measurement when we have maximum amplification (+ 40 dB).
+
+We present on the following image some measurement of the echoes from a plate place parallely to the transducer at different depths:
+
+![](./characteristics/sig.png)
+
+we see that after a depth of 120 mm th aplitude does not increase anymore because the TGC is saturated. We can now determine the envelope of this signals:
+
+![](./characteristics/amp.png)
+
+we can see that we have a very good SNR (signal on noise ratio) define by:
+
+$SNR=20\log\left(\dfrac{\max(signal)}{\mean(noise)}\right)$.
+
+we don't show it here, but the noise doesn't exceed 0.012 and with have a SNR between 90 and 100 dB.
+
 ## Image
 
 In our device number of lines, sector angle, beggining of measurement, end of measurement and amplification factor are variables.
@@ -78,4 +92,7 @@ The device is used as an access point and a terminal must connect to it. The dev
 
 For making an image, the terminale receive the data, for each line it determines the envelope of the signal with an Hilbert transform. When all the lines of an image are received and processed, the terminal displays the image on gray scale as a sector image.
 
-Put link to image database (to be done)
+Example of images we obtained with our devices are presented below, a simple plate and a hand:
+
+![](./characteristics/plate.png)
+![](./characteristics/hand.png)
