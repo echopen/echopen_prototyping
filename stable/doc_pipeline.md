@@ -28,7 +28,7 @@ c-->l
 end
 
 d-.wifi.->e
-m-.ultrasound <br/>; propagation.->t
+m-.ultrasound <br/> propagation.->t
 ```
 
 
