@@ -72,6 +72,7 @@ end
 e-.wifi.->c
 t-.ultrasound <br/> propagation.->m
 ```
+
 ## Scan conversion
 
 The Scan Conversion allows one to recreate a clinical image from a set of data sent by a probe. The received image depends on the geometry of the probe. This process intends to recreate the 'real' image.
