@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-  * [Technical introduction](introduction/new_introduction.md) 
-  * [Technical introduction (old)](introduction/technical_introduction.md)
+  * [Technical introduction](introduction/new_introduction.md)
+  * [Technical introduction \(old\)](introduction/technical_introduction.md)
   * [Acoustic basics](introduction/acoustic_basics.md)
 * [How to contribute](howto/howto.md)
   * [Work method](howto/method.md)
@@ -48,12 +48,13 @@
   * [Medical certification](references/certification/ref_certification.md)
   * [Hardware](references/hardware/ref_hardware.md)
   * [Mechanics](references/mechanics/ref_meca.md)
-  	* [Mechanical issues](references/mechanics/mechanical_issues.md)
+    * [Mechanical issues](references/mechanics/mechanical_issues.md)
   * [Embedded systems](references/embsys/ref_embsys.md)
   * [Signal processing](references/sigproc/ref_sigproc.md)
     * [Image quality assessment](references/sigproc/IMGQ_metrics.md)
     * [Envelope extraction](references/sigproc/envelope_extraction.md)
     * [Denoising](references/sigproc/Denoising.md)
+    * [Leaderboard](references/sigproc/leaderboard.md)
   * [Android app](references/app/ref_app.md)
 * [Table of references](References.md)
 
