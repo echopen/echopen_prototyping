@@ -1,5 +1,23 @@
 # 2017
 
+## 2017.05.31
+
+### Envelope extraction challenge
+
+* @luc has pushed a PR with noised images for the score assessment
+
+* @lecoued has pushed a PR for evaluating the algorithms on different images in a loop
+
+* @loic has still some tickets : password recovering, and some others
+
+* @loic @lecoued @aurelie will plan a "django for dummies" session ;-\)
+
+### Documentation
+
+the documentation of v3.0.0 is taking shape!
+
+
+
 ## 2017.05.10
 
 * Envelope extraction
@@ -15,8 +33,6 @@
   * To account for the noise in the leaderboard evaluation, [\@luc](https://echopen.slack.com/team/luc) proposes to create several different versions of the raw signal by adding some noise to the one simulated from the ground truth image. [\@luc](https://echopen.slack.com/team/luc) will create those images.
   * [\@hackolite](https://echopen.slack.com/team/hackolite) points the importance of having an ultrasound image database --&gt; [\@luc](https://echopen.slack.com/team/luc) knows someone who handles DICOM databases
   * Challenge V2 : need to have a pool of echOpen images + metrics for quality assessment \(cf. bibliography done by [\@luc](https://echopen.slack.com/team/luc)\)
-
-
 
 ## 2017.04.19
 
