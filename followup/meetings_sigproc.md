@@ -14,9 +14,8 @@
 
 ### Documentation
 
-the documentation of v3.0.0 is taking shape!
-
-
+* the documentation of v3.0.0 is taking shape!
+* the "howto contribute" instructions will be beta-tested by @loic @benjamin @soobash
 
 ## 2017.05.10
 
