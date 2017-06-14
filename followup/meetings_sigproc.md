@@ -4,6 +4,33 @@
 
 ### Envelope extraction challenge
 
+**Leaderboard**
+
+* @loic is working on errors catching
+
+* password recovery still to be handled
+
+* then we'll recruit guinea pigs to beta-test the leaderboard \(help needed!\)
+
+**Notebook**
+
+* @aurelie will add some explanations in the notebook :
+
+  * this challenge is meant to test our leaderboard
+  * and benchmark alternatives to Hilbert transform, which is very computationally costly   
+    --&gt; contributors have to be creative to find "simpler" algorithms
+
+  * the score is just a pretext !
+
+## Time for the great merge
+
+* from now Wednesday meetings will be merged in one prototyping meeting :-\)
+* let's all meet on June 21st 7:00pm !
+
+## 2017.05.31
+
+### Envelope extraction challenge
+
 * @luc has pushed a PR with noised images for the score assessment
 
 * @lecoued has pushed a PR for evaluating the algorithms on different images in a loop
