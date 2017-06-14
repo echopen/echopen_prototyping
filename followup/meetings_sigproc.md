@@ -1,6 +1,6 @@
 # 2017
 
-## 2017.05.31
+## 2017.06.14
 
 ### Envelope extraction challenge
 
@@ -17,7 +17,7 @@
 * @aurelie will add some explanations in the notebook :
 
   * this challenge is meant to test our leaderboard
-  * and benchmark alternatives to Hilbert transform, which is very computationally costly   
+  * and benchmark alternatives to Hilbert transform, which is very computationally costly  
     --&gt; contributors have to be creative to find "simpler" algorithms
 
   * the score is just a pretext !
