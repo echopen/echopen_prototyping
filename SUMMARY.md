@@ -58,5 +58,7 @@
     * [Leaderboard](references/sigproc/leaderboard.md)
   * [Android app](references/app/ref_app.md)
     * [How to install OpenCV](references/app/install-opencv-v-20.md)
+  * [Benchmark of similar devices](references/benchmark/ref_benchmark.md)
+    * [Benchmark 1](references/benchmark/benchmark_1.md)
 * [Table of references](References.md)
 
