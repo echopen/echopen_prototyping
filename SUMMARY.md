@@ -17,6 +17,7 @@
   * [GPU & real time processing](challenges/gpu-and-real-time-processing.md)
   * [scan conversion](challenges/scan-conversion.md)
   * [data format](challenges/data-format.md)
+  * [HETIC School Challenge ](challenges/hetic-school-challenge.md)
 * [In progress](inprogress/inprogress.md)
   * [Preparing CapTech](inprogress/requirements/preparing-captech.md)
   * [Requirements](inprogress/requirements/requirements.md)
