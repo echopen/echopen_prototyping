@@ -1,4 +1,5 @@
 # Acoustic imaging (basics) 
+_This section is meant to be replaced by the new version of the technical introduction_
 
 The pdf version of this document can be download ['here'](./acoustic_imaging_src/acoustic.pdf).
 

@@ -4,6 +4,44 @@ This section is meant to gather ideas about the objectives for the next iteratio
 
 ## Hardware
 
+* Improving the current prototype regarding medical image quality requirement and selecting the best architecture
+
+* Miniaturizing the prototype \(electronics, mechanics, etc.\) following regulatory guidelines, industrial constraints and medical requirements including implementation of the selected architecture
+
+### Architecture 
+
+* Work on optimized acquisition chain \(probe, analog signal conditioning, high-speed ADC\) with a well defined electrical interface \(connector, signals,…\)
+
+* Work on two processing systems in parallel working with the acquisition chain mentioned here above
+
+### Analog
+
+* High amplification factor, around 100 dB \(actually 45dB\)
+
+* Electromagnetic insulation
+
+* Power supply \(battery\)
+
+* Miniaturization, integration
+
+### Digital
+
+* high-performance, not cost-optimized solution: high-end FPGA or hybrid chip \(Xilinx Zynq or Altera SoC\)
+
+* lower-performance, cost optimized solution: low-end FPGA + DSP/ARM processor
+
+* Remove the RedPitaya board 
+
+* High sampling rate ADC, around 12 bits precision, between 50-100 Msps \(minimum 45 Msps\)
+
+* “High” sampling rate DAC around 8 bits, 1 Msps \(7 bits precision ramp, 130 us\)
+
+* Complex calculus in the controller \(Hilbert transform\)
+
+* Large onboard buffers \(memory\)?
+
+* Wireless transfer to smartphone
+
 ## Characterization
 
 * Confirm the approach proposed in the first review
@@ -16,6 +54,7 @@ This section is meant to gather ideas about the objectives for the next iteratio
 ## Mechanics
 
 ### Bring the probe out of water !
+
 To start doing a few tests on the human body outside the aquarium we will make a simplistic probe. It will be composed of:
 
 * stepper motor
@@ -25,6 +64,7 @@ To start doing a few tests on the human body outside the aquarium we will make a
 * controller to control the stepping motor
 
 ### Design a calibration system
+
 To calibrate the focus zone of the transducers and the image geometrical deformation after scan conversion, design a calibration system to be used in the aquarium:
 
 * A **2 or 3 axis table** capable of moving a target in the aquarium
@@ -63,6 +103,7 @@ One prerequisite of this is to have a **good knowledge** of **at least one** env
 ## Signal processing
 
 ### Find the best choice for envelope extraction
+
 * Analog implementation
 * Digital implementation
   * challenge v1 : "dummy" quality assessment --&gt; gather knowledge about state-of-the-art
@@ -70,6 +111,10 @@ One prerequisite of this is to have a **good knowledge** of **at least one** env
 * Decide for good between analog and digital implementations based on image quality and cost constrains
 * Implement the chosen solution on the device
 * Using
+
+## Device - software interface
+
+* Data transfer protocols hardware-software \(storage, security, data processing, etc.\) 
 
 ## App - software
 

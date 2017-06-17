@@ -1,17 +1,18 @@
 # Find your team
 
 ## Prototyping
-Generic team gathering all members who contribute to developement of the prototype. Subscribing to this team allows to edit this gitbook.
+
+Generic team gathering all members who contribute to development of the prototype. Subscribing to this team allows to edit this gitbook.
 
 **GitHub**
 
-- Team's repository : <https://github.com/echopen/echopen_prototyping>
-- Team's project boards : <https://github.com/echopen/echopen_prototyping/projects>
-- Subscribe to the team : <https://github.com/orgs/echopen/teams/prototyping>
+* Team's repository : [https://github.com/echopen/echopen\_prototyping](https://github.com/echopen/echopen_prototyping)
+* Team's project boards : [https://github.com/echopen/echopen\_prototyping/projects](https://github.com/echopen/echopen_prototyping/projects)
+* Subscribe to the team : [https://github.com/orgs/echopen/teams/prototyping](https://github.com/orgs/echopen/teams/prototyping)
 
 **Weekly meetings**
 
-Weekly prototyping follow-ups take place at Hôtel Dieu every Monday at 7:00pm.
+Weekly prototyping follow-ups take place at Hôtel Dieu every Monday at 7:00pm.  
 Minutes of the meetings are [here](../followup/weekly_meeting.md).
 
 ## Hardware
@@ -54,9 +55,9 @@ No meetings planned yet.
 
 **GitHub**
 
-- Team's repository : <https://github.com/echopen/PRJ-medtech_embsys>
-- Team's project boards : <https://github.com/echopen/PRJ-medtech_embsys/projects>
-- Subscribe to the team : <https://github.com/orgs/echopen/teams/embsys>
+* Team's repository : [https://github.com/echopen/PRJ-medtech\_embsys](https://github.com/echopen/PRJ-medtech_embsys)
+* Team's project boards : [https://github.com/echopen/PRJ-medtech\_embsys/projects](https://github.com/echopen/PRJ-medtech_embsys/projects)
+* Subscribe to the team : [https://github.com/orgs/echopen/teams/embsys](https://github.com/orgs/echopen/teams/embsys)
 
 **Slack channel**
 
@@ -64,9 +65,8 @@ No meetings planned yet.
 
 **Weekly meetings**
 
-Weekly meetings take place at Hôtel Dieu every Wednesday at 8:00pm. It's possible to attend remotely with [jitsi](https://meet.jit.si/echopenEmbedded).
+Weekly meetings take place at Hôtel Dieu every Wednesday at 8:00pm. It's possible to attend remotely with [jitsi](https://meet.jit.si/echopenEmbedded).  
 Minutes of the meetings are [here](../followup/meetings_embsys.md).
-
 
 ## Signal processing
 
@@ -89,10 +89,9 @@ Minutes of the meetings are [here](../followup/meetings_sigproc.md).
 
 **GitHub**
 
-- Team's repository : <https://github.com/echopen/PRJ-medtec_androidapp>
-- Team's project boards : <https://github.com/echopen/PRJ-medtec_androidapp/projects>
-- Subscribe to the team : <https://github.com/orgs/echopen/teams/androidapp>
-
+* Team's repository : [https://github.com/echopen/PRJ-medtec\_androidapp](https://github.com/echopen/PRJ-medtec_androidapp)
+* Team's project boards : [https://github.com/echopen/PRJ-medtec\_androidapp/projects](https://github.com/echopen/PRJ-medtec_androidapp/projects)
+* Subscribe to the team : [https://github.com/orgs/echopen/teams/androidapp](https://github.com/orgs/echopen/teams/androidapp)
 
 **Slack channel**
 

@@ -1,4 +1,5 @@
 # Introduction
+_This section is in construction_
 
 ## How medical ultrasound works ?
 
@@ -70,7 +71,6 @@ end
 
 e-.wifi.->c
 t-.ultrasound <br/> propagation.->m
-
 ```
 
 ## Scan conversion
