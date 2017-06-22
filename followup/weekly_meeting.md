@@ -1,5 +1,60 @@
 # 2017
 
+##2017.07.21 - HD - 19.00 \(Paris time\)
+
+Attending:
+Medhi B - **@benchoufi** /
+Luc J - **@luc** /
+Loic - **@hackholite** /
+Aurelie M - **@aurelie** /
+Nicolas F - **@nfilipov** /
+Clement L - **@lecoued** /
+Benjamin S - **@benschan**
+
+###EchOpen leaderboard:
+ * feature completed: error feedbacks implemented in the code console **@hackolite**
+ * to do:
+     * integration of the multi reference images benchmark
+     * password recuperation
+
+###Benchmarking - existing ultra portable echograph:
+ * best effort to complete the template **@luc**
+ * 510k certification - EchOpen upgrade of Clarius ? Lumify ?
+
+###Documentation:
+ * mobile application documentation in progress **@benchoufi** **@lecoued**
+ * big rework on challenges
+ * target - 30 June mobile app doc
+          - 13 July challenge rework
+
+###Community:
+ * start a community mapping **@hackholite** **@luc**
+ * how to integrate smoothly new contributions ?  **@benchoufi** **@aurelie**
+ * how people get more aware of their close work group ?
+    * example of the CMS community (3000 members) **@nfilipov**
+    * multi layer communications - hierarchy
+
+ * create a wish list
+
+
+###Brainstorming about Challenge4Students:
+
+ * build a RoadMap - short term / long term **@all**
+     * build realistic targets
+     * organize CapTech
+     * define process for RoadMap creation
+     * who drives this RoadMap creation ?
+
+ * Process description **@benchoufi**
+   * *as a client for the academics*
+     * Provide resources to the school 
+     * Follow up very important to engage and focus development **@lecoued**
+     * How to integrate the deliverables ?
+ 
+ * create a wishlist **@aurelie** **@benchoufi**
+ * student projects will work on R&D pipelines
+ * identify priorities
+
 ## 2017.04.10 - HD - 19.00 \(Paris time\)
 
 attending : Jérôme D. / Benoît V. / Olivier F. / Mehdi B. / Alister T. / Aurélie M.
