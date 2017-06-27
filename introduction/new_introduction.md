@@ -77,8 +77,12 @@ t-.ultrasound <br/> propagation.->m
 
 The Scan Conversion allows one to recreate a clinical image from a set of data sent by a probe. The received image depends on the geometry of the probe. This process intends to recreate the 'real' image.
 
-An ultrasound beamformer generates coherently summed image data in polar format while the standard TV raster display is rectangular. Hence, polar to Cartesian scan conversion is necessary before display. A combined design scheme for polar to Cartesian scan conversion using nearest neighbor and linear interpolations has been implemented which optimizes both image quality and hardware requirement.  
-The scan converter takes polar data as input and produces corresponding rectangular data which is used for image formation. The radial distance becomes somewhat larger as one moves deeper into the body and this produces serious artifacts in the image called Moiré artifacts. Hence interpolation becomes necessary. The nearest neighbor interpolation is a simple method although it makes the image blocky. On the other hand, linear interpolation needs a few computations but is free from these artifacts in the far field.
+
+Using an ultrasound beamformer, we can scan an area line by line, and gather data about each depth, for each line. Those data are collected in a chart. Each column contains data that have been collected for a particular direction, at different depths. If a color is attributed to each cell of the chart, a rectangular image is obtained. But as each column of the chart corresponds to a direction and not to a vertical line, we obtain a distorded image. This means that a polar to cartesian scan conversion is necessary before display.
+
+ A combined design scheme for polar to Cartesian scan conversion using nearest neighbor and linear interpolations has been implemented which optimizes both image quality and hardware requirement. The nearest neighbor interpolation is a simple method although it makes the image blocky. On the other hand, linear interpolation needs a few computations but is free from these artifacts in the far field. At the end of that process, we obtain a better representation of the reality.
+
+
 
 ![ alt tag](http://wiki.echopen.org/images/c/c6/Image02.jpg)
 
