@@ -150,3 +150,8 @@ After polar to cartesian scan conversion the object is displayed on the screen a
 ![alt tag](http://wiki.echopen.org/images/b/b8/Image03.png)
 
 These two images are before/after scan conversion of an image of a liver
+
+
+
+## Looking for further information ?
+
