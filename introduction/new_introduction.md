@@ -88,12 +88,12 @@ Using an ultrasound beamformer, we can scan an area line by line and gather data
  A combined design scheme for polar to Cartesian scan conversion using nearest neighbor and linear interpolations has been implemented which optimizes both image quality and hardware requirement. The nearest neighbor interpolation is a simple method although it makes the image blocky. On the other hand, linear interpolation needs a few computations but is free from these artifacts in the far field. At the end of that process, we obtain a better representation of the reality.
 
 <figure>
-  <img src="./acoustic_imaging_src/image/300px-Reflectionrefraction.jpg" alt="" />
+  <img src="./acoustic_imaging_src/image/scan_conversion_one.jpg.JPG" alt="" />
   <figcaption> Figure 1: Reflection at an interface.</figcaption>
 </figure>
 
 <figure>
-  <img src="./acoustic_imaging_src/image/300px-Reflectionrefraction.jpg" alt="" />
+  <img src="./acoustic_imaging_src/image/scan_conversion_two.jpg.JPG" alt="" />
   <figcaption> Figure 1: Reflection at an interface.</figcaption>
 </figure>
 
