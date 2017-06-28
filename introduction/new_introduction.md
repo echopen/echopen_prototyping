@@ -155,3 +155,4 @@ These two images are before/after scan conversion of an image of a liver
 
 ## Looking for further information ?
 
+To learn more about the hardware click [here](/stable/requirements/requirements.md) 
