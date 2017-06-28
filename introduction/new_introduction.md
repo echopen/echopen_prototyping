@@ -66,7 +66,7 @@ Our solution to tackle the imaging processed is based on the first generations o
 
 To summarize the process of acquisition we first have to place the transducer in the right position thanks to a motor.Then, a circuit called a pulser is used to excite the transducer. Once this is done, the transducer is switched onto a listening mode. The signal is amplified by a variable gain amplifier as signal coming from deeper reflection need to be further amplified because of the attenuation of ultrasound in human tissues. The signal is then digitalized and some processing is achieved to extract the envelope as it is the relevant information we want to display. Some denoising can be applied at this step. The collected lines are then sent to the smartphone via wifi where the scan conversion is achieved. This last step consists in rendering a conical image from the different recorded lines. 
 
-Here a simplified flowchart of the full device. Click any part to learn more about it !
+Here is a simplified flowchart of the full device and a litlle more information about each component.
 
 ```mermaid
 graph TD;
@@ -98,7 +98,24 @@ e-.wifi.->c
 t-.ultrasound <br/> propagation.->m
 ```
 
-## Scan conversion
+#### The pulser
+
+The pulser is an electronic board that converts a logic signal that ranges from 0-3.3V into an analogical that ranges from -100V to 0V. That high voltage signal is needed to allow the transducer to emit ultrasounds.
+
+#### The transducer and the switch
+As explained earlier, the transducer converts an electric signal into ultrasounds. Once a burst of ultrasound has benn emitted, the transducer is switched onto its reception mode.
+
+#### The variable gain amplifier
+
+In complex mediums such as the human body waves are attenuated. It means that their amplitude decreases all along their way. As a consequence, ultrasounds that were reflected deeper in the body arrive at the transducer with a lower amplitude and need to be amplified (remember that they also arrive later at the transducer). The variable gain amplifier is an electric component that amplifies the signals received by the transducer depending on their order of arrival. 
+
+#### Digitalization
+After the amplification, the signal is still analogical. It needs to be digitalized (converted into a logical signal) to be processed by other electronical components.
+
+#### Enveloppe detection
+The envelopp detection is a procedure that is used to analyse the signal to detect the times at whitch reflected ultrasounds were received. It can be done with an analogical or a digital signal. We chose the latter option. For the moment this detection is realized thanks to the smartphone application, but our plan is to be able to do it inside the device. Indeed performing enveloppe detection in the smartphone recquires to send the complete signal by wifi to the smartphone, which we would like to avoid.
+
+#### Scan conversion
 
 The Scan Conversion allows one to recreate a clinical image from a set of data sent by a probe. The received image depends on the geometry of the probe. This process intends to recreate the 'real' image.
 
