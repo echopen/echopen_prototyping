@@ -86,11 +86,16 @@ The Scan Conversion allows one to recreate a clinical image from a set of data s
 Using an ultrasound beamformer, we can scan an area line by line and gather data about each depth. Those data are collected and written in a chart. So each column contains data that have been collected for a particular direction, at different depths. If a color is attributed to each cell of the chart, a rectangular image is obtained. But as a column of the chart corresponds to a direction and not to a vertical line a distorded image is obtained. This means that a polar to cartesian scan conversion is necessary before display.
 
  A combined design scheme for polar to Cartesian scan conversion using nearest neighbor and linear interpolations has been implemented which optimizes both image quality and hardware requirement. The nearest neighbor interpolation is a simple method although it makes the image blocky. On the other hand, linear interpolation needs a few computations but is free from these artifacts in the far field. At the end of that process, we obtain a better representation of the reality.
+ 
+ 
 
 <figure>
   <img src="./acoustic_imaging_src/image/scan_conversion_one.jpg" alt="" />
   <figcaption> Figure 3: Scheme of a scanned area</figcaption>
 </figure>
+
+
+
 
 <figure>
   <img src="./acoustic_imaging_src/image/scan_conversion_two.jpg" alt="" />
@@ -98,7 +103,10 @@ Using an ultrasound beamformer, we can scan an area line by line and gather data
 </figure>
 
 
-After polar to cartesian scan conversion the object is displayed on the screen according to its real chape, which can be represented with clinical images such as :
+
+
+
+After polar to cartesian scan conversion the object is displayed on the screen according to its real shape, which can be represented with clinical images such as :
 
 
 ![alt tag](http://wiki.echopen.org/images/7/7d/Image04.png)  
