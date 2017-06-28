@@ -21,12 +21,25 @@ At the interface between two mediums, any incident wave splits in a transmitted 
 
 <figure>
   <img src="./acoustic_imaging_src/image/300px-Reflectionrefraction.jpg" alt="" />
-  <figcaption> Figure 1: Reflection at an interface.</figcaption>
+  <figcaption> Figure 1: Reflection at an interface</figcaption>
 </figure>
 
 ### Ultrasound imaging: a reflectivity map
 
 Most parts of our bodies are mainly composed of water, so the acoustic impedance of our different tissues don't variate so much around the value of the one of water. As the differences of impedance are low, the body is not so reflective for ultrasounds (except for the bones). If we send ultrasounds it will be mainly transmitted and at each depth a small partially reflected wave will propagate back. The more the variation of the local acoustic impedance is important, the more the wave is reflected. This leads us to what is an ultrasound image, it is a map of the reflectivity to ultrasound. So this modality of imagery shows the interfaces. It's quite natural for our brain to think to objects by their edges so almost no further processing is needed to interpret this image.
+
+<figure>
+  <img src="./acoustic_imaging_src/image/echolocation.jpg" alt="" />
+  <figcaption> Figure 2: echolocation in the human body</figcaption>
+</figure>
+
+At time t0, some ultrasounds are emitted by the transducer which is located in the probe. A part of them is reflected at the first interface between the organ and the other tissues, then propagates back and is detected by the transducer at time t1. Another part of the ultrasounds is refclected on the second interface and is detected at time t2. The position of those interfaces can be calculated knowing the sound speed in the human body.
+
+<figure>
+  <img src="./acoustic_imaging_src/image/echolocation_graph.jpg" alt="" />
+</figure>
+
+
 
 ### Assessing the origin of reflections by focusing
 
