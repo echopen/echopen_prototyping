@@ -88,19 +88,18 @@ Using an ultrasound beamformer, we can scan an area line by line and gather data
  A combined design scheme for polar to Cartesian scan conversion using nearest neighbor and linear interpolations has been implemented which optimizes both image quality and hardware requirement. The nearest neighbor interpolation is a simple method although it makes the image blocky. On the other hand, linear interpolation needs a few computations but is free from these artifacts in the far field. At the end of that process, we obtain a better representation of the reality.
 
 <figure>
-  <img src="./acoustic_imaging_src/scan_conversion_one.jpg.JPG" alt="" />
-  <figcaption> Figure 1: Reflection at an interface.</figcaption>
+  <img src="./acoustic_imaging_src/image/scan_conversion_one.jpg" alt="" />
+  <figcaption> Figure 3: Scheme of a scanned area</figcaption>
 </figure>
 
 <figure>
-  <img src="./acoustic_imaging_src/scan_conversion_two.jpg.JPG" alt="" />
-  <figcaption> Figure 1: Reflection at an interface.</figcaption>
+  <img src="./acoustic_imaging_src/image/scan_conversion_two.jpg" alt="" />
+  <figcaption> Figure 4: Image obtained without polar to cartesian conversion</figcaption>
 </figure>
 
 
-Indeed, the probe stores a series of sampled scan-lines, whatever the geometry of the scanned area.
+After polar to cartesian scan conversion the object is displayed on the screen according to its real chape, which can be represented with clinical images such as :
 
-Which can be represented with clinical images such as :
 
 ![alt tag](http://wiki.echopen.org/images/7/7d/Image04.png)  
 ![alt tag](http://wiki.echopen.org/images/b/b8/Image03.png)
