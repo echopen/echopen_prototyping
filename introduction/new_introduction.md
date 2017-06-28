@@ -11,7 +11,7 @@ To localize objects we use the pulse echo concept. Remember last time you yelled
 
 ### Both an emitter and a receiver: the transducer
 
-In the case of medical ultrasound, ultrasounds are emitted and received by a unique device called a transducer. This latter is made of a special material subject to a phenomenon called piezoelectricity. When a mechanical stress is applied to such a material, it reacts by accumulating electric charges. As sound is nothing else than a mechanical vibration, the sound arriving on the transducer implies a mechanical stress which is converted in a electrical tension that can be measured. The contrary is also possible. A voltage applied to the transducer will lead to a mechanical stress which will propagate as ultrasound waves through the medium we want to investigate. 
+In the case of medical ultrasound, ultrasounds are emitted and received by a unique device called a transducer. This latter is made of a special material subject to a phenomenon called piezoelectricity. When a mechanical stress is applied to such a material, it reacts by accumulating electric charges. As sound is nothing else than a mechanical vibration, the sound arriving on the transducer implies a mechanical stress which is converted in a electrical tension that can be measured. The contrary is also possible. A voltage applied to the transducer will lead to a mechanical stress which will propagate as ultrasound waves through the medium we want to investigate. For simplicity a transducer is a speaker and a microphone at the same time but it emits and detects ultrasounds.
 
 ### Reflections: a matter of acoustical impedance 
 
@@ -19,9 +19,34 @@ Unlike echolocation that aims to locate objects from reflection on their surface
 
 At the interface between two mediums, any incident wave splits in a transmitted and a reflected wave. The ratio of the transmitted wave and the reflected is related to the difference of impedance betwenn those two mediums. The acoustic impedance of is the product of the density and the sound speed. The more the acoustical impedances of the two mediums are different, the more the wave is reflected. For example the interface between air and water is really reflective as the density of water is much superior as the one of air (while the speed of sound is five times faster in water than in the air). This explains why a gel must be applied between the probe and the body : any left air would prevent ultrasound to penetrate our skin.
 
+<figure>
+  <img src="./acoustic_imaging_src/image/300px-Reflectionrefraction.jpg" alt="" />
+  <figcaption> Figure 1: Reflection at an interface</figcaption>
+</figure>
+
 ### Ultrasound imaging: a reflectivity map
 
 Most parts of our bodies are mainly composed of water, so the acoustic impedance of our different tissues don't variate so much around the value of the one of water. As the differences of impedance are low, the body is not so reflective for ultrasounds (except for the bones). If we send ultrasounds it will be mainly transmitted and at each depth a small partially reflected wave will propagate back. The more the variation of the local acoustic impedance is important, the more the wave is reflected. This leads us to what is an ultrasound image, it is a map of the reflectivity to ultrasound. So this modality of imagery shows the interfaces. It's quite natural for our brain to think to objects by their edges so almost no further processing is needed to interpret this image.
+
+
+
+<figure>
+  <img src="./acoustic_imaging_src/image/echolocation.jpg" alt="" />
+  <figcaption> Figure 2: echolocation in the human body</figcaption>
+</figure>
+
+
+
+
+At time t0, some ultrasounds are emitted by the transducer which is located in the probe. A part of them is reflected at the first interface between the organ and the other tissues, then propagates back and is detected by the transducer at time t1. Another part of the ultrasounds is refclected on the second interface and is detected at time t2. The position of those interfaces can be calculated knowing the sound speed in the human body.
+
+
+
+<figure>
+  <img src="./acoustic_imaging_src/image/echolocation_graph.jpg" alt="" />
+</figure>
+
+
 
 ### Assessing the origin of reflections by focusing
 
@@ -41,7 +66,7 @@ Our solution to tackle the imaging processed is based on the first generations o
 
 To summarize the process of acquisition we first have to place the transducer in the right position thanks to a motor.Then, a circuit called a pulser is used to excite the transducer. Once this is done, the transducer is switched onto a listening mode. The signal is amplified by a variable gain amplifier as signal coming from deeper reflection need to be further amplified because of the attenuation of ultrasound in human tissues. The signal is then digitalized and some processing is achieved to extract the envelope as it is the relevant information we want to display. Some denoising can be applied at this step. The collected lines are then sent to the smartphone via wifi where the scan conversion is achieved. This last step consists in rendering a conical image from the different recorded lines. 
 
-Here a simplified flowchart of the full device. Click any part to learn more about it !
+Here is a simplified flowchart of the full device and a litlle more information about each component.
 
 ```mermaid
 graph TD;
@@ -73,20 +98,63 @@ e-.wifi.->c
 t-.ultrasound <br/> propagation.->m
 ```
 
-## Scan conversion
+#### The pulser
+
+The pulser is an electronic board that converts a logic signal that ranges from 0-3.3V into an analogical that ranges from -100V to 0V. That high voltage signal is needed to allow the transducer to emit ultrasounds.
+
+#### The transducer and the switch
+As explained earlier, the transducer converts an electric signal into ultrasounds. Once a burst of ultrasound has benn emitted, the transducer is switched onto its reception mode.
+
+#### The variable gain amplifier
+
+In complex mediums such as the human body waves are attenuated. It means that their amplitude decreases all along their way. As a consequence, ultrasounds that were reflected deeper in the body arrive at the transducer with a lower amplitude and need to be amplified (remember that they also arrive later at the transducer). The variable gain amplifier is an electric component that amplifies the signals received by the transducer depending on their order of arrival. 
+
+#### Digitalization
+After the amplification, the signal is still analogical. It needs to be digitalized (converted into a logical signal) to be processed by other electronical components.
+
+#### Enveloppe detection
+The envelopp detection is a procedure that is used to analyse the signal to detect the times at whitch reflected ultrasounds were received. It can be done with an analogical or a digital signal. We chose the latter option. For the moment this detection is realized thanks to the smartphone application, but our plan is to be able to do it inside the device. Indeed performing enveloppe detection in the smartphone recquires to send the complete signal by wifi to the smartphone, which we would like to avoid.
+
+#### Scan conversion
 
 The Scan Conversion allows one to recreate a clinical image from a set of data sent by a probe. The received image depends on the geometry of the probe. This process intends to recreate the 'real' image.
 
-An ultrasound beamformer generates coherently summed image data in polar format while the standard TV raster display is rectangular. Hence, polar to Cartesian scan conversion is necessary before display. A combined design scheme for polar to Cartesian scan conversion using nearest neighbor and linear interpolations has been implemented which optimizes both image quality and hardware requirement.  
-The scan converter takes polar data as input and produces corresponding rectangular data which is used for image formation. The radial distance becomes somewhat larger as one moves deeper into the body and this produces serious artifacts in the image called Moiré artifacts. Hence interpolation becomes necessary. The nearest neighbor interpolation is a simple method although it makes the image blocky. On the other hand, linear interpolation needs a few computations but is free from these artifacts in the far field.
 
-![ alt tag](http://wiki.echopen.org/images/c/c6/Image02.jpg)
+Using an ultrasound beamformer, we can scan an area line by line and gather data about each depth. Those data are collected and written in a chart. So each column contains data that have been collected for a particular direction, at different depths. If a color is attributed to each cell of the chart, a rectangular image is obtained. But as a column of the chart corresponds to a direction and not to a vertical line a distorded image is obtained. This means that a polar to cartesian scan conversion is necessary before display.
 
-Indeed, the probe stores a series of sampled scan-lines, whatever the geometry of the scanned area.
+ A combined design scheme for polar to Cartesian scan conversion using nearest neighbor and linear interpolations has been implemented which optimizes both image quality and hardware requirement. The nearest neighbor interpolation is a simple method although it makes the image blocky. On the other hand, linear interpolation needs a few computations but is free from these artifacts in the far field. At the end of that process, we obtain a better representation of the reality.
+ 
+ 
 
-Which can be represented with clinical images such as :
+<figure>
+  <img src="./acoustic_imaging_src/image/scan_conversion_one.jpg" alt="" />
+  <figcaption> Figure 3: Scheme of a scanned area</figcaption>
+</figure>
+
+
+
+
+<figure>
+  <img src="./acoustic_imaging_src/image/scan_conversion_two.jpg" alt="" />
+  <figcaption> Figure 4: Image obtained without polar to cartesian conversion</figcaption>
+</figure>
+
+
+
+
+
+After polar to cartesian scan conversion the object is displayed on the screen according to its real shape, which can be represented with clinical images such as :
+
 
 ![alt tag](http://wiki.echopen.org/images/7/7d/Image04.png)  
 ![alt tag](http://wiki.echopen.org/images/b/b8/Image03.png)
 
 These two images are before/after scan conversion of an image of a liver
+
+
+
+## Looking for further information ?
+
+To learn more about the hardware of the last version of the device, click [here](/stable/doc_hardware.md).
+
+To learn more about the software, click [here](/stable/doc_software.md)
