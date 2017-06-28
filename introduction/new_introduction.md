@@ -19,6 +19,11 @@ Unlike echolocation that aims to locate objects from reflection on their surface
 
 At the interface between two mediums, any incident wave splits in a transmitted and a reflected wave. The ratio of the transmitted wave and the reflected is related to the difference of impedance betwenn those two mediums. The acoustic impedance of is the product of the density and the sound speed. The more the acoustical impedances of the two mediums are different, the more the wave is reflected. For example the interface between air and water is really reflective as the density of water is much superior as the one of air (while the speed of sound is five times faster in water than in the air). This explains why a gel must be applied between the probe and the body : any left air would prevent ultrasound to penetrate our skin.
 
+<figure>
+  <img src="./acoustic_imaging_src/image/300px-Reflectionrefraction.jpg" alt="" />
+  <figcaption> Figure 1: Reflection at an interface.</figcaption>
+</figure>
+
 ### Ultrasound imaging: a reflectivity map
 
 Most parts of our bodies are mainly composed of water, so the acoustic impedance of our different tissues don't variate so much around the value of the one of water. As the differences of impedance are low, the body is not so reflective for ultrasounds (except for the bones). If we send ultrasounds it will be mainly transmitted and at each depth a small partially reflected wave will propagate back. The more the variation of the local acoustic impedance is important, the more the wave is reflected. This leads us to what is an ultrasound image, it is a map of the reflectivity to ultrasound. So this modality of imagery shows the interfaces. It's quite natural for our brain to think to objects by their edges so almost no further processing is needed to interpret this image.
@@ -82,9 +87,16 @@ Using an ultrasound beamformer, we can scan an area line by line and gather data
 
  A combined design scheme for polar to Cartesian scan conversion using nearest neighbor and linear interpolations has been implemented which optimizes both image quality and hardware requirement. The nearest neighbor interpolation is a simple method although it makes the image blocky. On the other hand, linear interpolation needs a few computations but is free from these artifacts in the far field. At the end of that process, we obtain a better representation of the reality.
 
+<figure>
+  <img src="./acoustic_imaging_src/image/300px-Reflectionrefraction.jpg" alt="" />
+  <figcaption> Figure 1: Reflection at an interface.</figcaption>
+</figure>
 
+<figure>
+  <img src="./acoustic_imaging_src/image/300px-Reflectionrefraction.jpg" alt="" />
+  <figcaption> Figure 1: Reflection at an interface.</figcaption>
+</figure>
 
-![ alt tag](http://wiki.echopen.org/images/c/c6/Image02.jpg)
 
 Indeed, the probe stores a series of sampled scan-lines, whatever the geometry of the scanned area.
 
