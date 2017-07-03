@@ -16,7 +16,7 @@ The echOpen probe is an internal echo-anatomy visualization tool used in the cli
 It is not :
 
 * A complementary review tool
-* A per se imaging tool
+* A standalone imaging tool
 * A tool for tissue analysis
 
 For now, Doppler ultrasonography is out of the scope of the developments.
