@@ -6,9 +6,9 @@
 
 In this section you will find some information about the use of the echOpen device and the technical constrains that come with it. It is divided into three subsections: 
 
-[Main characteristics](/backlog/main_characteristics.md): information about the use of the device, the expected characteristics of the displayed image and the main technical recqirements.
+* [Main characteristics](/backlog/main_characteristics.md): information about the use of the device, the expected characteristics of the displayed image and the main technical recqirements.
 
-[Technical constrains](/backlog/technical.md): here you will find more detailed technical constrains.
+* [Technical constrains](/backlog/technical.md): here you will find more detailed technical constrains.
 
-[Functionnal specifications](/backlog/specs.md): here is a description of the functionnalities that the system must perform.
+* [Functionnal specifications](/backlog/specs.md): here is a description of the functionnalities that the system must perform.
 
