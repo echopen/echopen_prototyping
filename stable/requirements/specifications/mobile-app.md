@@ -56,7 +56,7 @@ image data are received as pixels streams in TCP, or local \(from an asset file\
 
 * the local mode,
   * the image are fetched from a local folder and so emulates the real ones
-  * image filters are implemented in order to improve contrast and image quality. These settings will then be reported in the production app, without letting the user to modify them -&gt; clement for more details
+  * image filters are implemented in order to improve contrast and image quality. These settings will then be reported in the production app, without letting the user to modify them -&gt; @clecoued for more details
 
 * the raw data are received from the transducer, before envelope detection and ScanConversion
 
