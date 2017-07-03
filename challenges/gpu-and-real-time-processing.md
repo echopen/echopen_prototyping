@@ -2,11 +2,11 @@
 
 ## Context
 
-It is of critical importance that the image that is displayed on the device is in perfect adequation with the position of the probe. Indeed, the healthcare operator holding the device needs to put together the position of his hand, and so the anatomical perspective he should see, and the displayed image. Therefore, real time processing is one of the greatest challenge echOpen’s software has to face.
+It is of critical importance that the image that is displayed on the device is in perfect adequation with the position of the probe. Indeed, the healthcare operator holding the device needs to put together the position of his hand, and so the anatomical perspective he should see, and the displayed image. Therefore, real time processing is one of the greatest challenges echOpen’s software has to face.
 
-Some developers of our community think that, as far as algorithms are parallel processable, we should use GPU implementation. Historically, we developed an OpenCL solution which appeared to be great wth regards to performance and quite deceptive because OpenCL is not supported any more. The framework that is supported by a fast-growing community is called VULCAN.
+Some developers of our community think that, as far as algorithms are parallel processable, we should use GPU implementation. Historically, we developed an OpenCL solution which appeared to be great with regards to performance and quite deceptive because OpenCL is not supported any more. The framework that is supported by a fast-growing community is called VULCAN.
 
-So your challenge will be to implement a VULCAN solution to some algorithm that are already in use. We think ScanConversion algorithm is good candidate to begin to get hands on VULCAN. All the informations about ScanConversion are available [HERE](../introduction/new_introduction.md). We stress the fact that your job is not create a new ScanConversion algorithm but to implement a VULCAN solution on this algorithm.
+So your challenge will be to implement a VULCAN solution to some algorithms that are already in use. We think ScanConversion algorithm is a good candidate to begin with. All the informations about ScanConversion are available [HERE](../introduction/new_introduction.md). We stress the fact that your job is not create a new ScanConversion algorithm but to implement a VULCAN solution on this algorithm.
 
 We are going to release soon an encapsulate of ScanConversion algorithm in a single android app.
 
@@ -14,7 +14,7 @@ Of course, any real time complementary solution to GPU is welcome. Just tell us 
 
 ## **NB \(07.05.17\)**
 
-At the time of writing this paragraph, the current implementation \(available [here](https://github.com/echopen/PRJ-medtec_androidapp/) @ commit \) for running our algos are based on \`RenderScript\`. Indeed, Vulcan seems to be still poorly supported and scarcely implemented on Android smartphones. Anyway, the challenges is still valid ;\)
+At the time of writing this paragraph, the current implementation \(available [here](https://github.com/echopen/PRJ-medtec_androidapp/) @ commit \) for running our algos are based on \`RenderScript\`. Indeed, Vulcan seems to be still poorly supported and scarcely implemented on Android smartphones. Anyway, the challenge is still valid ;\)
 
 ## Difficulty \(1-5\)
 
