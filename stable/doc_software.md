@@ -42,7 +42,7 @@ OpenCV uses essentially the number of lines and the number of samples in order t
 
 We chose to use cubic interpolation, which is done by passing to method the `Imgproc.INTER_CUBIC` constant. There are many other scan conversion algorithms choice available. You'll find [here](http://www.swarthmore.edu/NatSci/mzucker1/opencv-2.4.10-docs/modules/imgproc/doc/geometric_transformations.html#cv.Resize) some of them such as `Imgproc.INTER_NEAREST` for nearest neighboor interpolation or `Imgproc.INTER_LINEAR` for bilinear interpolation
 
-**To understand further the technological internals of the ultrasound probe, we refer the reader to our **[**start-kit**](https://echopen.gitbooks.io/starterkit/content/intro.md/readme.html)** GitBook**
+**To understand further the technological internals of the ultrasound probe, we refer the reader to our **[**start-kit**](https://echopen.gitbooks.io/starterkit/content/)** GitBook**
 
 ## Home-made scan conversion
 
