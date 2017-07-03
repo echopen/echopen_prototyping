@@ -26,20 +26,6 @@ Each iteration runs for several months and is segmented as follows:
 * The "test" phase allows to characterize the prototype in a technical point of view.
 * A full documentation of the release is realized, as well as a production guide describing the detailed steps  needed to reproduce the prototype and install the mobile app.
 
-# Medicotechnical gitbook
-
-## Purpose
-
-This gitbook is the medicotechnical teams' main information medium. It gathers in a single place long term objectives, the latest stable release, a track record of former versions, the work in progress, and needs for contributions.
-
-## Outline
-
-* **Product backlog** : summary of the long-term objectives
-* **Challenges** : punctual challenges to which everyone \(not only team members\) can participate
-* **In progress** : information and follow-up of ongoing iteration
-* **Stable release Vx.y.z** : information about the latest stable release \(specifications, documentation, realisation guide\)
-* **Follow-up** : Minutes of weekly meetings
-* **References** : Shared bibliography and references
 
 # GitHub
 
