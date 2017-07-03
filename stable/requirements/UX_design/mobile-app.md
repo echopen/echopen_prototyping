@@ -22,7 +22,7 @@ You'll find here the current UI. It is for the moment dead simple. Indeed, for t
 
 
 
-![](/assets/Screenshot_2017-04-15-16-56-57.png)
+![](/assets/Screenshot_2017-04-15-16-56-57_smaller.png)
 
-![](/assets/Screenshot_2017-04-15-16-56-10.png)![](/assets/Screenshot_2017-04-15-16-43-41.png)
+![](/assets/Screenshot_2017-04-15-16-56-10_smaller.png)![](/assets/Screenshot_2017-04-15-16-43-41_smaller.png)
 
