@@ -127,10 +127,10 @@ t-.ultrasound <br/> propagation.->m
 
 #### The pulser
 
-The pulser is an electronic board that converts a logic signal that ranges from 0-3.3V into an analogical that ranges from -100V to 0V. That high voltage signal is needed to allow the transducer to emit ultrasounds.
+The pulser is an electronic board that converts a logic signal that ranges from 0-3.3V into an analog one that ranges from -100V to 0V. That high voltage analog signal is needed to allow the transducer to emit ultrasounds.
 
 #### The transducer and the switch
-As explained earlier, the transducer converts an electric signal into ultrasounds. Once a burst of ultrasound has benn emitted, the transducer is switched onto its reception mode.
+The transducer converts an electrical signal into ultrasounds thanks to the piezioelectric effect: an alternating current is applied across the piezoelectric crystal that grows and shrinks depending on the voltage applied. The alternating current makes the crystal vibrate quickly, which produces an ultrasound. After reflection, the sound hits the crystal and triggers the reverse piezoelectric effect. An electronic signal containing information about the reflections of the ultrasound waves is obtained.
 
 #### The variable gain amplifier
 
