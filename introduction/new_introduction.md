@@ -30,10 +30,9 @@ In the case of medical ultrasound, ultrasounds are emitted and received by a uni
 
 
 ### Reflections: a matter of acoustical impedance 
-
 Unlike echolocation that aims to locate objects from reflection on their surface, medical ultrasound aims to produce an image of a medium by making ultrasounds penetrating it. Our body is made of bones, liquids, tissues... offering a complex geometry for our waves. To understand how waves are reflected in this complex medium, we first have to understand how a wave is reflected at an ideally flat interface of different material.
 
-At the interface between two mediums, any incident wave splits in a transmitted and a reflected wave. The ratio of the transmitted wave and the reflected is related to the difference of impedance betwenn those two mediums. The acoustic impedance of is the product of the density and the sound speed. The more the acoustical impedances of the two mediums are different, the more the wave is reflected. For example the interface between air and water is really reflective as the density of water is much superior as the one of air (while the speed of sound is five times faster in water than in the air). This explains why a gel must be applied between the probe and the body : any left air would prevent ultrasound to penetrate our skin.
+At the interface between two mediums, any incident wave splits in a transmitted and a reflected wave. The ratio of the transmitted wave and the reflected is related to the difference of impedance betwenn those two mediums. The acoustic impedance of a medium is the product of the density and the sound speed. The more the acoustical impedances of the two mediums are different, the more the wave is reflected. For example the interface between air and water is really reflective as the density of water is much superior as the one of air (while the speed of sound is five times faster in water than in the air). This explains why a gel must be applied between the probe and the body : any left air would prevent ultrasound to penetrate our skin.
 
 <figure>
   <img src="./acoustic_imaging_src/image/300px-Reflectionrefraction.jpg" alt="" />
@@ -78,11 +77,19 @@ We could keep talking about ultrasound imaging for hours as this technology has 
 
 Our solution to tackle the imaging processed is based on the first generations of scanners because of their simplicity. Those scanners contained only one rotating transducer. To gain versatility, probes were usually embedding several transducers as a unique transducer design couldn't fit all imaging purposes.
 
-### The minimal acquisition chain
+### The minimal data acquisition system
 
-To summarize the process of acquisition we first have to place the transducer in the right position thanks to a motor.Then, a circuit called a pulser is used to excite the transducer. Once this is done, the transducer is switched onto a listening mode. The signal is amplified by a variable gain amplifier as signal coming from deeper reflection need to be further amplified because of the attenuation of ultrasound in human tissues. The signal is then digitalized and some processing is achieved to extract the envelope as it is the relevant information we want to display. Some denoising can be applied at this step. The collected lines are then sent to the smartphone via wifi where the scan conversion is achieved. This last step consists in rendering a conical image from the different recorded lines. 
+Data acquisition is the process of sampling signals that measure real world physical conditions and converting the resulting samples into digital numeric values that can be manipulated by a computer. It is done thanks to a data acquisition system. At echOpen, we try to use as few components as possible in that system in order to reduce the cost of our probe. Let's follow the signal in that system:
+* First the transducer is put on the right position thanks to a motor.
+* A circuit called a pulser is used to excite the transducer that behaves like a speaker. 
+* The transducer is switched onto a listening mode (it behaves like a microphone). 
+* The signal is amplified. This step is necessary to digitalize the signal, otherwise its amplitude would be too low.
+* The signal is digitalized.
+* Some processing is achieved to extract the relevant information we want to display. This is called envelope extraction. Some denoising can be applied at this step. 
+* The collected lines are sent to the smartphone via wifi. 
+* The scan conversion is achieved. This last step consists in rendering a conical image from the different recorded lines. 
 
-Here is a simplified flowchart of the full device and a litlle more information about each component.
+Here is a simplified flowchart of the full device and a litlle more information about each component:
 
 ```mermaid
 graph TD;
@@ -128,8 +135,8 @@ In complex mediums such as the human body waves are attenuated. It means that th
 #### Digitalization
 After the amplification, the signal is still analogical. It needs to be digitalized (converted into a logical signal) to be processed by other electronical components.
 
-#### Enveloppe detection
-The envelopp detection is a procedure that is used to analyse the signal to detect the times at whitch reflected ultrasounds were received. It can be done with an analogical or a digital signal. We chose the latter option. For the moment this detection is realized thanks to the smartphone application, but our plan is to be able to do it inside the device. Indeed performing enveloppe detection in the smartphone recquires to send the complete signal by wifi to the smartphone, which we would like to avoid.
+#### Envelope detection
+The envelope detection is a procedure that is used to analyse the signal to detect the times at whitch reflected ultrasounds were received. It can be done with an analogical or a digital signal. We chose the latter option. For the moment this detection is realized thanks to the smartphone application, but our plan is to be able to do it inside the device. Indeed performing enveloppe detection in the smartphone recquires to send the complete signal by wifi to the smartphone, which we would like to avoid.
 
 #### Scan conversion
 
