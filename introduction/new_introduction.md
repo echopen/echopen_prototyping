@@ -1,5 +1,5 @@
 # Introduction
-_This section is in construction_
+_This section is in construction_ 
 
 ## How medical ultrasound works ?
 
@@ -12,7 +12,7 @@ This imaging technique is based on the propagation of ultrasound in the human bo
 
 ### Using the pulse echo sequence for ranging objects 
 
-To localize objects we use the pulse echo concept. Remember last time you yelled in a valley ? Your voice bounced on the mountains and came back to your ear after some delay. To know how far is a cliff in front of you for example the idea is to measure the time your cry takes to come back to your years. Knowing the  sound speed in air you can easily retrieve the distance as it is half the delay times the sound speed. The half factor count for the fact that our cry traveled a two way trip. A lot of animals use this principle to perform echolocation as bats or dolphins allowing them to "see with their ears". 
+To localize objects we use the pulse echo concept. Remember last time you yelled in a valley ? Your voice bounced on the mountains and came back to your ear after some delay. To know how far is a cliff in front of you for example the idea is to measure the time your cry takes to come back to your years. Knowing the  sound speed c in air you can easily retrieve the distance d as it is half the delay t times the sound speed. The half factor count for the fact that our cry traveled a two way trip. A lot of animals use this principle to perform echolocation as bats or dolphins allowing them to "see with their ears". 
 
 <figure>
   <img src="./acoustic_imaging_src/image/Echo_cliff.jpg" alt="" />
@@ -32,7 +32,11 @@ In the case of medical ultrasound, ultrasounds are emitted and received by a uni
 ### Reflections: a matter of acoustical impedance 
 Unlike echolocation that aims to locate objects from reflection on their surface, medical ultrasound aims to produce an image of a medium by making ultrasounds penetrating it. Our body is made of bones, liquids, tissues... offering a complex geometry for our waves. To understand how waves are reflected in this complex medium, we first have to understand how a wave is reflected at an ideally flat interface of different material.
 
-At the interface between two mediums, any incident wave splits in a transmitted and a reflected wave. The ratio of the transmitted wave and the reflected is related to the difference of impedance betwenn those two mediums. The acoustic impedance of a medium is the product of the density and the sound speed. The more the acoustical impedances of the two mediums are different, the more the wave is reflected. For example the interface between air and water is really reflective as the density of water is much superior as the one of air (while the speed of sound is five times faster in water than in the air). This explains why a gel must be applied between the probe and the body : any left air would prevent ultrasound to penetrate our skin.
+At the interface between two mediums, any incident wave splits in a transmitted and a reflected wave. The ratio of the transmitted wave and the reflected is related to the difference of impedance betwenn those two mediums. The acoustic impedance $$Z$$ of a medium is given by the formula $$Z=\rho{c}$$ where $$\rho$$ is the density and $$c$$ is the sound speed. The ration $$r$$ between the amplitudes of the reflected and incident waves is given by: 
+
+$$r=\frac{Z_2\cos(\theta_i)-Z_1\cos(\theta_t)}{Z_2\cos(\theta_i)+Z_1\cos(\theta_t)}$$
+
+So the more the acoustical impedances of the two mediums are different, the more the wave is reflected. For example the interface between air and water is really reflective as the density of water is much superior as the one of air (while the speed of sound is five times faster in water than in the air). This explains why a gel must be applied between the probe and the body : any left air would prevent ultrasound to penetrate our skin.
 
 <figure>
   <img src="./acoustic_imaging_src/image/300px-Reflectionrefraction.jpg" alt="" />
