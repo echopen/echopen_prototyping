@@ -12,7 +12,7 @@ Clement - **@clecoued**
     * integration of multi reference images
     * deploy in production
 
-## Community example
+## Community examples
 
 **Arduino** - fondation + entreprise
 2 peoples
@@ -23,16 +23,16 @@ split soft and hardware
 
 **Rasberry Pi** - small company
 
-** ESP8266 **
+**ESP8266**
 first similar project to Arduino + Wifi module
 
-** Maker Bot**
+**Maker Bot**
 
-** Open IRM **
+**Open IRM **
 
-** Open Source Medical Hardware **
+**Open Source Medical Hardware**
 
-## ## CR Followup Meeting 28-06-2017
+## CR Followup Meeting 28-06-2017
 
 Attending:
 Medhi B - **@benchoufi** /
@@ -103,7 +103,7 @@ Do we need more resources ?
  * secondary projects
 
 
-##2017.07.21 - HD - 19.00 \(Paris time\)
+## 2017.07.21 - HD - 19.00 \(Paris time\)
 
 Attending:
 Medhi B - **@benchoufi** /
@@ -114,23 +114,23 @@ Nicolas F - **@nfilipov** /
 Clement L - **@lecoued** /
 Benjamin S - **@benschan**
 
-###EchOpen leaderboard:
+## EchOpen leaderboard:
  * feature completed: error feedbacks implemented in the code console **@hackolite**
  * to do:
      * integration of the multi reference images benchmark
      * password recuperation
 
-###Benchmarking - existing ultra portable echograph:
+## Benchmarking - existing ultra portable echograph:
  * best effort to complete the template **@luc**
  * 510k certification - EchOpen upgrade of Clarius ? Lumify ?
 
-###Documentation:
+## Documentation:
  * mobile application documentation in progress **@benchoufi** **@lecoued**
  * big rework on challenges
  * target - 30 June mobile app doc
           - 13 July challenge rework
 
-###Community:
+## Community:
  * start a community mapping **@hackholite** **@luc**
  * how to integrate smoothly new contributions ?  **@benchoufi** **@aurelie**
  * how people get more aware of their close work group ?
@@ -140,7 +140,7 @@ Benjamin S - **@benschan**
  * create a wish list
 
 
-###Brainstorming about Challenge4Students:
+## Brainstorming about Challenge4Students:
 
  * build a RoadMap - short term / long term **@all**
      * build realistic targets
