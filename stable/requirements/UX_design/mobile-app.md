@@ -27,7 +27,7 @@ You'll find here the current UI. It is for the moment dead simple. Indeed, for t
 
 <img src="/assets/Screenshot_2017-04-15-16-56-10.png" alt="alt text" width="350px" style="float:left;margin:10px">
 
-<img src="/assets/Screenshot_2017-04-15-16-43-41.png" alt="alt text" width="350px" style="margin:10px 20px 10px">
+<img src="/assets/Screenshot_2017-04-15-16-43-41.png" alt="alt text" width="350px" style="margin:10px 10px 10px">
 
 
 
