@@ -23,9 +23,11 @@ You'll find here the current UI. It is for the moment dead simple. Indeed, for t
   * _The image intensity can also be amplified uniformally through a gain filter_
 
 
-
-![](/assets/Screenshot_2017-04-15-16-56-57.png)
 <img src="/assets/Screenshot_2017-04-15-16-56-57.png" alt="alt text" width="300px">
 
-![](/assets/Screenshot_2017-04-15-16-56-10.png)![](/assets/Screenshot_2017-04-15-16-43-41.png)
+<img src="/assets/Screenshot_2017-04-15-16-56-10.png" alt="alt text" width="300px">
+
+<img src="/assets/Screenshot_2017-04-15-16-43-41.png" alt="alt text" width="300px">
+
+
 
