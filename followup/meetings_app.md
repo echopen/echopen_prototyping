@@ -1,9 +1,4 @@
-# 2017
-
-
-## 2017.03.22 - HD - 20.00 (Paris time)
-
-## 2017.03.15 - HD - 20.00 (Paris time)
+Technical meetings has been merged - You can follow us now on [Weekly meetings](weekly_meeting.md)
 
 ## 2017.03.02 - HD - 20.00 (Paris time)
 
