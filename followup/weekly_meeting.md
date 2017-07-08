@@ -1,4 +1,107 @@
-# 2017
+## CR Followup Meeting 05-07-2017
+
+Attending:
+Luc J - **@luc** /
+Loic - **@hackholite** /
+Clement - **@clecoued** 
+
+## Sigproc
+ * lost password functionnality done by @hackholite
+
+ * remains:
+    * integration of multi reference images
+    * deploy in production
+
+## Community example
+
+**Arduino** - fondation + entreprise
+2 peoples
+
+merge both entities
+no external contributors
+split soft and hardware
+
+**Rasberry Pi** - small company
+
+** ESP8266 **
+first similar project to Arduino + Wifi module
+
+** Maker Bot**
+
+** Open IRM **
+
+** Open Source Medical Hardware **
+
+## ## CR Followup Meeting 28-06-2017
+
+Attending:
+Medhi B - **@benchoufi** /
+Luc J - **@luc** /
+Olivier De F - **@olivier** /
+Aurelie M - **@aurelie** /
+Nicolas F - **@nfilipov** /
+Clement L - **@lecoued** /
+Benjamin S - **@schanes**
+
+### Identify and discuss project core elements
+
+* What are we doing ?
+* With who ?
+* How we do it ?
+
+### Basics
+
+Association: cf Association Goals
+
+General assembly - existing big picture:
+
+ * create a prototype with medical standards
+    * medical image quality - success
+    * clinical interpretability - in progress
+
+    * clinical trials in June 2018 - to come
+
+ * community impact - support industrial project
+
+### Community status ?
+
+Do we interface community with industrial project ?
+
+How do we interface community with industrial project ?
+
+What a contributor is looking for in echOpen project ?
+
+How do we give values to contributors ?
+
+How we valorize community ? competences available and contributions
+
+Do we grow communities and how ?
+
+What we expect from contributors ?
+
+Which community models could be similar to ours ?
+
+### What are the projects ?
+Do we focus on a single project (industrial project) ?
+
+If not, what are the side projects ?
+
+**Brainstorm on projects**
+
+### What is the roadmap ?
+** Determine the milestones to complete the project/s **
+
+### How do we find and allocate resources ?
+Do we need more resources ?
+
+### Communication ?
+
+**Action Plan:**
+
+ * state of the art - existing similar community models
+ * Calendar of the topic we will process
+ * secondary projects
+
 
 ##2017.07.21 - HD - 19.00 \(Paris time\)
 
