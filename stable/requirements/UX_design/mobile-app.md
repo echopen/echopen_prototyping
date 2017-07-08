@@ -23,6 +23,7 @@ You'll find here the current UI. It is for the moment dead simple. Indeed, for t
 
 
 ![](/assets/Screenshot_2017-04-15-16-56-57.png)
+<img src="/assets/Screenshot_2017-04-15-16-56-57.png" alt="alt text" width="10px" height="10px">
 
 ![](/assets/Screenshot_2017-04-15-16-56-10.png)![](/assets/Screenshot_2017-04-15-16-43-41.png)
 
