@@ -52,8 +52,7 @@
 
         * the local mode, the image are fetched from a local folder and so emulates the real ones
 
-    * each image displays a predefined number of lines, 64 lines, each of which carries a predefined number of samples : 1478
-
+  * image filters are implemented in order to improve contrast and image quality. These settings will then be reported in the production app, without letting the user to modify them -&gt; @clecoued for more details
     * each image pixel is encoded with 2 bytes
 
 

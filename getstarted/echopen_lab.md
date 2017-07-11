@@ -45,8 +45,8 @@ _Figure 3: Testing appliance_
 
 The oscilloscope and multimeter can be used as electronic diagnostic tools to get quick access to the signals in different parts of the circuit in the board \(test leads are required to get measurements on the breadboard\). The signal generator allows simulating different inputs to part of the circuit.
 
+---
 
-
-
+Now that your echOpen lab is ready you can read about the charcteristics of the [latest stable version](/stable/stable.md) or about the [work in progress](/inprogress/inprogress.md). Or you can [jump directly to the production guide](/stable/production_guide.md) !
 
 

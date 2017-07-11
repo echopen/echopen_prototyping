@@ -1,27 +1,46 @@
 # Introduction
-_This section is in construction_
+_This section is in construction_ 
 
 ## How medical ultrasound works ?
 
 This imaging technique is based on the propagation of ultrasound in the human body in order to realize medical diagnosis. Ultrasound is sound waves at a frequency that is too high to be perceived by the human ear. It behaves as the traditional sound and it propagates a little bit like waves in the sea. 
 
+<figure>
+  <img src="./acoustic_imaging_src/Fetal_Ultrasound.png" alt="" />
+  <figcaption> Figure 1: fetal ultrasound</figcaption>
+</figure>
+
 ### Using the pulse echo sequence for ranging objects 
 
-To localize objects we use the pulse echo concept. Remember last time you yelled in a valley ? Your voice bounced on the mountains and came back to your ear after some delay. To know how far is a cliff in front of you for example the idea is to measure the time your cry takes to come back to your years. Knowing the  sound speed in air you can easily retrieve the distance as it is half the delay times the sound speed. The half factor count for the fact that our cry traveled a two way trip. A lot of animals use this principle to perform echolocation as bats or dolphins allowing them to "see with their ears". 
+To localize objects we use the pulse echo concept. Remember last time you yelled in a valley ? Your voice bounced on the mountains and came back to your ear after some delay. To know how far is a cliff in front of you for example the idea is to measure the time your cry takes to come back to your years. Knowing the  sound speed c in air you can easily retrieve the distance d as it is half the delay t times the sound speed. The half factor count for the fact that our cry traveled a two way trip. A lot of animals use this principle to perform echolocation as bats or dolphins allowing them to "see with their ears". 
+
+<figure>
+  <img src="./acoustic_imaging_src/image/Echo_cliff.jpg" alt="" />
+  <figcaption> Figure 2: Reflection of sound on a cliff</figcaption>
+</figure>
 
 ### Both an emitter and a receiver: the transducer
 
 In the case of medical ultrasound, ultrasounds are emitted and received by a unique device called a transducer. This latter is made of a special material subject to a phenomenon called piezoelectricity. When a mechanical stress is applied to such a material, it reacts by accumulating electric charges. As sound is nothing else than a mechanical vibration, the sound arriving on the transducer implies a mechanical stress which is converted in a electrical tension that can be measured. The contrary is also possible. A voltage applied to the transducer will lead to a mechanical stress which will propagate as ultrasound waves through the medium we want to investigate. For simplicity a transducer is a speaker and a microphone at the same time but it emits and detects ultrasounds.
 
-### Reflections: a matter of acoustical impedance 
+<figure>
+  <img src="./acoustic_imaging_src/Piezoelectric-Effect.jpg" alt="" />
+  <figcaption> Figure 3: the piezoelectric effetc</figcaption>
+</figure>
 
+
+### Reflections: a matter of acoustical impedance 
 Unlike echolocation that aims to locate objects from reflection on their surface, medical ultrasound aims to produce an image of a medium by making ultrasounds penetrating it. Our body is made of bones, liquids, tissues... offering a complex geometry for our waves. To understand how waves are reflected in this complex medium, we first have to understand how a wave is reflected at an ideally flat interface of different material.
 
-At the interface between two mediums, any incident wave splits in a transmitted and a reflected wave. The ratio of the transmitted wave and the reflected is related to the difference of impedance betwenn those two mediums. The acoustic impedance of is the product of the density and the sound speed. The more the acoustical impedances of the two mediums are different, the more the wave is reflected. For example the interface between air and water is really reflective as the density of water is much superior as the one of air (while the speed of sound is five times faster in water than in the air). This explains why a gel must be applied between the probe and the body : any left air would prevent ultrasound to penetrate our skin.
+At the interface between two mediums, any incident wave splits in a transmitted and a reflected wave. The ratio of the transmitted wave and the reflected is related to the difference of impedance betwenn those two mediums. The acoustic impedance $$Z$$ of a medium is given by the formula $$Z=\rho{c}$$ where $$\rho$$ is the density and $$c$$ is the sound speed. The ration $$r$$ between the amplitudes of the reflected and incident waves is given by: 
+
+$$r=\frac{Z_2\cos(\theta_i)-Z_1\cos(\theta_t)}{Z_2\cos(\theta_i)+Z_1\cos(\theta_t)}$$
+
+So the more the acoustical impedances of the two mediums are different, the more the wave is reflected. For example the interface between air and water is really reflective as the density of water is much superior as the one of air (while the speed of sound is five times faster in water than in the air). This explains why a gel must be applied between the probe and the body : any left air would prevent ultrasound to penetrate our skin.
 
 <figure>
   <img src="./acoustic_imaging_src/image/300px-Reflectionrefraction.jpg" alt="" />
-  <figcaption> Figure 1: Reflection at an interface</figcaption>
+  <figcaption> Figure 4: Reflection at an interface</figcaption>
 </figure>
 
 ### Ultrasound imaging: a reflectivity map
@@ -32,7 +51,7 @@ Most parts of our bodies are mainly composed of water, so the acoustic impedance
 
 <figure>
   <img src="./acoustic_imaging_src/image/echolocation.jpg" alt="" />
-  <figcaption> Figure 2: echolocation in the human body</figcaption>
+  <figcaption> Figure 5: echolocation in the human body</figcaption>
 </figure>
 
 
@@ -62,11 +81,19 @@ We could keep talking about ultrasound imaging for hours as this technology has 
 
 Our solution to tackle the imaging processed is based on the first generations of scanners because of their simplicity. Those scanners contained only one rotating transducer. To gain versatility, probes were usually embedding several transducers as a unique transducer design couldn't fit all imaging purposes.
 
-### The minimal acquisition chain
+### The minimal data acquisition system
 
-To summarize the process of acquisition we first have to place the transducer in the right position thanks to a motor.Then, a circuit called a pulser is used to excite the transducer. Once this is done, the transducer is switched onto a listening mode. The signal is amplified by a variable gain amplifier as signal coming from deeper reflection need to be further amplified because of the attenuation of ultrasound in human tissues. The signal is then digitalized and some processing is achieved to extract the envelope as it is the relevant information we want to display. Some denoising can be applied at this step. The collected lines are then sent to the smartphone via wifi where the scan conversion is achieved. This last step consists in rendering a conical image from the different recorded lines. 
+Data acquisition is the process of sampling signals that measure real world physical conditions and converting the resulting samples into digital numeric values that can be manipulated by a computer. It is done thanks to a data acquisition system. At echOpen, we try to use as few components as possible in that system in order to reduce the cost of our probe. Let's follow the signal in that system:
+* First the transducer is put on the right position thanks to a motor.
+* A circuit called a pulser is used to excite the transducer that behaves like a speaker. 
+* The transducer is switched onto a listening mode (it behaves like a microphone). 
+* The signal is amplified. This step is necessary to digitalize the signal, otherwise its amplitude would be too low.
+* The signal is digitalized.
+* Some processing is achieved to extract the relevant information we want to display. This is called envelope extraction. Some denoising can be applied at this step. 
+* The collected lines are sent to the smartphone via wifi. 
+* The scan conversion is achieved. This last step consists in rendering a conical image from the different recorded lines. 
 
-Here is a simplified flowchart of the full device and a litlle more information about each component.
+Here is a simplified flowchart of the full device and a litlle more information about each component:
 
 ```mermaid
 graph TD;
@@ -100,10 +127,10 @@ t-.ultrasound <br/> propagation.->m
 
 #### The pulser
 
-The pulser is an electronic board that converts a logic signal that ranges from 0-3.3V into an analogical that ranges from -100V to 0V. That high voltage signal is needed to allow the transducer to emit ultrasounds.
+The pulser is an electronic board that converts a logic signal that ranges from 0-3.3V into an analog one that ranges from -100V to 0V. That high voltage analog signal is needed to allow the transducer to emit ultrasounds.
 
 #### The transducer and the switch
-As explained earlier, the transducer converts an electric signal into ultrasounds. Once a burst of ultrasound has benn emitted, the transducer is switched onto its reception mode.
+The transducer converts an electrical signal into ultrasounds thanks to the piezioelectric effect: an alternating current is applied across the piezoelectric crystal that grows and shrinks depending on the voltage applied. The alternating current makes the crystal vibrate quickly, which produces an ultrasound. After reflection, the sound hits the crystal and triggers the reverse piezoelectric effect. An electronic signal containing information about the reflections of the ultrasound waves is obtained.
 
 #### The variable gain amplifier
 
@@ -112,8 +139,8 @@ In complex mediums such as the human body waves are attenuated. It means that th
 #### Digitalization
 After the amplification, the signal is still analogical. It needs to be digitalized (converted into a logical signal) to be processed by other electronical components.
 
-#### Enveloppe detection
-The envelopp detection is a procedure that is used to analyse the signal to detect the times at whitch reflected ultrasounds were received. It can be done with an analogical or a digital signal. We chose the latter option. For the moment this detection is realized thanks to the smartphone application, but our plan is to be able to do it inside the device. Indeed performing enveloppe detection in the smartphone recquires to send the complete signal by wifi to the smartphone, which we would like to avoid.
+#### Envelope detection
+The envelope detection is a procedure that is used to analyse the signal to detect the times at whitch reflected ultrasounds were received. It can be done with an analogical or a digital signal. We chose the latter option. For the moment this detection is realized thanks to the smartphone application, but our plan is to be able to do it inside the device. Indeed performing enveloppe detection in the smartphone recquires to send the complete signal by wifi to the smartphone, which we would like to avoid.
 
 #### Scan conversion
 
@@ -128,7 +155,7 @@ Using an ultrasound beamformer, we can scan an area line by line and gather data
 
 <figure>
   <img src="./acoustic_imaging_src/image/scan_conversion_one.jpg" alt="" />
-  <figcaption> Figure 3: Scheme of a scanned area</figcaption>
+  <figcaption> Figure 6: Scheme of a scanned area</figcaption>
 </figure>
 
 
@@ -136,7 +163,7 @@ Using an ultrasound beamformer, we can scan an area line by line and gather data
 
 <figure>
   <img src="./acoustic_imaging_src/image/scan_conversion_two.jpg" alt="" />
-  <figcaption> Figure 4: Image obtained without polar to cartesian conversion</figcaption>
+  <figcaption> Figure 7: Image obtained without polar to cartesian conversion</figcaption>
 </figure>
 
 
@@ -155,6 +182,6 @@ These two images are before/after scan conversion of an image of a liver
 
 ## Looking for further information ?
 
-To learn more about the hardware of the last version of the device, click [here](/stable/doc_hardware.md).
+To learn more about the hardware of the latest version of the device, click [here](/stable/doc_hardware.md).
 
 To learn more about the software, click [here](/stable/doc_software.md)
