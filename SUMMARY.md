@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-  * [About this GitBook](introduction/this_gitbook.md)
+  * [About this GitBook](introduction/prototyping_gitbook.md)
   * [Technical introduction](introduction/new_introduction.md)
   * [Technical introduction \(old\)](introduction/technical_introduction.md)
   * [Acoustic basics](introduction/acoustic_basics.md)
