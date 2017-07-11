@@ -4,13 +4,13 @@
 
 Being able to measure the quality of the image displayed by our device is of crucial importance. It would allow the community to quantify the progress between two versions of the device, but it may also be useful to prove that the echOpen device is reliable. Even if some parameters such as the framerate or the transducer’s bandwidth can be measured and are known for having an impact on the image quality, a global approach taking the whole system into account is necessary.
 
-However, quantifying the quality of an ultrasound imaging system is difficult as no objective criteria has yet been fully developed and accepted for the evaluation of clinical image quality. For the moment, the evaluation of a clinical image quality is generally performed subjectively by a specialist even if a few techniques providing relevant measures have been developed in the past years. 
+However, quantifying the quality of an ultrasound imaging system is difficult as no objective criteria has yet been fully developed and accepted for the evaluation of clinical image quality. For the moment, the evaluation of the quality of a clinical image is generally performed subjectively by a specialist, even if a few techniques providing relevant measures have been developed in the past years. 
 
 In this document I will first present some of the criteria that may be used to characterize the image quality and the corresponding parameters, then I will evoke some existing methods that are used for image quality assessment, and I will finally compare those techniques taking the specific constrains of the echOpen project into account. Indeed, clinical trials are expansive and time consuming. They should be used for the final device only, in order to get medical certifications.
 
 
 ## Criteria to characterize the quality of an ultrasound image 
-There is a lot of criteria that can be used to characterize the quality of such an image. Here are some of them.
+Some of the relevevant parameeters for the quality assesment are described in the following list. Their values are primarily affected by the properties of the transducer and the ADC(analog to digitall device), by the pulser and the amplifier and by the signal processing.
 
 ### Spatial resolution
 The spatial resolution is usually divided in ultrasound imaging into two concepts. Lateral resolution is the capability to resolve details from each other when they are near each other on lines perpendicular to the ultrasound beam. Accordingly, axial resolution is the capability to resolve details that are near each other on lines parallel to the ultrasound beam. A third resolution called elevation resolution defines how thin a layer the transducer is capable of separating from adjacent layers in the object. The spatial resolution may be affected by some of the transducer’s properties such as its geometry, as it affects the beam width (for the lateral resolution) or its bandwidth that may change the pulse’s length (for the axial resolution). The frequency of the transducers also changes the depth at which the better resolution is observed.
