@@ -29,6 +29,8 @@
   * [Documentation](stable/doc_pipeline.md)
     * [Hardware](stable/doc_hardware.md)
     * [Software](stable/doc_software.md)
+      * [Architecture](stable/doc_software/architecture.md)
+      * [Technical choices](stable/doc_software/technical_choices.md)
   * [Device characteristics](stable/characteristics.md)
   * [Production guide](stable/production_guide.md)
     * [Reproducing the device](stable/guide_hardware.md)

@@ -1,6 +1,109 @@
-# 2017
+## CR Followup Meeting 05-07-2017
 
-##2017.07.21 - HD - 19.00 \(Paris time\)
+Attending:
+Luc J - **@luc** /
+Loic - **@hackholite** /
+Clement - **@clecoued** 
+
+## Sigproc
+ * lost password functionnality done by @hackholite
+
+ * remains:
+    * integration of multi reference images
+    * deploy in production
+
+## Community examples
+
+**Arduino** - fondation + entreprise
+2 peoples
+
+merge both entities
+no external contributors
+split soft and hardware
+
+**Rasberry Pi** - small company
+
+**ESP8266**
+first similar project to Arduino + Wifi module
+
+**Maker Bot**
+
+**Open IRM **
+
+**Open Source Medical Hardware**
+
+## CR Followup Meeting 28-06-2017
+
+Attending:
+Medhi B - **@benchoufi** /
+Luc J - **@luc** /
+Olivier De F - **@olivier** /
+Aurelie M - **@aurelie** /
+Nicolas F - **@nfilipov** /
+Clement L - **@lecoued** /
+Benjamin S - **@schanes**
+
+### Identify and discuss project core elements
+
+* What are we doing ?
+* With who ?
+* How we do it ?
+
+### Basics
+
+Association: cf Association Goals
+
+General assembly - existing big picture:
+
+ * create a prototype with medical standards
+    * medical image quality - success
+    * clinical interpretability - in progress
+
+    * clinical trials in June 2018 - to come
+
+ * community impact - support industrial project
+
+### Community status ?
+
+Do we interface community with industrial project ?
+
+How do we interface community with industrial project ?
+
+What a contributor is looking for in echOpen project ?
+
+How do we give values to contributors ?
+
+How we valorize community ? competences available and contributions
+
+Do we grow communities and how ?
+
+What we expect from contributors ?
+
+Which community models could be similar to ours ?
+
+### What are the projects ?
+Do we focus on a single project (industrial project) ?
+
+If not, what are the side projects ?
+
+**Brainstorm on projects**
+
+### What is the roadmap ?
+** Determine the milestones to complete the project/s **
+
+### How do we find and allocate resources ?
+Do we need more resources ?
+
+### Communication ?
+
+**Action Plan:**
+
+ * state of the art - existing similar community models
+ * Calendar of the topic we will process
+ * secondary projects
+
+
+## 2017.07.21 - HD - 19.00 \(Paris time\)
 
 Attending:
 Medhi B - **@benchoufi** /
@@ -11,23 +114,23 @@ Nicolas F - **@nfilipov** /
 Clement L - **@lecoued** /
 Benjamin S - **@benschan**
 
-###EchOpen leaderboard:
+## EchOpen leaderboard:
  * feature completed: error feedbacks implemented in the code console **@hackolite**
  * to do:
      * integration of the multi reference images benchmark
      * password recuperation
 
-###Benchmarking - existing ultra portable echograph:
+## Benchmarking - existing ultra portable echograph:
  * best effort to complete the template **@luc**
  * 510k certification - EchOpen upgrade of Clarius ? Lumify ?
 
-###Documentation:
+## Documentation:
  * mobile application documentation in progress **@benchoufi** **@lecoued**
  * big rework on challenges
  * target - 30 June mobile app doc
           - 13 July challenge rework
 
-###Community:
+## Community:
  * start a community mapping **@hackholite** **@luc**
  * how to integrate smoothly new contributions ?  **@benchoufi** **@aurelie**
  * how people get more aware of their close work group ?
@@ -37,7 +140,7 @@ Benjamin S - **@benschan**
  * create a wish list
 
 
-###Brainstorming about Challenge4Students:
+## Brainstorming about Challenge4Students:
 
  * build a RoadMap - short term / long term **@all**
      * build realistic targets
