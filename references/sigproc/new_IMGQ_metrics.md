@@ -40,6 +40,12 @@ There are some areas in the object where the properties of the materials are sli
 ### The Resolution Integral
 The Resolution Integral is a mathematical transformation that produces a single figure of merit for image quality from individual measurements of resolution over a range of depths. The idea is that a good image is correlated with a narrow beam width and a good penetration into soft tissues, so a notional metric of performance could calculated as the ratio R = Penetration / Beam Width. For weakly focused imaging beams, the variation of ultrasound beam characteristics with depth can be accounted for using an integral approach. The metric can then be written as: R=  ∫_0^∞▒〖L(α)  dα 〗  where 2/α is the effective beam width and L(α′) is the axial distance over which the effective beam width is less than 2/α′.
 
+<figure>
+  <img src="./references/sigproc/resolution_integral.jpg" alt="" />
+  <figcaption> Figure 1: resolution integral
+  
+  Image source: http://orbit.dtu.dk/files/4656580/Hemmsen_2010_SPIE%5B2%5D.pdf</figcaption>
+</figure>
 
  
 The L-α curve is bounded on the y-axis by L0, the ‘length of the beam’. Beyond that point, the beam still exists but cannot be distinguished from the noise because its intensity is too low. This is also called the noise limit. On the x-axis, the curve is limited by 1/a0, where a0 represents the best spatial resolution. A transducer with a good penetration and a good spatial resolution tends to have a large value for the Integral Resolution. L and α can be determined by scanning particular phantoms.
