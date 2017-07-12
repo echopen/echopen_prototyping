@@ -15,6 +15,12 @@ The transducer sends an ultrasound pulse at a given frequency (5 MHz for axample
 
 ## Current solution
 The current solution is a simple diode in series with a low pass filter.
+<figure>
+  <img src="/challenges/envelope_detection/envelope_detector.gif" alt="" />
+  <figcaption> Figure 2: simple envelope detector
+  
+  Image source: https://www.st-andrews.ac.uk/~jcgl/Scots_Guide/RadCom/part9/fig2.gif</figcaption>
+</figure>
 
 
 ## State of the Art
