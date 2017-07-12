@@ -12,7 +12,8 @@ So, the main objective here is to find the DICOM data format(s) that will suit t
 Once the data format is chosen, the second objective os to implement a solution to create such files. 
  
  ## Current solution
- For the moment, we only managed to export JPG images.
+ For the moment, we managed to export JPG images.
+ 
  
  ## State of the Art
  
@@ -29,16 +30,22 @@ This chart's purpose is to allow contributors to write their ideas and what they
 
  
  ## Ressources
+There is an introductory document to DICOM at the following address, which may be helpful: 
+* [https://orthanc.chu.ulg.ac.be/book/dicom-guide.html](https://orthanc.chu.ulg.ac.be/book/dicom-guide.html)
+
+ Read more about the data format there:
+ * [http://dicom.nema.org/dicom/2013/output/chtml/part10/chapter\_7.html](http://dicom.nema.org/dicom/2013/output/chtml/part10/chapter_7.html) 
+* [http://www.mccauslandcenter.sc.edu/mricro/dicom/](http://www.mccauslandcenter.sc.edu/mricro/dicom/)
  
  ## Details 
  
  ### Skills
- * Skill 1
- * Skill 2
- * Skill 3
+ * Good knowledge of the DICOM format
+ * Basic skills in computer science
+ 
  
  ### Level 4
 Difficulty of the challenge (from 1 to 5).
 
 ### Team
- 
+This challenge was suggested by the Mobile App team. Information to contact them is available [here](./howto/teams.md).
