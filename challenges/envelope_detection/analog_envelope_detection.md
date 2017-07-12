@@ -12,7 +12,10 @@ The transducer sends an ultrasound pulse at a given frequency (5 MHz for axample
 
 ## Objectives
 
+
 ## Current solution
+The current solution is a simple diode in series with a low pass filter.
+
 
 ## State of the Art
 
