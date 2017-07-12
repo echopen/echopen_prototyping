@@ -19,6 +19,14 @@ Once the data format is chosen, the second objective os to implement a solution 
  
  
  ## Challenge progress
+0%
+
+This chart's purpose is to allow contributors to write their ideas and what they managed to do, so that other contributors may knom what has been done so far.
+
+| Contributor                  | Achievment                                | Next step or help needed        | 
+| :---                         | :---                                      | :---                            | 
+|                              |                                           | -                               |
+
  
  ## Ressources
  
