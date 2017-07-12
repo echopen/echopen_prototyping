@@ -2,7 +2,7 @@
 
 ## Description
 DICOM (Digital Communications in Medicine) is a standard for handling, storing, transmitting and printing information in medical imaging. It includes a file format definition and 
-a network communication protocol. You can find a more detailed description of DICOM [here](./challenges/data_format/dicom.md). We would like our device to be able to export images in DICOM so that physicians may be able to exchange those 
+a network communication protocol. You can find a more detailed description of DICOM [here](/challenges/data_format/dicom.md). We would like our device to be able to export images in DICOM so that physicians may be able to exchange those 
 images or to use already existing specialized software for example. A DICOM file contains all the data a physician would need to establish a diagnosis even if he didn't perform the exam himself (data about the set-up of the scanner for axample). DICOM would also allow consistency in time and a proper tagging for images. 
  
  ## Objectives
@@ -36,7 +36,7 @@ This chart's purpose is to allow contributors to write their ideas and what they
 There is an introductory document to DICOM at the following address, which may be helpful: 
 * [https://orthanc.chu.ulg.ac.be/book/dicom-guide.html](https://orthanc.chu.ulg.ac.be/book/dicom-guide.html)
 
- You can also read the [subsection about DICOM](./echopen_prototyping/challenges/data_format/).
+ You can also read the [subsection about DICOM](/challenges/data_format/).
  
  
  ## Details 
