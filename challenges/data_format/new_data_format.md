@@ -3,8 +3,7 @@
 ## Description
 DICOM (Digital Communications in Medicine) is a standard for handling, storing, transmitting and printing information in medical imaging. It includes a file format definition and 
 a network communication protocol. You can find a more detailed description of DICOM [here](./echopen_prototyping/challenges/data_format/). We would like our device to be able to export images in DICOM so that physicians may be able to exchange those 
-images or to use already existing specialized software for example. DICOM would also allow consistency in time and a proper tagging for 
-images. 
+images or to use already existing specialized software for example. A DICOM file contains all the data a physician would need to establish a diagnosis even if he didn't perform the exam himself (data about the set-up of the scanner for axample). DICOM would also allow consistency in time and a proper tagging for images. 
  
  ## Objectives
  There are many DICOM data formats. Some of them were created for X-ray imaging, others were disigned for RMI or ultrasound imaging etc ... And even among those of the latter category, there is till a lot of different formats ! Some of them are adapted for old and basic scanners, others were created for the last generation of ultra poratble ultrasound probes and so on. 
