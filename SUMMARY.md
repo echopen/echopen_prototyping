@@ -11,7 +11,6 @@
   * [Find your team](howto/teams.md)
 * [Get started](getstarted/getstarted.md)
   * [Set up your own echOpen lab](getstarted/echopen_lab.md)
-  * [Hacking guide](getstarted/hacking_guide.md)
 * [Product backlog](backlog/backlog.md)
   * [Technical constrains](backlog/technical.md)
   * [Functional specifications](backlog/specs.md)
