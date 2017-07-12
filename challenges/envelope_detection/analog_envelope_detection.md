@@ -4,7 +4,7 @@
 The transducer sends an ultrasound pulse at a given frequency (5 MHz for axample). The pulse lasts about two periods. If the wave hits an interface between two different tissues, an echo is received by the transducer. That echo is also a pulse. Its amplitude is much lower than the emitted pulse, but its shape is supposed to be quite similar (if we don't take dispersion in the media into account). Envelope detection is a process that allows the detection of a pulse. It usually turns a high frequency signal into a low frequency signal. It can be processed directly on the analog signal or later on the digitalized signal. For the moment, envelope detection is performed thanks to a diode and a low pass filter, but it is not really satisfying. The challenge here is to find a better solution.
 
 <figure>
-  <img src="./challenges/envelope_detection/Fetal_Ultrasound.png" alt="" />
+  <img src="./challenges/envelope_detection/envelope_detection_principle.png" alt="" />
   <figcaption> Figure 1: ideal envelope detection. The blue curve is the high frequency signal, the red curve is the envelope.
   
   Image source: https://mysliceofraspberrypi.files.wordpress.com/2013/10/4248c-analytic.png</figcaption>
