@@ -6,11 +6,11 @@ a network communication protocol. You can find a more detailed description of DI
 images or to use already existing specialized software for example. A DICOM file contains all the data a physician would need to establish a diagnosis even if he didn't perform the exam himself (data about the set-up of the scanner for axample). DICOM would also allow consistency in time and a proper tagging for images. 
  
  ## Objectives
- There are many DICOM data formats. Some of them were created for X-ray imaging, others were disigned for RMI or ultrasound imaging etc ... And even among those of the latter category, there is till a lot of different formats ! Some of them are adapted for old and basic scanners, others were created for the last generation of ultra poratble ultrasound probes and so on. 
+ There are many DICOM data formats. Some of them were created for X-ray imaging, others were designed for RMI or ultrasound imaging etc ... And even among those of the latter category, there is till a lot of different formats ! Some of them are adapted for old and basic scanners, others were created for the last generation of ultra poratble ultrasound probes and so on. 
  
 So, the main objective here is to find the DICOM data format(s) that will suit the echOpen probe the best ! There may be several formats as the purpose is to export either fix images (screenshots) or US (cine) videos. 
 
-Once the data format is chosen, the second objective or to implement a solution to create such files. To do that, very detailed information about the format such as the mandatory will be needed.
+Once the data format is chosen, the second objective or to implement a solution on the mobile app to create such files. To do that, very detailed information about the format such as the mandatory will be needed. 
  
  ## Current solution
  For the moment, we managed to export JPG images.
