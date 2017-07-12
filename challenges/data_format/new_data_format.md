@@ -8,7 +8,9 @@ images.
  
  ## Objectives
  There are many DICOM data formats. Some of them were created for X-ray imaging, others were disigned for RMI or ultrasound imaging etc ... And even among those of the latter category, there is till a lot of different formats ! Some of them are adapted for old and basic scanners, others were created for the last generation of ultra poratble ultrasound probes and so on. 
+ 
 So, the main objective here is to find the DICOM data format(s) that will suit the echOpen probe the best ! There may be several formats as the purpose is to export either fix images (screenshots) or US (cine) videos. 
+
 Once the data format is chosen, the second objective or to implement a solution to create such files. To do that, very detailed information about the format such as the mandatory will be needed.
  
  ## Current solution
@@ -16,7 +18,9 @@ Once the data format is chosen, the second objective or to implement a solution 
  
  
  ## State of the Art
- 
+Every company selling ultrasound scanners must publish its ultrasound DICOM conformance statements (id est the format they use for each one of their products). It may be interesting to take a look at the format they use for devices that are quite similar to the echopen probe, such as:
+* The VScan Extend from General Electrics Healthcare. Conformace statements are [there](file:///C:/Users/Apolline/Downloads/GEHC-DICOM-Conformance_VScan-Extend-v1-0-3_DOC1821494_Rev3.pdf). If you want to read about the conformace statements of other products by the same firm, click [here](http://www3.gehealthcare.com/en/products/interoperability/dicom/ultrasound_dicom_conformance_statements).
+* The Philps Lumify. Conformance statements are [there](http://incenter.medical.philips.com/doclib/enc/12720755/Lumify_2_0_DICOM_Conformance_Statement.pdf%3ffunc%3ddoc.Fetch%26nodeid%3d12720755). f you want to read about the conformace statements of other products by the same firm, click [here](http://www.usa.philips.com/healthcare/resources/support-documentation/dicom-ultrasound). 
  
  
  ## Challenge progress
