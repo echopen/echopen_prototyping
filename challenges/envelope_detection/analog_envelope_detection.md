@@ -17,17 +17,35 @@ The characteristic time of the detector has to be chosen so that the envelope ca
 
 
 ## Current solution
-The current solution is a simple diode in series with a low pass filter.
 <figure>
-  <img src="/challenges/envelope_detection/envelope_detector.gif" alt="" />
-  <figcaption> Figure 2: simple envelope detector
+  <img src="/challenges/envelope_detection/viewme.png" alt="" />
+  <figcaption> Figure 2: current solution
   
-  Image source: https://www.st-andrews.ac.uk/~jcgl/Scots_Guide/RadCom/part9/fig2.gif</figcaption>
 </figure>
 
-It is not satisfying because: 
-* the quality of the obtained envelope signal is not good enough
-* if a secod pulse arrives at the transducer just after a first one, it is not detected with its real amplitude.
+### Remarks
+
+Envelope detector presented here is a very simple circuit where the diode is used to keep only positives slopes, then a low-pass filter is apply (RC circuit) to smooth the signal. 
+
+Central frequency of this filer must be higher than the frequency of the signal. For that kind of filter, central frequency $f_c$ is given by:
+
+$f_c=\dfrac{1}{2\pi RC}.$
+
+Value of R1 and C1 are defined for RedPiataya measurement.
+Value of R1 (and/or C1) must be refined when using a different probe.
+
+[BOM](./src/MDL-envelope_detector_v1.csv)
+
+### Results
+Input (yellow curve)/Output (bleu curve)
+![](./images/result.jpg)
+
+### Pros/Cons/Constraint:
+
+**Pros:** simple
+
+**Cons:** the envelope is detected only for the positive value of the signal, so the envelpe decrease between each positive lobs of the echoes.
+It is not satisfying because the quality of the obtained envelope signal is not good enough to obtain a good image in the end. Moreover, with that solution, if a secod pulse arrives at the transducer just after a first one then it is not detected with its real amplitude.
 
 ## State of the Art
 Different solutions exist to perform analog enveloppe detection, using transistors or operational amplifiers. Each of them has advantages and inconvenients. Below are a few examples of envelope detectors:
