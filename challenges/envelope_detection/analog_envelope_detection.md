@@ -34,11 +34,10 @@ $f_c=\dfrac{1}{2\pi RC}.$
 Value of R1 and C1 are defined for RedPiataya measurement.
 Value of R1 (and/or C1) must be refined when using a different probe.
 
-[BOM](./src/MDL-envelope_detector_v1.csv)
 
 ### Results
 Input (yellow curve)/Output (bleu curve)
-![](./images/result.jpg)
+![](./result.jpg)
 
 ### Pros/Cons/Constraint:
 
