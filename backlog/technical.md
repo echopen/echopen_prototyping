@@ -32,7 +32,7 @@ Design a mechanical device to scan a 60 ° sector with an ultrasonic beam 15 tim
 
 Choose the type of movement of the ultra-sound beam and design the mechanism by which it can be obtained (continuous rotating, oscillating, acoustic mirrors, etc.)
 
-    *PBL-mec_scn_mov_mot* : Motorization
+    PBL-mec_scn_mov_mot : Motorization
 
 Choose or design a type of motorization to obtain the chosen movement.
 
@@ -48,11 +48,11 @@ Design a means of knowing the position of the transducer during its movement.
 
 Design a firmware capable of controlling the motion of the transducer using the position encoder(s) and the selected motor.
 
-         *PBL-mec_scn_mov_cnx* : Transducer / electronic card connection
+         PBL-mec_scn_mov_cnx : Transducer / electronic card connection
 
 Design an electrical connection for carrying the signal between the mobile transducer(s) and the fixed electronic processing PCB.
 
-         *PBL-mec_scn_mov_brk* : Transducer support
+         PBL-mec_scn_mov_brk : Transducer support
 
 Design a bracket suitable for receiving the transducer capsule without interfering with ultrasonic emission or impeding maintenance.
 
@@ -71,7 +71,7 @@ Ensure the continuity of acoustic impedance between the transducer surface and t
 
 Design a system to immerse the sensor in an acoustically compatible liquid bath.
 
-         *PBL-mec_us_oil_sel* : Selecting oil
+         PBL-mec_us_oil_sel : Selecting oil
 
 Select a liquid (a priori an oil) that meets the following criteria:
 * Low-cost
@@ -81,14 +81,14 @@ Select a liquid (a priori an oil) that meets the following criteria:
 * Material compatibility
 * Good durability
 
-         *PBL-mec_us_oil_seal* : Sealing
+         PBL-mec_us_oil_seal : Sealing
 
 Design all systems that seal the oil-containing enclosure:
 * Choice of what is immersed in oil: piezo / mechanism / motor / position sensors / PCB / battery.
 * Type of seals: static on housing, static on cables, dynamics on shaft, flexible.
 * Seal material maintenanceability: removable or glued.
 
-         *PBL-mec_us_oil_fil* : Filling
+         PBL-mec_us_oil_fil : Filling
 
 Design the procedure for filling the cavity containing the oil:
 * Filling hole
@@ -99,15 +99,15 @@ Design the procedure for filling the cavity containing the oil:
 
 The part of the case that will be traversed by the ultrasounds must have a shape and be in a material compatible with this function.
 
-         *PBL-mec_us_case_mat* : Material
+         PBL-mec_us_case_mat : Material
 
 Select a material that is as transparent as possible to ultrasound, while remaining low-cost and easy to use. Several parts of different materials may be considered.
 
-         *PBL-mec_us_case_shp* : Shape
+         PBL-mec_us_case_shp : Shape
 
 The portion of the housing which will be in contact with the skin of the patient will have to have a minimum radius of curvature in order, for example, to allow examination between two ribs.
 
-        *PBL-mec_us_gel* : Gel
+        PBL-mec_us_gel : Gel
 
 Design or select a recipe for the gel used to ensure good continuity between the case and the patient's skin. This recipe should be low-cost and easily achievable.
 
@@ -157,6 +157,6 @@ Given the choice of interface of the box with the outside, especially for the lo
 
 Design a case of volume and shape capable of housing the electronic mechanical parts as well as the batteries and the whole wiring.
 
-        ##### *PBL-mec_case_body_asm* : Assembly Method
+        PBL-mec_case_body_asm : Assembly Method
 
 Choosing a method for assembling the various parts and shells which allows easy assembly / dismantling with conventional means while meeting the safety standards for a medical device.
