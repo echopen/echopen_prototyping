@@ -26,8 +26,8 @@ The current solution is a simple diode in series with a low pass filter.
 </figure>
 
 It is not satisfying because: 
-* reason 1
-* reason 2
+* the quality of the obtained envelope signal is not good enough
+* if a secod pulse arrives at the transducer just after a first one, it is not detected with its real amplitude.
 
 ## State of the Art
 Different solutions exist to perform analog enveloppe detection, using transistors or operational amplifiers. Each of them has advantages and inconvenients. Below are a few examples of envelope detectors:
@@ -60,6 +60,8 @@ Different solutions exist to perform analog enveloppe detection, using transisto
 
 
 ## Resources
+The probe sends pulses at different frequencies. Each pulse lasts between 1.5 and 2 periods. 3 frequencies are used in the probe: 3.5MHz, 5 MHz and 7.5MHz. The amplitude of the envelope ranges from 0V to 1V.
+
 A few links that may (or may not) be helpful:
 * [http://www.interfacebus.com/Glossary-of-Terms-transistor-envelope-detector-circuit.html](http://www.interfacebus.com/Glossary-of-Terms-transistor-envelope-detector-circuit.html)
 * [http://n1qq.com/blog/2016/05/](http://n1qq.com/blog/2016/05/)
