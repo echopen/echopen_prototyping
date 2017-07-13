@@ -19,7 +19,7 @@
   * [GPU & real time processing](challenges/gpu-and-real-time-processing.md)
   * [data format](challenges/data_format/new_data_format.md)
   * [HETIC School Challenge ](challenges/hetic-school-challenge.md)
-  * [Analog envelope detection](challenges/enveloppe_detection/analog_envelope_detection.md)
+  * [Analog envelope detection](challenges/envelope_detection/analog_envelope_detection.md)
 * [Stable release V3.0.0](stable/stable.md)
   * [Requirements](stable/requirements/requirements.md)
     * [Specifications](stable/requirements/specifications.md)
