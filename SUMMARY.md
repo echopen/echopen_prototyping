@@ -17,7 +17,6 @@
   * [Functional specifications](backlog/specs.md)
 * [Challenges](challenges/challenges.md)
   * [GPU & real time processing](challenges/gpu-and-real-time-processing.md)
-  * [scan conversion](challenges/scan-conversion.md)
   * [data format](challenges/data-format.md)
   * [HETIC School Challenge ](challenges/hetic-school-challenge.md)
 * [Stable release V3.0.0](stable/stable.md)
