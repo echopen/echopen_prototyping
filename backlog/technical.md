@@ -32,7 +32,7 @@ Design a mechanical device to scan a 60 ° sector with an ultrasonic beam 15 tim
 
 Choose the type of movement of the ultra-sound beam and design the mechanism by which it can be obtained (continuous rotating, oscillating, acoustic mirrors, etc.)
 
-        *PBL-mec_scn_mov_mot* : Motorization
+    *PBL-mec_scn_mov_mot* : Motorization
 
 Choose or design a type of motorization to obtain the chosen movement.
 
