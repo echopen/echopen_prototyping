@@ -50,7 +50,7 @@ It is not satisfying because the quality of the obtained envelope signal is not 
 Different solutions exist to perform analog enveloppe detection, using transistors or operational amplifiers. Each of them has advantages and inconvenients. Below are a few examples of envelope detectors:
 
 <figure>
-  <img src="/challenges/envelope_detection/Envelope_Detector.png" alt="" />
+  <img src="/challenges/envelope_detection/Envelope-Detector.png" alt="" />
   <figcaption> Figure 3: example of an envelope detector with op-amps
   
   Image source: http://n1qq.com/wordpress/wp-content/uploads/2016/04/Envelope-Detector.png</figcaption>
