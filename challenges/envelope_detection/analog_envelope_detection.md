@@ -33,24 +33,24 @@ It is not satisfying because:
 Different solutions exist to perform analog enveloppe detection, using transistors or operational amplifiers. Each of them has advantages and inconvenients. Below are a few examples of envelope detectors:
 
 <figure>
-  <img src="/challenges/envelope_detection/envelope_detector.gif" alt="" />
-  <figcaption> Figure 2: simple envelope detector
+  <img src="/challenges/envelope_detection/Envelope_Detector.png" alt="" />
+  <figcaption> Figure 3: example of an envelope detector with op-amps
   
-  Image source: https://www.st-andrews.ac.uk/~jcgl/Scots_Guide/RadCom/part9/fig2.gif</figcaption>
+  Image source: http://n1qq.com/wordpress/wp-content/uploads/2016/04/Envelope-Detector.png</figcaption>
 </figure>
 
 <figure>
-  <img src="/challenges/envelope_detection/envelope_detector.gif" alt="" />
-  <figcaption> Figure 2: simple envelope detector
+  <img src="/challenges/envelope_detection/envelope-detector-common-base-detector-circuit.png" alt="" />
+  <figcaption> Figure 4: common-base envelope detector
   
-  Image source: https://www.st-andrews.ac.uk/~jcgl/Scots_Guide/RadCom/part9/fig2.gif</figcaption>
+  Image source: http://www.interfacebus.com/envelope-detector-common-base-detector-circuit.png</figcaption>
 </figure>
 
 <figure>
-  <img src="/challenges/envelope_detection/envelope_detector.gif" alt="" />
-  <figcaption> Figure 2: simple envelope detector
+  <img src="/challenges/envelope_detection/envelope-detector-common-emitter-detector-circuit.png" alt="" />
+  <figcaption> Figure 5: common-emitter envelope detector
   
-  Image source: https://www.st-andrews.ac.uk/~jcgl/Scots_Guide/RadCom/part9/fig2.gif</figcaption>
+  Image source: http://www.interfacebus.com/envelope-detector-common-emitter-detector-circuit.png</figcaption>
 </figure>
 
 
@@ -60,6 +60,9 @@ Different solutions exist to perform analog enveloppe detection, using transisto
 
 
 ## Resources
+A few links that may (or may not) be helpful:
+* [http://www.interfacebus.com/Glossary-of-Terms-transistor-envelope-detector-circuit.html](http://www.interfacebus.com/Glossary-of-Terms-transistor-envelope-detector-circuit.html)
+* [http://n1qq.com/blog/2016/05/](http://n1qq.com/blog/2016/05/)
 
 
 ## Details
