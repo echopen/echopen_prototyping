@@ -11,7 +11,7 @@ The transducer sends an ultrasound pulse at a given frequency (5 MHz for axample
 </figure>
 
 ## Objectives
-We would like to perform a good envelope detection before the ADC conversion. Indeed, as the pulses' length is of two periods approximately, the signal frequency would be divided by two, and a slower ADC devise could be used, which would make the echOpen device cheaper.
+We would like to perform a good envelope detection before the ADC conversion. Indeed, as the pulses' length is of two periods approximately, the signal frequency would be divided by two and a slower ADC devise could be used, which would make the echOpen device cheaper than if we performed envelope detection after the ADC conversion.
 
 The characteristic time of the detector has to be chosen so that the envelope can be detected at each of the three working frequencies (3.5MHz, 5MHz and 7.5MHz). But on the other hand, it has to be possible to detect two interfaces that are close to each other, so a compromise has to be found.
 
@@ -30,6 +30,30 @@ It is not satisfying because:
 * reason 2
 
 ## State of the Art
+Different solutions exist to perform analog enveloppe detection, using transistors or operational amplifiers. Each of them has advantages and inconvenients. Below are a few examples of envelope detectors:
+
+<figure>
+  <img src="/challenges/envelope_detection/envelope_detector.gif" alt="" />
+  <figcaption> Figure 2: simple envelope detector
+  
+  Image source: https://www.st-andrews.ac.uk/~jcgl/Scots_Guide/RadCom/part9/fig2.gif</figcaption>
+</figure>
+
+<figure>
+  <img src="/challenges/envelope_detection/envelope_detector.gif" alt="" />
+  <figcaption> Figure 2: simple envelope detector
+  
+  Image source: https://www.st-andrews.ac.uk/~jcgl/Scots_Guide/RadCom/part9/fig2.gif</figcaption>
+</figure>
+
+<figure>
+  <img src="/challenges/envelope_detection/envelope_detector.gif" alt="" />
+  <figcaption> Figure 2: simple envelope detector
+  
+  Image source: https://www.st-andrews.ac.uk/~jcgl/Scots_Guide/RadCom/part9/fig2.gif</figcaption>
+</figure>
+
+
 
 ## Challenge progress
 0%
