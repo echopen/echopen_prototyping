@@ -1,292 +1,387 @@
-# Download repo github : prj\_medtec-kit
+# Download repo github : prj\_medtec-kit
 
 
 A [list of supplies by supplier has been prepared](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/miscellaneous/general_BOM).
 
 For the BOM, note that the Farnell BOM is only for a laboratory power supply if needed. Moreover, the hackspark BOM is for "basic" fournitures (for soldering), and for sockets (needed for the kit), therefore it is mainly for showing what can be bought in the closest electronic store.
 
-![@todo - AJOUTER UN SCHÉMA D’ATTRIBUTION DES PISTES]()
+## PCB soldering guide
 
-## **Mother board**
+For building all the daughter boards we use PCB made by echopen. All components corresponding to each daughter are listed on the BOM (csv file) in our [github](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards). ID of the component are drawned on the PCB, acronym are:
 
-Ref : RS 528-0661 
-@todo where does this ref come from?
+* R for resistors
+* C for capacitors
+* D for diodes
+* Q for transistors
+* P for connectors
+* U for inttegrated circuits
 
-The original stripboard presents 39 vertical tracks
+### Resistors
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/1_Mother_board/IMG_20170315_102911.jpg)
+Resistors can be placed on any direction. On a PCB the inscription is as follow:
 
-We need 19 tracks cut on the track of the middle of the board so that 19 tracks can be preserved, composing the base of the motherboard. One can use a dremel and then smooth the cut. 
+![](./guide_hardware/1_PCB/R_PCB.jpg)
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/1_Mother_board/IMG_20170315_103225.jpg)
+To know the value of the resistor, refer to the following table.
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/1_Mother_board/IMG_20170315_103230.jpg)
+![](./guide_hardware/1_PCB/resistor_color_chart.jpg)
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/1_Mother_board/IMG_20170315_103333.jpg)
+### Capacitors 
 
-### *Sockets *
+There are two types of capacitors, polarized one (electrolitic capacitor for example) and non-polarized one.
+
+The polarized capacitor must be solder on the right direction, they are represented by a circle by a circle on the PCBs, with half of the circle all painted in white:
+
+![](./guide_hardware/1_PCB/CP_PCB.jpg)
+
+White side of the capacitor corresponds to the lowest potential and must be plugged on the white part of the mark on the PCB.
+
+![](./guide_hardware/1_PCB/capacitor_sens.jpg)
+
+The over capacitors (ceramic ones, *etc.*) can be place on any direction, they are represented by a single line:
+
+![](./guide_hardware/1_PCB/C_PCB.jpg)
+
+### Diodes
+
+Beware in terms of direction. A line marks the cathode of the diode, which is also marked on the PCB footprint by two lines:
+
+![](./guide_hardware/1_PCB/D_PCB.jpg)
+
+#### LED
+
+LED is the acronym for light-emitting diode
+See scheme below to identify the cathode
+
+![](./guide_hardware/1_PCB/LED.png)
+
+On the PCB, there is an additionnal line where the cathode must be plugged.
+
+### Transistors
+
+The transistors have three terminals: base, collector, and emitter, they are represented as follow on our PCB:
+
+![](./guide_hardware/1_PCB/Q_PCB.jpg)
+
+Match the small strip of the transistors with the one of the footprint on the PCB.
+
+![](./guide_hardware/1_PCB/transistor2.jpg)
+
+### Integrated circuits 
+
+The dot on the component must be plugged where there is a « line break » (see below for direction)
+
+![](./guide_hardware/1_PCB/IC_direction2.jpg)
+
+### Voltage regulators 
+
+They must be plugged according to the mark on the PCB, *i.e.* additionnal rectangle corresponds to the part of the voltage regulator that has sort of a « growth ». On the picture, the voltage regulature is on the correct direction for U4, U5, U6.
+
+![](./guide_hardware/1_PCB/VR2.jpg)
+
+### Connectors
+
+#### SMA connectors
+
+The three legs/connectors have to match the three marks on the front side of the PCB, and the two will match the back of it.
+
+![](./guide_hardware/1_PCB/SMA_connector.jpg)
+
+The middle pin correspond to signal pin and the fourth over to the ground.
+
+### SMT
+
+The Surface Mount Technology components are solder on the surface of the PCB, we don't need hole to solder them such as THT (Through Hole Technology) component. Moreover, these components are generally smaller than the THT ones to save space.
+
+To solder the SMT components, one can start by putting a small amount of solder before soldering the component:
+
+![](./guide_hardware/1_PCB/CMS0.jpg)
+
+then use a pair of tweezers to ensure the component stays in place during soldering. 
+
+![](./guide_hardware/1_PCB/CMS2.jpg)
+
+#### IC
+
+To know the direction of the operational amplifier OPA625, search for 
+the mark (line) on left of the component: 
+
+![](./guide_hardware/1_PCB/OPA.jpg)
+
+must match the dot on the PCB:
+
+![](./guide_hardware/1_PCB/OPA2.jpg)
+
+### Desoldering
+
+In case of mistake, use solder wick to remove the solder. Put the wick on the solder, then apply the soldering iron over it (if your soldering iron have temperature settings, put it on maximum temperature). Push a bit on the pins to remove the component maintained in place by remaining solder.
+
+## Mother board
+
+The mother board is matrix board with 19 tracks where we will plug our daughter boards. The signals on each track is given on the following image:
+
+![](./guide_hardware/2_Mother_board/scheme.png)
+
+We use a 39 tracks matrix board from RS (ref: 528-0661) to make our mother board. The original matrix board presents 39 vertical tracks
+
+![](./guide_hardware/2_Mother_board/matrix_board.jpg)
+
+We need 19 tracks, to do this, cut on the track of the middle of the board so that 19 tracks can be preserved on each half of the matrix board, composing the base of the motherboard. One can use a dremel and then smooth the cut. 
+
+![](./guide_hardware/2_Mother_board/cut1.jpg)
+
+![](./guide_hardware/2_Mother_board/cut2.jpg)
+
+![](./guide_hardware/2_Mother_board/cut3.jpg)
+
+### Sockets 
 
 We use 0.1" sockets to connect the daughter boards to the motherboard
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/1_Mother_board/IMG_20170315_104039.jpg)
-
-### Preparation
+![](./guide_hardware/2_Mother_board/sockets.jpg)
 
 For this, we'll be needing 9 sockets of size 1x19
 
 * first socket on one border (1) for power supply
 * second socket on (6)
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/1_Mother_board/IMG_20170315_104927.jpg)
+![](./guide_hardware/2_Mother_board/mother_board.jpg)
 
 ## Power supply
 
-See the medkit folder [here](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-supply/DB-supply_v1).
+Find all hardware informations abous this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-supply/DB-supply_v1), and see the [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-supply/DB-supply_v1/src/DB-supply_v1.csv).
 
-### BOM 
+Locations of each component are indicated on the PCB. Follow PCB soldering guide to know how to mount the board.
 
-[To download the BOM, refer here](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-supply/DB-supply_v1/src/DB-supply_v1.csv).
-
-* PCB : [DB\_Supply\_v1](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-supply/DB-supply_v1) (custom echOpen)
-
-@todo: what does it mean?
-
-Locations of each component are indicated on the PCB.
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_0661.JPG)
-
-#### Capacitors 
-
-They are polarized white side corresponds to lowest potential and must be plugged on white part of the mark on the PCB
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_0663.JPG)
-
-#### Integrated circuits 
-
-The dot on the component must be plugged where there is a « line break » (see below for direction)
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_0665.JPG)
-
-#### Voltage regulator 
-
-They must be plugged according to the mark on the PCB,
-i.e. additionnal rectangle corresponds to the part of the voltage
-regulator that has sort of a « growth »
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_20170315_113424.jpg)
-
-#### LED
-
-See scheme below to identify the cathode
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/LED.png)
-
-On the PCB, there is an additionnal line where the cathode must be
-plugged
-
-#### Transistor 
-
-Match the small strip with the footprint 
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_20170315_111947.jpg)
-
-#### Diods
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_0661.JPG)
-
-Beware in terms of direction. A line marks the correct side, which is also marked on the PCB footprint. 
-
-@todo: *Resistors : Tableau code couleur ?*
-
-In case of mistake, use the solder wick to remove the solder. Put the wich on the connection, then apply the soldering iron over it. Push a bit on the pins to remove the component maintained in place by remaining solder. 
-
-
-All components are now in place! 
+![](./guide_hardware/3_Power_supply/PCB.jpg)
+ 
 
 ### Testing the board
 
-The board we've just made is a power-supply board that has several stabilized voltages. It can be tested by powering it properly and checking that output voltages are correct.
-So as to power it, one will use a lab power supply, offering a good protection against shorts.
+The board we've just made is a power-supply board that has several stabilized voltages. It can be tested by powering it properly and checking that output voltages are correct. So as to power it, one will use a lab power supply, offering a good protection against shorts.
  
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_0669.JPG)
+![](./guide_hardware/3_Power_supply/supply.jpg)
 
-We choose the ideal tension model (C.V) and a 18V tension (which correspond to two 9V batteries that will power the circuit) and the current capped to 800mA.
-
-@question: why two 9V batteries? Why not a 12V or a 5V supply?
+We choose the ideal tension model (C.V) with 18V tension output (which correspond to two 9V batteries that will power the circuit). The current is limited to 800mA (this limitation is for the complete prototype, cause at start the motor drain high current).
  
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_0668.JPG)
+![](./guide_hardware/3_Power_supply/connection.jpg)
 
-This power supply can be plugged to pins 1 and 12 (respectively GND and 18V) 
+The power supply must be plugged to tracks 1 and 12 (respectively GND and 18V). When powering on the supply, the power supply should indicate a current use of 45mA. 
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_0670.JPG)
+![](./guide_hardware/3_Power_supply/test.jpg)
 
-When powering on the supply, the power supply should indicate a current use of 45mA. 
+We then measure tensions between GND (track 1) and tracks 2, 6, 8, 18, 19. To do this, a voltmeter is enough (or one can use an oscilloscope). The respective tensions shoudld be 5V, 12V, -12, -5V and 3.3V.
 
-@todo haven't found a picture
+If one of these tensions is missing, one has to check that all component is rightly positionned and that soldering is well done. If there is no negative tension, remove Q2 and Q3 and replace them with new ones.
 
+![](./guide_hardware/3_Power_supply/bottom.jpg)
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_0668.JPG)
-
-We then measure tensions between GND (pin 1) and pins 2, 6, 8, 18, 19. To do this, a voltmeter is enough (or an oscilloscope). The respective tensions shoudld be 5V, 12V, -12, -5V and 3.3V.
-
-If one of these tensions is missing, one has to check that all component is rightly positionned and that soldering is well done. 
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_20170315_111632.jpg)
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/2_power_supply/IMG_20170315_111947.jpg)
+![](./guide_hardware/3_Power_supply/bottom2.JPG)
 
 Once the board validated, one can trim the remaining legs. 
 
-## **High voltage**
+## Motor control
+
+Find all hardware informations abous this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-motor_control/DB-motor_control_v3), and see the [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-motor_control/DB-motor_control_v3/src/DB-motor_control_v3.csv).
+
 
 ### Assembly 
 
-#### BOM 
+For the moment, we don't have order PCB for that daughter board, one have to do it itself with matrix board. Use the second half of the matrix board remaining from cuting the mother board. Soldering instructions and size of the matrix boards are defined on the following figures.
 
-* [See the BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-high_voltage/DB-high_voltage_v1/src/DB-high_voltage_v1.csv)
-* [See full repo reference](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-high_voltage)
+Top view:
 
-#### PCB 
+![](./guide_hardware/4_Motor_control/front_view.png)
 
-See DB-high\_voltage (it's a custom-made, echOpen specific)
+Bottom view:
 
-#### SMA connector 
+![](./guide_hardware/4_Motor_control/bottom_view.png)
 
-The three legs/connectors have to match the three marks on the front side of the PCB, and the two will match the back of it.
+Cuts of tracks that must be done are represented by green lines. Red lines with red dots represent wires that are used to link some tracks, the end of each wire (plain red dot) have to be soldered.
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/3_High_voltage/IMG_20170315_153217.jpg)
+Connectors P1 to P7 are represented in light blue and hole where to solder the different components are represented by hard blue dots.
 
-Beware! Check that C14 can stand 100V. 
+Not that capacitor C2, C4 and C5 are not put/solder on this hand making board.
+
+We also have to cut another piece from the matrix board to connect to the RedPitaya as following:
+
+![](./guide_hardware/4_Motor_control/RPPCB_top_view2.png)
+
+The soldering track are on the top of this piece. There are two sockets 1*13 solder on it, don't forget to cut the tracks between these two socket (cut represent by the green line).
+
+When you have finish, it will look like that:
+
+![](./guide_hardware/4_Motor_control/HM_top_view.jpg)
+
+![](./guide_hardware/4_Motor_control/HM_bottom_view.jpg)
+
+![](./guide_hardware/4_Motor_control/RP_top_view.jpg)
+
+![](./guide_hardware/4_Motor_control/RP_bottom_view.jpg)
+
+Now all the components (except stepper motor driver and arduino) connect the daughter board to the mother to see if there is short circuits (if there is, current will be at maximum, 800 mA for us, and voltage will be low, not 18 V).
+
+#### Stepper motor driver
+
+The stepper motor driver is deliver like this:
+
+![](./guide_hardware/4_Motor_control/driver1.jpg)
+
+cut the header in two equal part and solder it on top of the PCB:
+
+![](./guide_hardware/4_Motor_control/driver2.jpg)
+
+then plug it on the daughter board:
+
+![](./guide_hardware/4_Motor_control/HM_top_view2.jpg)
+
+Now we have to set the driver motor stepper by tuning the current in the bobine of the stepper at the correct value. Plug two wires on P5 (the two holes on the top or the two on the bottom) and plug them to a breadboard. Blue wire of the stepper can be directly link to P5 and red wire is link to P5 *via* an ampermeter. Turn the screw on A4988 PCB such as the current show on the ampermeter is around 200 mA.
+
+
+#### Transistor test
+
+**This is an optional step but highly recommanded because the card is hand made and an error can lead to burn some component (for example the RedPitaya!).**
+
+First push the code given at the end of the document in an arduino nano and plug it on a breadboard not on the daughter board for the moment.
+
+Link D4 pin of the arduino to ITF_D (on connector P2) an plug also channel 1 of an oscilloscop to D4. Plug channel 2 of the oscilloscop to ITF_G on P6 (on the pictures P2 is connected to home made connector for the RedPitaya and the wire is plug on this connector not on P2). 
+
+![](./guide_hardware/4_Motor_control/test/test1_1.jpg)
+
+![](./guide_hardware/4_Motor_control/test/test1_2.jpg)
+
+Turn on supply on the mother board and supply the arduino with a USB cable. One will obtain this on the oscilloscop:
+
+![](./guide_hardware/4_Motor_control/test/test1_3.jpg)
+
+Turn off all the supply. Now plug D4 of the arduino to ITF_K on P6 and connect also channel 1 of the oscilloscop to it. Connect channel 2 to ITF_E on P2 (on the pictures P2 is connected to home made connector for the RedPitaya and channel 2 is plug on this connector not on P2).
+
+![](./guide_hardware/4_Motor_control/test/test2_1.jpg)
+
+![](./guide_hardware/4_Motor_control/test/test2_2.jpg)
+
+Turn on supply on the mother board and supply the arduino with a USB cable. One will obtain this on the oscilloscop:
+
+![](./guide_hardware/4_Motor_control/test/test2_3.jpg)
+
+
+## High voltage
+
+Find all hardware informations abous this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-high_voltage/DB-high_voltage_v1), and see the [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-high_voltage/DB-high_voltage_v1/src/DB-high_voltage_v1.csv).
+
 
 #### Finished board
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/3_High_voltage/IMG_20170315_160124.jpg)
+![](./guide_hardware/5_High_voltage/finish.jpg)
 
-### *Tests*
+Beware! Check that C14 can stand 100V. 
+
+### Tests
+
+![](./guide_hardware/5_High_voltage/connected1.jpg)
+
 
 Beware! One has to use a 100V-tolerant oscilloscope, or to use a 10x probe.
 
-Ground is up:
+Ground is up on connector P2:
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/3_High_voltage/IMG_20170315_161755.jpg)
+![](./guide_hardware/5_High_voltage/connected2.jpg)
 
-We should get -90V on the output.
+We should get -97 V on the output.
 
-## **Pulser**
+## Pulser
 
-### BOM
-
-See [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-pulser/DB-pulser_v2/src/DB-pulser_v2.csv) or the [full repo for documentation](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-pulser)
-
+Find all hardware informations abous this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-pulser/DB-pulser_v2), and see the [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-pulser/DB-pulser_v2/src/DB-pulser_v2.csv).
 
 ### Assembly 
 
-This daughter uses an external pulser : the _MAX4940 evaluation kit_, that is connected to the daughter via the P3 connector.
+This daughter uses an external pulser: the _MAX4940 evaluation kit_, that is connected to the daughter via the P3 connector.
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/4_Pulser/IMG_20170315_164106.jpg)
+![](./guide_hardware/6_Pulser/max4940_top.jpg)
 
-@todo Intégrer chéma du MAX4940 :
+![](./guide_hardware/6_Pulser/scheme.png)
 
-<https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/modules/hardware/MDL-pulser/MDL-pulser_v2>
+Connect the GND to pins 2 and 3 and VPP1:
 
-@todo ATTENTION : ERREUR SUR LE SCHÉMA, VEE DOIT ÊTRE RELIÉ AU -12V DE LA DAUGHTER, ET VCC AU +12V A CHANGER SUR LE SCHEMA
-
-Connect the GND to pins 2 and 3 and VPP1 :
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/4_Pulser/IMG_20170315_162614.jpg)
+![](./guide_hardware/6_Pulser/max4940_bottom.jpg)
 
 Plug components on the pulser daughter board. 
 
-Connect the MAX4940 to the daughter board as shown below :
+Connect the MAX4940 to the daughter board as shown below:
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/4_Pulser/IMG_20170315_162614.jpg) 
+![](./guide_hardware/6_Pulser/max4940_plug.jpg) 
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/4_Pulser/IMG_20170316_120338.jpg) 
+![](./guide_hardware/6_Pulser/pulser_connector.jpg) 
 
-The high voltage is connected as follows : blue wire corresponds to the
-(+), white corresponds to the ground.
+The high voltage is connected as follows: blue wire corresponds to the (+), white corresponds to the ground.
 
-### *Tests*
+### Tests
 
-To test and try the pulser module, connec the output of the board (P6) to the oscilloscope.
+To test and try the pulser module, connect the output of the board (P6) to the oscilloscope.
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/4_Pulser/IMG_20170316_114545.jpg)
+![](./guide_hardware/6_Pulser/pulser_pin.jpg)
 
 A 5V logic signal of 140ns has to be injected: to do this, we can connect the motor control unit with the testing code to the motherboard.
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/4_Pulser/IMG_20170328_183729.jpg)
+![](./guide_hardware/6_Pulser/test.jpg)
 
-The output signal of the pulser must have the same duration that the logic input, with an amplitude of -90V. 
+The output signal of the pulser must have the same duration that the logic input, with an amplitude of -97 V. 
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/4_Pulser/TEK0026.JPG)
+![](./guide_hardware/6_Pulser/output.jpg)
 
-## **TGC + T/R switch**
+## TGC_T/R switch board
 
-### BOM 
+Find all hardware informations abous this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-tr_switch_tgc/DB-tr_switch_tgc_v1), and see the [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-tr_switch_tgc/DB-tr_switch_tgc_v1/src/DB-tr_switch_tgc_v1.csv).
 
-<https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-tr_switch_tgc/DB-tr_switch_tgc_v1/src/DB-tr_switch_tgc_v1.csv>
 
-### Assembly 
+### Tests T/R switch
 
-To solder the SMD components, one can put a small amount of solder 
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/IMG_20170316_144737.jpg)
-
-then use a _pince brucelles_ to ensure the component stays in place during soldering. 
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/IMG_20170316_122800.jpg)
-
-Op-Amp: the mark on left of the figures must match the dot 
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/IMG_20170316_144737.jpg)
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/IMG_20170316_122624.jpg)
-
-### *Tests T/R switch*
-
+* Solder all components on the PCB
+* Do not connect the AD8331 evaluation kit to this PCB for the moment
 * Connect all daughter boards to the motherboard
-* Connect the pulser SMA output to the input SMA of the T/R switch
+* Connect the pulser SMA output to the input SMA of the T/R switch with a SMA male/SMA male wire
 * Connect track 9 of the motherboard to the oscilloscope input 1
-* COnnect test point W1 of the T/R switch to input 2 
+* Connect test point W1 of the T/R switch to input 2 
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/IMG_20170328_184945.jpg)
+![](./guide_hardware/7_TGC_TRS/test.jpg)
 
-Here's what you should obtain
+Here's what you should obtain on the oscilloscope
 
- ![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/TEK0028.JPG)
+ ![](./guide_hardware/7_TGC_TRS/output.jpg)
 
-* Visualize pulsr command on Channel 1 and the T/R switch W1 point on Channel 2. 
+pulser command is on Channel 1 (yellow) and the T/R switch output (W1 test point) is on Channel 2 (blue). 
 
-Example of the signal if the T/R switch has burnt: the pulse to the transducer will be -20V instead of -100V
+#### Possible problem with the T/R switch
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/TGC/TEK0029.JPG)
+Sometimes, the T/R switch (MD0100) burn, if this hapen, the output will look something like that:
 
-What you'll see:
+put the good figure
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/TGC/TEK0029.JPG)
+to check the diagnosis, connect the oscilloscope to the output of the pulser, if the T/R switch has burnt the pulse will be -20V instead of -100V:
 
-@todo this picture above is not the good one, we don't have it
+![](./guide_hardware/7_TGC_TRS/TRS_burn1.jpg)
 
-* Connecte a transducer on the second SMA output of the pulser and put it in an aquarium
-* Check the transducer points (P4 or P7 on the pulser) on Channel 1
-* Check T/R switch test point W1 on channel 2 
+#### First echoes
 
-An echo can be seen on both channels:
+With these daughter boards, we are now able to see echoes from a transducer, one can put it in a mug for example. Connect the transducer on the second SMA output and send repeatedly pulse on it, connect channel 1 of an oscilloscope on connector P4 or P7 of DB_pulser and channel 2 on test point W1. Settings of the oscilloscope must be something like 10 us per division and 50 or 100 mV per division. Now move the transducer untill you see echoes on the oscilloscope:
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/TGC/TEK0032.JPG)
+![](./guide_hardware/7_TGC_TRS/echo1.jpg)
+
+Amplitude of the echo must be exactly the same on channel 1 and channel 2.
 
 ### Connecting the TGC
 
-* Solder two wires, one on +5V and the other on GND (for the power supply)
-* Solder the two header pins on GAIN and GND so that wires can be connected - or, if you need, to solder the wires directly. They will be connected staight on the red pitaya for gain control. 
+Solder two wires, one on +5V and the other on a GND test points (for the power supply)
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/TGC/IMG_20170328_191304.jpg)
+Solder two header pins on GAIN and another GND test point so that wires can be connected - or, if you prefer, solder wires directly. They will be connected staight on the red pitaya for gain control. 
 
-* Connect the TGC IN of the T/R switch on TGC INH 
-* Connect the TGC OUT of the T/R switch on TGC VOUT
-* Connect 5V and GND of the TGC on the tracks 2 and 1 of the motherboard
+![](./guide_hardware/7_TGC_TRS/TGC_supply2.jpg)
 
-### Connections
+The two header pins are circle in red.
+
+Now, use two sma wires to connect TGC IN of DB_trs_tgc on TGC INH and TGC OUT of DB_trs_tgc on TGC VOUT. Connect 5V and GND of the TGC on the tracks 2 and 1 of the motherboard respectively.
+
+#### Settings
 
 Note, switchs position of the TGC:
 
@@ -298,54 +393,54 @@ Note, switchs position of the TGC:
 
 ### Tests
 
-* Examine T/R switch test point W1 on channel 1
-* Examine TGC out from motherboard (track #3) on channel 2. An amplified echo (around 2V) should be visible. 
+For the first test, do not connect a wire to the gain of the TGC (pin header circle in red in last figure). Connect channel 1 of an oscilloscope to test point W1 and channel 2 to track 3 of the mother board. Such as for the T/R switch, move the transducer until you see echoes, on channel 2 you will see amplified echoes. 
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/TGC/TEK0033.JPG)
+![](./guide_hardware/7_TGC_TRS/echo2.jpg)
 
-## **RedPitaya**
+## RedPitaya
 
-### Connectiques (to do three times)
+Find all hardware informations abous this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/modules/hardware/MDL-redpitaya).
+
+### Connectors (to do three times)
 
 * Cut a male-male SMA cable in half
 * Remove the end of the cable 
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/TGC/IMG_20170328_192324.jpg)
+![](./guide_hardware/8_RedPitaya/coax1.jpg)
 
-* With a flat screwdriver, dissamble the metal protection
-* Roll them together 
+* With a flat screwdriver, dissamble the braided shield (compose of multiple wire plaited togever)
+* Roll them together.
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/TGC/IMG_20170328_192401.jpg)
+![](./guide_hardware/8_RedPitaya/coax2.jpg)
 
-* Remove the protection from the center cable
+* Remove the protection from the center conductor
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/TGC/IMG_20170328_192452.jpg)
+![](./guide_hardware/8_RedPitaya/coax3.jpg)
 
-* Connect the cables to a wire (that'll be the ground)
-* Connect the center to another (that'll be the signal) 
+* Connect the braided shield to a wire (that'll be the ground, black on following figure)
+* Connect the center conductor to another wire (that'll be the signal, white on following figure), put a heat-shrink sleeve around solder to protect from short-circuit with ground. 
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/5_TR_switch/TGC/IMG_20170328_192539.jpg)
+![](./guide_hardware/8_RedPitaya/coax4.jpg)
 
 * Connect RedPitaya In1 to the tracks 3 and GND of the motherboard 
 * Connect RedPitaya In2 to the tracks 4 and GND of the motherboard 
-* Connect RedPitaya OUT1 to the TGC IN and GND 
+* Connect RedPitaya OUT1 to the header wire GAIN and GND of AD8331 evalutation kit
 
 ## Overall configuration including all modules 
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/configuration/IMG_20170331_174120.jpg)
+![](./guide_hardware/8_RedPitaya/side_view.jpg)
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/configuration/IMG_20170331_174204.jpg)
+![](./guide_hardware/8_RedPitaya/top_view.jpg)
 
 ## RedPitaya and Arduino codes installation
 
-### Assembly
+### Arduino
+Push [this program](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/modules/software/CFG-aquarium_kit/arduino/MDL-pulser_v2/MDL-pulser_v2.ino) in your arduino nano.
 
+### RedPitaya
 * Format the RedPitaya SD card in FAT-32
-* Refer to the instructions available on our GitHub repo to install
-
-### Resources
-
-* [Documentation is on the __PRJ-medtec_kit__ repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/installation/)
+* Refer to [these instructions](https://github.com/echopen/PRJ-medtec_kit/tree/master/installation/linux_user) section **prepare the RedPitaya** to install the OS.
+* Download [this folder](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/modules/software/CFG-aquarium_kit/redpitaya). Launch a terminal an go to this repo on your computer (with a Linux OS) then copy the executable on the RedPitaya and run it. You must first connect to RedPitaya wifi network, pass redpitaya.
 
 ## Mechanics
 
@@ -355,38 +450,31 @@ To complete the kit, one have to 3D print some pieces locate on PRJ-medtec_kit/m
 
 First print MDL-motor_support, at the end it will look to something like that:
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/7_Mechanic/support_RAW.JPG)
+![](./guide_hardware/9_Mechanic/support_RAW.jpg)
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/7_Mechanic/support_RAW2.JPG)
+![](./guide_hardware/9_Mechanic/support_RAW2.jpg)
 
 
 Take off the plastique support, there is still plastic in the hole where we will put the motor :
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/7_Mechanic/support_RAW3_2.JPG)
+![](./guide_hardware/9_Mechanic/support_RAW3_2.jpg)
 
 Take it off too with pliers for example, and it’s finished:
 
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/7_Mechanic/support_evide.JPG)
+![](./guide_hardware/9_Mechanic/support_evide.jpg)
 
 Now fix the motor to this support with 2 or 4 screw 3 mm diameter, 6mm long.
 
 Now print MDL-rod-fixation, the two holes on each side of this part of the cylinder. The bigger one is for the motor axe. Fix this axis with a 3mm diameter 10 mm long screw. This screw must be 10 mm minimum cause it must stick out so it will hit the motor_support when initialising (searching it's 0). The second one is used to fix the rod, prefer using wood screw 3 mm diameter.
 
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/7_Mechanic/montage1.JPG)
-
+![](./guide_hardware/9_Mechanic/montage1.jpg)
 
 The rod is a metal rod 4 mm diameter, prefer stainless steel, because it will be immersed in water, We use 100 mm long rod, but only limitation on the length is that the transducer must be immersed and the electrical connection of the transducer must not.
 
 Then print the tranducer support and fix it to the rod.
 
-
-![](https://raw.githubusercontent.com/echopen/echopen_prototyping/master/pictures/7_Mechanic/finish.JPG)
-
-
-@todo: Comment from jerome2echopen to insert (dont know where) "Update of scheme for motor_control_v3:"
-
-
+![](./guide_hardware/9_Mechanic/finish.jpg)
 
 ### Arduino code for test
 
