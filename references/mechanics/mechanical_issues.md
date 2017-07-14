@@ -65,7 +65,7 @@ Whatever the approach, the system requires accurate knowledge of the angular pos
 
 In all these cases, encoder systems (absolute and incremental) are necessary to calibrate the shots. Care should be taken to limit errors due to mechanical backlash by placing them as close as possible to the transducers in the mechanical chain.
 
-**Note** : in order to facilitate certain medical examinations, in particular between two close ribs, it is preferable to approach as far as possible the axis of rotation of the transducer of the end of the probe tip in contact with the body.
+**Note** : in order to facilitate certain medical examinations, in particular between two close ribs, it is preferable to approach as much as possible the transducer of the end of the probe tip in contact with the body. Indeed, if the transducer is located closer to the body, the angle of the sector swept between the two ribs is larger.
 
 <img src="b.png" width="320" height="240" />
 

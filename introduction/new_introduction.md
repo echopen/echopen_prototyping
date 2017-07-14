@@ -7,7 +7,9 @@ This imaging technique is based on the propagation of ultrasound in the human bo
 
 <figure>
   <img src="./acoustic_imaging_src/Fetal_Ultrasound.png" alt="" />
-  <figcaption> Figure 1: fetal ultrasound</figcaption>
+  <figcaption> Figure 1: fetal ultrasound
+  
+  Image source: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Fetal_Ultrasound.png/800px-Fetal_Ultrasound.png</figcaption>
 </figure>
 
 ### Using the pulse echo sequence for ranging objects 
@@ -16,7 +18,9 @@ To localize objects we use the pulse echo concept. Remember last time you yelled
 
 <figure>
   <img src="./acoustic_imaging_src/image/Echo_cliff.jpg" alt="" />
-  <figcaption> Figure 2: Reflection of sound on a cliff</figcaption>
+  <figcaption> Figure 2: Reflection of sound on a cliff
+  
+  Image source: http://www.larousse.fr/encyclopedie/divers/%C3%A9cho/45456</figcaption>
 </figure>
 
 ### Both an emitter and a receiver: the transducer
@@ -25,7 +29,9 @@ In the case of medical ultrasound, ultrasounds are emitted and received by a uni
 
 <figure>
   <img src="./acoustic_imaging_src/Piezoelectric-Effect.jpg" alt="" />
-  <figcaption> Figure 3: the piezoelectric effetc</figcaption>
+  <figcaption> Figure 3: the piezoelectric effetc
+  
+  Image source: http://www.tech-faq.com/piezoelectric-effect.html</figcaption>
 </figure>
 
 
@@ -40,7 +46,9 @@ So the more the acoustical impedances of the two mediums are different, the more
 
 <figure>
   <img src="./acoustic_imaging_src/image/300px-Reflectionrefraction.jpg" alt="" />
-  <figcaption> Figure 4: Reflection at an interface</figcaption>
+  <figcaption> Figure 4: Reflection at an interface
+  
+  Image source: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Reflectionrefraction.jpg/300px-Reflectionrefraction.jpg</figcaption>
 </figure>
 
 ### Ultrasound imaging: a reflectivity map

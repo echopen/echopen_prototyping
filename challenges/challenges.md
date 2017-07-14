@@ -2,7 +2,7 @@
 
 A challenge is a problem encountered in the development of the device but that isn't related to a specific iteration. This means that anybody can suggest a solution at anytime ! One does not need to join a team to take part to a challenge.
 
-If you want to learn about one of those challenges, just click on the corresponding link and you will find everything you need: a description of the problem, code, ideas, so on and so forth. If have any question or if you think you found something interesting, please contact us on slack or by e-mail(contact@echopen.org) !
+If you want to learn about one of those challenges, just click on the corresponding link and you will find everything you need: a description of the problem, code, ideas, so on and so forth. If you have any question or if you think you found something interesting, please contact us on slack or by e-mail(contact@echopen.org) !
 
 Here is a list of ongoing challenges :
 
