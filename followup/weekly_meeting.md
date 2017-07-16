@@ -1,3 +1,78 @@
+## CR Followup Meeting 12-07-2017
+
+Attending:
+
+Clement - **@clecoued** 
+Mehdi - **@nowami**
+Aurélie - **@aurelie mutschler**
+Nicolas - **@nfilipov** 
+Benoît - **@bivi**
+Loic - **@hackholite**
+Luc J - **@luc**
+Appoline - **@apolline**
+Pierre - **@pierre**
+
+## Schedule and context
+
+Putting into context the last sessions and the work program of the next months, namely the guiding questions 
+
+* What are we doing ?
+* With who ?
+* How we do it ?
+
+this session is dedicated to the “What" part
+
+## the “What" part at a strategic level
+
+Principles of action in the community : 
+
+@luc we must act a “Make" principle : people that one to do, does #responsibility 
+
+@bivi suggest to have a clear view of human resources & needs 
+
+human resources -> volunteers, students, pros / Altran, experts as researchers
+in front of which there are needs : medical device + side needs experimental, exploratory  
+
+@aurelie @nowami suggests that this not “What” part but the “How"
+
+## What is the focus : industrial pipe +/- community based developments 
+
+So the focus is -> Do we go through to the only industrial pipe or do we go to industrial pipe + community kit-based pipe ?
+
+Consensus about going to the only industrial pipe 
+
+In this circumstances, what do we do with students proposed by bunch of engineering school ?
+
+consensus about the fact that students will hold problems that are not critical for the fist version of the device but whose work will have impact on further developments.  
+
+@bivi warns that process & documentation must be one of our main obsession : format production - quality insurance
+@nowami suggests 
+
+
+## the “What" part at a practical level
+
+- So we have to answer 3 questions : what are the main issues related to 
+
+* industrial pipe  
+
+so we need to 
+    * find transducer
+    * material for the head probe
+    * exploring acoustic mirror 
+    * electronic board design
+
+* to be developed from the kit to serve the industrial pipe 
+    * characterisation :  mesure bench 
+    * phantoms
+    * mobile app : protocol for clinical study, UI, sharing, cloud issue 
+
+* what is to be done students : for the future versions
+    * IA : assistance operation,  
+    * signal processing : transducer precise characterisation
+    * GPU / FPGA
+    * android’s VULCAN technology 
+
+
 ## CR Followup Meeting 05-07-2017
 
 Attending:  
