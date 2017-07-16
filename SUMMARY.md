@@ -32,7 +32,6 @@
   * [Device characteristics](stable/characteristics.md)
   * [Production guide](stable/production_guide.md)
     * [Reproducing the device](stable/guide_hardware.md)
-    * [Installing the Android app](stable/guide_software.md)
     * [Hacking guide](stable/hacking_guide.md)
 * [In progress](inprogress/inprogress.md)
   * [Preparing CapTech](inprogress/requirements/preparing-captech.md)
@@ -63,6 +62,4 @@
   * [Benchmark of similar devices](references/benchmark/ref_benchmark.md)
     * [Benchmark 1](references/benchmark/benchmark_1.md)
 * [Table of references](References.md)
-
-
 
