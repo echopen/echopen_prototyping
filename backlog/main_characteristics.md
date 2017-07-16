@@ -25,13 +25,11 @@ The device goes with an app which allows to display the images on a smartphone, 
 
 ## Image characteristics
 
-* The echOpen device is meant to produce ultrasound images in B-mode, which is one of the different ultrasound modes used in medical imaging. In that mode, a croos-sectionnal image representing tissues and organ boundaries within the body. The brightness of the image at each point is related to the amplitude of the echo coming from that point, giving rise to the term B-mode (brightness mode). As ultrasounds are reflected at the interface between oragns and tissues, an image showing the shape of an organ can be obtained thanks to this technique. [Here](http://assets.cambridge.org/97805217/57102/excerpt/9780521757102_excerpt.pdf) is an article that you can read to get more information about B-mode imaging.
+* The echOpen device is meant to produce ultrasound images in B-mode, which is one of the different ultrasound modes used in medical imaging. In that mode, a croos-sectionnal image representing tissues and organ boundaries within the body. The brightness of the image at each point is related to the amplitude of the echo coming from that point, giving rise to the term B-mode \(brightness mode\). As ultrasounds are reflected at the interface between oragns and tissues, an image showing the shape of an organ can be obtained thanks to this technique. [Here](http://assets.cambridge.org/97805217/57102/excerpt/9780521757102_excerpt.pdf) is an article that you can read to get more information about B-mode imaging.
 
 * For a real-time usage, the images are expected to be displayed with a minimal framerate of 10fps.
 
 * The image quality must be compatible with the medical usage described above. For this reason, the expected resolution must be about 1mm at distances that are relevant for the examination of a patient. The detailed technical constrains related to image characteristics are listed in [Technical constrains](backlog/technical.md).
-
-
 
 ## Main technical requirements
 
@@ -41,7 +39,11 @@ The device goes with an app which allows to display the images on a smartphone, 
 * Robust: the device should be resistant to a 50cm fall \(which approximately corresponds to the height of a bed\)
 * Sufficient battery life: at least one hour of continuous use
 * Waterproof and easy to clean
-* Low-cost: affordable for a healthcare professionnal
+* Low-cost: affordable for a healthcare professional
 
 
+
+## List of authors
+
+[Aurélie](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
 

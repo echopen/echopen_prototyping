@@ -212,3 +212,8 @@ So if we have *V*<sub>cc</sub> = 5 V on a 8 bites ADC (*n* = 8), then th
 $$V_{\text{m}}=-V_{\text{cc}}+kp ,$$
 
 so if *k* = 23 then the analogical signal is -4.1 V high.
+
+# List of authors
+[@GG23800](https://github.com/GG23800)
+
+

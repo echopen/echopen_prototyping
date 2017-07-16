@@ -1,4 +1,4 @@
-# Download repo github : prj\_medtec-kit
+# Reproducing the device
 
 A [list of supplies by supplier has been prepared](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/miscellaneous/general_BOM).
 
@@ -102,7 +102,7 @@ then use a pair of tweezers to ensure the component stays in place during solder
 
 #### IC
 
-To know the direction of the operational amplifier OPA625, search for   
+To know the direction of the operational amplifier OPA625, search for  
 the mark \(line\) on left of the component:
 
 ![](./guide_hardware/1_PCB/OPA.jpg)
@@ -497,5 +497,13 @@ delayMicroseconds(500);
 }
 ```
 
+## List of authors
 
+[Alister Trabattoni](https://github.com/halipster)
+
+[Aurélie](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+
+[@GG23800](https://github.com/GG23800)
+
+[K. Ghosh](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
 

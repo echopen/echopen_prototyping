@@ -63,3 +63,9 @@ The ongoing tasks related to the mobile app are detailed in the team's current p
 
 
 
+## List of authors
+
+[Benoit Vincent](https://github.com/Bivi)
+
+[Clément Le Couedic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+

@@ -120,4 +120,6 @@ In parallel with the main code, it looks for a connection from a terminal. When 
 
 Multiple connections are supported by the program, so an image can be displayed on several terminals at the same time.
 
+# List of authors
+[@GG23800](https://github.com/GG23800)
 

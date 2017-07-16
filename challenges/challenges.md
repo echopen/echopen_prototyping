@@ -16,3 +16,17 @@ Here is a list of ongoing challenges :
 
 
 
+## List of authors
+
+We thank all echOpen members who contributed to the release of this GitBook :
+
+[@ApollineF](https://github.com/ApollineF)
+
+[Aurélie](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+
+[Clément Le Couedic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+
+[@nowami](https://github.com/benchoufi)
+
+
+

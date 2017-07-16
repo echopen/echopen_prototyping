@@ -150,3 +150,6 @@ The probe must be sturdy and withstand a fall from a height of about 1 m (examin
 <img src="f.png" width="280" height="280" />
 
 <img src="g.png" width="237" height="218" />
+
+# List of authors
+[Benoit Vincent](https://github.com/BiVi)

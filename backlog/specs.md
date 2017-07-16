@@ -40,5 +40,9 @@ Below are listed the functional specifications from the user app's point of view
    1. patient related information as detailed in point 3.2.1, age, gender, weight 
    2. clinical exam related information: the user can immediately access the main informations such as current depth, current gain 
 
+## List of authors
 
+[Clément Le Couedic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+
+[@nowami](https://github.com/benchoufi)
 

@@ -1,4 +1,4 @@
-# Introduction
+# Technical introduction
 _This section is in construction_ 
 
 ## How medical ultrasound works ?
@@ -194,7 +194,7 @@ To learn more about the hardware of the latest version of the device, click [her
 
 To learn more about the software, click [here](/stable/doc_software.md)
 
-## List of authors
+# List of authors
 [Alister Trabattoni](https://github.com/halipster)
-[ApollineF](https://github.com/ApollineF)
+[@ApollineF](https://github.com/ApollineF)
 

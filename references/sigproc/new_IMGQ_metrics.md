@@ -74,4 +74,7 @@ It would also be interesting to use a tissue mimicking phantom to measure some o
 
 7_Ortega R., Leija L. and Vera A, Measurement of Ultrasonic Properties of Fat Biological Phantom, 2009
 
-
+# List of authors
+[@ApollineF](https://github.com/ApollineF)
+[Aurélie](https://github.com/Aurelie-Mutschler)
+[K. Ghosh](https://github.com/kelu124)

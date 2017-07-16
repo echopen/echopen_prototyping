@@ -8,7 +8,7 @@ This section is meant to gather ideas about the objectives for the next iteratio
 
 * Miniaturizing the prototype \(electronics, mechanics, etc.\) following regulatory guidelines, industrial constraints and medical requirements including implementation of the selected architecture
 
-### Architecture 
+### Architecture
 
 * Work on optimized acquisition chain \(probe, analog signal conditioning, high-speed ADC\) with a well defined electrical interface \(connector, signals,…\)
 
@@ -30,7 +30,7 @@ This section is meant to gather ideas about the objectives for the next iteratio
 
 * lower-performance, cost optimized solution: low-end FPGA + DSP/ARM processor
 
-* Remove the RedPitaya board 
+* Remove the RedPitaya board
 
 * High sampling rate ADC, around 12 bits precision, between 50-100 Msps \(minimum 45 Msps\)
 
@@ -156,4 +156,22 @@ One prerequisite of this is to have a **good knowledge** of **at least one** env
 * Need to list what information need to be stored within this metadata
 
 
+
+## List of authors
+
+We thank all echOpen members who contributed to the release of this GitBook :
+
+[Alister Trabattoni](https://github.com/halipster)
+
+[Aurélie](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+
+[Benoit Vincent](https://github.com/Bivi)
+
+[Clément Le Couedic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+
+[@eiffel](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+
+[@GG23800](https://github.com/GG23800)
+
+[K. Ghosh](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
 

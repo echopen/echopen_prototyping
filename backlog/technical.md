@@ -1,3 +1,5 @@
+# Technical constrains
+
 ## Technical specifications
 
 | Item                    | Target                                | Achieved         | Completion status |
@@ -160,3 +162,9 @@ Design a case of volume and shape capable of housing the electronic mechanical p
         PBL-mec_case_body_asm : Assembly Method
 
 Choosing a method for assembling the various parts and shells which allows easy assembly / dismantling with conventional means while meeting the safety standards for a medical device.
+
+# List of authors
+[Aurélie](https://github.com/Aurelie-Mutschler)
+[Benoit Vincent](https://github.com/BiVi)
+
+
