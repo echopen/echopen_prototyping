@@ -51,5 +51,5 @@ The oscilloscope and multimeter can be used as electronic diagnostic tools to ge
 
 ---
 
-Now that your echOpen lab is ready you can read about the charcteristics of the [latest stable version](/stable/stable.md) or about the [work in progress](/inprogress/inprogress.md). Or you can [jump directly to the production guide](/stable/production_guide.md) !
+Now that your echOpen lab is ready you can read about the characteristics of the [latest stable version](/stable/stable.md) or about the [work in progress](/inprogress/inprogress.md). Or you can [jump directly to the production guide](/stable/production_guide.md) !
 
