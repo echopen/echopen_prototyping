@@ -8,7 +8,7 @@
   * [Work method](howto/method.md)
   * [Contribution guide](howto/contribution_guide.md)
   * [Find your team](howto/teams.md)
-* [Set up your own echOpen lab](getstarted/echopen_lab.md)
+  * [Set up your own echOpen lab](getstarted/echopen_lab.md)
 * [Product backlog](backlog/backlog.md)
   * [Technical constrains](backlog/technical.md)
   * [Functional specifications](backlog/specs.md)
