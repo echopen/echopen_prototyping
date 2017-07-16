@@ -1,8 +1,6 @@
-# Get started
+# Set up your echOpen open lab
 
 You can follow this section's guidelines to set up your own hardware lab ! Here you will find a list of the equipment you will need to build the probe and help us with the hardware.
-
-## Set up your echOpen open lab
 
 To build the probe, we have provided some tips for a good start. The following list \(LabTool\) gives components and consumables deemed essential and required to quickly start a laboratory or a research center to design the echOpen probe.
 
