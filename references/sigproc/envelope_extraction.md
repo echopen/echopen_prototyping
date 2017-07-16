@@ -1,4 +1,4 @@
-# IQ Demodulation and Hilbert Transform
+IQ Demodulation and Hilbert Transform
 
 When dealing with medical signals the relevant representation we want to assess is a decomposition in two terms :
 
@@ -38,7 +38,7 @@ s(t) = a(t)cos(\theta(t))cos(\omega t) -a(t)sin(\theta(t))sin(\omega t)
 $$
 
 
-This decomposition splits the signal in two terms. One term in $$cos(\omega t)$$ and is called in-phase component as originally we wrote the signal with the $$cos$$ function. Another term in $$-sin\(\omega t\)$$ which is the quadrature component since $$-sin$$ is the quadrature of $$cos$$. We then define $$I(t) = a(t)cos(\theta(t))$$ and $$Q\(t\) = a\(t\)sin\(\theta\(t\)\)$$ allowing us to rewrite the former expression as :
+This decomposition splits the signal in two terms. One term in $$cos(\omega t)$$ and is called in-phase component as originally we wrote the signal with the $$cos$$ function. Another term in $$-sin(\omega t)$$ which is the quadrature component since $$-sin$$ is the quadrature of $$cos$$. We then define $$I(t) = a(t)cos(\theta(t))$$ and $$Q(t) = a(t)sin(\theta(t))$$ allowing us to rewrite the former expression as :
 
 
 $$
@@ -54,11 +54,11 @@ IQ(t) = I + jQ(t) = a(t)e^{j\theta(t)}
 $$
 
 
-The norm of this latter gives $$a\(t\)$$ and the argument gives $$\theta\(t\)$$. Note that we don't need to provide the exact central frequency to perform an exact envelope and phase detection but the representation \(aka the value of $$IQ$$ but also $$\theta$$\) won't be the same.
+The norm of this latter gives $$a(t)$$ and the argument gives $$\theta(t)$$. Note that we don't need to provide the exact central frequency to perform an exact envelope and phase detection but the representation \(aka the value of $$IQ$$ but also $$\theta$$\) won't be the same.
 
 ![IQ](./src/output_1_0.png)
 
-We chose the example signal as following : $$a\(t\)$$ is a hanning window, $$\omega$$ is set so that the central period is one and $$\theta$$ is a sinusoid that makes one full oscillation : it worth $$\pi /2$$ at $$t = 2$$, 0 at $$t=4$$ and $$-\pi/2$$ at t=6.   We can see that $$I$$ and $$Q$$ behaves as some kind of signed envelope for the in-phase and quadrature component. The envelope is perfectly assessed.
+We chose the example signal as following : $$a(t)$$ is a hanning window, $$\omega$$ is set so that the central period is one and $$\theta$$ is a sinusoid that makes one full oscillation : it worth $$\pi /2$$ at $$t = 2$$, 0 at $$t=4$$ and $$-\pi/2$$ at t=6.   We can see that $$I$$ and $$Q$$ behaves as some kind of signed envelope for the in-phase and quadrature component. The envelope is perfectly assessed.
 
 ## Quadrature demodulation
 
