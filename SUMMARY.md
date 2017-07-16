@@ -11,7 +11,7 @@
   * [Set up your own echOpen lab](getstarted/echopen_lab.md)
 * [Product backlog](backlog/backlog.md)
   * [Main characteristics](/backlog/main_characteristics.md)
-* * [Technical constrains](backlog/technical.md)
+  * [Technical constrains](backlog/technical.md)
   * [Functional specifications](backlog/specs.md)
 * [Challenges](challenges/challenges.md)
   * [GPU & real time processing](challenges/gpu-and-real-time-processing.md)
