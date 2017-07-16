@@ -39,7 +39,6 @@
     * [Specifications](inprogress/requirements/specifications.md)
     * [UX design](inprogress/requirements/UX_design.md)
   * [Iteration planning](inprogress/planning.md)
-  * [Progress report](inprogress/report.md)
 * [Follow-up](follow-up.md)
   * [Weekly meetings](followup/weekly_meeting.md)
   * [Hardware](followup/meetings_hardware.md)

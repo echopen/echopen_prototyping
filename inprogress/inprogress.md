@@ -14,5 +14,3 @@ As the fourth CapTech hasn't occured yet, the following subsections are empty:
 
 [Iteration planning](/inprogress/planninng.md): here you will find information about ongoing tasks to be completed for the next release.
 
-[Progress report](/inprogress/report.md): here you will see what each team will have managed to achieve day after day.
-
