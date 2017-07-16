@@ -1,4 +1,8 @@
-# Set up your echOpen open lab
+# Get started
+
+You can follow this section's guidelines to set up your own hardware lab ! Here you will find a list of the equipment you will need to build the probe and help us with the hardware.
+
+## Set up your echOpen open lab
 
 To build the probe, we have provided some tips for a good start. The following list \(LabTool\) gives components and consumables deemed essential and required to quickly start a laboratory or a research center to design the echOpen probe.
 
@@ -48,5 +52,4 @@ The oscilloscope and multimeter can be used as electronic diagnostic tools to ge
 ---
 
 Now that your echOpen lab is ready you can read about the charcteristics of the [latest stable version](/stable/stable.md) or about the [work in progress](/inprogress/inprogress.md). Or you can [jump directly to the production guide](/stable/production_guide.md) !
-
 
