@@ -10,7 +10,8 @@
   * [Find your team](howto/teams.md)
   * [Set up your own echOpen lab](getstarted/echopen_lab.md)
 * [Product backlog](backlog/backlog.md)
-  * [Technical constrains](backlog/technical.md)
+  * [Main characteristics](/backlog/main_characteristics.md)
+* * [Technical constrains](backlog/technical.md)
   * [Functional specifications](backlog/specs.md)
 * [Challenges](challenges/challenges.md)
   * [GPU & real time processing](challenges/gpu-and-real-time-processing.md)
@@ -62,4 +63,6 @@
   * [Benchmark of similar devices](references/benchmark/ref_benchmark.md)
     * [Benchmark 1](references/benchmark/benchmark_1.md)
 * [Table of references](References.md)
+
+
 
