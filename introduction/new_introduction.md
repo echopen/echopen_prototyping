@@ -193,3 +193,8 @@ These two images are before/after scan conversion of an image of a liver
 To learn more about the hardware of the latest version of the device, click [here](/stable/doc_hardware.md).
 
 To learn more about the software, click [here](/stable/doc_software.md)
+
+## List of authors
+[Alister Trabattoni](https://github.com/halipster)
+[ApollineF](https://github.com/ApollineF)
+
