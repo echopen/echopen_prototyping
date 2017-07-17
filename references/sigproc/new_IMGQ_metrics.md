@@ -19,7 +19,7 @@ In ultrasound imaging the spatial resolution is usually divided into two concept
 
 <figure>
   <img src="/references/sigproc/spatial_resolution.jpg" alt="" />
-  <figcaption> Figure 2: spatial resolution
+  <figcaption> Figure 1: spatial resolution
   
   Image source: http://199.116.233.101/images/thumb/0/06/Resolution.png/346px-Resolution.png</figcaption>
 </figure>
@@ -28,15 +28,38 @@ In ultrasound imaging the spatial resolution is usually divided into two concept
 ### Contrast resolution
 The contrast resolution is a measure of the ability to distinguish objects that have close acoustic properties. It can correspond to the detection of different tissues, of anechoic objects (objects that are free from echoes and reverberation such as cysts) or scattering objects such as tumours. 
 
+<figure>
+  <img src="/references/sigproc/contrast_resolution.jpg" alt="" />
+  <figcaption> Figure 2: contrast resolution
+  
+  Image source: http://dormed.gr/wp-content/uploads/2015/07/arietta-v70-dual.jpg</figcaption>
+</figure>
+
 ### Time resolution
 The temporal resolution is a measure of the fastest object motion that can be detected by the device. It is relative to the transducer and the framerate.
 
 ### Sensitivity
-Sensitivity is a measure of the minimum detectable inhomogeneity. It can be quantified either by the Signal to Noise Ratio (SNR) or by the penetration, the depth at which the SNR falls below 6dB.
+Sensitivity is a measure of the minimum detectable inhomogeneity. It is affeceted by the Signal to Noise Ratio (SNR) or by the penetration (the depth at which the SNR falls below 6dB), but it may also be affected by spatial and contrast resolution.
 
+<figure>
+  <img src="/references/sigproc/sensitivity.jpg" alt="" />
+  <figcaption> Figure 3: Sensitivity
+  
+  Image source: https://upload.wikimedia.org/wikipedia/commons/9/95/LowContrast001.jpg</figcaption>
+</figure>
+On this picture, the same object is scanned with different parameters that affect sensitivity. Sensitivity decreases from left to right.
 
 ### Uniformity
 Before being digitalized and analysed, the received signal is amplified by a Time Gain Compensation device. Signals coming from deeper tissue/organ interfaces are amplified more than others in order to compensate the attenuation that occurs all along the waves’ way. Yet, the quality or the simple fact that it also amplifies noise affects the image uniformity.
+
+The uniformity can be quantified by several parameters such as the Beam Nonuniformity Ratio(BNR). It is the ratio between the spatial peak intensity and the spatial average intensity. It quantifies the uniformity of the beam, so the ideal probe would have a 1:1 BNR. 
+
+<figure>
+  <img src="/references/sigproc/BNR.png" alt="" />
+  <figcaption> Figure 4: Beam Nonuniformity Ratio
+  
+  Image source: http://fadavispt.mhmedical.com/data/books/1932/bellewmodal_ch4_f006.png</figcaption>
+</figure>
 
 
 ## Methods and techniques to quantify those criteria
