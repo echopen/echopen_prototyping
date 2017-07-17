@@ -18,7 +18,7 @@ Some of the relevevant parameters for the quality assesment are described in the
 In ultrasound imaging the spatial resolution is usually divided into two concepts. Lateral resolution is the capability to resolve details from each other when they are near each other on lines perpendicular to the ultrasound beam. Accordingly, axial resolution is the capability to resolve details that are near each other on lines parallel to the ultrasound beam. A third resolution called elevation resolution defines how thin a layer the transducer is capable of separating from adjacent layers in the object. The spatial resolution may be affected by some of the transducer’s properties such as its geometry, as it affects the beam width (for the lateral resolution) or its bandwidth that may change the pulse’s length (for the axial resolution). The frequency of the transducers also changes the depth at which the better resolution is observed.  {{ "sigproc:alasaarela_evaluation_1990" | cite }}
 
 <figure>
-  <img src="/references/sigproc/images/spatial_resolution.jpg" alt="" />
+  <img src="/references/sigproc/spatial_resolution.jpg" alt="" />
   <figcaption> Figure 1: spatial resolution
   
   Image source: http://199.116.233.101/images/thumb/0/06/Resolution.png/346px-Resolution.png</figcaption>
@@ -29,7 +29,7 @@ In ultrasound imaging the spatial resolution is usually divided into two concept
 The contrast resolution is a measure of the ability to distinguish objects that have close acoustic properties. It can correspond to the detection of different tissues, of anechoic objects (objects that are free from echoes and reverberation such as cysts) or scattering objects such as tumours. 
 
 <figure>
-  <img src="/references/sigproc/images/contrast_resolution.jpg" alt="" />
+  <img src="/references/sigproc/contrast_resolution.jpg" alt="" />
   <figcaption> Figure 2: contrast resolution
   
   Image source: http://dormed.gr/wp-content/uploads/2015/07/arietta-v70-dual.jpg</figcaption>
@@ -42,7 +42,7 @@ The temporal resolution is a measure of the fastest object motion that can be de
 Sensitivity is a measure of the minimum detectable inhomogeneity. It is affeceted by the Signal to Noise Ratio (SNR) or by the penetration (the depth at which the SNR falls below 6dB), but it may also be affected by spatial and contrast resolution.
 
 <figure>
-  <img src="/references/sigproc/image/sensitivity.jpg" alt="" />
+  <img src="/references/sigproc/sensitivity.jpg" alt="" />
   <figcaption> Figure 3: Sensitivity
   
   Image source: https://upload.wikimedia.org/wikipedia/commons/9/95/LowContrast001.jpg</figcaption>
@@ -55,7 +55,7 @@ Before being digitalized and analysed, the received signal is amplified by a Tim
 The uniformity can be quantified by several parameters such as the Beam Nonuniformity Ratio(BNR). It is the ratio between the spatial peak intensity and the spatial average intensity. It quantifies the uniformity of the beam, so the ideal probe would have a 1:1 BNR. 
 
 <figure>
-  <img src="/references/sigproc/images/BNR.png" alt="" />
+  <img src="/references/sigproc/BNR.png" alt="" />
   <figcaption> Figure 4: Beam Nonuniformity Ratio
   
   Image source: http://fadavispt.mhmedical.com/data/books/1932/bellewmodal_ch4_f006.png</figcaption>
@@ -65,7 +65,7 @@ The uniformity can be quantified by several parameters such as the Beam Nonunifo
 The Resolution Integral is a mathematical transformation that produces a single figure of merit for image quality from individual measurements of resolution over a range of depths. The idea is that a good image is correlated with a narrow beam width and a good penetration into soft tissues, so a notional metric of performance could calculated as the ratio R = Penetration / Beam Width. For weakly focused imaging beams, the variation of ultrasound beam characteristics with depth can be accounted for using an integral approach. The metric can then be written as: $$R = \int_{0}^\infty    L(\alpha)\,d\alpha  where 2/α $$ is the effective beam width and L(α′) is the axial distance over which the effective beam width is less than 2/α′.
 
 <figure>
-  <img src="/references/sigproc/images/resolution_integral.jpg" alt="" />
+  <img src="/references/sigproc/resolution_integral.jpg" alt="" />
   <figcaption> Figure 5: resolution integral
   
   Image source: http://orbit.dtu.dk/files/4656580/Hemmsen_2010_SPIE%5B2%5D.pdf</figcaption>
