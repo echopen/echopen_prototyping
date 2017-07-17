@@ -17,6 +17,14 @@ Some of the relevevant parameters for the quality assesment are described in the
 ### Spatial resolution
 In ultrasound imaging the spatial resolution is usually divided into two concepts. Lateral resolution is the capability to resolve details from each other when they are near each other on lines perpendicular to the ultrasound beam. Accordingly, axial resolution is the capability to resolve details that are near each other on lines parallel to the ultrasound beam. A third resolution called elevation resolution defines how thin a layer the transducer is capable of separating from adjacent layers in the object. The spatial resolution may be affected by some of the transducer’s properties such as its geometry, as it affects the beam width (for the lateral resolution) or its bandwidth that may change the pulse’s length (for the axial resolution). The frequency of the transducers also changes the depth at which the better resolution is observed.  {{ "sigproc:alasaarela_evaluation_1990" | cite }}
 
+<figure>
+  <img src="/references/sigproc/spatial_resolution.jpg" alt="" />
+  <figcaption> Figure 2: spatial resolution
+  
+  Image source: http://199.116.233.101/images/thumb/0/06/Resolution.png/346px-Resolution.png</figcaption>
+</figure>
+
+
 ### Contrast resolution
 The contrast resolution is a measure of the ability to distinguish objects that have close acoustic properties. It can correspond to the detection of different tissues, of anechoic objects (objects that are free from echoes and reverberation such as cysts) or scattering objects such as tumours. 
 
@@ -45,7 +53,7 @@ The Resolution Integral is a mathematical transformation that produces a single 
 
 <figure>
   <img src="/references/sigproc/resolution_integral.jpg" alt="" />
-  <figcaption> Figure 1: resolution integral
+  <figcaption> Figure 2: resolution integral
   
   Image source: http://orbit.dtu.dk/files/4656580/Hemmsen_2010_SPIE%5B2%5D.pdf</figcaption>
 </figure>
