@@ -61,30 +61,40 @@ The uniformity can be quantified by several parameters such as the Beam Nonunifo
   Image source: http://fadavispt.mhmedical.com/data/books/1932/bellewmodal_ch4_f006.png</figcaption>
 </figure>
 
-
-## Methods and techniques to quantify those criteria
-### Image quality measure based on error sensitivity
-Mean Squared Error (MSE) is the most commonly used image quality measure. The goal of this measure is to compare two images by providing the quantitative score that describes the degree of similarity or the level of distortion/error between the two images. MSE is easy to calculate, memory less and it has a clear physical meaning as it defines the energy of the noise image.
-The MSE can be converted into Peak Signal to Noise Ratio (PSNR). MSE and PSNR are easy to calculate, memory less and have a clear physical meaning (MSE is a measure of the energy of the image and PSNR defines the energy of the noise image. However, those measures may not correspond to human perception because digital pixel values may not exactly represent the light stimulus entering the eye, because the summation process implemented in those techniques has little to do with the way our brain perceives a distortion between two images and because two distorted image signals with the same amount of error energy may have very different structure of errors.
-
-### Tissue mimicking phantoms {{ "sigproc:joy_automated_2014" | cite }}
-A tissue mimicking phantom is an object designed to test the ability of ultrasound scanners to detect particular objects. It is composed of materials that can reproduce the acoustic properties of human tissues. Tissue mimicking phantoms are interesting as we know their geometry. 
-There are some areas in the object where the properties of the materials are slightly different, and the operator can test whether the limits of those areas are detected or not (contrast resolution). The spatial resolution can be measured by placing a series of two points that can be detected by the scanner close to each other, but at different distances from each other. Then you just have to take a look on the screen to see which points are still distinguishable from their counterpart. You can also compare the values of the neighbouring pixels.
-
 ### The Resolution Integral
 The Resolution Integral is a mathematical transformation that produces a single figure of merit for image quality from individual measurements of resolution over a range of depths. The idea is that a good image is correlated with a narrow beam width and a good penetration into soft tissues, so a notional metric of performance could calculated as the ratio R = Penetration / Beam Width. For weakly focused imaging beams, the variation of ultrasound beam characteristics with depth can be accounted for using an integral approach. The metric can then be written as: $$R = \int_{0}^\infty    L(\alpha)\,d\alpha  where 2/α $$ is the effective beam width and L(α′) is the axial distance over which the effective beam width is less than 2/α′.
 
 <figure>
   <img src="/references/sigproc/resolution_integral.jpg" alt="" />
-  <figcaption> Figure 2: resolution integral
+  <figcaption> Figure 5: resolution integral
   
   Image source: http://orbit.dtu.dk/files/4656580/Hemmsen_2010_SPIE%5B2%5D.pdf</figcaption>
 </figure>
 
  
-The L-α curve is bounded on the y-axis by L0, the ‘length of the beam’. Beyond that point, the beam still exists but cannot be distinguished from the noise because its intensity is too low. This is also called the noise limit. On the x-axis, the curve is limited by 1/a0, where a0 represents the best spatial resolution. A transducer with a good penetration and a good spatial resolution tends to have a large value for the Integral Resolution. L and α can be determined by scanning particular phantoms.
+The L-α curve is bounded on the y-axis by L0, the ‘length of the beam’. Beyond that point, the beam still exists but cannot be distinguished from the noise because its intensity is too low. This is also called the noise limit. On the x-axis, the curve is limited by 1/a0, where a0 represents the best spatial resolution. A transducer with a good penetration and a good spatial resolution tends to have a large value for the Integral Resolution.
 
 https://pdfs.semanticscholar.org/1eae/a3fcfd9eca87ebaccb5d6b605655f1f003b3.pdf
+
+### Image quality measure based on error sensitivity
+Mean Square Error (MSE) is the most commonly used image quality measure. The goal of this measure is to compare two images by providing the quantitative score that describes the degree of similarity or the level of distortion/error between the two images. MSE is easy to calculate, memory less and it has a clear physical meaning as it defines the energy of the noise image.
+The MSE can be converted into Peak Signal to Noise Ratio (PSNR). MSE and PSNR are easy to calculate, memory less and have a clear physical meaning (MSE is a measure of the energy of the image and PSNR defines the energy of the noise image. However, those measures may not correspond to human perception because digital pixel values may not exactly represent the light stimulus entering the eye, because the summation process implemented in those techniques has little to do with the way our brain perceives a distortion between two images and because two distorted image signals with the same amount of error energy may have very different structure of errors.
+
+Mean Square Error between two images A and B (same dimensions):
+$$ MSE = \frac{1}{N}\sum_{i,j}(a_{ij}-b_{ij})^2 $$
+N is the number of pixels in each image. $$ a_{ij} $$ (resp. $$b_{ij} $$ )is the value of the pixel located in position (i,j) in image A (resp. B).
+
+## Existing methods for image quality assesment
+Some of the previous parameters can be determined almost directly thanks to data image processing. But for most of them, the use of objects called tissue mimicking phantoms is necessary.
+
+### Data image processing
+Data image processing consists in using the values of the pixels from one or different images to calculate the value of certain parameters. It can be used to calculate the Mean Square Error between two images or the BNR for axample. It can also be used to analyse the images obtained from the scanning of different phantoms. 
+
+### Tissue mimicking phantoms {{ "sigproc:joy_automated_2014" | cite }}
+A tissue mimicking phantom is an object designed to test the ability of ultrasound scanners to detect particular objects. It is composed of materials that can reproduce the acoustic properties of human tissues. Tissue mimicking phantoms are interesting as we know their geometry. 
+There are some areas in the object where the properties of the materials are slightly different, and the operator can test whether the limits of those areas are detected or not (contrast resolution). The spatial resolution can be measured by placing a series of two points that can be detected by the scanner close to each other, but at different distances from each other. Then you just have to take a look on the screen to see which points are still distinguishable from their counterpart. You can also compare the values of the neighbouring pixels.
+By the way, certain types of tissue mimicking phantoms could also be used to evaluate the senitivity. 
+
 
 ## What we could do at echOpen 
 In this section, I write some of the ideas that came to my mind when I read articles about Image Quality Assessment. I am not an expert, these are only suggestions that could be used to start further reflections on that topic.
@@ -93,7 +103,10 @@ At echOpen we try to design a low-cost ultrasound scanner. In order to measure t
 
 It would also be interesting to use a tissue mimicking phantom to measure some of the parameters above including the Resolution Integral. The problem is that tissue mimicking phantoms for quality assessment cost about $2,000. Some recipes to make home-made and cheap tissue mimicking phantoms exist, but those phantoms are mostly used for the training of students in medicine, not for scanners quality assesment. A 2-axis table that could be put in an aquarium is currently being developed by the community, to test the basic resolution properties of the scanner.
 
- 
+### 2-axis table
+
+### Homemade tissue mimicking phantoms
+
 ## References
 {% references %} {% endreferences %}
 
