@@ -104,6 +104,16 @@ At echOpen we try to design a low-cost ultrasound scanner. In order to measure t
 It would also be interesting to use a tissue mimicking phantom to measure some of the parameters above including the Resolution Integral. The problem is that tissue mimicking phantoms for quality assessment cost about $2,000. Some recipes to make home-made and cheap tissue mimicking phantoms exist, but those phantoms are mostly used for the training of students in medicine, not for scanners quality assesment. A 2-axis table that could be put in an aquarium is currently being developed by the community, to test the basic resolution properties of the scanner.
 
 ### 2-axis table
+The following 2-axis table is being constructed by a few echtopians and students from the CRI Labs Summer School.
+
+<figure>
+  <img src="/references/sigproc/xy_plotter.bmp" alt="" />
+  <figcaption> Figure 6: 2 axis table
+  
+  Image source: https://www.electronic-shop.lu/cache/media/catalog/product/6/6/img_640_480_660_1__47873.jpg</figcaption>
+</figure>
+
+The pen will be replaced by a thin object, probably a wire.
 
 ### Homemade tissue mimicking phantoms
 
