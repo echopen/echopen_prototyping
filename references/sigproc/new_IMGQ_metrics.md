@@ -29,7 +29,7 @@ In ultrasound imaging the spatial resolution is usually divided into two concept
 The contrast resolution is a measure of the ability to distinguish objects that have close acoustic properties. It can correspond to the detection of different tissues, of anechoic objects (objects that are free from echoes and reverberation such as cysts) or scattering objects such as tumours. 
 
 <figure>
-  <img src="/references/sigproc/contrast_resolution.jpg" alt="" />
+  <img src="/references/sigproc/images/contrast_resolution.jpg" alt="" />
   <figcaption> Figure 2: contrast resolution
   
   Image source: http://dormed.gr/wp-content/uploads/2015/07/arietta-v70-dual.jpg</figcaption>
@@ -42,7 +42,7 @@ The temporal resolution is a measure of the fastest object motion that can be de
 Sensitivity is a measure of the minimum detectable inhomogeneity. It is affeceted by the Signal to Noise Ratio (SNR) or by the penetration (the depth at which the SNR falls below 6dB), but it may also be affected by spatial and contrast resolution.
 
 <figure>
-  <img src="/references/sigproc/sensitivity.jpg" alt="" />
+  <img src="/references/sigproc/images/sensitivity.jpg" alt="" />
   <figcaption> Figure 3: Sensitivity
   
   Image source: https://upload.wikimedia.org/wikipedia/commons/9/95/LowContrast001.jpg</figcaption>
@@ -55,7 +55,7 @@ Before being digitalized and analysed, the received signal is amplified by a Tim
 The uniformity can be quantified by several parameters such as the Beam Nonuniformity Ratio(BNR). It is the ratio between the spatial peak intensity and the spatial average intensity. It quantifies the uniformity of the beam, so the ideal probe would have a 1:1 BNR. 
 
 <figure>
-  <img src="/references/sigproc/BNR.png" alt="" />
+  <img src="/references/sigproc/images/BNR.png" alt="" />
   <figcaption> Figure 4: Beam Nonuniformity Ratio
   
   Image source: http://fadavispt.mhmedical.com/data/books/1932/bellewmodal_ch4_f006.png</figcaption>
@@ -65,7 +65,7 @@ The uniformity can be quantified by several parameters such as the Beam Nonunifo
 The Resolution Integral is a mathematical transformation that produces a single figure of merit for image quality from individual measurements of resolution over a range of depths. The idea is that a good image is correlated with a narrow beam width and a good penetration into soft tissues, so a notional metric of performance could calculated as the ratio R = Penetration / Beam Width. For weakly focused imaging beams, the variation of ultrasound beam characteristics with depth can be accounted for using an integral approach. The metric can then be written as: $$R = \int_{0}^\infty    L(\alpha)\,d\alpha  where 2/α $$ is the effective beam width and L(α′) is the axial distance over which the effective beam width is less than 2/α′.
 
 <figure>
-  <img src="/references/sigproc/resolution_integral.jpg" alt="" />
+  <img src="/references/sigproc/images/resolution_integral.jpg" alt="" />
   <figcaption> Figure 5: resolution integral
   
   Image source: http://orbit.dtu.dk/files/4656580/Hemmsen_2010_SPIE%5B2%5D.pdf</figcaption>
@@ -107,7 +107,7 @@ It would also be interesting to use a tissue mimicking phantom to measure some o
 The following 2-axis table is being constructed by a few echtopians and students from the CRI Labs Summer School.
 
 <figure>
-  <img src="/references/sigproc/xy_plotter.bmp" alt="" />
+  <img src="/references/sigproc/images/xy_plotter.bmp" alt="" />
   <figcaption> Figure 6: 2 axis table
   
   Image source: https://www.electronic-shop.lu/cache/media/catalog/product/6/6/img_640_480_660_1__47873.jpg</figcaption>
@@ -117,7 +117,7 @@ The pen will be replaced by a thin object,a tugstene wire for example. The purpo
 A graph similar to the following one is supposed to be obtained.
 
 <figure>
-  <img src="/references/sigproc/beam_width.png" alt="" />
+  <img src="/references/sigproc/images/beam_width.png" alt="" />
   <figcaption> Figure 7: measure of the beamwidth
   
   Image source:https://www.researchgate.net/publication/236140202/figure/fig5/AS:280443950780462@1443874456998/Figure-2-Measured-beam-width-produced-by-the-transducer-the-measured-beam-width-with-a.png</figcaption>
