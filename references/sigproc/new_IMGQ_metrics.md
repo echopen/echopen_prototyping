@@ -113,9 +113,26 @@ The following 2-axis table is being constructed by a few echtopians and students
   Image source: https://www.electronic-shop.lu/cache/media/catalog/product/6/6/img_640_480_660_1__47873.jpg</figcaption>
 </figure>
 
-The pen will be replaced by a thin object, probably a wire.
+The pen will be replaced by a thin object,a tugstene wire for example. The purpose is to measure the beam width at different depths. To measure the beam width at a certain depth, the tungstene wire is woved in a plan perpendicular to the propagation axis. When the wire is on that axis, the maximum amplitude is measured. Then the received amplitude is measured for different distances betweeen the axis and the wire. 
+A graph similar to the following one is supposed to be obtained.
 
-### Homemade tissue mimicking phantoms
+<figure>
+  <img src="/references/sigproc/beam_width.png" alt="" />
+  <figcaption> Figure 7: measure of the beamwidth
+  
+  Image source:https://www.researchgate.net/publication/236140202/figure/fig5/AS:280443950780462@1443874456998/Figure-2-Measured-beam-width-produced-by-the-transducer-the-measured-beam-width-with-a.png</figcaption>
+</figure>
+
+Then the beamwidth can be estimated according to different conventions on the limit in dB. 
+
+The beamwidth is related to lateral resolution as two details located at a distance d from each other won't be distinguishible if d is smaller than the beamwidth.
+
+### Direct measure of resolution
+Here is an idea to measure the spatial resolution. We could put a wooden plaque on the aquarium and hang thin wires to that plaque. By changing the distance between the wires we could determine axial and lateral resolution experimentally. The verticality of the wires could be ensured by small weigths at the end of each wire.
+This measure would probably take a lot more time than the measure of the beamwidth with the 2-axis table. The ideal tool would be a 2-axis table for 2 separate wires, but there would obviously be room problems at the top of the aquarium. A system similar to the one presented in that article {{ "sigproc:joy_automated_2014" | cite }} would be more relevant. There, the two wires are fixed at the same motors and a third one can be used to change the distance between the two wires.
+
+### Home-made tissue mimicking phantoms
+The previous methods could allow us to determine spatial resolution but contrast resolution, sensitivity and uniformity measures are not relevant if the acoustic properties (attenuation in particular) are not close to the human body's. As said before, tissue mimicking phantoms are really expansive and we should , in a first approach, try to make our owns even if they are less relevant. 
 
 ## References
 {% references %} {% endreferences %}
