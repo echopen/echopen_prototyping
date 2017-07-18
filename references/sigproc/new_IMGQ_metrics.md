@@ -18,7 +18,7 @@ Some of the relevevant parameters for the quality assesment are described in the
 In ultrasound imaging the spatial resolution is usually divided into two concepts. Lateral resolution is the capability to resolve details from each other when they are near each other on lines perpendicular to the ultrasound beam. Accordingly, axial resolution is the capability to resolve details that are near each other on lines parallel to the ultrasound beam. A third resolution called elevation resolution defines how thin a layer the transducer is capable of separating from adjacent layers in the object. The spatial resolution may be affected by some of the transducer’s properties such as its geometry, as it affects the beam width (for the lateral resolution) or its bandwidth that may change the pulse’s length (for the axial resolution). The frequency of the transducers also changes the depth at which the better resolution is observed.  {{ "sigproc:alasaarela_evaluation_1990" | cite }}
 
 <figure>
-  <img src="/references/sigproc/spatial_resolution.jpg" alt="" />
+  <img src="/references/sigproc/images/spatial_resolution.jpg" alt="" />
   <figcaption> Figure 1: spatial resolution
   
   Image source: http://199.116.233.101/images/thumb/0/06/Resolution.png/346px-Resolution.png</figcaption>
