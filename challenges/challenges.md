@@ -8,12 +8,11 @@ Here is a list of ongoing challenges :
 
 * [GPU & real time processing](/challenges/gpu-and-real-time-processing.md): real time processing is one of the greatest challenges echOpen's software has to face.
 
-* [Scan conversion](/challenges/scan-conersion.md): The signal coming from the transducer, once preprocessed, can be represented by a double array with polar coordinates. But if this array is directly converted into an image \(each cell corresponding to a pixel\), a rectangular and distorted image is obtained. Polar to cartesian scan conversion is needed to obtain an image that shows the real shape of organs.
-
-* [Data format](/challenges/scan-conversion.md): create an echOpen "open file data format" for all files created with the echOpen kits. It has to be compatible with DICOM, a format commonly used in medical imaging.
+* [Data format](/challenges/data_format/data-format.md): create an echOpen "open file data format" for all files created with the echOpen kits. It has to be compatible with DICOM, a format commonly used in medical imaging.
 
 * [Hetic school challenge](/challenges/hetic-school-challenge.md)
 
+* [Analog envelope detection](/challenges/envelope_detection/analog_envelope_detection.md): suggest a better solution to perform analog envelope detection.
 
 
 ## List of authors
@@ -27,6 +26,5 @@ We thank all echOpen members who contributed to the release of this GitBook :
 [Clément Le Couedic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
 
 [@nowami](https://github.com/benchoufi)
-
 
 
