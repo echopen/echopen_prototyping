@@ -58,6 +58,7 @@
     * [Image quality assessment](references/sigproc/new_IMGQ_metrics.md)
     * [Envelope extraction](references/sigproc/envelope_extraction.md)
     * [Denoising](references/sigproc/Denoising.md)
+    * [Tissue mimicking phantoms](references/sigproc/phantoms.md)
     * [Leaderboard](references/sigproc/leaderboard.md)
   * [Android app](references/app/ref_app.md)
     * [How to install OpenCV](references/app/install-opencv-v-20.md)
