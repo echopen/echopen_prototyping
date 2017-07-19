@@ -30,7 +30,7 @@ can estimate the value of contrast resolution by determining which of those area
 resolution is a key issue as it will strongly impact the device's capacity to detect tumors and cysts.
 
 * Uniformity. Except for the areas and details dedicated to the resolution measurements, the material is supposed to be uniform in the 
-object. So uniformity can be simply tested by evaluationg the noise at different depths.
+object. So uniformity can be simply tested by evaluating the noise at different depths.
 
 Phantoms can also be used to test the quality of the scan conversion algorithm. Easily detected objects are put on a horizontal line at
 regular intervals. Then you just have to check if those objects are still detected on the same horizontal line. The same thing can be 
@@ -50,8 +50,11 @@ Those phantoms are reliable but they are expansive: they cost about $2000.
 
 ## Home-made tissue mimicking phantoms
 A lot of recipes can be found on the internet to make home-made tissue mimicking phantoms. Most of the time they use agar or gelatin. The purpose is to obtain the same speed of sound and the same attenuation as those in human tissues. Results are often pretty good [1],[2].
+
 However, those phantoms are mostly used as training models or for research experiments. I suppose it is due to the difficulty to "draw" precise shapes in the gel. The only example of feasible tissue mimicking phantom useful for image quality assesment I found is the one described in the article about the resolution integral: the Edinburgh pipe phantom[3]. As you can imagine they are useful to calculate the resolution integral but they cannot be used to determine resolution.
+
 Nevertheless, I have an idea to try to make a home-made tissue-mimicking phantom that could be used for image quality assesment. When you put hot water and gelatin together you obtain a homogeneous fluid, that will turn into a gel when cooling. We could use a 3D-printed mold to "draw" the shapes we want to obtain. When removing the mold, there would be some kind of empty tubes in the gel. We could fill those tubes with another gel that has different acoustic properties. Another solution would be to put metallic or nylon wires in the gel.
+
 If we make a home-made tissue mimicking phantom, we will have to test its properties. We will have to ensure that its acoustic properties are relevant and that the shapes are located in the right place.
 Moreover, we would probably have to face experimental problems such as the difficulty to put a wire at a precise location in a gel (it is more difficult for the depth, indeed if your gel is translucide you can partly solve the problem by drawing a line at the bottom of the mould). There could also be air bubbles between the different gels, or the shapes could be unprecise etc ... Obtaining a good home-made phantom seems feasible but it would require a lot more time than buying one.
 
