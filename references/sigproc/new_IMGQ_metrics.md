@@ -62,7 +62,7 @@ The uniformity can be quantified by several parameters such as the Beam Nonunifo
 </figure>
 
 ### The Resolution Integral
-The Resolution Integral is a mathematical transformation that produces a single figure of merit for image quality from individual measurements of resolution over a range of depths. The idea is that a good image is correlated with a narrow beam width and a good penetration into soft tissues, so a notional metric of performance could calculated as the ratio R = Penetration / Beam Width. For weakly focused imaging beams, the variation of ultrasound beam characteristics with depth can be accounted for using an integral approach. The metric can then be written as: $$R = \int_{0}^\infty    L(\alpha)\,d\alpha  where 2/α $$ is the effective beam width and L(α′) is the axial distance over which the effective beam width is less than 2/α′.
+The Resolution Integral is a mathematical transformation that produces a single figure of merit for image quality from individual measurements of resolution over a range of depths. The idea is that a good image is correlated with a narrow beam width and a good penetration into soft tissues, so a notional metric of performance could calculated as the ratio R = Penetration / Beam Width. For weakly focused imaging beams, the variation of ultrasound beam characteristics with depth can be accounted for using an integral approach. The metric can then be written as: $$R = \int_{0}^\infty    L(\alpha)\,d\alpha  where 2/\alpha $$ is the effective beam width and L(α′) is the axial distance over which the effective beam width is less than 2/α′.
 
 <figure>
   <img src="/references/sigproc/images/resolution_integral.jpg" alt="" />
@@ -136,4 +136,7 @@ The previous methods could allow us to determine spatial resolution but contrast
 {% references %} {% endreferences %}
 
 
-
+# List of authors
+[@ApollineF](https://github.com/ApollineF)
+[Aurélie](https://github.com/Aurelie-Mutschler)
+[K. Ghosh](https://github.com/kelu124)

@@ -1,9 +1,13 @@
-# add current Mobile app UI
+# UX design
+The main goal of the 3.0 version was to reach a medical quality image rendering. So that, UX was left on the side for the moment. However, we describe in this section the screens that are displayed in the current version. These are very basic skeletons which exposes the core parameters needed to be :
+* data transfer protocol
+* gain/contrast control 
+
+However, in the 4.0 version, a specific care will be given to the app. Designers, UX/UI community members have already tackled many challenges in order to provide a fluid user experience : simplicity, comfort of use and fine control of the parameters are ensured. Stay tuned ;)
+
+## current Mobile app UI
 
 You'll find here the current UI. It is for the moment dead simple. Indeed, for this version, we choose to fix only a one screen app, figuring the main functionalities :
-
-
-
 
 
 * a splashscreen ;\)
@@ -28,3 +32,8 @@ You'll find here the current UI. It is for the moment dead simple. Indeed, for t
 <img src="/assets/Screenshot_2017-04-15-16-56-10.png" alt="alt text" width="350px" style="float:left;margin:10px">
 
 <img src="/assets/Screenshot_2017-04-15-16-43-41.png" alt="alt text" width="350px" style="margin:10px">
+
+# List of authors
+[Clément Le Couedic](https://github.com/clecoued)
+[@nowami](https://github.com/benchoufi)
+

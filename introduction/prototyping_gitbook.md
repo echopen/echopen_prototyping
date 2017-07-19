@@ -15,3 +15,30 @@ This gitbook is the prototyping teams' main information medium. It gathers in a 
 * **Stable release Vx.y.z** : information about the latest stable release \(specifications, documentation, realisation guide\)
 * **Follow-up** : Minutes of weekly meetings
 * **References** : Shared bibliography and references
+
+## List of authors
+
+We thank all echOpen members who contributed to the release of this GitBook :
+
+[Alister Trabattoni](https://github.com/halipster)
+
+[@ApollineF](https://github.com/ApollineF)
+
+[Aurélie](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+
+[Benoit Vincent](https://github.com/Bivi)
+
+[Clément Le Couedic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+
+[@eiffel](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+
+[@GG23800](https://github.com/GG23800)
+
+[@hackolite](https://github.com/hackolite)
+
+[K. Ghosh](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+
+[Nicolas Filipovic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+
+[@nowami](https://github.com/benchoufi)
+

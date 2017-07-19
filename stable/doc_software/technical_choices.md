@@ -4,25 +4,27 @@ We consider the pros and the cons of the following mainstream mobile application
 
 * native Android mobile application
 
-    * (+) almost fully OpenSource framework
-    * (+) large and reactive community
+  * \(+\) almost fully OpenSource framework
+  * \(+\) large and reactive community
 
 * native iOs mobile application
-    * (-) proprietary environment
-    * (+) large community
+
+  * \(-\) proprietary environment
+  * \(+\) large community
 
 * cross-platform framework for mobile application
-    * (-) no acces to low level interface, framework is not optimized for required optimizations on backend (real time image rendering) and front-end (precise gestures)
+
+  * \(-\) no acces to low level interface, framework is not optimized for required optimizations on backend \(real time image rendering\) and front-end \(precise gestures\)
 
 According to the points listed above we choose to implement first an **Android native mobile application**.
 
 # Rendering pipeline technology choice
 
-We have develop multiple **ScanConversion** filters *(transformation from polar to cartesian coordinate in an image)* relying on differents technologies. This provided us good feedbacks on which technology we should use in order to get great performances to generate images from probe data.
+We have develop multiple **ScanConversion** filters _\(transformation from polar to cartesian coordinate in an image\)_ relying on differents technologies. This provided us good feedbacks on which technology we should use in order to get great performances to generate images from probe data.
 
 ## RenderScript
 
-The best performances are at the moment of the writing (_07.05.17_) are obtained with RenderScript. We achieved a performance of around 90-100 FPS for a 512x512 image. however the limit is that the user don't control the allocation to GPU or CPU, and it seems that on most modern architecture, GPU is consistently used, which explains the high frame rate. In a near future, we would like to carry the scan conversion on Vulcan. For the moment \(_07.05.17_\), it is not widely supported or implemented on smartphones.
+The best performances are at the moment of the writing \(_07.05.17_\) are obtained with RenderScript. We achieved a performance of around 90-100 FPS for a 512x512 image. however the limit is that the user don't control the allocation to GPU or CPU, and it seems that on most modern architecture, GPU is consistently used, which explains the high frame rate. In a near future, we would like to carry the scan conversion on Vulcan. For the moment \(_07.05.17_\), it is not widely supported or implemented on smartphones.
 
 ## OpenCV
 
@@ -44,8 +46,13 @@ Contrary to the `OpenCV`  implementation, there are much more paramaters to set.
 
 We reach a performance of 10-12 FPS on a 512x512 image.
 
-
 ## OLPC implementation
 
 In 2007, some echOpen's team worked on an early implementation of an ultrasound probe on an [OLPC](https://fr.wikipedia.org/wiki/One_Laptop_per_Child) device. It had to be faced scan conversion issue, you'll find [her.e](http://echopen.org/index.php/Scan_Conversion) a short story of this an some technical explanation about how the problem was tackled.
+
+## List of authors
+
+[Clément Le Couedic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+
+[@nowami](https://github.com/benchoufi)
 

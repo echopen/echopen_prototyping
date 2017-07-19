@@ -1,7 +1,4 @@
 # Acoustic imaging (basics) 
-_This section is meant to be replaced by the new version of the technical introduction_
-
-The pdf version of this document can be download ['here'](./acoustic_imaging_src/acoustic.pdf).
 
 In this section, we will explain some basis of the acoustic theory to understand the propagation of acoustic waves and the echographic process.
 
@@ -39,31 +36,22 @@ Mathematical formulation
 
 In acoustic, a fluid medium is describe by two mecanical parameters: the mass density *ρ* and the bulk modulus *κ*. The bulk modulus relate the change of volume of a medium to the isostatic pressure apply on it. The velocity of the acoustic wave *c* is:
 
-begin{equation}
- c=\sqrt{\dfrac{\kappa}{\rho}},
- \label{eq:speed of sound}
-\end{equation}
+ $$c=\sqrt{\dfrac{\kappa}{\rho}},$$
 
  for example, for the water we have: *ρ* = 1000 kg.m<sup>−3</sup>, *κ* = 2.19 MPa and *c* = 1480 m.s<sup>−1</sup>.
 
 The mathematical formulation is obtained by solving the Helmholtz equation, for exemple, the acoustic pressure *p*(*x*,*t*) can be expressed as:
 
-\begin{equation}
- p\left(x,t\right)=\left(A^{+}\e^{\im kx}+A^{-}\e^{-\im kx}\right)\e^{-\im 
-\omega t},
- \label{eq:math 1D formulation}
-\end{equation}
+$$ p\left(x,t\right)=\left(A^{+}e^{i kx}+A^{-}e^{-i kx}\right)e^{-i
+\omega t},$$
 
-$A^{+}\\e^{\\im kx}$ is a wave of amplitude *A*<sup>+</sup>, propagating toward the positive *x*, $A^{-}\\e^{-\\im kx}$ is a wave of amplitude *A*<sup>−</sup>, propagating toward the negative *x*. $k=\\dfrac{\\omega}{c}$ is the wavenumber, *ω* = 2*π**f* the angular pulsation and *f* the frequency.
+$$A^{+}e^{i kx}$$ is a wave of amplitude *A*<sup>+</sup>, propagating toward the positive *x*, $$A^{-}e^{-i kx}$$ is a wave of amplitude *A*<sup>−</sup>, propagating toward the negative *x*. $$k=\dfrac{\omega}{c}$$ is the wavenumber, *ω* = 2*πf* the angular pulsation and *f* the frequency.
 
-When we make an echographic image, we are intresting only on the intensity of the wave:
+When we make an echographic image, we are interesting only on the intensity of the wave:
 
-\begin{equation}
- I=\dfrac{1}{2}\Re\left[p\left(x,t\right)v^{*}\left(x,t\right)\right],
- \label{eq:acoustic intensity}
-\end{equation}
+$$I=\dfrac{1}{2}\Re\left[p\left(x,t\right)v^{*}\left(x,t\right)\right],$$
 
-where *v*(*x*,*t*) is the velocity of the particle, and *x*<sup>\*</sup> represent the complex conjugate of *x*. It can be shown with the Euler’s equation that the intensity is directly proportional to the square modulus of the pressure.
+where *v*(*x*,*t*) is the velocity of the particle, and *v*<sup>\*</sup> represent the complex conjugate of *v*. It can be shown with the Euler’s equation that the intensity is directly proportional to the square modulus of the pressure.
 
 Refraction and diffusion of acoustic waves
 ------------------------------------------
@@ -72,12 +60,9 @@ When an acoustic wave passes from a medium (0) to a second medium (1), a part of
 
 ### Refraction of a wave
 
-We consider an incident wave $\\phi\_{\\inc}$ normal to an interface, the reflected $\\phi\_{R}=R\\phi\_{\\inc}$ and the transmitted $\\phi\_{T}=T\\phi\_{\\inc}$ waves are also normal to the interface (Fig. 4). *R* and *T* represent respectively the reflexion and transmission coefficient. By solving this problem, we show that:
+We consider an incident wave $$\phi_{inc}$$ normal to an interface, the reflected $$\phi_{R}=R\phi_{inc}$$ and the transmitted $$\phi_{T}=T\phi_{inc}$$ waves are also normal to the interface (Fig. 4). *R* and *T* represent respectively the reflexion and transmission coefficient. By solving this problem, we show that:
 
-\begin{equation}
- R=\dfrac{Z_2-Z_1}{Z_2+Z_1},
- \label{eq:reflection coefficient}
-\end{equation}
+$$R=\dfrac{Z_2-Z_1}{Z_2+Z_1},$$
 
 where *Z*<sub>*i*</sub> = *ρ*<sub>*i*</sub>*c*<sub>*i*</sub> is the acoustic impedance of the medium *i*.
 
@@ -104,12 +89,9 @@ Attenuative media
 
 The human body is an attenuative media, this mean that the amplitude of a wave propagating in such medium decreases along its direction of propagation. Mathematically, the propagation of waves in this kind of medium is written as:
 
-\begin{equation}
- p\left(x,t\right)=\left(A^{+}\e^{\im kx}\e^{-\alpha x}+A^{-}\e^{-\im 
-kx}\e^{\alpha x}\right)\e^{-\im 
-\omega t}.
- \label{eq:math 1D absobing formulation}
-\end{equation}
+$$p\left(x,t\right)=\left(A^{+}e^{i kx}e^{-\alpha x}+A^{-}e^{-i 
+kx}e^{\alpha x}\right)e^{-i 
+\omega t}$$
 
 The difference between the propagation of a wave between a non-attenuative and an attenuative medium is present on Fig. . So when we do acoustic imaging in the human body, we must gradually amplify the received signal if we want to convert correctly the analogical signal into a digital signal, because if the amplitude of the signal is smaller than the precision of the ADC, we can’t measure it (see appendix ). Classically, we do Time Gain Compensation (TGC) on the receive signal in order to keep a convenient amplitude of the received signal. An example of this kind of treatment is presented on Fig. , it’s apply to the attenuated signal on the right side of Fig. .
 
@@ -140,15 +122,9 @@ Focussed transducer
 
 This kind of transducer have a spherical shape, so the emitted acoustic wave naturally focalised at the center of the sphere (Fig. ). The area of the focal spot is an ellipse, the value of *l* and *L* can be approximate by:
 
-\begin{equation}
- l=\dfrac{\lambda R}{2r},
- \label{eq:l value}
-\end{equation}
+$$l=\dfrac{\lambda R}{2r},$$
 
-\begin{equation}
- L=15\left(1-0.01\theta\right)l.
- \label{eq:L value}
-\end{equation}
+$$L=15\left(1-0.01\theta\right)l$$
 
 More *θ* is high, more the ellipse is small. When we do acoustic imaging, we want *l* to be as small as possible to increase the radial precision. Moreover we want *L* to be high, because the echo of an object outside of this ellipse will be too small to be measured. So we have to make a compromise between *l* and *L*.
 
@@ -216,7 +192,7 @@ Basic echographic signal processing
 
 The most basic signal processing for echographic imaging is to filter the signal and extract the envelop of the filtered signal. So you make a FFT of the signal measured by the transducer and you filter ± 2 MHz around the central frequency of the transducer for example, lets say between 5.5 and 9.5 MHz for a transducer centered at 7.5 MHz. You can keep the positive frequency, so you put all frequency smaller than 5.5 and higher than 9.5 MHz to 0. By doing this you apply a square window on the signal, you can also apply an Hamming, Hanning or Blackmann window. The negative frequency are also put to 0 with this method so if you make an IFFT, you apply a Hilbert transform to the filtered signal. By taking the modulus so we access to the envelop of the filtered signal.
 
-Now we have to define the pixels of the image. For example we can say that a pixel as the same length that the wavelength *λ* of the acoustic wave, $\\lambda=\\dfrac{c}{f}$ (*c* = 1500 m.s**<sup>−1</sup>). The time *t* needed to travelled a distance *d* is $t=\\dfrac{2d}{c}$ (2 because the wave travelled back and forth) so if *d* = *λ* then *t* = 26.7*μ*s. At 640 MHz, it correspond to 171 time points. The value of pixel is then define by integrated the signal on 171 points. An echographic image show the value of the acoustic power in dB, so to obtain this you just have to plot 20log(*s*). Where *s* is the envelop of the filtered signal integrated on the adequate number of time points.
+Now we have to define the pixels of the image. For example we can say that a pixel as the same length that the wavelength *λ* of the acoustic wave, $$\lambda=\dfrac{c}{f}$$ (*c* = 1500 m.s**<sup>−1</sup>). The time *t* needed to travelled a distance *d* is $$t=\dfrac{2d}{c}$$ (2 because the wave travelled back and forth) so if *d* = *λ* then *t* = 26.7*μ*s. At 640 MHz, it correspond to 171 time points. The value of pixel is then define by integrated the signal on 171 points. An echographic image show the value of the acoustic power in dB, so to obtain this you just have to plot 20log(*s*). Where *s* is the envelop of the filtered signal integrated on the adequate number of time points.
 
 #Annexes
 
@@ -229,16 +205,15 @@ As its name suggest, an ADC convert the algebrical value of the tension of a sig
 
 An ADC is supply with a given continuous current *V*<sub>cc</sub>. So the ADC sampling of the analogical are 2<sup>*n*</sup> value equally space between −*V*<sub>cc</sub> (or 0V) and +*V*<sub>cc</sub>. The precision *p* of the ADC is then:
 
-\begin{equation}
- p=\dfrac{2V_{\text{cc}}}{2^n-1}.
- \label{eq:precision adc}
-\end{equation}
+$$p=\dfrac{2V_{\text{cc}}}{2^n-1}$$
 
 So if we have *V*<sub>cc</sub> = 5 V on a 8 bites ADC (*n* = 8), then the precision is then 39.2 mV. Now consider than the output *k* of the ADC is an unsigned integer (this mean that the output is 0 to 255) then the voltage *V*<sub>m</sub> of the analogical signal is:
 
-\begin{equation}
- V_{\text{m}}=-V_{\text{cc}}+kp,
- \label{eq:voltage value adc}
-\end{equation}
+$$V_{\text{m}}=-V_{\text{cc}}+kp ,$$
 
 so if *k* = 23 then the analogical signal is -4.1 V high.
+
+# List of authors
+[@GG23800](https://github.com/GG23800)
+
+

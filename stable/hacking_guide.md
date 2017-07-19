@@ -1,4 +1,7 @@
-# Installation
+# Hacking guide
+
+## Installation
+
 The code can be found [here](https://github.com/echopen/PRJ-medtec_androidapp)
 
 The installation supposes the installation of the `NDK` \(see below\) and then running the app.
@@ -15,23 +18,21 @@ ndk.dir=/Path/To/Your/android-ndk-r***
 
 the current version of the \`NDK\` is `android-ndk-r14b`
 
-# Running the app
+## Running the app
+
 After, you can launch the Gradle wrapper from the project directory, example:
 
 `Mac/Linux`
 
 ```
 ./gradlew assembleDebug
-
 ```
 
 `Windows`
 
 ```
 gradlew.bat assembleDebug
-
 ```
-
 
 To install on a device:
 
@@ -44,7 +45,8 @@ To install on a device:
 
 **Note**: We currently use `android-sdk 25`, with `minSdkVersion 19,` and `targetSdkVersion 25`
 
-# echOpen virtual machine
+## echOpen virtual machine
+
 At this [link](https://drive.google.com/open?id=0B0V8htWBLPWBVEh6ZEJPcFpmTEU), you'll find an Ubuntu Virtual Machines. All the environment is set-up so as you don't have to worry about anything when running echOpen's Android App !
 
 Here are two or three useful things to know to find your way
@@ -60,3 +62,10 @@ To run it on Android Studio,
 Android sdk path is`/home/echtopian/Android`
 
 Made with Love ;\)
+
+# List of authors
+
+[Clément Le Couedic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+
+[@nowami](https://github.com/benchoufi)
+
