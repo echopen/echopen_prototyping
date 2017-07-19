@@ -66,6 +66,7 @@ Here is a list of the stuff we would need:
 - a little bit of laboratory glassware
 - rectangular plastic boxes (to put the gel in)
 - an access to a 3D printer
+- a scale
 
 ## References
 [1] _ Characterization and evaluation of tissue-mimicking gelatin phantoms for use with MRgFUS
