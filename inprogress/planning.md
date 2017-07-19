@@ -11,7 +11,7 @@ coming soon...
 coming soon...
 
 ## Mechanics
-This chart indicates the priority and the status of each of the functionalities that have to be implemented in the device. They are described [here](./backlog/technical.md).
+This chart indicates the priority and the status of each of the functionalities that have to be implemented in the device. They are described [here](/backlog/technical.md).
 
 
 | Id                          | Name                                    | Prio | Status |
