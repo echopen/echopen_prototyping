@@ -1,7 +1,11 @@
-Here you can learn a little more things about the main signal processing issues. 
+Here you can learn a little more things about the main signal processing issues such as:
 
-If you are interested in image quality assesment click [here](/references/sigproc/IMGQ_metrics.md).
+* [Image quality assesment](/references/sigproc/IMGQ_metrics.md).
 
-If you are interested in enveloppe detection click [here](/references/sigproc/enveloppe_extraction.md).
+* [Tissue mimicking phantoms](/references/sigproc/phantoms.md)
 
-We are working on a third subsection about denoising. It will be online soon.
+* [Digital enveloppe detection click] [here](/references/sigproc/enveloppe_extraction.md).
+
+We are working on a fourth subsection about denoising. It will be online soon.
+
+nota bene: if you have never heard about tissues mimicking phantoms, you should read the page about image quality assesment first.
