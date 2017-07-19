@@ -58,6 +58,14 @@ Nevertheless, I have an idea to try to make a home-made tissue-mimicking phantom
 If we make a home-made tissue mimicking phantom, we will have to test its properties. We will have to ensure that its acoustic properties are relevant and that the shapes are located in the right place.
 Moreover, we would probably have to face experimental problems such as the difficulty to put a wire at a precise location in a gel (it is more difficult for the depth, indeed if your gel is translucide you can partly solve the problem by drawing a line at the bottom of the mould). There could also be air bubbles between the different gels, or the shapes could be unprecise etc ... Obtaining a good home-made phantom seems feasible but it would require a lot more time than buying one.
 
+Here is a list of the stuff we would need:
+- gelatin or agar or both
+- water
+- maybe we would need pure alcohol
+- a heating mantle that is also a magnetic agitator
+- a little bit of laboratory glassware
+- rectangular plastic boxes (to put the gel in)
+- an access to a 3D printer
 
 ## References
 [1] _ Characterization and evaluation of tissue-mimicking gelatin phantoms for use with MRgFUS
