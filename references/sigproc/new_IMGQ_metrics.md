@@ -74,7 +74,7 @@ The Resolution Integral is a mathematical transformation that produces a single 
  
 The L-α curve is bounded on the y-axis by L0, the ‘length of the beam’. Beyond that point, the beam still exists but cannot be distinguished from the noise because its intensity is too low. This is also called the noise limit. On the x-axis, the curve is limited by 1/a0, where a0 represents the best spatial resolution. A transducer with a good penetration and a good spatial resolution tends to have a large value for the Integral Resolution.
 
-https://pdfs.semanticscholar.org/1eae/a3fcfd9eca87ebaccb5d6b605655f1f003b3.pdf
+Here is a link towards the article: https://pdfs.semanticscholar.org/1eae/a3fcfd9eca87ebaccb5d6b605655f1f003b3.pdf .
 
 ### Image quality measure based on error sensitivity
 Mean Square Error (MSE) is the most commonly used image quality measure. The goal of this measure is to compare two images by providing the quantitative score that describes the degree of similarity or the level of distortion/error between the two images. MSE is easy to calculate, memory less and it has a clear physical meaning as it defines the energy of the noise image.
@@ -91,9 +91,7 @@ Some of the previous parameters can be determined almost directly thanks to data
 Data image processing consists in using the values of the pixels from one or different images to calculate the value of certain parameters. It can be used to calculate the Mean Square Error between two images or the BNR for axample. It can also be used to analyse the images obtained from the scanning of different phantoms. 
 
 ### Tissue mimicking phantoms {{ "sigproc:joy_automated_2014" | cite }}
-A tissue mimicking phantom is an object designed to test the ability of ultrasound scanners to detect particular objects. It is composed of materials that can reproduce the acoustic properties of human tissues. Tissue mimicking phantoms are interesting as we know their geometry. 
-There are some areas in the object where the properties of the materials are slightly different, and the operator can test whether the limits of those areas are detected or not (contrast resolution). The spatial resolution can be measured by placing a series of two points that can be detected by the scanner close to each other, but at different distances from each other. Then you just have to take a look on the screen to see which points are still distinguishable from their counterpart. You can also compare the values of the neighbouring pixels.
-By the way, certain types of tissue mimicking phantoms could also be used to evaluate the senitivity. 
+A tissue mimicking phantom is an object designed to test the ability of ultrasound scanners to detect particular objects. It is composed of materials that can reproduce the acoustic properties of human tissues. Tissue mimicking phantoms are interesting as we know their geometry. There is a page dedicated to tissue mimicking phantoms int the Gitbook , just click [here](/references/sigproc/phantoms.md) to jump to it.
 
 
 ## What we could do at echOpen 
@@ -113,7 +111,7 @@ The following 2-axis table is being constructed by a few echtopians and students
   Image source: https://www.electronic-shop.lu/cache/media/catalog/product/6/6/img_640_480_660_1__47873.jpg</figcaption>
 </figure>
 
-The pen will be replaced by a thin object,a tugstene wire for example. The purpose is to measure the beam width at different depths. To measure the beam width at a certain depth, the tungstene wire is woved in a plan perpendicular to the propagation axis. When the wire is on that axis, the maximum amplitude is measured. Then the received amplitude is measured for different distances betweeen the axis and the wire. 
+The pen will be replaced by a thin object,a tungstene wire for example. The purpose is to measure the beam width at different depths. To measure the beam width at a certain depth, the tungstene wire is woved in a plan perpendicular to the propagation axis. When the wire is on that axis, the maximum amplitude is measured. Then the received amplitude is measured for different distances betweeen the axis and the wire. 
 A graph similar to the following one is supposed to be obtained.
 
 <figure>
@@ -132,7 +130,7 @@ Here is an idea to measure the spatial resolution. We could put a wooden plaque 
 This measure would probably take a lot more time than the measure of the beamwidth with the 2-axis table. The ideal tool would be a 2-axis table for 2 separate wires, but there would obviously be room problems at the top of the aquarium. A system similar to the one presented in that article {{ "sigproc:joy_automated_2014" | cite }} would be more relevant. There, the two wires are fixed at the same motors and a third one can be used to change the distance between the two wires.
 
 ### Home-made tissue mimicking phantoms
-The previous methods could allow us to determine spatial resolution but contrast resolution, sensitivity and uniformity measures are not relevant if the acoustic properties (attenuation in particular) are not close to the human body's. As said before, tissue mimicking phantoms are really expansive and we should , in a first approach, try to make our owns even if they are less relevant. 
+The previous methods could allow us to determine spatial resolution but contrast resolution, sensitivity and uniformity measures are not relevant if the acoustic properties (attenuation in particular) are not close to the human body's. As said before, tissue mimicking phantoms are really expansive and we should , in a first approach, try to make our owns even if they are less relevant. [Here](/references/sigproc/phantoms.md) is a page of the Gitbook dedicated to tissue mimicking phantoms.
 
 ## References
 {% references %} {% endreferences %}
