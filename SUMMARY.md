@@ -3,6 +3,7 @@
 * [Introduction](README.md)
   * [About this GitBook](introduction/prototyping_gitbook.md)
   * [Technical introduction](introduction/new_introduction.md)
+  * [Acoustic basics](acoustic_basics.md)
 * [How to contribute](howto/howto.md)
   * [Work method](howto/method.md)
   * [Contribution guide](howto/contribution_guide.md)
