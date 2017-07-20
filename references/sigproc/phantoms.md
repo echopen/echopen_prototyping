@@ -72,3 +72,7 @@ Here is a list of the stuff we would need:
 [1] _ Characterization and evaluation of tissue-mimicking gelatin phantoms for use with MRgFUS
 [2] _ Measurement of Ultrasonic Properties of Fat Biological Phantom
 [3] _ https://pdfs.semanticscholar.org/1eae/a3fcfd9eca87ebaccb5d6b605655f1f003b3.pdf
+
+# List of atuhors
+
+[Apolline Faidherbe](https://github.com/ApollineF)

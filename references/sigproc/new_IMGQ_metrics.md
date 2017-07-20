@@ -137,6 +137,6 @@ The previous methods could allow us to determine spatial resolution but contrast
 
 
 # List of authors
-[@ApollineF](https://github.com/ApollineF)
+[Apolline Faidherbe](https://github.com/ApollineF)
 [Aurélie](https://github.com/Aurelie-Mutschler)
 [K. Ghosh](https://github.com/kelu124)

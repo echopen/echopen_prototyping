@@ -22,7 +22,7 @@ We thank all echOpen members who contributed to the release of this GitBook :
 
 [Alister Trabattoni](https://github.com/halipster)
 
-[@ApollineF](https://github.com/ApollineF)
+[Apolline Faidherbe](http://github.com/ApollineF)
 
 [Aurélie](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
 

@@ -196,5 +196,5 @@ To learn more about the software, click [here](/stable/doc_software.md)
 
 # List of authors
 [Alister Trabattoni](https://github.com/halipster)
-[@ApollineF](https://github.com/ApollineF)
+[Apolline Faidherbe](https://github.com/ApollineF)
 
