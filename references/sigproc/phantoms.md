@@ -4,7 +4,7 @@
 A tissue mimicking phantom is an object made of a material that is supposed to reproduce the acoustic properties of the human body. They
 can be divided into two categories:
 * those used by physicians to train themselves to perform certains exams,
-* those used by engineers for image quality assesment. For the moment we at echOpen are a lot more interested by that second category.
+* those used by engineers for image quality assesment. Here we focus on the second category because of our needs realted  to physical measurements.
 
 
 ## Commercially available tissue mimicking phantoms
@@ -66,6 +66,7 @@ Here is a list of the stuff we would need:
 - a little bit of laboratory glassware
 - rectangular plastic boxes (to put the gel in)
 - an access to a 3D printer
+- a scale
 
 ## References
 [1] _ Characterization and evaluation of tissue-mimicking gelatin phantoms for use with MRgFUS
