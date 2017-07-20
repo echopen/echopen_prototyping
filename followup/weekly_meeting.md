@@ -2,25 +2,25 @@
 
 Attending:
 
-Clement - **@clecoued**   
+Clement - **@clecoued**  
 Mehdi - **@nowami**  
 Aurélie - **@aurelie mutschler**  
-Nicolas - **@nfilipov**   
-Appoline - **@apolline**  
+Nicolas - **@nfilipov**  
+Apolline - **@apolline**  
 Pierre - **@pierre**
 
-ToDo before clinical trials
+**ToDo before clinical trials**
 
 * Mechanics : miniaturize and encapsulate device
 * Electronics / Embedded systems
 * Software : Finalize UX/UI and rendering pipeline
 
-About certification \(CE\), we need :
+**About certification \(CE\), we need :**
 
 * to pass a bench of technic/safety tests @todo WHAT IS THE LIST OF THE TESTS ?
 * clinical trials
 
-Roadmap
+**Roadmap**
 
 to establish the roadmap, we need information :
 
@@ -33,23 +33,25 @@ to establish the roadmap, we need information :
 * Coordination with industrial pipe : do they confirm we will get the design of electronic card and mechanics by the end of 2017 ?
 * Need to have more precise information about deadlines and deliverables considered by industrial pipe
 
-What will be delivered by the industrial pipe :
+**What will be delivered by the industrial pipe :**
 
 * design of electronic card + integration & miniaturization
 * design of mechanics
 * embedded software development
-* Mobile app
+* Mobile app ?
 
+**Indicative planning**
 
+![](/assets/IMG_20170719_202840.jpg)
 
 ## CR Followup Meeting 12-07-2017
 
 Attending:
 
-Clement - **@clecoued**   
+Clement - **@clecoued**  
 Mehdi - **@nowami**  
 Aurélie - **@aurelie mutschler**  
-Nicolas - **@nfilipov**   
+Nicolas - **@nfilipov**  
 Benoît - **@bivi**  
 Loic - **@hackholite**  
 Luc J - **@luc**  
@@ -352,6 +354,7 @@ Jérôme D. / Benoit V. / Aurélie M. / Mehdi B. / Olivier F.
   #### Community life \(new members, etc.\)
 
 * Alister \(interested in contributing as he has time available at the moment\) =&gt; integrate the project March 14th.
+
 * Discussion about the Starter\_kit and prototyping repository =&gt; What information and where =&gt; on going work with Aurélie =&gt; deadline: end of March
 
 ---
