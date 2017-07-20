@@ -73,6 +73,6 @@ Here is a list of the stuff we would need:
 [2] _ Measurement of Ultrasonic Properties of Fat Biological Phantom
 [3] _ https://pdfs.semanticscholar.org/1eae/a3fcfd9eca87ebaccb5d6b605655f1f003b3.pdf
 
-# List of atuhors
+# List of authors
 
 [Apolline Faidherbe](https://github.com/ApollineF)
