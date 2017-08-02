@@ -1,3 +1,24 @@
+## 
+
+## CR Followup Meeting 02-08-2017
+
+Attending:
+
+Clement - **@clecoued**  
+Mehdi - **@nowami**  
+Aurélie - **@aurelie mutschler**  
+Nicolas - **@nfilipov  
+**Octavian** - @omaciu**  
+Benjamin - **@benschan**
+
+Money becomes a more and more critical question. Contributors have a role to play in terms of funding opportunities, discounted material receipt, ...
+
+A new step has to be taken. We have to ensure that our industrial partners do the right job. It amounts to following the different projects step by step and to challenge the delegated makers \(on a weekly or even on a daily basis\).
+
+To improve the organization, students have a new role to play. For example Loïc has developed for months a platform for coding and ML challenges \(like the RAMP one\) but his lack of time slows down new evolutions such as a V2 release, for which students could bring efficiencies. Loïc would just have to follow the potential volunteers 1 hour a week e.g.
+
+
+
 ## CR Followup Meeting 19-07-2017
 
 Attending:
@@ -17,7 +38,7 @@ Pierre - **@pierre**
 
 **About certification \(CE\), we need :**
 
-* to pass a bench of technic/safety tests @todo WHAT IS THE LIST OF THE TESTS ?
+* to pass a bench of technic/safety tests **@todo WHAT IS THE LIST OF THE TESTS ?**
 * clinical trials
 
 **Roadmap**
