@@ -2,22 +2,22 @@
 
 A [list of supplies by supplier has been prepared](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/miscellaneous/general_BOM).
 
-For the BOM, note that the Farnell BOM is only for a laboratory power supply if needed. Moreover, the hackspark BOM is for "basic" fournitures \(for soldering\), and for sockets \(needed for the kit\), therefore it is mainly for showing what can be bought in the closest electronic store.
+For the BOM, note that the Farnell BOM is only for a laboratory power supply if needed. Moreover, the hackspark BOM is for "basic" fournitures \(for soldering\), and for sockets \(needed for the kit\), therefore it is mainly for showing what can be bought in the closest electronics store.
 
 ## PCB soldering guide
 
-For building all the daughter boards we use PCB made by echopen. All components corresponding to each daughter are listed on the BOM \(csv file\) in our [github](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards). ID of the component are drawned on the PCB, acronym are:
+For building all the daughter boards we use PCB made by echopen. All components corresponding to each daughter are listed on the BOM \(csv file\) in our [github](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards). The IDs of each component are drawned on the PCB, acronyms are:
 
 * R for resistors
 * C for capacitors
 * D for diodes
 * Q for transistors
 * P for connectors
-* U for inttegrated circuits
+* U for integrated circuits
 
 ### Resistors
 
-Resistors can be placed on any direction. On a PCB the inscription is as follow:
+Resistors can be placed on any direction. On a PCB the inscription is as follows:
 
 ![](./guide_hardware/1_PCB/R_PCB.jpg)
 
@@ -29,11 +29,11 @@ To know the value of the resistor, refer to the following table.
 
 There are two types of capacitors, polarized one \(electrolitic capacitor for example\) and non-polarized one.
 
-The polarized capacitor must be solder on the right direction, they are represented by a circle by a circle on the PCBs, with half of the circle all painted in white:
+The polarized capacitor must be soldered in the right direction, they are represented by a circle on the PCBs, with half of the circle all painted in white:
 
 ![](./guide_hardware/1_PCB/CP_PCB.jpg)
 
-White side of the capacitor corresponds to the lowest potential and must be plugged on the white part of the mark on the PCB.
+The white side of the capacitor corresponds to the lowest potential and must be plugged on the white part of the mark on the PCB.
 
 ![](./guide_hardware/1_PCB/capacitor_sens.jpg)
 
@@ -43,7 +43,7 @@ The over capacitors \(ceramic ones, _etc._\) can be place on any direction, they
 
 ### Diodes
 
-Beware in terms of direction. A line marks the cathode of the diode, which is also marked on the PCB footprint by two lines:
+Beware in terms of direction. A line signals the cathode of the diode, which is also marked on the PCB footprint by two lines:
 
 ![](./guide_hardware/1_PCB/D_PCB.jpg)
 
@@ -54,15 +54,15 @@ See scheme below to identify the cathode
 
 ![](./guide_hardware/1_PCB/LED.png)
 
-On the PCB, there is an additionnal line where the cathode must be plugged.
+On the PCB, there is an additional line where the cathode must be plugged.
 
 ### Transistors
 
-The transistors have three terminals: base, collector, and emitter, they are represented as follow on our PCB:
+The transistors have three terminals: base, collector, and emitter, they are represented as follows on our PCB:
 
 ![](./guide_hardware/1_PCB/Q_PCB.jpg)
 
-Match the small strip of the transistors with the one of the footprint on the PCB.
+Match the small strip of the transistors with the one according to the footprint on the PCB.
 
 ![](./guide_hardware/1_PCB/transistor2.jpg)
 
@@ -74,7 +74,7 @@ The dot on the component must be plugged where there is a « line break » \(see
 
 ### Voltage regulators
 
-They must be plugged according to the mark on the PCB, _i.e._ additionnal rectangle corresponds to the part of the voltage regulator that has sort of a « growth ». On the picture, the voltage regulature is on the correct direction for U4, U5, U6.
+They must be plugged according to the mark on the PCB, _i.e._ the additional rectangle corresponds to the part of the voltage regulator that has sort of a « growth ». On the picture, the voltage regulator is on the correct direction for U4, U5, U6.
 
 ![](./guide_hardware/1_PCB/VR2.jpg)
 
@@ -86,11 +86,11 @@ The three legs/connectors have to match the three marks on the front side of the
 
 ![](./guide_hardware/1_PCB/SMA_connector.jpg)
 
-The middle pin correspond to signal pin and the fourth over to the ground.
+The middle pin corresponds to the signal pin and the fourth over to the ground.
 
 ### SMT
 
-The Surface Mount Technology components are solder on the surface of the PCB, we don't need hole to solder them such as THT \(Through Hole Technology\) component. Moreover, these components are generally smaller than the THT ones to save space.
+The Surface Mount Technology components are soldered on the surface of the PCB, we don't need holes to solder them such as THT \(Through Hole Technology\) components. Moreover, these components are generally smaller than the THT ones in order to save space.
 
 To solder the SMT components, one can start by putting a small amount of solder before soldering the component:
 
@@ -103,25 +103,25 @@ then use a pair of tweezers to ensure the component stays in place during solder
 #### IC
 
 To know the direction of the operational amplifier OPA625, search for  
-the mark \(line\) on left of the component:
+the mark \(line\) to the left of the component:
 
 ![](./guide_hardware/1_PCB/OPA.jpg)
 
-must match the dot on the PCB:
+It must match the dot on the PCB:
 
 ![](./guide_hardware/1_PCB/OPA2.jpg)
 
 ### Desoldering
 
-In case of mistake, use solder wick to remove the solder. Put the wick on the solder, then apply the soldering iron over it \(if your soldering iron have temperature settings, put it on maximum temperature\). Push a bit on the pins to remove the component maintained in place by remaining solder.
+In case of mistake, use solder wick to remove the solder. Put the wick on the solder, then apply the soldering iron over it \(if your soldering iron have temperature settings, put it on maximum temperature\). Push a bit on the pins to remove the component maintained in place by the remaining solder.
 
-## Mother board
+## Motherboard
 
-The mother board is matrix board with 19 tracks where we will plug our daughter boards. The signals on each track is given on the following image:
+The motherboard is a matrix board with 19 tracks where we will plug our daughter boards. The signals on each track are given on the following image:
 
 ![](./guide_hardware/2_Mother_board/scheme.png)
 
-We use a 39 tracks matrix board from RS \(ref: 528-0661\) to make our mother board. The original matrix board presents 39 vertical tracks
+We use a 39 tracks matrix board from RS \(ref: 528-0661\) to make our motherdboard. The original matrix board presents 39 vertical tracks
 
 ![](./guide_hardware/2_Mother_board/matrix_board.jpg)
 
@@ -148,7 +148,7 @@ For this, we'll be needing 9 sockets of size 1x19
 
 ## Power supply
 
-Find all hardware informations abous this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-supply/DB-supply_v1), and see the [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-supply/DB-supply_v1/src/DB-supply_v1.csv).
+Find all hardware information abous this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-supply/DB-supply_v1), and see the [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-supply/DB-supply_v1/src/DB-supply_v1.csv).
 
 Locations of each component are indicated on the PCB. Follow PCB soldering guide to know how to mount the board.
 
@@ -160,7 +160,7 @@ The board we've just made is a power-supply board that has several stabilized vo
 
 ![](./guide_hardware/3_Power_supply/supply.jpg)
 
-We choose the ideal tension model \(C.V\) with 18V tension output \(which correspond to two 9V batteries that will power the circuit\). The current is limited to 800mA \(this limitation is for the complete prototype, cause at start the motor drain high current\).
+We choose the ideal tension model \(C.V\) with 18V tension output \(which correspond to two 9V batteries that will power the circuit\). The current is limited to 800mA \(this limitation is for the complete prototype, because at start the motor drains high current\).
 
 ![](./guide_hardware/3_Power_supply/connection.jpg)
 
@@ -170,13 +170,13 @@ The power supply must be plugged to tracks 1 and 12 \(respectively GND and 18V\)
 
 We then measure tensions between GND \(track 1\) and tracks 2, 6, 8, 18, 19. To do this, a voltmeter is enough \(or one can use an oscilloscope\). The respective tensions shoudld be 5V, 12V, -12, -5V and 3.3V.
 
-If one of these tensions is missing, one has to check that all component is rightly positionned and that soldering is well done. If there is no negative tension, remove Q2 and Q3 and replace them with new ones.
+If one of these tensions is missing, one has to check that every component is rightly positioned and that soldering is well done. If there is no negative tension, remove Q2 and Q3 and replace them with new ones.
 
 ![](./guide_hardware/3_Power_supply/bottom.jpg)
 
 ![](./guide_hardware/3_Power_supply/bottom2.JPG)
 
-Once the board validated, one can trim the remaining legs.
+Once the board is validated, one can trim the remaining legs.
 
 ## Motor control
 
@@ -184,7 +184,7 @@ Find all hardware informations abous this board in our [github repo](https://git
 
 ### Assembly
 
-For the moment, we don't have order PCB for that daughter board, one have to do it itself with matrix board. Use the second half of the matrix board remaining from cuting the mother board. Soldering instructions and size of the matrix boards are defined on the following figures.
+For the moment, we haven't ordered PCB for that daughter board, one has to do it him/herself with matrix board. Use the second half of the matrix board remaining from cutting the mother board. Soldering instructions and size of the matrix boards are defined on the following figures.
 
 Top view:
 
@@ -194,19 +194,19 @@ Bottom view:
 
 ![](./guide_hardware/4_Motor_control/bottom_view.png)
 
-Cuts of tracks that must be done are represented by green lines. Red lines with red dots represent wires that are used to link some tracks, the end of each wire \(plain red dot\) have to be soldered.
+Cuts of tracks that must be done are represented by green lines. Red lines with red dots represent wires that are used to link some tracks, the end of each wire \(plain red dot\) has to be soldered.
 
-Connectors P1 to P7 are represented in light blue and hole where to solder the different components are represented by hard blue dots.
+Connectors P1 to P7 are represented in light blue and the holes where to solder the different components are represented by hard blue dots.
 
-Not that capacitor C2, C4 and C5 are not put/solder on this hand making board.
+Note that capacitors C2, C4 and C5 are not put/soldered on this handmade board.
 
 We also have to cut another piece from the matrix board to connect to the RedPitaya as following:
 
 ![](./guide_hardware/4_Motor_control/RPPCB_top_view2.png)
 
-The soldering track are on the top of this piece. There are two sockets 1\*13 solder on it, don't forget to cut the tracks between these two socket \(cut represent by the green line\).
+The soldering tracks are on the top of this piece. There are two sockets 1\*13 soldered on it, don't forget to cut the tracks between these two sockets \(cut represented by the green line\).
 
-When you have finish, it will look like that:
+When you're done, it will look like that:
 
 ![](./guide_hardware/4_Motor_control/HM_top_view.jpg)
 
@@ -220,49 +220,49 @@ Now all the components \(except stepper motor driver and arduino\) connect the d
 
 #### Stepper motor driver
 
-The stepper motor driver is deliver like this:
+The stepper motor driver is delivered like this:
 
 ![](./guide_hardware/4_Motor_control/driver1.jpg)
 
-cut the header in two equal part and solder it on top of the PCB:
+Cut the header in two equal parts and solder them on top of the PCB:
 
 ![](./guide_hardware/4_Motor_control/driver2.jpg)
 
-then plug it on the daughter board:
+Then plug it on the daughter board:
 
 ![](./guide_hardware/4_Motor_control/HM_top_view2.jpg)
 
-Now we have to set the driver motor stepper by tuning the current in the bobine of the stepper at the correct value. Plug two wires on P5 \(the two holes on the top or the two on the bottom\) and plug them to a breadboard. Blue wire of the stepper can be directly link to P5 and red wire is link to P5 _via_ an ampermeter. Turn the screw on A4988 PCB such as the current show on the ampermeter is around 200 mA.
+Now we have to set the driver motor stepper by tuning the current in the coil of the stepper at the correct value. Plug two wires on P5 \(the two holes on the top or the two on the bottom\) and plug them to a breadboard. The blue wire of the stepper can be directly linked to P5 and the red wire is linked to P5 _via_ an amperemeter. Turn the screw on A4988 PCB such that the current show on the ampermeter is around 200 mA.
 
 #### Transistor test
 
 **This is an optional step but highly recommanded because the card is hand made and an error can lead to burn some component \(for example the RedPitaya!\).**
 
-First push the code given at the end of the document in an arduino nano and plug it on a breadboard not on the daughter board for the moment.
+First push the code given at the end of the document in an arduino nano and plug it on a breadboard, not on the daughter board for the moment.
 
-Link D4 pin of the arduino to ITF\_D \(on connector P2\) an plug also channel 1 of an oscilloscop to D4. Plug channel 2 of the oscilloscop to ITF\_G on P6 \(on the pictures P2 is connected to home made connector for the RedPitaya and the wire is plug on this connector not on P2\).
+Link D4 pin of the arduino to ITF\_D \(on connector P2\) and plug also channel 1 of an oscilloscop to D4. Plug channel 2 of the oscilloscope to ITF\_G on P6 \(on the pictures P2 is connected to a home made connector for the RedPitaya and the wire is plugged on this connector, not on P2\).
 
 ![](./guide_hardware/4_Motor_control/test/test1_1.jpg)
 
 ![](./guide_hardware/4_Motor_control/test/test1_2.jpg)
 
-Turn on supply on the mother board and supply the arduino with a USB cable. One will obtain this on the oscilloscop:
+Turn on the supply on the mother board and supply the arduino with a USB cable. One will obtain this on the oscilloscop:
 
 ![](./guide_hardware/4_Motor_control/test/test1_3.jpg)
 
-Turn off all the supply. Now plug D4 of the arduino to ITF\_K on P6 and connect also channel 1 of the oscilloscop to it. Connect channel 2 to ITF\_E on P2 \(on the pictures P2 is connected to home made connector for the RedPitaya and channel 2 is plug on this connector not on P2\).
+Turn off all the supply. Now plug D4 of the arduino to ITF\_K on P6 and connect also channel 1 of the oscilloscope to it. Connect channel 2 to ITF\_E on P2 \(on the pictures P2 is connected to a home made connector for the RedPitaya and channel 2 is plugged on this connector, not on P2\).
 
 ![](./guide_hardware/4_Motor_control/test/test2_1.jpg)
 
 ![](./guide_hardware/4_Motor_control/test/test2_2.jpg)
 
-Turn on supply on the mother board and supply the arduino with a USB cable. One will obtain this on the oscilloscop:
+Turn on supply on the motherboard and supply the arduino with a USB cable. One will obtain this on the oscilloscope:
 
 ![](./guide_hardware/4_Motor_control/test/test2_3.jpg)
 
 ## High voltage
 
-Find all hardware informations abous this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-high_voltage/DB-high_voltage_v1), and see the [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-high_voltage/DB-high_voltage_v1/src/DB-high_voltage_v1.csv).
+Find all relevant hardware information about this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-high_voltage/DB-high_voltage_v1), and see the [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-high_voltage/DB-high_voltage_v1/src/DB-high_voltage_v1.csv).
 
 #### Finished board
 
@@ -284,7 +284,7 @@ We should get -97 V on the output.
 
 ## Pulser
 
-Find all hardware informations abous this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-pulser/DB-pulser_v2), and see the [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-pulser/DB-pulser_v2/src/DB-pulser_v2.csv).
+Find all hardware information about this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-pulser/DB-pulser_v2), and see the [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-pulser/DB-pulser_v2/src/DB-pulser_v2.csv).
 
 ### Assembly
 
@@ -324,7 +324,7 @@ The output signal of the pulser must have the same duration that the logic input
 
 ## TGC\_T/R switch board
 
-Find all hardware informations abous this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-tr_switch_tgc/DB-tr_switch_tgc_v1), and see the [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-tr_switch_tgc/DB-tr_switch_tgc_v1/src/DB-tr_switch_tgc_v1.csv).
+Find all hardware information about this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/daughter_boards/DB-tr_switch_tgc/DB-tr_switch_tgc_v1), and see the [BOM](https://github.com/echopen/PRJ-medtec_kit/blob/master/electronic/daughter_boards/DB-tr_switch_tgc/DB-tr_switch_tgc_v1/src/DB-tr_switch_tgc_v1.csv).
 
 ### Tests T/R switch
 
@@ -345,37 +345,37 @@ pulser command is on Channel 1 \(yellow\) and the T/R switch output \(W1 test po
 
 #### Possible problem with the T/R switch
 
-Sometimes, the T/R switch \(MD0100\) burn, if this hapen, the output will look something like that:
+Sometimes, the T/R switch \(MD0100\) may burn. If this happens, the output will look something like that:
 
 put the good figure
 
-to check the diagnosis, connect the oscilloscope to the output of the pulser, if the T/R switch has burnt the pulse will be -20V instead of -100V:
+To check the diagnosis, connect the oscilloscope to the output of the pulser, if the T/R switch has burned the pulse will be -20V instead of -100V:
 
 ![](./guide_hardware/7_TGC_TRS/TRS_burn1.jpg)
 
 #### First echoes
 
-With these daughter boards, we are now able to see echoes from a transducer, one can put it in a mug for example. Connect the transducer on the second SMA output and send repeatedly pulse on it, connect channel 1 of an oscilloscope on connector P4 or P7 of DB\_pulser and channel 2 on test point W1. Settings of the oscilloscope must be something like 10 us per division and 50 or 100 mV per division. Now move the transducer untill you see echoes on the oscilloscope:
+With these daughter boards, we are now able to see echoes from a transducer, one can put it in a mug for example. Connect the transducer on the second SMA output and send repeated pulses on it, connect channel 1 of an oscilloscope on connector P4 or P7 of DB\_pulser and channel 2 on test point W1. Settings of the oscilloscope must be something like 10 microseconds per division and 50 or 100 mV per division. Now move the transducer until you see echoes on the oscilloscope:
 
 ![](./guide_hardware/7_TGC_TRS/echo1.jpg)
 
-Amplitude of the echo must be exactly the same on channel 1 and channel 2.
+The amplitude of the echo must be exactly the same on channel 1 and channel 2.
 
 ### Connecting the TGC
 
 Solder two wires, one on +5V and the other on a GND test points \(for the power supply\)
 
-Solder two header pins on GAIN and another GND test point so that wires can be connected - or, if you prefer, solder wires directly. They will be connected staight on the red pitaya for gain control.
+Solder two header pins on GAIN and another GND test point so that wires can be connected - or, if you prefer, solder wires directly. They will be connected straight on the RedPitaya for gain control.
 
 ![](./guide_hardware/7_TGC_TRS/TGC_supply2.jpg)
 
-The two header pins are circle in red.
+The two header pins are circled in red.
 
 Now, use two sma wires to connect TGC IN of DB\_trs\_tgc on TGC INH and TGC OUT of DB\_trs\_tgc on TGC VOUT. Connect 5V and GND of the TGC on the tracks 2 and 1 of the motherboard respectively.
 
 #### Settings
 
-Note, switchs position of the TGC:
+Note, switch positions of the TGC:
 
 * switch LNA EN on EN
 * switch VGA EN on EN
@@ -384,13 +384,13 @@ Note, switchs position of the TGC:
 
 ### Tests
 
-For the first test, do not connect a wire to the gain of the TGC \(pin header circle in red in last figure\). Connect channel 1 of an oscilloscope to test point W1 and channel 2 to track 3 of the mother board. Such as for the T/R switch, move the transducer until you see echoes, on channel 2 you will see amplified echoes.
+For the first test, do not connect a wire to the gain of the TGC \(pin the header circle in red in last figure\). Connect channel 1 of an oscilloscope to test point W1 and channel 2 to track 3 of the mother board. Such as for the T/R switch, move the transducer until you see echoes, on channel 2 you will see amplified echoes.
 
 ![](./guide_hardware/7_TGC_TRS/echo2.jpg)
 
 ## RedPitaya
 
-Find all hardware informations abous this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/modules/hardware/MDL-redpitaya).
+Find all hardware information about this board in our [github repo](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/modules/hardware/MDL-redpitaya).
 
 ### Connectors \(to do three times\)
 
@@ -399,7 +399,7 @@ Find all hardware informations abous this board in our [github repo](https://git
 
 ![](./guide_hardware/8_RedPitaya/coax1.jpg)
 
-* With a flat screwdriver, dissamble the braided shield \(compose of multiple wire plaited togever\)
+* With a flat screwdriver, disassemble the braided shield \(composed of multiple wires braided togever\)
 * Roll them together.
 
 ![](./guide_hardware/8_RedPitaya/coax2.jpg)
@@ -408,8 +408,8 @@ Find all hardware informations abous this board in our [github repo](https://git
 
 ![](./guide_hardware/8_RedPitaya/coax3.jpg)
 
-* Connect the braided shield to a wire \(that'll be the ground, black on following figure\)
-* Connect the center conductor to another wire \(that'll be the signal, white on following figure\), put a heat-shrink sleeve around solder to protect from short-circuit with ground. 
+* Connect the braided shield to a wire \(that'll be the ground, black on the following figure\)
+* Connect the center conductor to another wire \(that'll be the signal, white on the following figure\), put a heat-shrink sleeve around the solder to protect from short-circuits with ground. 
 
 ![](./guide_hardware/8_RedPitaya/coax4.jpg)
 
@@ -433,21 +433,21 @@ Push [this program](https://github.com/echopen/PRJ-medtec_kit/blob/master/electr
 
 * Format the RedPitaya SD card in FAT-32
 * Refer to [these instructions](https://github.com/echopen/PRJ-medtec_kit/tree/master/installation/linux_user) section **prepare the RedPitaya** to install the OS.
-* Download [this folder](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/modules/software/CFG-aquarium_kit/redpitaya). Launch a terminal an go to this repo on your computer \(with a Linux OS\) then copy the executable on the RedPitaya and run it. You must first connect to RedPitaya wifi network, pass redpitaya.
+* Download [this folder](https://github.com/echopen/PRJ-medtec_kit/tree/master/electronic/modules/software/CFG-aquarium_kit/redpitaya). Launch a terminal and go to this repo on your computer \(with a Linux OS\) then copy the executable on the RedPitaya and run it. You must first connect to RedPitaya wifi network, pass redpitaya.
 
 ## Mechanics
 
 ### Setup
 
-To complete the kit, one have to 3D print some pieces locate on PRJ-medtec\_kit/mecanic/modules. At least we need MDL-motor\_support, MDL-rod\_fixation and MDL-transducer\_support, with these modules we have the stricilly minimum device to make measurement in an acquarium. Use the .stl files present in the different folders for 3d printing them. Note that for the moment MDL-transducer\_support will have to be adapted for your own transducer because we have not « serial » transducers to ship with our kit yet. One can do that by using freecad \(open the .igs file\) modify and then export in .stl file \(mesh formats files\).
+To complete the kit, one has to 3D-print some pieces located in PRJ-medtec\_kit/mecanic/modules. At least we need MDL-motor\_support, MDL-rod\_fixation and MDL-transducer\_support, with these modules we have the strictly minimal device to make a measurement in an aquarium. Use the .stl files present in the different folders for 3d-printing them. Note that for the moment, MDL-transducer\_support will have to be adapted for your own transducer because we have no « serial » transducers to ship with our kit yet. One can do that by using freecad \(open the .igs file\) modify and then export in .stl file \(mesh formats files\).
 
-First print MDL-motor\_support, at the end it will look to something like that:
+First print MDL-motor\_support, at the end it will look something like that:
 
 ![](./guide_hardware/9_Mechanic/support_RAW.jpg)
 
 ![](./guide_hardware/9_Mechanic/support_RAW2.jpg)
 
-Take off the plastique support, there is still plastic in the hole where we will put the motor :
+Take off the plastic support, there is still plastic in the hole where we will put the motor :
 
 ![](./guide_hardware/9_Mechanic/support_RAW3_2.jpg)
 
@@ -457,11 +457,11 @@ Take it off too with pliers for example, and it’s finished:
 
 Now fix the motor to this support with 2 or 4 screw 3 mm diameter, 6mm long.
 
-Now print MDL-rod-fixation, the two holes on each side of this part of the cylinder. The bigger one is for the motor axe. Fix this axis with a 3mm diameter 10 mm long screw. This screw must be 10 mm minimum cause it must stick out so it will hit the motor\_support when initialising \(searching it's 0\). The second one is used to fix the rod, prefer using wood screw 3 mm diameter.
+Now print MDL-rod-fixation, the two holes on each side of this part of the cylinder. The bigger one is for the motor axe. Fix this axis with a 3mm diameter 10 mm long screw. This screw must be 10 mm minimum because it must stick out so it will hit the motor\_support when initialising \(searching it's 0\). The second one is used to fix the rod, prefer using a wood screw, 3 mm diameter.
 
 ![](./guide_hardware/9_Mechanic/montage1.jpg)
 
-The rod is a metal rod 4 mm diameter, prefer stainless steel, because it will be immersed in water, We use 100 mm long rod, but only limitation on the length is that the transducer must be immersed and the electrical connection of the transducer must not.
+The rod is a metal rod 4 mm diameter, prefer stainless steel, because it will be immersed in water, We use 100 mm long rod, but the only limitation on the length is that the transducer must be immersed and the electrical connection of the transducer must not.
 
 Then print the tranducer support and fix it to the rod.
 
