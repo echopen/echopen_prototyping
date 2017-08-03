@@ -24,21 +24,21 @@ We thank all echOpen members who contributed to the release of this GitBook :
 
 [Apolline Faidherbe](http://github.com/ApollineF)
 
-[Aurélie](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+[Aurélie](https://github.com/aurelie-mutschler)
 
 [Benoit Vincent](https://github.com/Bivi)
 
-[Clément Le Couedic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+[Clément Le Couedic](https://github.com/clecoued)
 
-[@eiffel](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+[@eiffel](https://github.com/eiffel-fl)
 
 [@GG23800](https://github.com/GG23800)
 
 [@hackolite](https://github.com/hackolite)
 
-[K. Ghosh](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+[@K. Ghosh](https://github.com/kelu124)
 
-[Nicolas Filipovic](https://www.gitbook.com/nfilipov)
+[Nicolas Filipovic](https://github.com/nfilipov)
 
 [@nowami](https://github.com/benchoufi)
 
