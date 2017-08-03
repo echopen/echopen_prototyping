@@ -22,7 +22,7 @@
 
 _______________________________________________________________________________________________________________________________
 ## *PBL-mec* : Mechanics
-This is a classification of the mechanical constrains. The main constrain is to design a mechanical device to scan a 60° sector with an ultrasonic beam 15 times per second. This constrain can be divided into several constrains, that can be specified too. An ID is attributed to each of the constrains, taking their dependences into account. This creates a kind of "tree structure".
+This is a classification of the mechanical constraints. The main constraint is to design a mechanical device to scan a 60° sector with an ultrasonic beam 15 times per second. This constraint can be divided into several constraints, that can be specified too. An ID is attributed to each of the constraints, taking their dependences into account. This creates a kind of "tree structure".
 
 ______________________________
 
@@ -40,7 +40,7 @@ Choose or design a type of motorization to obtain the chosen movement.
 
 *  *PBL-mec_scn_mov_mot_drv* : Motor electronic driver
 
-Design or choose a electronic driver for the selected motor.
+Design or choose an electronic driver for the selected motor.
 
 *  *PBL-mec_scn_mov_mot_enc* : Position sensors
 
@@ -88,7 +88,7 @@ Select a liquid (a priori an oil) that meets the following criteria:
 Design all systems that seal the oil-containing enclosure:
 * Choice of what is immersed in oil: piezo / mechanism / motor / position sensors / PCB / battery.
 * Type of seals: static on housing, static on cables, dynamics on shaft, flexible.
-* Seal material maintenanceability: removable or glued.
+* Seal material maintainability: removable or glued.
 
          PBL-mec_us_oil_fil : Filling
 

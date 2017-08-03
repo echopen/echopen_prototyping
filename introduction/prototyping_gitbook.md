@@ -38,7 +38,7 @@ We thank all echOpen members who contributed to the release of this GitBook :
 
 [K. Ghosh](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
 
-[Nicolas Filipovic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+[Nicolas Filipovic](https://www.gitbook.com/nfilipov)
 
 [@nowami](https://github.com/benchoufi)
 

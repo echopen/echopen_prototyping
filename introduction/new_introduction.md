@@ -3,18 +3,18 @@ _This section is in construction_
 
 ## How medical ultrasound works ?
 
-This imaging technique is based on the propagation of ultrasound in the human body in order to realize medical diagnosis. Ultrasound is sound waves at a frequency that is too high to be perceived by the human ear. It behaves as the traditional sound and it propagates a little bit like waves in the sea. 
+This imaging technique is based on the propagation of ultrasound in the human body in order to realize medical diagnoses. Ultrasound is sound waves at a frequency that is too high to be perceived by the human ear. It behaves as the traditional sound and it propagates a little bit like waves in the sea. 
 
 <figure>
   <img src="./acoustic_imaging_src/Fetal_Ultrasound.png" alt="" />
-  <figcaption> Figure 1: fetal ultrasound
+  <figcaption> Figure 1: Fetal ultrasound
   
   Image source: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Fetal_Ultrasound.png/800px-Fetal_Ultrasound.png</figcaption>
 </figure>
 
 ### Using the pulse echo sequence for ranging objects 
 
-To localize objects we use the pulse echo concept. Remember last time you yelled in a valley ? Your voice bounced on the mountains and came back to your ear after some delay. To know how far is a cliff in front of you for example the idea is to measure the time your cry takes to come back to your years. Knowing the  sound speed c in air you can easily retrieve the distance d as it is half the delay t times the sound speed. The half factor count for the fact that our cry traveled a two way trip. A lot of animals use this principle to perform echolocation as bats or dolphins allowing them to "see with their ears". 
+To localize objects we use the pulse echo concept. Remember last time you yelled in a valley ? Your voice bounced on the mountains and came back to your ear after some delay. To know how far is a cliff in front of you for example, the idea is to measure the time your cry takes to come back to your ears. Knowing the speed of sound $$c$$ in air you can easily retrieve the distance $$d$$ as it is half the delay $$t$$ times the sound speed. The half factor count for the fact that the cry traveled a two way trip. Many animal species such as bats or dolphings use this principle to perform echolocation, allowing them to "see with their ears". 
 
 <figure>
   <img src="./acoustic_imaging_src/image/Echo_cliff.jpg" alt="" />
@@ -25,24 +25,24 @@ To localize objects we use the pulse echo concept. Remember last time you yelled
 
 ### Both an emitter and a receiver: the transducer
 
-In the case of medical ultrasound, ultrasounds are emitted and received by a unique device called a transducer. This latter is made of a special material subject to a phenomenon called piezoelectricity. When a mechanical stress is applied to such a material, it reacts by accumulating electric charges. As sound is nothing else than a mechanical vibration, the sound arriving on the transducer implies a mechanical stress which is converted in a electrical tension that can be measured. The contrary is also possible. A voltage applied to the transducer will lead to a mechanical stress which will propagate as ultrasound waves through the medium we want to investigate. For simplicity a transducer is a speaker and a microphone at the same time but it emits and detects ultrasounds.
+Medical ultrasound signals are emitted and received by the use of a single device called a transducer. The transducer is made of a special material subject to a phenomenon called piezoelectricity. When a mechanical stress is applied to such a material, it reacts by accumulating electric charges. As sound is nothing else than a mechanical vibration, the sound arriving on the transducer implies a mechanical stress which is converted in a voltage that can be measured. The contrary is also possible. A voltage applied to the transducer will lead to a mechanical stress which will propagate as ultrasound waves through the medium we want to investigate. For simplicity a transducer can be seen as a speaker and a microphone at the same time, only it emits and detects ultrasounds.
 
 <figure>
   <img src="./acoustic_imaging_src/Piezoelectric-Effect.jpg" alt="" />
-  <figcaption> Figure 3: the piezoelectric effetc
+  <figcaption> Figure 3: The piezoelectric effetc
   
   Image source: http://www.tech-faq.com/piezoelectric-effect.html</figcaption>
 </figure>
 
 
 ### Reflections: a matter of acoustical impedance 
-Unlike echolocation that aims to locate objects from reflection on their surface, medical ultrasound aims to produce an image of a medium by making ultrasounds penetrating it. Our body is made of bones, liquids, tissues... offering a complex geometry for our waves. To understand how waves are reflected in this complex medium, we first have to understand how a wave is reflected at an ideally flat interface of different material.
+Unlike echolocation that aims to locate objects from sound reflection on their surface, medical ultrasound aims to produce an image of a medium by making ultrasounds penetrating it. Our body is made of bones, liquids, tissues... offering a complex geometry for our waves. To understand how waves are reflected in this complex medium, we first have to understand how a wave is reflected at an ideally flat interface between two different materials.
 
-At the interface between two mediums, any incident wave splits in a transmitted and a reflected wave. The ratio of the transmitted wave and the reflected is related to the difference of impedance betwenn those two mediums. The acoustic impedance $$Z$$ of a medium is given by the formula $$Z=\rho{c}$$ where $$\rho$$ is the density and $$c$$ is the sound speed. The ration $$r$$ between the amplitudes of the reflected and incident waves is given by: 
+At the interface between medium _A_ and medium _B_ (see Figure 4), any incident wave splits in a transmitted and a reflected wave. The ratio of amplitudes of the transmitted and the reflected wave is related to the difference of impedance between the two mediums. The acoustic impedance $$Z$$ of a medium is given by the formula $$Z=\rho{c}$$ where $$\rho$$ is the medium density and $$c$$ the sound speed. The ratio $$r$$ between the amplitudes of the reflected and the incident wave is given by: 
 
 $$r=\frac{Z_2\cos(\theta_i)-Z_1\cos(\theta_t)}{Z_2\cos(\theta_i)+Z_1\cos(\theta_t)}$$
 
-So the more the acoustical impedances of the two mediums are different, the more the wave is reflected. For example the interface between air and water is really reflective as the density of water is much superior as the one of air (while the speed of sound is five times faster in water than in the air). This explains why a gel must be applied between the probe and the body : any left air would prevent ultrasound to penetrate our skin.
+So, the larger the difference between the two acoustical impedances of the two mediums, the greater the fraction of the wave that gets reflected. For example, the interface between air and water is really reflective, as water density is much greater than air density (while the speed of sound is five times faster in water than in air). This explains why a gel must be applied between the probe and the body : any left air would prevent ultrasound from penetrating our skin.
 
 <figure>
   <img src="./acoustic_imaging_src/image/300px-Reflectionrefraction.jpg" alt="" />
@@ -53,7 +53,7 @@ So the more the acoustical impedances of the two mediums are different, the more
 
 ### Ultrasound imaging: a reflectivity map
 
-Most parts of our bodies are mainly composed of water, so the acoustic impedance of our different tissues don't variate so much around the value of the one of water. As the differences of impedance are low, the body is not so reflective for ultrasounds (except for the bones). If we send ultrasounds it will be mainly transmitted and at each depth a small partially reflected wave will propagate back. The more the variation of the local acoustic impedance is important, the more the wave is reflected. This leads us to what is an ultrasound image, it is a map of the reflectivity to ultrasound. So this modality of imagery shows the interfaces. It's quite natural for our brain to think to objects by their edges so almost no further processing is needed to interpret this image.
+Most parts of our bodies are mainly composed of water, so the acoustic impedances of our various tissues do not differ much from that of water. As the differences of impedance are low, the body is not so reflective for ultrasounds (except for the bones). If we send ultrasounds it will be mainly transmitted and at each depth only a small partially reflected wave will propagate back. The greater the variation of the local acoustic impedance, the more the wave is reflected. This leads us to what is an ultrasound image : a map of the reflectivity to ultrasound. Using this modality of imagery thus allows to better exhibit the interfaces. It's quite natural for our brain to think about objects in terms of their edges, so almost no further processing is needed to interpret this image.
 
 
 
@@ -65,7 +65,7 @@ Most parts of our bodies are mainly composed of water, so the acoustic impedance
 
 
 
-At time t0, some ultrasounds are emitted by the transducer which is located in the probe. A part of them is reflected at the first interface between the organ and the other tissues, then propagates back and is detected by the transducer at time t1. Another part of the ultrasounds is refclected on the second interface and is detected at time t2. The position of those interfaces can be calculated knowing the sound speed in the human body.
+At time $$t_0$$, some ultrasounds are emitted by the transducer which is located in the probe. A part of them gets reflected at the first interface between the organ and the other tissues, then propagates back and is detected by the transducer at a later time $$t_1$$. Another part of the ultrasounds is reflected on the second interface and is detected at time $$t_2$$. The position of these interfaces can be calculated knowing the speed of sound in the human body.
 
 
 
@@ -77,9 +77,9 @@ At time t0, some ultrasounds are emitted by the transducer which is located in t
 
 ### Assessing the origin of reflections by focusing
 
-The delay between pulse and echo allows us to range the depth of the reflections occurring along the path of the ultrasonic pulse. But to form a proper 2D image we also need to know which direction those reflections come from. A solution to solve that problem is to focus the waves we send so that they travel along a line instead of propagating in every direction. It's the same idea than putting your hand around your mouth to direct your voice to somebody. By using acoustical lenses (that behaves the same as a classical magnifying glass but for sound) or by shaping the transducer in a parabolic way we can form a narrow beam along the which our pulse will propagate. This done, we know that the echoes we will receive will come from reflections along that line.
+The delay between pulse and echo allows us to range the depth of the reflections occurring along the path of the ultrasonic pulse. But to form a proper 2D image we also need to know which direction these reflections come from. A solution to solve this problem is to focus the waves we send so that they travel along a line instead of propagating in every direction. It's the same idea than putting your hand around your mouth to direct your voice to somebody. By using acoustical lenses (that behaves the same as a classical magnifying glass but for sound) or by shaping the transducer in a parabolic way we can form a narrow beam along which our pulse will propagate. By doing so, we know that the echoes we will receive will come from reflections along the emission line.
 
-This improvement allows us to probe our medium line by line. An entire area has to be scanned to form an image. A way to do that is to rotate the transducer. The transducer is placed fully at left for example. A first pulse is emitted, echoes are recorded. Then the transducer is rotated just a bit and another pulse echo sequence is achieved. We repeat this process until the area of interest is swept. More modern approaches use several transducers to achieve both synthetic focusing and fast scanning with improved resolution but they are out of reach for this introduction. 
+This improvement allows us to probe our medium line by line. An entire area has to be scanned to form an image : a way to do this is to rotate the transducer. For example, let's assume we begin by placing the transducer fully to the left. A first pulse is emitted, echoes are recorded. Then the transducer is rotated just a bit and another pulse echo sequence is achieved. We repeat this process until the area of interest is swept. More modern approaches use several transducers to achieve both synthetic focusing and fast scanning with improved resolution but they are out of reach for this introduction. 
 
 ## Our solution: be simple, be low cost
 
@@ -87,21 +87,21 @@ We could keep talking about ultrasound imaging for hours as this technology has 
 
 ### A unique rotating transducer
 
-Our solution to tackle the imaging processed is based on the first generations of scanners because of their simplicity. Those scanners contained only one rotating transducer. To gain versatility, probes were usually embedding several transducers as a unique transducer design couldn't fit all imaging purposes.
+Our solution to tackle the imaging process is based on the first generation of scanners because of their design simplicity. These scanners contained only one rotating transducer. To gain versatility, first generation probes would usually embed several transducers, as a single transducer design couldn't fit all imaging purposes.
 
 ### The minimal data acquisition system
 
-Data acquisition is the process of sampling signals that measure real world physical conditions and converting the resulting samples into digital numeric values that can be manipulated by a computer. It is done thanks to a data acquisition system. At echOpen, we try to use as few components as possible in that system in order to reduce the cost of our probe. Let's follow the signal in that system:
-* First the transducer is put on the right position thanks to a motor.
+Data acquisition is the process of sampling signals that measure real world physical conditions and converting the resulting samples into digital numerical values that can be manipulated by a computer. At echOpen, we try to use as few components as possible in the data acquisition system in order to reduce the cost of our probe. Let's follow the signal through that system:
+* First, the transducer is put on the right position thanks to a motor.
 * A circuit called a pulser is used to excite the transducer that behaves like a speaker. 
-* The transducer is switched onto a listening mode (it behaves like a microphone). 
+* The transducer is switched onto a listening mode (it then behaves like a microphone). 
 * The signal is amplified. This step is necessary to digitalize the signal, otherwise its amplitude would be too low.
 * The signal is digitalized.
 * Some processing is achieved to extract the relevant information we want to display. This is called envelope extraction. Some denoising can be applied at this step. 
 * The collected lines are sent to the smartphone via wifi. 
 * The scan conversion is achieved. This last step consists in rendering a conical image from the different recorded lines. 
 
-Here is a simplified flowchart of the full device and a litlle more information about each component:
+Here is a simplified flowchart of the full, device and a little more information about each component:
 
 ```mermaid
 graph TD;
@@ -135,27 +135,27 @@ t-.ultrasound <br/> propagation.->m
 
 #### The pulser
 
-The pulser is an electronic board that converts a logic signal that ranges from 0-3.3V into an analog one that ranges from -100V to 0V. That high voltage analog signal is needed to allow the transducer to emit ultrasounds.
+The pulser is an electronic board that converts a logic signal that ranges from 0-3.3V into an analog one that ranges from -100V to 0V. This high voltage analog signal is needed to allow the transducer to emit ultrasounds.
 
 #### The transducer and the switch
-The transducer converts an electrical signal into ultrasounds thanks to the piezioelectric effect: an alternating current is applied across the piezoelectric crystal that grows and shrinks depending on the voltage applied. The alternating current makes the crystal vibrate quickly, which produces an ultrasound. After reflection, the sound hits the crystal and triggers the reverse piezoelectric effect. An electronic signal containing information about the reflections of the ultrasound waves is obtained.
+The transducer converts an electrical signal into ultrasounds thanks to the piezoelectric effect: an alternating current is applied across the piezoelectric crystal that grows and shrinks depending on the voltage applied. The alternating current makes the crystal vibrate quickly, which produces an ultrasound. After reflection, the sound hits the crystal and triggers the reverse piezoelectric effect. An electronic signal containing information about the reflections of the ultrasound waves is obtained.
 
 #### The variable gain amplifier
 
-In complex mediums such as the human body waves are attenuated. It means that their amplitude decreases all along their way. As a consequence, ultrasounds that were reflected deeper in the body arrive at the transducer with a lower amplitude and need to be amplified (remember that they also arrive later at the transducer). The variable gain amplifier is an electric component that amplifies the signals received by the transducer depending on their order of arrival. 
+In complex mediums (such as the human body) waves are attenuated. It means that their amplitude decreases all along their way. As a consequence, ultrasounds that were reflected deeper in the body arrive at the transducer with a lower amplitude and need to be amplified (remember that they also arrive later at the transducer). The variable gain amplifier is an electric component that amplifies the signals received by the transducer depending on their order of arrival. 
 
 #### Digitalization
-After the amplification, the signal is still analogical. It needs to be digitalized (converted into a logical signal) to be processed by other electronical components.
+After the amplification, the signal is still analog. It needs to be digitalized (converted into a logical signal) to be processed by other electronical components.
 
 #### Envelope detection
-The envelope detection is a procedure that is used to analyse the signal to detect the times at whitch reflected ultrasounds were received. It can be done with an analogical or a digital signal. We chose the latter option. For the moment this detection is realized thanks to the smartphone application, but our plan is to be able to do it inside the device. Indeed performing enveloppe detection in the smartphone recquires to send the complete signal by wifi to the smartphone, which we would like to avoid.
+The envelope detection is a procedure that is used to analyse the signal to detect the times at which reflected ultrasounds were received. It can be done with an analog or a digital signal. We chose the latter option. For the moment this detection is realized thanks to the smartphone application, but our plan is to be able to do it inside the device. Indeed, performing envelope detection in the smartphone requires to send the complete signal by WiFi to the smartphone, which we would like to avoid.
 
 #### Scan conversion
 
-The Scan Conversion allows one to recreate a clinical image from a set of data sent by a probe. The received image depends on the geometry of the probe. This process intends to recreate the 'real' image.
+The scan conversion allows one to recreate a clinical image from a set of data sent by a probe. The received image depends on the geometry of the probe. This process intends to recreate the 'real' image.
 
 
-Using an ultrasound beamformer, we can scan an area line by line and gather data about each depth. Those data are collected and written in a chart. So each column contains data that have been collected for a particular direction, at different depths. If a color is attributed to each cell of the chart, a rectangular image is obtained. But as a column of the chart corresponds to a direction and not to a vertical line a distorded image is obtained. This means that a polar to cartesian scan conversion is necessary before display.
+Using an ultrasound beamformer, we can scan an area line by line and gather data about each depth. These data are collected and written in a chart. So each column contains data that have been collected for a particular direction, at different depths. If a color is attributed to each cell of the chart, a rectangular image is obtained. But as a column of the chart corresponds to a direction instead of a vertical line, a distorded image is obtained. This means that a polar-to-Cartesian scan conversion is necessary prior to the display.
 
  A combined design scheme for polar to Cartesian scan conversion using nearest neighbor and linear interpolations has been implemented which optimizes both image quality and hardware requirement. The nearest neighbor interpolation is a simple method although it makes the image blocky. On the other hand, linear interpolation needs a few computations but is free from these artifacts in the far field. At the end of that process, we obtain a better representation of the reality.
  
@@ -171,14 +171,12 @@ Using an ultrasound beamformer, we can scan an area line by line and gather data
 
 <figure>
   <img src="./acoustic_imaging_src/image/scan_conversion_two.jpg" alt="" />
-  <figcaption> Figure 7: Image obtained without polar to cartesian conversion</figcaption>
+  <figcaption> Figure 7: Image obtained without polar-to-Cartesian conversion</figcaption>
 </figure>
 
 
 
-
-
-After polar to cartesian scan conversion the object is displayed on the screen according to its real shape, which can be represented with clinical images such as :
+After polar-to-Cartesian scan conversion, the object is displayed on the screen according to its real shape, which can be represented with clinical images such as :
 
 
 ![alt tag](http://wiki.echopen.org/images/7/7d/Image04.png)  
@@ -197,4 +195,4 @@ To learn more about the software, click [here](/stable/doc_software.md)
 # List of authors
 [Alister Trabattoni](https://github.com/halipster)
 [Apolline Faidherbe](https://github.com/ApollineF)
-
+[Nicolas Filipovic](https://github.com/nfilipov)

@@ -2,7 +2,7 @@
 
 1. Application launch
 
-   1.1 user should acces to image visualisation quickly after the application start
+   1.1 user should acces to image visualisation quickly after the application starts
 
 2. Echography image visualisation
 
@@ -24,7 +24,7 @@
 
    * the image is a full screen image
 
-   * the image frame rates relies heavily on the what is transmitted by the hardware. today, the frame-rate is 2 frames per second.
+   * the image frame rates relies heavily on what is transmitted by the hardware. Today, the frame-rate is 2 frames per second.
 
      * the image is displayed in a conic shape, due to ScanConversion processing. This is done through
 
@@ -32,7 +32,7 @@
 
 4. Echography image manipulation
 
-   3.1 user can adjust image contrast in order to get a better look to details inside organs.This helps the operator to detect anomalies, often revealed by contrast breaks
+   3.1 user can adjust image contrast in order to get a better look to details inside organs. This helps the operator to detect anomalies, often revealed by contrast breaks
 
    * Contrast can be adjusted by selecting a customized intensity-to-pixels linear or exponential look-up table.
 
@@ -42,7 +42,7 @@
 
    4.1 connection to remote echOpen device is relying on websocket communication
 
-   4.2 image data are received as pixels streams in TCP, or local \(from an asset file\) format
+   4.2 image data are received as pixel streams in TCP, or local \(from an asset file\) format
 
    * the are two modes
 
