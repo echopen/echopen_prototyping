@@ -26,11 +26,7 @@ Each iteration runs for several months and is segmented as follows:
 * The "test" phase allows to characterize the prototype in a technical point of view.
 * A full documentation of the release is realized, as well as a production guide describing the detailed steps  needed to reproduce the prototype and install the mobile app.
 
-
-
 ## List of authors
 
-[Aurélie](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
-
-
+[Aurélie](https://github.com/aurelie-mutschler)
 

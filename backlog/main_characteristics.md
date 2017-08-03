@@ -41,9 +41,7 @@ The device goes with an app which allows to display the images on a smartphone, 
 * Waterproof and easy to clean
 * Low-cost: affordable for a healthcare professional
 
-
-
 ## List of authors
 
-[Aurélie](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+[Aurélie](https://github.com/aurelie-mutschler)
 

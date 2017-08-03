@@ -42,7 +42,7 @@ Below are listed the functional specifications from the user app's point of view
 
 ## List of authors
 
-[Clément Le Couedic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+[Clément Le Couedic](https://github.com/clecoued)
 
 [@nowami](https://github.com/benchoufi)
 

@@ -64,7 +64,7 @@ Made with Love ;\)
 
 # List of authors
 
-[Clément Le Couedic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+[Clément Le Couedic](https://github.com/clecoued)
 
 [@nowami](https://github.com/benchoufi)
 

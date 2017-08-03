@@ -102,9 +102,7 @@ Minutes of the meetings are [here](../followup/meetings_sigproc.md).
 Weekly meetings take place at Hôtel Dieu every Wednesday at 7:00pm.  
 Minutes of the meetings are [here](../followup/meetings_app.md).
 
-
-
 ## List of authors
 
-[Aurélie](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+[Aurélie](https://github.com/aurelie-mutschler)
 

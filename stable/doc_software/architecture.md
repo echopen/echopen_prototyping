@@ -15,6 +15,7 @@ The EchOpen mobile application is divided into the following components:
 * **Echography Image Builder:** _transforms an image raw data sequence into a displayable bitmap image by applying a sequence of filters\(envelope detection, scan conversion, ...\)_
 
 * **Echography Image Realtime Visualisation:** _provides realtime image streaming rendering_
+
 * **Echography Image Manipulation:** _allows user to manipulate on-the-fly image contrast_
 
 * **Measure:** _allows user to deposit a ruler on the image and display associated precise measure_
@@ -31,7 +32,7 @@ To get detailed class description, please refer to [Doxygen documentation](https
 
 ## List of authors
 
-[Clément Le Couedic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+[Clément Le Couedic](https://github.com/clecoued)
 
 [@nowami](https://github.com/benchoufi)
 

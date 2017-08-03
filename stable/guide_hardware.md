@@ -501,9 +501,9 @@ delayMicroseconds(500);
 
 [Alister Trabattoni](https://github.com/halipster)
 
-[Aurélie](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+[Aurélie](https://github.com/aurelie-mutschler)
 
 [@GG23800](https://github.com/GG23800)
 
-[K. Ghosh](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+[K. Ghosh](https://github.com/kelu124)
 

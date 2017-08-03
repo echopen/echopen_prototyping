@@ -52,7 +52,7 @@ In 2007, some echOpen team members worked on an early implementation of an ultra
 
 ## List of authors
 
-[Clément Le Couedic](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
+[Clément Le Couedic](https://github.com/clecoued)
 
 [@nowami](https://github.com/benchoufi)
 

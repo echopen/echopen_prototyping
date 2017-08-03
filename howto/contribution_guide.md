@@ -26,11 +26,7 @@ _This is necessary for you to follow the steps described below ! Once you're par
 
 * Move the card to "Done". You're done !
 
-
-
 ## List of authors
 
-[Aurélie](https://www.gitbook.com/book/echopen/echopen_prototyping/edit#)
-
-
+[Aurélie](https://github.com/aurelie-mutschler)
 
