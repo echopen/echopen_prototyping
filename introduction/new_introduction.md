@@ -45,10 +45,11 @@ $$r=\frac{Z_2\cos(\theta_i)-Z_1\cos(\theta_t)}{Z_2\cos(\theta_i)+Z_1\cos(\theta_
 So, the larger the difference between the two acoustical impedances of the two mediums, the greater the fraction of the wave that gets reflected. For example, the interface between air and water is really reflective, as water density is much greater than air density (while the speed of sound is five times faster in water than in air). This explains why a gel must be applied between the probe and the body : any left air would prevent ultrasound from penetrating our skin.
 
 <figure>
-  <img src="./acoustic_imaging_src/image/300px-Reflectionrefraction.jpg" alt="" />
+  <img src="./acoustic_imaging_src/image/Reflectionrefraction_Jason_Madelenat.png" alt="" />
   <figcaption> Figure 4: Reflection at an interface
   
-  Image source: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Reflectionrefraction.jpg/300px-Reflectionrefraction.jpg</figcaption>
+  Graphic design by Jason Madelénat
+  </figcaption>
 </figure>
 
 ### Ultrasound imaging: a reflectivity map
@@ -102,6 +103,16 @@ Data acquisition is the process of sampling signals that measure real world phys
 * The scan conversion is achieved. This last step consists in rendering a conical image from the different recorded lines. 
 
 Here is a simplified flowchart of the full, device and a little more information about each component:
+
+<figure>
+  <img src="./acoustic_imaging_src/image/Flowchart_Jason_Madelenat.png" alt="" />
+  <figcaption> Figure 4: Flowchart of the echOpen device
+  
+  Graphic design by Jason Madelénat
+  </figcaption>
+</figure>
+
+
 
 ```mermaid
 graph TD;
@@ -162,16 +173,22 @@ Using an ultrasound beamformer, we can scan an area line by line and gather data
  
 
 <figure>
-  <img src="./acoustic_imaging_src/image/scan_conversion_one.jpg" alt="" />
-  <figcaption> Figure 6: Scheme of a scanned area</figcaption>
+  <img src="./acoustic_imaging_src/image/scan_conversion_one_Jason_Madelenat.png" alt="" />
+  <figcaption> Figure 6: Scheme of a scanned area
+  
+  Graphic design by Jason Madelénat
+</figcaption>
 </figure>
 
 
 
 
 <figure>
-  <img src="./acoustic_imaging_src/image/scan_conversion_two.jpg" alt="" />
-  <figcaption> Figure 7: Image obtained without polar-to-Cartesian conversion</figcaption>
+  <img src="./acoustic_imaging_src/image/scan_conversion_two_Jason_Madelenat.jpg" alt="" />
+  <figcaption> Figure 7: Image obtained without polar-to-Cartesian conversion
+  
+  Graphic design by Jason Madelénat
+</figcaption>
 </figure>
 
 
@@ -195,4 +212,5 @@ To learn more about the software, click [here](/stable/doc_software.md)
 # List of authors
 [Alister Trabattoni](https://github.com/halipster)
 [Apolline Faidherbe](https://github.com/ApollineF)
+[Jason Madelénat](https://jasonmadelenat.wordpress.com/)
 [Nicolas Filipovic](https://github.com/nfilipov)
