@@ -113,37 +113,6 @@ Here is a simplified flowchart of the full, device and a little more information
 </figure>
 
 
-
-```mermaid
-graph TD;
-
-p[pulser]
-s{switch}
-t[transducer]
-m((medium))
-a[variable gain amplifier]
-d[digitalization]
-e[envelope detection]
-c[scan conversion]
-l[display]
-
-subgraph device
-a-->d
-d-->e
-
-p--high voltage <br/> emission-->s
-s--low voltage <br/> reception-->a
-s---t  
-end
-
-subgraph smartphone 
-c-->l
-end
-
-e-.wifi.->c
-t-.ultrasound <br/> propagation.->m
-```
-
 #### The pulser
 
 The pulser is an electronic board that converts a logic signal that ranges from 0-3.3V into an analog one that ranges from -100V to 0V. This high voltage analog signal is needed to allow the transducer to emit ultrasounds.
@@ -184,7 +153,7 @@ Using an ultrasound beamformer, we can scan an area line by line and gather data
 
 
 <figure>
-  <img src="./acoustic_imaging_src/image/scan_conversion_two_Jason_Madelenat.jpg" alt="" />
+  <img src="./acoustic_imaging_src/image/scan_conversion_two_Jason_Madelenat.png" alt="" />
   <figcaption> Figure 7: Image obtained without polar-to-Cartesian conversion
   
   Graphic design by Jason Madelénat
