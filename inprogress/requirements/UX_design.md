@@ -1,6 +1,5 @@
 UX Design
 
-
 <img src="../../assets/SketchMobileApp1.jpg" width="800">
 
 1. **Full screen streaming images**, *At loading, the user sees immediatly the image under Fast Echo standard configuration*
@@ -50,3 +49,11 @@ UX Design
 15. **Image review one by one**, allows the user to swipe to review image and sequence captured one by one.
 
 16. **Measure edition**, allows the user to remove or edit a deposited measure
+
+UI References
+
+We want to develop a visual identity following the design below:
+
+<img src="../../assets/MobileAppUIReference.png" width="400">
+
+*credits: https://github.com/echopen/PRJ-medtec_androidapp_UIUX/blob/HETIC_G3/Echopen_App_HETIC_Groupe03/Exports/Echographe%20Choix%20Organe.png*
