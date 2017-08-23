@@ -32,3 +32,21 @@ UX Design
 7. **Administrative side menu**, sliding menu providing acces to image review, profile and assistance screens
 
 <img src="../../assets/SketchMobileApp2.jpg" width="800">
+
+8. **Image review gallery screen**, a gallery displaying the recorded images and loops split by Patient exam. 
+
+9. **Profile screen**, a configuration screen to edit user profile and preferences 
+
+10. **FAQ screeen**, a screen displaying a series of Q&A samples and adding the capability to ask a question 
+
+11. **Contact us screen**, a screen allowing the user to reports bugs, provides feedbacks and contact the organisation
+
+12. **Image capture management**, allows the user to delete a single image or a sequence reviewed
+
+13. **Measure deposition**, allows the user to deposite a measure on an image during the review
+
+14. 
+
+15. **Image review one by one**, allows the user to swipe to review image and sequence captured one by one.
+
+16. **Measure edition**, allows the user to remove or edit a deposited measure
