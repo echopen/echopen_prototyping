@@ -1,4 +1,4 @@
-UX Design
+## UX Design
 
 <img src="../../assets/SketchMobileApp1.jpg" width="800">
 
@@ -44,16 +44,25 @@ UX Design
 
 13. **Measure deposition**, allows the user to deposite a measure on an image during the review
 
-14. 
+14. ---
 
 15. **Image review one by one**, allows the user to swipe to review image and sequence captured one by one.
 
 16. **Measure edition**, allows the user to remove or edit a deposited measure
 
-UI References
+##UI References
 
 We want to develop a visual identity following the design below:
 
 <img src="../../assets/MobileAppUIReference.png" width="400">
 
 *credits: https://github.com/echopen/PRJ-medtec_androidapp_UIUX/blob/HETIC_G3/Echopen_App_HETIC_Groupe03/Exports/Echographe%20Choix%20Organe.png*
+
+## Backend challenges
+
+1. **Voice Commands**, control *Expert preset selection* using Voice commands
+
+2. **Data transfer protocol**, implement a medical standard compliant data transfer protocol including:
+    * data encoding
+    * data encryption
+    * secure communcation
