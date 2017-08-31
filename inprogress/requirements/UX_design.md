@@ -1,6 +1,6 @@
 ## UX Design
 
-<img src="../../assets/SketchMobileApp1.jpg" width="800">
+<img src="../../assets/SketchMobileApp1_v2.jpg" width="800">
 
 1. **Full screen streaming images**, *At loading, the user sees immediatly the image under Fast Echo standard configuration*
 
@@ -15,22 +15,22 @@
 4. **Basic presets selection**, user can select the basics presets for examen review. This presets are:
     1. Organ
     2. Corpulence (slim, regular, heavy)
-    3. Age (child, adulte, senior)
+    3. Age (baby, child, adult)
 
     This screen is displayed X seconds after the application start or can be access via the button on the bottom left.
 
 5. **Probe status indicators**, display permanent informations on probe status (battery level, connection status)
 
 6. **Expert presets selection**, user can select the expert presets for examen review. This presets are:
-    1. Frequency(3.5, 5, 7 MHz)
-    2. Gain(5 differentes gain options)
-    3. TGC (5 Gain curves selectables)
-    4. Greylevel dynamic (5 greylevel curves selectables)
+    1. Frequency(3.5, 5, 7.5 MHz)
+    2. Gain(3 differentes gain options)
+    3. TGC (3 Gain curves selectables)
+    4. Greylevel dynamic (3/4 greylevel curves selectables)
 
 
 7. **Administrative side menu**, sliding menu providing acces to image review, profile and assistance screens
 
-<img src="../../assets/SketchMobileApp2.jpg" width="800">
+<img src="../../assets/SketchMobileApp2_v2.jpg" width="800">
 
 8. **Image review gallery screen**, a gallery displaying the recorded images and loops split by Patient exam. 
 
@@ -50,6 +50,9 @@
 
 16. **Measure edition**, allows the user to remove or edit a deposited measure
 
+
+15. **Sequence review one by one**, allows the user to watch a dynamic sequence. It also provides a slider to adjust the of the image sequence display. On image by image review the display fallbacks to image review one.
+
 ##UI References
 
 We want to develop a visual identity following the design below:
@@ -60,9 +63,11 @@ We want to develop a visual identity following the design below:
 
 ## Backend challenges
 
-1. **Voice Commands**, control *Expert preset selection* using Voice commands
+1. **Voice Commands**, control *Expert preset selection* using Voice commands in 5 languages (French, English, Spanish, Portuguese, Chinese)
 
 2. **Data transfer protocol**, implement a medical standard compliant data transfer protocol including:
     * data encoding
     * data encryption
     * secure communcation
+
+3. **DICOM export** implement a medical standard compliant export to DICOM ultrasound image and sequence. 
