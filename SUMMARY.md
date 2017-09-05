@@ -11,6 +11,7 @@
   * [Set up your own echOpen lab](getstarted/echopen_lab.md)
 * [Product backlog](backlog/backlog.md)
   * [Main characteristics](/backlog/main_characteristics.md)
+  * [Functional analysis](introduction/functional_analysis.md)
   * [Technical constrains](backlog/technical.md)
   * [Functional specifications](backlog/specs.md)
 * [Challenges](challenges/challenges.md)

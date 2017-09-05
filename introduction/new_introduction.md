@@ -90,6 +90,13 @@ We could keep talking about ultrasound imaging for hours as this technology has 
 
 Our solution to tackle the imaging process is based on the first generation of scanners because of their design simplicity. These scanners contained only one rotating transducer. To gain versatility, first generation probes would usually embed several transducers, as a single transducer design couldn't fit all imaging purposes.
 
+The transducer is moved mechanically by a motor to scan the desired sector.
+
+<figure>
+  <img src="./images/motor.png" alt="" />
+  <figcaption> Mechanical sector probe </figcaption>
+</figure>
+
 ### The minimal data acquisition system
 
 Data acquisition is the process of sampling signals that measure real world physical conditions and converting the resulting samples into digital numerical values that can be manipulated by a computer. At echOpen, we try to use as few components as possible in the data acquisition system in order to reduce the cost of our probe. Let's follow the signal through that system:
@@ -115,20 +122,35 @@ Here is a simplified flowchart of the full, device and a little more information
 
 #### The pulser
 
-The pulser is an electronic board that converts a logic signal that ranges from 0-3.3V into an analog one that ranges from -100V to 0V. This high voltage analog signal is needed to allow the transducer to emit ultrasounds.
+The pulser is an electronic board that converts a logic signal that ranges from 0-3.3 V (or 0-5 V) into an analog one that ranges from -100V to 0V. This high voltage analog signal is needed to excite efficiently the transducer.
+
+The pulser generally need an high voltage upstream circuit.
+
+<figure>
+  <img src="./images/Pulser.png" alt="" />
+  <figcaption> Pulser </figcaption>
+</figure>
 
 #### The transducer and the switch
 The transducer converts an electrical signal into ultrasounds thanks to the piezoelectric effect: an alternating current is applied across the piezoelectric crystal that grows and shrinks depending on the voltage applied. The alternating current makes the crystal vibrate quickly, which produces an ultrasound. After reflection, the sound hits the crystal and triggers the reverse piezoelectric effect. An electronic signal containing information about the reflections of the ultrasound waves is obtained.
 
 #### The variable gain amplifier
 
-In complex mediums (such as the human body) waves are attenuated. It means that their amplitude decreases all along their way. As a consequence, ultrasounds that were reflected deeper in the body arrive at the transducer with a lower amplitude and need to be amplified (remember that they also arrive later at the transducer). The variable gain amplifier is an electric component that amplifies the signals received by the transducer depending on their order of arrival. 
+In complex media (such as the human body) waves are attenuated. It means that their amplitude decreases all along their way. An echo comming from deep tissue will arrive later and will have a lower amplitude (attenuation depends on the distance travelled by the acoustic wave). So the deaper the measurement is made, the higher the amplification must be. In ultrasound probe, this mechanism is named Time Gain Compensation because the amplification increases with the time of measurement.
+
+The TGC is generally driven by an analogic ramp voltage.
 
 #### Digitalization
 After the amplification, the signal is still analog. It needs to be digitalized (converted into a logical signal) to be processed by other electronical components.
 
 #### Envelope detection
-The envelope detection is a procedure that is used to analyse the signal to detect the times at which reflected ultrasounds were received. It can be done with an analog or a digital signal. We chose the latter option. For the moment this detection is realized thanks to the smartphone application, but our plan is to be able to do it inside the device. Indeed, performing envelope detection in the smartphone requires to send the complete signal by WiFi to the smartphone, which we would like to avoid.
+
+The echographic images are images of the ultrasound power depending on the position. But the power of an ultrasound signal is given by the envelope of this signal. The envelope detection can be done analogically or digitally. We chose the latter option. For the moment this detection is realized thanks to the smartphone application, but our plan is to be able to do it inside the device. Indeed, performing envelope detection in the smartphone requires to send the complete signal by WiFi to the smartphone, which we would like to avoid.
+
+<figure>
+  <img src="./images/detection_enveloppe.png" alt="" />
+  <figcaption> Envelope (black) of a given signal (blue) </figcaption>
+</figure>
 
 #### Scan conversion
 
