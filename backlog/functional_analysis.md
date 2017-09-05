@@ -1,6 +1,6 @@
 # Functional analysis
 
-We have define three main funcitons of our device:
+We have defined three main functions of our device:
 
 <figure>
   <img src="./functional_analysis/functional_analysis.jpg" alt="" />
@@ -20,7 +20,7 @@ The sensing function is composed of three sub-functions: emitting, receiving and
 
 ## Signal processing function
 
-The signal processing function is composed of four sub-functions: amplifying, filtering, envelop detecting and pixel calculating.
+The signal processing function is composed of four sub-functions: amplifying, filtering, envelope detecting and pixel calculating.
 
 <figure>
   <img src="./functional_analysis/signal_analysis.png" alt="" />

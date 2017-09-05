@@ -128,7 +128,7 @@ The pulser generally need an high voltage upstream circuit.
 
 <figure>
   <img src="./images/Pulser.png" alt="" />
-  <figcaption> Mechanical sector probe </figcaption>
+  <figcaption> Pulser </figcaption>
 </figure>
 
 #### The transducer and the switch
@@ -136,16 +136,16 @@ The transducer converts an electrical signal into ultrasounds thanks to the piez
 
 #### The variable gain amplifier
 
-In complex mediums (such as the human body) waves are attenuated. It means that their amplitude decreases all along their way. An echo comming from deep tissue will arrive later and will have a lower amplitude (attenuation depend on the distance made by the acoustic wave). So the deaper the measurement is made, the higher the amplification must be. In ultrasound probe, this mecanism is name Time Gain Compensation because the amplification increase with the time of measurement.
+In complex media (such as the human body) waves are attenuated. It means that their amplitude decreases all along their way. An echo comming from deep tissue will arrive later and will have a lower amplitude (attenuation depends on the distance travelled by the acoustic wave). So the deaper the measurement is made, the higher the amplification must be. In ultrasound probe, this mechanism is named Time Gain Compensation because the amplification increases with the time of measurement.
 
-The TGC is generally driven by a analogic ramp voltage.
+The TGC is generally driven by an analogic ramp voltage.
 
 #### Digitalization
 After the amplification, the signal is still analog. It needs to be digitalized (converted into a logical signal) to be processed by other electronical components.
 
 #### Envelope detection
 
-The echographic image are images of the ultrasound power depending to the position. But the power of an ultrasound signal is given by the envelope of this signal. It can be done analogically or digitally. We chose the latter option. For the moment this detection is realized thanks to the smartphone application, but our plan is to be able to do it inside the device. Indeed, performing envelope detection in the smartphone requires to send the complete signal by WiFi to the smartphone, which we would like to avoid.
+The echographic images are images of the ultrasound power depending on the position. But the power of an ultrasound signal is given by the envelope of this signal. The envelope detection can be done analogically or digitally. We chose the latter option. For the moment this detection is realized thanks to the smartphone application, but our plan is to be able to do it inside the device. Indeed, performing envelope detection in the smartphone requires to send the complete signal by WiFi to the smartphone, which we would like to avoid.
 
 <figure>
   <img src="./images/detection_enveloppe.png" alt="" />
