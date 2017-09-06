@@ -1,13 +1,45 @@
-## 
+## CR Followup meeting 30-08-2017
+
+### Attending 
+
+Clément - @clecoued
+
+Mehdi - @nowami
+
+Aurélie - @aurelie-mutschler
+
+### Synthesis 
+
+From now on, all the efforts have to be made on the industrial pipe, together with our partners. The objectives are tight and quite ambitious, and the few human resources we have on the voluntary side represent a precious source of knowledge and expertise for that purpose. The best way to combine voluntary/student contributions with the industrial rhythm has still to be determined, but here are a few hints :
+
+### Voluntaries with technical skills / expertise
+
+* will be kept up-to-date with the current stages of our partnership 
+* will be informed the latest steps and problematics encountered by our industrial partners
+* will design projects for students \(see below\), and insure the global follow-up \(guarantee the matching between our needs and the productions made, as well as the recovery and valorisation of deliverables\)
+  /!\ the student projects may however not require too much time and investment for our volunteers, so only projects in partnership with researchers/teachers may be accepted
+
+* will be able to take part to the prototyping by giving advices, benchmarks, references, making some tests ... i.e. giving knowledge but no direct contributions especially on the hardware part - this is because it seems inconsistent with the medical certification processes + difficulty to respect tight deadlines for volunteers
+* as regards the android app, the developments will continue on the voluntary side --&gt; workflow to be organized to facilitate GitHub contributions, @clecoued is working on that
+
+### Student projects
+
+Because of the delays for recovering deliverables as well as the variable quality of productions that might by recovered, student projects will focus only on exploratory R&D/tests/benchmarking for future improvements of the device.
+
+The students projects will be handled by home schools teachers, because we are aware that our voluntaries don't necessarily have time to supervise students, especially if these laters are not based in Paris.
+
+**Example** : we just proposed to Polytech'Nantes teachers a project dedicated to the development of a Doppler functionnality for their students in electronic an numeric technologies.
+
+
 
 ## CR Followup Meeting 02-08-2017
 
-Attending:
+### Attending:
 
 Clement - **@clecoued**  
 Mehdi - **@nowami**  
 Aurélie - **@aurelie mutschler**  
-Nicolas - **@nfilipov  
+Nicolas - **@nfilipov    
 **Octavian** - @omaciu**  
 Benjamin - **@benschan**
 
@@ -16,8 +48,6 @@ Money becomes a more and more critical question. Contributors have a role to pla
 A new step has to be taken. We have to ensure that our industrial partners do the right job. It amounts to following the different projects step by step and to challenge the delegated makers \(on a weekly or even on a daily basis\).
 
 To improve the organization, students have a new role to play. For example Loïc has developed for months a platform for coding and ML challenges \(like the RAMP one\) but his lack of time slows down new evolutions such as a V2 release, for which students could bring efficiencies. Loïc would just have to follow the potential volunteers 1 hour a week e.g.
-
-
 
 ## CR Followup Meeting 19-07-2017
 
