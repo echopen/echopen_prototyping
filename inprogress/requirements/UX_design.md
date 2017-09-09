@@ -1,6 +1,6 @@
 ## UX Design
 
-<img src="../../assets/SketchMobileApp1_v2.jpg" width="800">
+<img src="../../assets/echopenergonomy.jpg" width="800">
 
 1. **Full screen streaming images**, *At loading, the user sees immediatly the image under Fast Echo standard configuration*
 
@@ -29,8 +29,6 @@
 
 
 7. **Administrative side menu**, sliding menu providing acces to image review, profile and assistance screens
-
-<img src="../../assets/SketchMobileApp2_v2.jpg" width="800">
 
 8. **Image review gallery screen**, a gallery displaying the recorded images and loops split by Patient exam. 
 
