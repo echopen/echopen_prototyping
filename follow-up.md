@@ -2,43 +2,46 @@
 
 In this section, each team has its own space to keep track of meetings.
 
-Please note that during** Summer 2017**, all meetings \(Embedded systems, Signal Processing and Android App\) are merged into **one unique meeting**, taking place at **Hôtel-Dieu every Wednesday @ 7pm** !
+**/!\ the usual Wednesday meetings on prototyping are cancelled ! **
 
-The minutes of these special meetings are available in [Weekly meetings](/followup/weekly_meeting.md).
+Technical aspects will now be discussed **every Monday @ 8:00pm at Hôtel-Dieu, A1 building, 6th floor**
 
-# 2017 Summer Camp
+\(see below for details\)
 
-## Introduction
+## Moving up...
 
-For the record and in order for those not implied in #SigProc and #Embsys to have an overview on what’s currently on for these teams, and even participate, we are organising weekly working session on main echOpen’s meta-challenges from a technical side
+As you may know, the whole summer 2017 has been dedicated to a reflection concerning the interfacing with our volunteers. Here's the synthesis of what was decided :
 
-## Context
+From now on, all the efforts have to be made on the industrial pipe, together with our partners. The objectives are tight and quite ambitious, and the few human resources we have on the voluntary side represent a precious source of knowledge and expertise for that purpose.
 
-We merged #SigProc and #Embsys because the prototype and its documentation is now done. We are currently replacing this session with a weekly summer camp on main issues we have to deal as far as the technical team are impacted :
+**Voluntaries with technical skills / expertise**
 
-## Questions raised are
+* will be kept up-to-date with the current stages of our partnership 
+* will be informed the latest steps and problematics encountered by our industrial partners
+* will design projects for students \(see below\), and insure the global follow-up \(guarantee the matching between our needs and the productions made, as well as the recovery and valorisation of deliverables\)  
+  /!\ the student projects may however not require too much time and investment for our volunteers, so only projects in partnership with researchers/teachers may be accepted
 
-* about technical developments made by contributors
-    * What are we doing ?
-        * which pipes
-        * roadmaps + miles(big)stones [x] (stage @ 19.07.17)
-    * With who ?
-    * How we do it ?
+* will be able to take part to the prototyping by giving advices, benchmarks, references, making some tests ... i.e. giving knowledge but no direct contributions especially on the hardware part - this is because it seems inconsistent with the medical certification processes + difficulty to respect tight deadlines for volunteers
 
-* communities
-    * who does what ?
-    * place of the challenges
-    * valorisation of contributors
-    * interactions with researchers and students eco-systems
+* as regards the android app, the developments will continue on the voluntary side --&gt; workflow to be organized to facilitate GitHub contributions, @clecoued is working on that
+
+**Student projects**
+
+Because of the delays for recovering deliverables as well as the variable quality of productions that might by recovered, student projects will focus only on exploratory R&D/tests/benchmarking for future improvements of the device.
+
+The students projects will be handled by home schools teachers, because we are aware that our voluntaries don't necessarily have time to supervise students, especially if these latters are not based in Paris.
+
+## We need you more than never ! 
+
+Let’s move on together towards a pre-series of a medical device :-\)
+
+With that aim, we chose to restructure a bit our workflow. In particular, **the usual Wednesday meetings on prototyping are cancelled !**
+
+We’re launching a new **meeting every Monday 8:00pm @HD, dedicated to the industrial pipe **and all of you are more than welcome ! There, you’ll be able to follow-up and help with the technical aspects of the industrial pipe.
+
+Besides, the** echOpen association coordination meeting** takes place \(as usual\) **every Monday 7:00pm.** This meeting spans more broad topics, from medical aspects to regulatory, communication etc... and you're welcome to attend as well !
+
+**Looking forward to see you at Hôtel-Dieu, A1 building, 6th floor, Monday @ 7:00pm or 8:00pm :-\)**
 
 
-Here’s what already happened
-
-_28-06-2017 session_ -> mainly discussing about a putative summer schedule
-
-_05-07-2017 session_ -> strolling on open communities governance models
-
-_12-07-2017 session_ -> the what part ? So, you may wonder “What is What”, so have look at the GitBook reports
-
-https://echopen.gitbooks.io/echopen_prototyping/content/followup/weekly_meeting.html 
 

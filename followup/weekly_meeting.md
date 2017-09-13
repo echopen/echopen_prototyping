@@ -1,6 +1,6 @@
 ## CR Followup meeting 30-08-2017
 
-### Attending 
+### Attending
 
 Clément - @clecoued
 
@@ -8,7 +8,7 @@ Mehdi - @nowami
 
 Aurélie - @aurelie-mutschler
 
-### Synthesis 
+### Synthesis
 
 From now on, all the efforts have to be made on the industrial pipe, together with our partners. The objectives are tight and quite ambitious, and the few human resources we have on the voluntary side represent a precious source of knowledge and expertise for that purpose. The best way to combine voluntary/student contributions with the industrial rhythm has still to be determined, but here are a few hints :
 
@@ -16,10 +16,11 @@ From now on, all the efforts have to be made on the industrial pipe, together wi
 
 * will be kept up-to-date with the current stages of our partnership 
 * will be informed the latest steps and problematics encountered by our industrial partners
-* will design projects for students \(see below\), and insure the global follow-up \(guarantee the matching between our needs and the productions made, as well as the recovery and valorisation of deliverables\)
-  /!\ the student projects may however not require too much time and investment for our volunteers, so only projects in partnership with researchers/teachers may be accepted
+* will design projects for students \(see below\), and insure the global follow-up \(guarantee the matching between our needs and the productions made, as well as the recovery and valorisation of deliverables\)  
+  /! the student projects may however not require too much time and investment for our volunteers, so only projects in partnership with researchers/teachers may be accepted
 
 * will be able to take part to the prototyping by giving advices, benchmarks, references, making some tests ... i.e. giving knowledge but no direct contributions especially on the hardware part - this is because it seems inconsistent with the medical certification processes + difficulty to respect tight deadlines for volunteers
+
 * as regards the android app, the developments will continue on the voluntary side --&gt; workflow to be organized to facilitate GitHub contributions, @clecoued is working on that
 
 ### Student projects
@@ -30,8 +31,6 @@ The students projects will be handled by home schools teachers, because we are a
 
 **Example** : we just proposed to Polytech'Nantes teachers a project dedicated to the development of a Doppler functionnality for their students in electronic an numeric technologies.
 
-
-
 ## CR Followup Meeting 02-08-2017
 
 ### Attending:
@@ -39,7 +38,7 @@ The students projects will be handled by home schools teachers, because we are a
 Clement - **@clecoued**  
 Mehdi - **@nowami**  
 Aurélie - **@aurelie mutschler**  
-Nicolas - **@nfilipov    
+Nicolas - **@nfilipov      
 **Octavian** - @omaciu**  
 Benjamin - **@benschan**
 
