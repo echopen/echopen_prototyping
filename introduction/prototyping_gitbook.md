@@ -20,6 +20,8 @@ This gitbook is the prototyping teams' main information medium. It gathers in a 
 
 We thank all echOpen members who contributed to the release of this GitBook :
 
+Aliénor Lahlou
+
 [Alister Trabattoni](https://github.com/halipster)
 
 [Apolline Faidherbe](http://github.com/ApollineF)
@@ -32,13 +34,19 @@ We thank all echOpen members who contributed to the release of this GitBook :
 
 [@eiffel](https://github.com/eiffel-fl)
 
+[Emilie Mayer](https://github.com/mayere)
+
 [@GG23800](https://github.com/GG23800)
 
 [@hackolite](https://github.com/hackolite)
 
 [@K. Ghosh](https://github.com/kelu124)
 
+Muriel Gonidec
+
 [Nicolas Filipovic](https://github.com/nfilipov)
 
 [@nowami](https://github.com/benchoufi)
+
+[Olivier](https://github.com/Olivierff)
 
