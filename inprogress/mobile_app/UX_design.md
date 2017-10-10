@@ -1,6 +1,6 @@
 ## UX Design
 
-<img src="../../assets/echopenergonomy.jpg" width="800">
+<img src="../../../assets/echopenergonomy.jpg" width="800">
 
 1. **Full screen streaming images**, *At loading, the user sees immediatly the image under Fast Echo standard configuration*
 
@@ -30,11 +30,11 @@
 
 7. **Administrative side menu**, sliding menu providing acces to image review, profile and assistance screens
 
-8. **Image review gallery screen**, a gallery displaying the recorded images and loops split by Patient exam. 
+8. **Image review gallery screen**, a gallery displaying the recorded images and loops split by Patient exam.
 
-9. **Profile screen**, a configuration screen to edit user profile and preferences 
+9. **Profile screen**, a configuration screen to edit user profile and preferences
 
-10. **FAQ screeen**, a screen displaying a series of Q&A samples and adding the capability to ask a question 
+10. **FAQ screeen**, a screen displaying a series of Q&A samples and adding the capability to ask a question
 
 11. **Contact us screen**, a screen allowing the user to reports bugs, provides feedbacks and contact the organisation
 
@@ -55,7 +55,7 @@
 
 We want to develop a visual identity following the design below:
 
-<img src="../../assets/MobileAppUIReference.png" width="400">
+<img src="../../../assets/MobileAppUIReference.png" width="400">
 
 *credits: https://github.com/echopen/PRJ-medtec_androidapp_UIUX/blob/HETIC_G3/Echopen_App_HETIC_Groupe03/Exports/Echographe%20Choix%20Organe.png*
 
@@ -68,4 +68,4 @@ We want to develop a visual identity following the design below:
     * data encryption
     * secure communcation
 
-3. **DICOM export** implement a medical standard compliant export to DICOM ultrasound image and sequence. 
+3. **DICOM export** implement a medical standard compliant export to DICOM ultrasound image and sequence.

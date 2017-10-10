@@ -29,10 +29,12 @@
     * [Reproducing the device](stable/guide_hardware.md)
     * [Hacking guide](stable/hacking_guide.md)
 * [In progress](inprogress/inprogress.md)
+  * [Mobile App](inprogress/mobile_app/mobile_app.md)
+    * [Iteration planning](inprogress/mobile_app/planning.md)
+    * [UX design](inprogress/mobile_app/UX_design.md)
   * [Preparing CapTech](inprogress/requirements/preparing-captech.md)
   * [Requirements](inprogress/requirements/requirements.md)
     * [Specifications](inprogress/requirements/specifications.md)
-    * [UX design](inprogress/requirements/UX_design.md)
   * [Iteration planning](inprogress/planning.md)
 * [References](references/references.md)
   * [Medical certification](references/certification/ref_certification.md)
@@ -58,4 +60,3 @@
   * [Embedded systems](followup/meetings_embsys.md)
   * [Signal processing](followup/meetings_sigproc.md)
   * [Android app](followup/meetings_app.md)
-
