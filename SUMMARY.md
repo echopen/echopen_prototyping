@@ -32,6 +32,11 @@
   * [Mobile App](inprogress/mobile_app/mobile_app.md)
     * [Iteration planning](inprogress/mobile_app/planning.md)
     * [UX design](inprogress/mobile_app/UX_design.md)
+  * [Characterization](inprogress/mobile_app/characterization.md)
+    * [Focal zone of transducers](inprogress/mobile_app/characterization/focal-zone-of-transducers.md)
+    * [Protocol for image quality assessment](inprogress/mobile_app/characterization/protocol-for-image-quality-assessment.md)
+    * [Benchmark of existing devices](inprogress/mobile_app/characterization/benchmark-of-existing-devices.md)
+    * [Protocol for envelope detection methods](inprogress/mobile_app/characterization/specific-protocol-for-tests-of-alternative-methods-for-envelope-detection.md)
   * [Preparing CapTech](inprogress/requirements/preparing-captech.md)
   * [Requirements](inprogress/requirements/requirements.md)
     * [Specifications](inprogress/requirements/specifications.md)
@@ -60,3 +65,4 @@
   * [Embedded systems](followup/meetings_embsys.md)
   * [Signal processing](followup/meetings_sigproc.md)
   * [Android app](followup/meetings_app.md)
+
