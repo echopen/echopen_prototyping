@@ -28,8 +28,6 @@
     | 5 | 30 - 105 |
     | 7.5 | 10 - 75 |
 
-
-
 ### Phantoms for spatial resolution
 
 The phantoms that could be used for spatial resolution are represented in the figure below \(the position of the probe is represented by a trapezium\). The resolution corresponds to the minimum value of x that allows to distinguish two neighboring wires \(black dots\).
@@ -41,7 +39,7 @@ The phantoms that could be used for spatial resolution are represented in the fi
 
 ![](/assets/phantom_spatial_resolution1.png)
 
-### Protocol for spatial resolution 
+### Protocol for spatial resolution
 
 For a given combination of transducer + acquisition/processing chain :
 
@@ -51,7 +49,15 @@ For a given combination of transducer + acquisition/processing chain :
 * Repeat with each phantom
 * The lateral/axial resolution corresponds to the minimal value of x allowing to distinguish two neighboring wires.
 
+**The figure below shows the curve that is expected from these measurements \(one curve for lateral and another one for axial resolution\) :**
 
+![](/assets/spatial_resolution_curve.png)
 
+## Measurement of contrast resolution
 
+coming soon...
+
+## Measurement of sensitivity
+
+coming soon...
 
