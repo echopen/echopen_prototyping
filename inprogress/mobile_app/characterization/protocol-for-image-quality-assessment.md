@@ -48,6 +48,7 @@ For a given combination of transducer + acquisition/processing chain :
 * **Save a few images and the corresponding raw signals \(this is for the specific task of envelope extraction, jump **[**here**](/inprogress/mobile_app/characterization/specific-protocol-for-tests-of-alternative-methods-for-envelope-detection.md)** for more details\)**
 
 * Repeat with each phantom
+
 * The lateral/axial resolution corresponds to the minimal value of x allowing to distinguish two neighboring wires.
 
 **The figure below shows the curve that is expected from these measurements \(one curve for lateral and another one for axial resolution\) :**
@@ -63,4 +64,8 @@ coming soon...
 coming soon...
 
 
+
+# List of authors
+
+[Aurélie](https://github.com/aurelie-mutschler)
 

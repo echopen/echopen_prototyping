@@ -19,3 +19,9 @@ The gold standard for envelope extraction is the well-known [Hilbert transform](
 
 Some students from Polytech'Nantes are currently exploring alternatives to the Hilbert transform. Jump [here](/inprogress/mobile_app/ongoing-work-by-polytechnantes-students.md) for more details.
 
+
+
+# List of authors
+
+[Aurélie](https://github.com/aurelie-mutschler)
+
