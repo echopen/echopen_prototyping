@@ -44,8 +44,8 @@ The phantoms that could be used for spatial resolution are represented in the fi
 For a given combination of transducer + acquisition/processing chain :
 
 * Fix one phantom by respecting the chosen value for D \(D must be the same for each device being tested, obviously\)
-* Take a few images
-* Save the corresponding raw signals \(this is for the specific task of envelope extraction, jump [here](/inprogress/mobile_app/characterization/specific-protocol-for-tests-of-alternative-methods-for-envelope-detection.md) for more details\)
+
+* **Save a few images and the corresponding raw signals \(this is for the specific task of envelope extraction, jump **[**here**](/inprogress/mobile_app/characterization/specific-protocol-for-tests-of-alternative-methods-for-envelope-detection.md)** for more details\)**
 * Repeat with each phantom
 * The lateral/axial resolution corresponds to the minimal value of x allowing to distinguish two neighboring wires.
 
