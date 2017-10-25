@@ -19,7 +19,7 @@ On our way towards industrial pre-series, we're facing some open questions that 
 * We're currently sourcing some transducers. We roughly know the specifications that are required but we need to be able to compare different solutions, and in particular to **find the best trade-off between image quality and the cost of the transducers**. Then, one important question is : How much can we deteriorate the characteristics of transducers relatively to our specifications, in order to lower the costs of production ?
 
 * One important step in the image construction is the so-called envelope detection. This latter can be performed either numerically or within an electronic component. The choice of analog vs. digital implementation has a huge impact on the whole acquisition chain and then on costs \(the analog solution would be cheaper\). We'd like to **test whether it's possible to implement an analog envelope detection that would still allow to get a good quality image**, i.e. comparable to a gold standard obtained from a digital Hilbert transform.  
-  Besides, digital methods that are less computer-costly than the Hilbert transform are being investigated by some students from Polytech'Nantes. The alternative implementations they will propose will be evaluated by comparing the quality of the images they obtain to gold standards obtained from an Hilbert transform.
+  Besides, digital methods that are less computer-costly than the Hilbert transform are being investigated by some students from Polytech'Nantes. The alternative implementations they will propose will be evaluated by comparing the quality of the images they obtain to gold standards obtained from an Hilbert transform. For more details about their ongoing work, jump [here](/inprogress/mobile_app/characterization/specific-protocol-for-tests-of-alternative-methods-for-envelope-detection.md).
 
 ## Ongoing work
 
@@ -33,6 +33,4 @@ In this section, you'll find some documents about ongoing developments related t
 ## List of Authors
 
 [Aurélie](https://github.com/Aurelie-Mutschler)
-
-
 

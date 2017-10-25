@@ -46,6 +46,7 @@ For a given combination of transducer + acquisition/processing chain :
 * Fix one phantom by respecting the chosen value for D \(D must be the same for each device being tested, obviously\)
 
 * **Save a few images and the corresponding raw signals \(this is for the specific task of envelope extraction, jump **[**here**](/inprogress/mobile_app/characterization/specific-protocol-for-tests-of-alternative-methods-for-envelope-detection.md)** for more details\)**
+
 * Repeat with each phantom
 * The lateral/axial resolution corresponds to the minimal value of x allowing to distinguish two neighboring wires.
 
@@ -53,11 +54,13 @@ For a given combination of transducer + acquisition/processing chain :
 
 ![](/assets/spatial_resolution_curve.png)
 
+## Measurements of sensitivity
+
+coming soon...
+
 ## Measurement of contrast resolution
 
 coming soon...
 
-## Measurement of sensitivity
 
-coming soon...
 
