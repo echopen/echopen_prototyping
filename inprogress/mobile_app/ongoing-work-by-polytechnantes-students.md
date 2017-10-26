@@ -3,15 +3,23 @@
 ## Objectives
 
 * Explore possible digital envelope extraction methods that would be good alternatives to the Hilbert transform
-* Benchmark FPGA devices and find the one that is best suited to perform a digital envelope extraction in the echOpen probe
-* Implement the best solution on the FPGA device
+* Benchmark FPGA/DSP devices and find the one that is best suited to perform a digital envelope extraction in the echOpen probe
+* Implement the best solution on the FPGA/DSP
 
 ## Steps of the project
 
 ### Explore envelope extraction algorithms
 
 * Using the [jupyter notebook playground](https://github.com/echopen/PRJ-medtec_sigproc/blob/master/SigProc_101/SigProc-101-pimped.ipynb), explore different implementations of the envelope detection
+  _done_
 * Write some documentation about your findings : what were the algorithm tested, what results where achieved \(RMSE, computation time\) ? Give references of articles if you have some.
+
+### Reproduce echOpen images and evaluate their quality
+
+* Use the codes provided by echOpen engineers to reconstruct images from raw signals
+  _pre-requisite : codes of Hilbert transform and scan-conversion used in the echOpen pipeline_
+
+* Use 
 
 ### Challenge the current implementation in the echOpen device
 
@@ -28,16 +36,12 @@
 
 ## Expected deliverables
 
-* Documentation : our main information medium is this gitbook. Your documentation must be written in markdown so that we can include it here ;-\)
-  With your permission, we will put some links to your github accounts in the files you have written. 
+* Documentation : our main information medium is this gitbook. Your documentation must be written in markdown so that we can include it here ;-\)  
+  With your permission, we will put some links to your github accounts in the files you have written.
 
 * Codes : Python/C++ codes of the different solutions explored + FPGA implementation of the retained algorithm.
-
-
 
 # List of authors
 
 [Aurélie](https://github.com/aurelie-mutschler)
-
-
 

@@ -15,11 +15,9 @@ Some analog solutions for the envelope extraction are currently being explored. 
 
 ## Digital envelope extraction
 
-The gold standard for envelope extraction is the well-known [Hilbert transform](/references/sigproc/envelope_extraction.md). We'd however like to check if there exist alternative methods that would require lower computing resources. This is to optimize the performances needed for the FPGA and hence, lower the costs.
+The gold standard for envelope extraction is the well-known [Hilbert transform](/references/sigproc/envelope_extraction.md). We'd however like to check if there exist alternative methods that would require lower computing resources. This is to optimize the performances needed for the FPGA/DSP and hence, lower the costs.
 
 Some students from Polytech'Nantes are currently exploring alternatives to the Hilbert transform. Jump [here](/inprogress/mobile_app/ongoing-work-by-polytechnantes-students.md) for more details.
-
-
 
 # List of authors
 
