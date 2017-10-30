@@ -61,6 +61,8 @@ For a given combination of transducer + acquisition/processing chain:
 
 This phantom will be put in the bottom of a water tank. The problem is that the acoustic wave will be reflected by the bottom of the tank an some artefact will appear on the image like ghost images supperposed on the original image. To avoid this we can put a absorbing plate under the phantom but we have to find the right platic that will have an acoustic impedance close to the one of the water and with high absorbtion or large width. The other solution is to put a triangulare shape in random platic on the back of the phantom, so the acoustic will be reflected part reflected not on the direction of the probe and part absorbed by this plastic. The simplier way to do this is to 3D print this an include it in the phantom like on the figure below.
 
+![](/assets/phatom.png)
+
 ![](/assets/phantom.png)
 
 ## Measurements of sensitivity
