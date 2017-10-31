@@ -34,6 +34,83 @@ _pre-requisites : codes of scan-conversion implemented in the echOpen pipeline, 
 ### Assess the feasibility of a Hilbert transform on a FPGA/DSP
 
 * Simulate an implementation of \(pseudo-\)Hilbert transform on FPGA, and find a FPGA that would allow to reconstruct 10-12 images per second, while being as cheap as possible
+  _External material : An echOpen volunteer has implemented a pseudo-Hilbert transform on an ICE40HX4. This latter doesn't have any multiplier in its architecture, which makes it a cheap FPGA. You can inspire yourselves from his code \(see below\). Here are some links to useful references :  
+  http://docplayer.net/29710944-30-minutes-vhdl-design-for-very-fast-fir-filter-on-low-cost-fpga.html  
+  http://www.claysturner.com/dsp/asg.pdf  
+  https://github.com/halipster/for\_echOpen_
+
+```
+////////////////////////////////////////////////////////////////////////////////
+//
+// Autor : Alister Trabattoni
+// Date : 14/04/2017
+// license : GPL
+//
+// This module perform a so called AB demodulation according to the article 
+// "An Efficient Analytic Signal Generator" by Clay S. Turner (which can be 
+// found at http://www.claysturner.com/dsp/asg.pdf). We do count on compiler
+// optimisation to remove multiplication with zero coefficients since it allows
+// a much more readeble code.
+//
+////////////////////////////////////////////////////////////////////////////////
+
+module abdemod (output [9:0] dout,
+            	input signed[9:0] din,
+            	input clk);
+  
+  // parameter declaration
+  parameter width = 10; 
+  parameter n = 32;   
+  // coefficents are stored in a big vector. As vector are by default in big
+  // endian notation first coefficients will come out last. It suits our purpose
+  // since coefficients need to be flipped in a convolution. Nota bene that 
+  // vector part select is by default unsigned. The $signed() system task will
+  // be needed.
+  parameter coefs = {10'b0000000000,10'b0000000000,10'b0000000000,
+	10'b0000000010,10'b0000000000,10'b0000000101,10'b0000000000,
+	10'b0000001011,10'b0000000000,10'b0000010101,10'b0000000000,
+	10'b0000101000,10'b0000000000,10'b0001010101,10'b0000000000,
+	10'b0111001011,10'b0000000000,10'b1101101011,10'b0000000000,
+	10'b1111000111,10'b0000000000,10'b1111100011,10'b0000000000,
+	10'b1111110001,10'b0000000000,10'b1111111001,10'b0000000000,
+	10'b1111111101,10'b0000000000,10'b1111111111,10'b0000000000,
+	10'b0000000000};
+  
+  // register declaration
+  reg signed [width-1:0] sr;
+  reg signed [2*width-1:0] mult [0:n-1];
+  reg signed [2*width-1+$clog2(width):0] a_pipeline [0:n-1];
+  reg signed [2*width-1+$clog2(width):0] b_pipeline [0:n-1];  
+	wire signed [(2*width-1+$clog2(width))*2:0] square;
+  
+  // loop variable declaration
+  integer i; 
+
+  // behavioral modeling
+  always @(posedge clk) begin
+    sr <= din;  
+    // transposed FIR with both coefs and reversed time coefs (a and b signals)
+    for (i=0; i<n; i=i+1) begin
+      mult[i] <= sr * $signed(coefs[i*width+:width]);  
+      if (i==0) begin
+        a_pipeline[i] <= mult[i];
+        b_pipeline[i] <= mult[n-i-1];
+      end
+      else begin
+        a_pipeline[i] <= a_pipeline[i-1] + mult[i];
+        b_pipeline[i] <= b_pipeline[i-1] + mult[n-i-1];
+      end
+  	end  
+  end
+  
+  // truncation according to a gain of 2^(width-1)
+  assign square = a_pipeline[n-1]*a_pipeline[n-1] + b_pipeline[n-1]*b_pipeline[n-1];	
+	assign dout = square[35:26];
+	
+  
+endmodule
+```
+
 * Simulate an implementation of Hilbert transform on a DSP, and find a DSP that would allow to reconstruct 10-12 images per second, while being as cheap as possible
 * Write documentation about your findings : pros/cons of each solution
 
@@ -54,9 +131,11 @@ _pre-requisites : codes of scan-conversion implemented in the echOpen pipeline, 
 * Documentation : our main information medium is this gitbook. Your documentation must be written in markdown so that we can include it here ;-\)  
   With your permission, we will put some links to your github accounts in the files you have written.
 
-* Codes : Python/C++ codes of the different solutions explored + implementation of the retained algorithm.
+* Codes : Python/C++/Verilog codes of the different solutions explored + implementation of the retained algorithm.
 
 # List of authors
 
 [Aurélie](https://github.com/aurelie-mutschler)
+
+[Alister](https://github.com/halipster)
 
