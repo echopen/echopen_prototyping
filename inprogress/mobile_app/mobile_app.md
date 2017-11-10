@@ -18,7 +18,9 @@ Project follow up on **Github Project** -- [https://github.com/echopen/PRJ-medte
 
 Graphic design on **Gitbook** -- [https://github.com/echopen/echopen_prototyping/blob/master/inprogress/mobile_app/UX_design.md](https://github.com/echopen/echopen_prototyping/blob/master/inprogress/mobile_app/UX_design.md)
 
-Documentation on technical challenges on **Gitbook** -- [https://github.com/echopen/echopen_prototyping/blob/master/inprogress/mobile_app](https://github.com/echopen/echopen_prototyping/blob/master/inprogress/mobile_app)
+Documentation on technical challenges on **Gitbook** --
+  * [Communication between probe and mobile application](https://github.com/echopen/echopen_prototyping/blob/master/inprogress/mobile_app/communication_discussion.md)
+
 
 Code and peer review on **Github** -- [https://github.com/echopen/PRJ-medtec_androidapp](https://github.com/echopen/PRJ-medtec_androidapp)
 
