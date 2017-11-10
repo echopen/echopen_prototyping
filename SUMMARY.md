@@ -32,6 +32,7 @@
   * [Mobile App](inprogress/mobile_app/mobile_app.md)
     * [Iteration planning](inprogress/mobile_app/planning.md)
     * [UX design](inprogress/mobile_app/UX_design.md)
+    * [Communication between probe and mobile app](inprogress/mobile_app/communication_discussion.md)
   * [Tackling the envelope extraction issue](inprogress/mobile_app/tackling-the-envelope-extraction-issue.md)
     * [Ongoing work by Polytech'Nantes students](inprogress/mobile_app/ongoing-work-by-polytechnantes-students.md)
     * [Protocol for comparing envelope extraction methods](inprogress/mobile_app/protocol-for-comparing-envelope-extraction-methods.md)
@@ -67,4 +68,3 @@
   * [Benchmark of similar devices](references/benchmark/ref_benchmark.md)
     * [Benchmark 1](references/benchmark/benchmark_1.md)
 * [Table of references](References.md)
-

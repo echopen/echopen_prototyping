@@ -17,7 +17,7 @@ the nature of the data stream is:
 ## Existing solutions
 
 |  | Bandwidth | pairing | security | robustness | range | protocol | maturity of technology | autonomy / energy consumption | real-time ? | cost | transfer frequency spectrum | comments |
-|---|---|----|---|---|---|---|---|---|---|
+|---|---|----|---|---|---|---|---|---|---|---|---|---|
 | USB 2.0 OTG  communication | 280 Mb/s | instantaneous | / | - wire robustness | length of the cable | TCP, Series, audio protocol - check android compatibility | battle tested | / | yes | 1 $ | / | wired, reglementation ? |
 |Wifi - infrastructure | very unstable | manual the first time. very complex for the probe to connect | SSL / TLS - standard | very unstable | 200m | TCP | battle tested | 10+ hours | yes | < 10$ | 2,4 GHz |  |
 | Wifi - point to point - websocket | 100 Mb/s theorical | manual, automatic with tag NFC ? - https://stackoverflow.com/questions/2140133/how-and-what-to-set-to-android-wificonfiguration-presharedkey-to-connect-to-the | SSL / TLS - standard | resilient | 200m | TCP | battle tested | 10+ hours | yes - GoPro stream to mobile app | < 10$ | 2,4GHz | no sharing, no internet connection |
