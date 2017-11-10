@@ -32,6 +32,7 @@
   * [Mobile App](inprogress/mobile_app/mobile_app.md)
     * [Iteration planning](inprogress/mobile_app/planning.md)
     * [UX design](inprogress/mobile_app/UX_design.md)
+    * [Communication between probe and mobile app](inprogress/mobile_app/communication_discussion.md)
   * [Preparing CapTech](inprogress/requirements/preparing-captech.md)
   * [Requirements](inprogress/requirements/requirements.md)
     * [Specifications](inprogress/requirements/specifications.md)

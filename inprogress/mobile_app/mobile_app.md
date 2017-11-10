@@ -11,35 +11,28 @@ Discussion with contributors on Mobile application on **Slack** -- [https://echo
 
 Project follow up on **Github Project** -- [https://github.com/echopen/PRJ-medtec_androidapp/projects/2](https://github.com/echopen/PRJ-medtec_androidapp/projects/2)
 
-
 <br>
 <br>
-
 
 Graphic design on **Gitbook** -- [https://github.com/echopen/echopen_prototyping/blob/master/inprogress/mobile_app/UX_design.md](https://github.com/echopen/echopen_prototyping/blob/master/inprogress/mobile_app/UX_design.md)
 
 Documentation on technical challenges on **Gitbook** --
-  * [Communication between probe and mobile application](https://github.com/echopen/echopen_prototyping/blob/master/inprogress/mobile_app/communication_discussion.md)
+  * [Communication between probe and mobile application](communication_discussion.md)
 
 
 Code and peer review on **Github** -- [https://github.com/echopen/PRJ-medtec_androidapp](https://github.com/echopen/PRJ-medtec_androidapp)
 
 ## Contributors
 
- * EchOpen in general - **Mehdi** @benchoufi (Slack id)
+ * EchOpen in general -- **Mehdi** @benchoufi (Slack id)
 
- * Mobile application coordination - **Clement** @clecoued
+ * Mobile application coordination -- **Clement** @clecoued
 
-
- * Design - **Serge** @serge, **Date** @date
+ * Design -- **Serge** @serge, **Date** @date
 
  * Medical -- **Pierre** @pierre
 
- * Probe development - **Jerome** @jerome,
+ * Probe development -- **Jerome** @jerome,
                       **Benoit** @benoit
 
- * Documentation  - **Aurelie** @aurelie
-
-
-
-
+ * Documentation  -- **Aurelie** @aurelie
