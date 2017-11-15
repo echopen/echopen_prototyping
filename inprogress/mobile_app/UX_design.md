@@ -1,6 +1,6 @@
 ## UX Design
 
-<img src="../../../assets/echopenergonomy.jpg" width="800">
+<img src="../../assets/echopenergonomy.jpg" width="800">
 
 1. **Full screen streaming images**, *At loading, the user sees immediatly the image under Fast Echo standard configuration*
 
@@ -55,7 +55,7 @@
 
 We want to develop a visual identity following the design below:
 
-<img src="../../../assets/MobileAppUIReference.png" width="400">
+<img src="../../assets/MobileAppUIReference.png" width="400">
 
 *credits: https://github.com/echopen/PRJ-medtec_androidapp_UIUX/blob/HETIC_G3/Echopen_App_HETIC_Groupe03/Exports/Echographe%20Choix%20Organe.png*
 
