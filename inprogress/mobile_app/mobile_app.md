@@ -19,8 +19,10 @@ Graphic design on **Gitbook** -- [https://github.com/echopen/echopen_prototyping
 Documentation on technical challenges on **Gitbook** --
   * [Communication between probe and mobile application](communication_discussion.md)
 
-
 Code and peer review on **Github** -- [https://github.com/echopen/PRJ-medtec_androidapp](https://github.com/echopen/PRJ-medtec_androidapp)
+
+Coding conventions for the project on **Gitbook** [coding conventions](coding_conventions.md)
+
 
 ## Contributors
 
